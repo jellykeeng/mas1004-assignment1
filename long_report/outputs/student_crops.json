@@ -1,0 +1,250 @@
+{
+  "config": "config/student_crops.json",
+  "config_sha256": "f1f8b6ef49320104cbdc6f672f676b451a524c9e51832fde91eca7373755296f",
+  "model": "docs/model.onnx",
+  "model_sha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "metadata": "docs/model.json",
+  "metadata_sha256": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+  "labels": [
+    "명조_린네",
+    "명조_양양",
+    "명조_에이메스",
+    "명조_카멜리아"
+  ],
+  "preprocessing": {
+    "name": "image",
+    "resize": 256,
+    "crop": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "provider": "CPUExecutionProvider",
+  "coordinate_convention": "decoded pixels; left/top inclusive, right/bottom exclusive",
+  "inferences_per_case": {
+    "before": 1,
+    "after": 1
+  },
+  "protected_files_unchanged": true,
+  "accuracy": {
+    "before": {
+      "correct": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "after": {
+      "correct": 2,
+      "total": 2,
+      "percent": 100.0
+    }
+  },
+  "cases": [
+    {
+      "id": "camellya_IMG_2554",
+      "source": "data/new_images/명조_카멜리아/IMG_2554.jpg",
+      "source_sha256": "75d6dc9e4c7f21a0734cdfc1e3671223497ea911d173cea7b80190a699cd21ab",
+      "true_label": "명조_카멜리아",
+      "box": [
+        820,
+        390,
+        1120,
+        702
+      ],
+      "original_size": [
+        1290,
+        702
+      ],
+      "cropped_size": [
+        300,
+        312
+      ],
+      "original_image": {
+        "path": "data/changed/student_crops/camellya_IMG_2554/original.png",
+        "sha256": "6cd04c9413351b25f0a2abddb4c8c5b92f8144209e046e36695541d334285e6e",
+        "size": [
+          1290,
+          702
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/student_crops/camellya_IMG_2554/changed.png",
+        "sha256": "2f9494678309337ea41a4c56ba41bf20c249d959fd388fbf2adee43bb9c3f66b",
+        "size": [
+          300,
+          312
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "crop_exact_pixels": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          0.6875427961349487,
+          -0.9065308570861816,
+          2.3542890548706055,
+          -2.147932291030884
+        ],
+        "probabilities": {
+          "명조_린네": 0.1525157779101348,
+          "명조_양양": 0.030975432775350954,
+          "명조_에이메스": 0.8075575413026169,
+          "명조_카멜리아": 0.00895124801189743
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.8075575413026169,
+        "true_probability": 0.00895124801189743,
+        "correct": false,
+        "input_image": {
+          "path": "data/changed/student_crops/camellya_IMG_2554/before_input.png",
+          "sha256": "c552c0ca558727d43b82de87046b6c1d11cd4cde741b6cffed0a683299e74d2e",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          -1.7550745010375977,
+          -3.646514654159546,
+          -3.5801620483398438,
+          8.353361129760742
+        ],
+        "probabilities": {
+          "명조_린네": 4.0732303792046534e-05,
+          "명조_양양": 6.144647203897866e-06,
+          "명조_에이메스": 6.566191179844168e-06,
+          "명조_카멜리아": 0.9999465568578241
+        },
+        "pred_index": 3,
+        "pred_label": "명조_카멜리아",
+        "pred_probability": 0.9999465568578241,
+        "true_probability": 0.9999465568578241,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/student_crops/camellya_IMG_2554/after_input.png",
+          "sha256": "e0ce1ce5dbe52029413143e72b903601f8e2f24a656dc848792bb78913c6d3ed",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    },
+    {
+      "id": "lynae_IMG_0860",
+      "source": "data/new_images/명조_린네/IMG_0860.jpg",
+      "source_sha256": "d95ab846d4907a7c686e2eec0552ffd94b445b2c76c42808d0bb4135aa032903",
+      "true_label": "명조_린네",
+      "box": [
+        0,
+        1248,
+        3024,
+        4032
+      ],
+      "original_size": [
+        3024,
+        4032
+      ],
+      "cropped_size": [
+        3024,
+        2784
+      ],
+      "original_image": {
+        "path": "data/changed/student_crops/lynae_IMG_0860/original.png",
+        "sha256": "a5566bbea8191fbf13c51c3e172cf6f61a49ab9cabe0b0a0116663e18dc1ece2",
+        "size": [
+          3024,
+          4032
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/student_crops/lynae_IMG_0860/changed.png",
+        "sha256": "a7015a404d650a92ba4cc1083e159068cb623b5b67e4aadb395aaca59375834b",
+        "size": [
+          3024,
+          2784
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "crop_exact_pixels": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          0.32616832852363586,
+          1.081919550895691,
+          1.3032644987106323,
+          -2.779811382293701
+        ],
+        "probabilities": {
+          "명조_린네": 0.17150536480401385,
+          "명조_양양": 0.36517101209458136,
+          "명조_에이메스": 0.4556435056748749,
+          "명조_카멜리아": 0.007680117426530018
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.4556435056748749,
+        "true_probability": 0.17150536480401385,
+        "correct": false,
+        "input_image": {
+          "path": "data/changed/student_crops/lynae_IMG_0860/before_input.png",
+          "sha256": "2e87ab90bb3fd57c4bd1dbcfb6a1b9334aee16fcc4da21cb9312f83ecdae7ac2",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          1.4702718257904053,
+          -0.2691831588745117,
+          0.1103721559047699,
+          -1.537736415863037
+        ],
+        "probabilities": {
+          "명조_린네": 0.674903836148878,
+          "명조_양양": 0.11852397148074668,
+          "명조_에이메스": 0.17323872314391905,
+          "명조_카멜리아": 0.033333469226456455
+        },
+        "pred_index": 0,
+        "pred_label": "명조_린네",
+        "pred_probability": 0.674903836148878,
+        "true_probability": 0.674903836148878,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/student_crops/lynae_IMG_0860/after_input.png",
+          "sha256": "b96dc3526cc9fd509e927ab1b31eafbb42f3bcab3443ed5004cdb4e033a72805",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    }
+  ]
+}

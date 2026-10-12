@@ -1,0 +1,7 @@
+{
+  "context": "Student response after the printed fixed-model hair-mask results; not a prediction made before inference.",
+  "verbatim": "카멜리아 같은 경우 예시 사진의 옷이 다른 사진이 없다. 그래서 머리카락을 가려도 옷을 보고 카멜리아라고 유추할 수 있던 것 같다. 나머지는 예시 사진이 조금씩 다르게 생겼기 때문에 머리카락이 가려지면 큰 영향을 받은 것 같다.",
+  "received_after_inference": true,
+  "next_experiment_requested": false,
+  "interpretation_limit": "Student proposes clothing as a possible retained cue; no separate clothing-only causal intervention was selected or run."
+}

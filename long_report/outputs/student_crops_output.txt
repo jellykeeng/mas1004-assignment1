@@ -1,0 +1,28 @@
+Student-selected crop experiment: existing ONNX model, CPU, no training
+model: docs/model.onnx; SHA256 2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0
+Coordinates: decoded original pixels, left/top included, right/bottom excluded
+labels: 명조_린네, 명조_양양, 명조_에이메스, 명조_카멜리아
+
+camellya_IMG_2554: data/new_images/명조_카멜리아/IMG_2554.jpg; true 명조_카멜리아
+source SHA256 75d6dc9e4c7f21a0734cdfc1e3671223497ea911d173cea7b80190a699cd21ab
+box [820, 390, 1120, 702]; size (1290, 702) -> (300, 312)
+before: 명조_에이메스 80.8%; true-label 0.9%; correct False
+  명조_린네 15.3%; 명조_양양 3.1%; 명조_에이메스 80.8%; 명조_카멜리아 0.9%
+after: 명조_카멜리아 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 100.0%
+Crop RGB pixels exact: True; 224-pixel inputs match prepare_image: True
+
+lynae_IMG_0860: data/new_images/명조_린네/IMG_0860.jpg; true 명조_린네
+source SHA256 d95ab846d4907a7c686e2eec0552ffd94b445b2c76c42808d0bb4135aa032903
+box [0, 1248, 3024, 4032]; size (3024, 4032) -> (3024, 2784)
+before: 명조_에이메스 45.6%; true-label 17.2%; correct False
+  명조_린네 17.2%; 명조_양양 36.5%; 명조_에이메스 45.6%; 명조_카멜리아 0.8%
+after: 명조_린네 67.5%; true-label 67.5%; correct True
+  명조_린네 67.5%; 명조_양양 11.9%; 명조_에이메스 17.3%; 명조_카멜리아 3.3%
+Crop RGB pixels exact: True; 224-pixel inputs match prepare_image: True
+
+before top-1 accuracy: 0/2 = 0.0%
+
+after top-1 accuracy: 2/2 = 100.0%
+Source/config/metadata/model SHA256 unchanged: True
+Saved results/student_crops.json

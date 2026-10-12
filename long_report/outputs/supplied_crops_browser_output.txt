@@ -1,0 +1,467 @@
+lynae_IMG_0845 original | data/changed/supplied_crops/lynae_IMG_0845/original.png | browser 명조_린네 65.7% | Python 명조_린네 | label match true | max logit gap 5.960464477539062e-7 | max probability gap 2.1642151859513348e-7
+lynae_IMG_0845 changed | data/changed/supplied_crops/lynae_IMG_0845/provided.png | browser 명조_린네 87.5% | Python 명조_린네 | label match true | max logit gap 7.152557373046875e-7 | max probability gap 4.183082535913485e-8
+aemeath_IMG_0806 original | data/changed/supplied_crops/aemeath_IMG_0806/original.png | browser 명조_에이메스 69.6% | Python 명조_에이메스 | label match true | max logit gap 4.76837158203125e-7 | max probability gap 5.0808567131355176e-8
+aemeath_IMG_0806 changed | data/changed/supplied_crops/aemeath_IMG_0806/provided.png | browser 명조_에이메스 100.0% | Python 명조_에이메스 | label match true | max logit gap 9.5367431640625e-7 | max probability gap 3.175705254321315e-10
+aemeath_IMG_0818 original | data/changed/supplied_crops/aemeath_IMG_0818/original.png | browser 명조_에이메스 75.8% | Python 명조_에이메스 | label match true | max logit gap 9.5367431640625e-7 | max probability gap 1.3057674563832222e-7
+aemeath_IMG_0818 changed | data/changed/supplied_crops/aemeath_IMG_0818/provided.png | browser 명조_에이메스 100.0% | Python 명조_에이메스 | label match true | max logit gap 9.5367431640625e-7 | max probability gap 6.533072653279633e-12
+lynae_IMG_0844 original | data/changed/supplied_crops/lynae_IMG_0844/original.png | browser 명조_린네 80.9% | Python 명조_린네 | label match true | max logit gap 0.0000016689300537109375 | max probability gap 2.2256789922181497e-7
+lynae_IMG_0844 changed | data/changed/supplied_crops/lynae_IMG_0844/provided.png | browser 명조_린네 68.5% | Python 명조_린네 | label match true | max logit gap 5.960464477539062e-7 | max probability gap 5.296851707248251e-8
+{
+  "url": "http://127.0.0.1:8012/",
+  "analysisPath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/supplied_crops.json",
+  "uploads": [
+    {
+      "id": "lynae_IMG_0845",
+      "kind": "original",
+      "source": "data/changed/supplied_crops/lynae_IMG_0845/original.png",
+      "sourceSha256": "44bc49954ef6c7729757cfc0c51cf1c4eecefaf031637d7d6204abc9fc1d581f",
+      "labelMatch": true,
+      "maxLogitGap": 5.960464477539062e-7,
+      "maxProbabilityGap": 2.1642151859513348e-7,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0845/original_input.png",
+        "sha256": "cd8903d15b89c3cdc62faac3053d7cc6cde9fc780aab89ebf220e7f4fbedb38e",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-original-actual224.png"
+    },
+    {
+      "id": "lynae_IMG_0845",
+      "kind": "changed",
+      "source": "data/changed/supplied_crops/lynae_IMG_0845/provided.png",
+      "sourceSha256": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+      "labelMatch": true,
+      "maxLogitGap": 7.152557373046875e-7,
+      "maxProbabilityGap": 4.183082535913485e-8,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0845/changed_input.png",
+        "sha256": "1b6bf68a055a13b65e7cd2711edb8e73da064d4d7d311a0c6cd0d2f64402e011",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-changed-actual224.png"
+    },
+    {
+      "id": "aemeath_IMG_0806",
+      "kind": "original",
+      "source": "data/changed/supplied_crops/aemeath_IMG_0806/original.png",
+      "sourceSha256": "acf0835d06cc4b215efb5d38e15b8019937c5053b2113c4b1e1af5c22c822930",
+      "labelMatch": true,
+      "maxLogitGap": 4.76837158203125e-7,
+      "maxProbabilityGap": 5.0808567131355176e-8,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0806/original_input.png",
+        "sha256": "05b19dcf72e6c912e5ace0a7d710282f214eea66359726270a7227dfcf8290e7",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-original-actual224.png"
+    },
+    {
+      "id": "aemeath_IMG_0806",
+      "kind": "changed",
+      "source": "data/changed/supplied_crops/aemeath_IMG_0806/provided.png",
+      "sourceSha256": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+      "labelMatch": true,
+      "maxLogitGap": 9.5367431640625e-7,
+      "maxProbabilityGap": 3.175705254321315e-10,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0806/changed_input.png",
+        "sha256": "589d751766005f46216945ab285c3927b7c5efd0a9aa4badb9972b1f70dd9375",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-changed-actual224.png"
+    },
+    {
+      "id": "aemeath_IMG_0818",
+      "kind": "original",
+      "source": "data/changed/supplied_crops/aemeath_IMG_0818/original.png",
+      "sourceSha256": "b0bb23d45a9222a8a9e05926d48c0f82b14fef0ae5e53633379cc592ad683a2f",
+      "labelMatch": true,
+      "maxLogitGap": 9.5367431640625e-7,
+      "maxProbabilityGap": 1.3057674563832222e-7,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0818/original_input.png",
+        "sha256": "83162309d5a8b52bc8627cc3f6b3fbd3c853f77c8ee0db3915137443760f3866",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-original-actual224.png"
+    },
+    {
+      "id": "aemeath_IMG_0818",
+      "kind": "changed",
+      "source": "data/changed/supplied_crops/aemeath_IMG_0818/provided.png",
+      "sourceSha256": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+      "labelMatch": true,
+      "maxLogitGap": 9.5367431640625e-7,
+      "maxProbabilityGap": 6.533072653279633e-12,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0818/changed_input.png",
+        "sha256": "0b8b0630fa6ba051194e972e1ae92b97456cabf0a202c070a327853ce3a300c9",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-changed-actual224.png"
+    },
+    {
+      "id": "lynae_IMG_0844",
+      "kind": "original",
+      "source": "data/changed/supplied_crops/lynae_IMG_0844/original.png",
+      "sourceSha256": "79dd4ea6bc73afebac34aaac32ae5b186efa2fe379e28fd80dec9e5ca5e9b3cf",
+      "labelMatch": true,
+      "maxLogitGap": 0.0000016689300537109375,
+      "maxProbabilityGap": 2.2256789922181497e-7,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0844/original_input.png",
+        "sha256": "96871d069fe72c3951b603a447c08c0465137e1a25c5fb164b0817874fb91ca3",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-original-actual224.png"
+    },
+    {
+      "id": "lynae_IMG_0844",
+      "kind": "changed",
+      "source": "data/changed/supplied_crops/lynae_IMG_0844/provided.png",
+      "sourceSha256": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+      "labelMatch": true,
+      "maxLogitGap": 5.960464477539062e-7,
+      "maxProbabilityGap": 5.296851707248251e-8,
+      "pythonInputImage": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0844/changed_input.png",
+        "sha256": "0f23efc141538bee913d1655216ccfb7e392e818c66117beffb83eef888501db",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-changed-actual224.png"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "lynae_IMG_0845",
+      "original": "data/changed/supplied_crops/lynae_IMG_0845/original.png",
+      "changed": "data/changed/supplied_crops/lynae_IMG_0845/provided.png"
+    },
+    {
+      "id": "aemeath_IMG_0806",
+      "original": "data/changed/supplied_crops/aemeath_IMG_0806/original.png",
+      "changed": "data/changed/supplied_crops/aemeath_IMG_0806/provided.png"
+    },
+    {
+      "id": "aemeath_IMG_0818",
+      "original": "data/changed/supplied_crops/aemeath_IMG_0818/original.png",
+      "changed": "data/changed/supplied_crops/aemeath_IMG_0818/provided.png"
+    },
+    {
+      "id": "lynae_IMG_0844",
+      "original": "data/changed/supplied_crops/lynae_IMG_0844/original.png",
+      "changed": "data/changed/supplied_crops/lynae_IMG_0844/provided.png"
+    }
+  ],
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/selftest.png",
+    "lynae_IMG_0845-original": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-original.png",
+    "lynae_IMG_0845-changed": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0845-changed.png",
+    "aemeath_IMG_0806-original": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-original.png",
+    "aemeath_IMG_0806-changed": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0806-changed.png",
+    "aemeath_IMG_0818-original": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-original.png",
+    "aemeath_IMG_0818-changed": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/aemeath_IMG_0818-changed.png",
+    "lynae_IMG_0844-original": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-original.png",
+    "lynae_IMG_0844-changed": "/private/tmp/mas1004-browser-test/supplied-crops-artifacts/lynae_IMG_0844-changed.png"
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:8012/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8012/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.wasm.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8012/model.json",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.mjs",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.wasm",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8012/model.onnx",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8012/selftest.json",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/ff7a523b-8edc-4de6-9b2f-c611fc6d716a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/7554ee3c-00e2-4c87-b1ba-af2404c8f9aa",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/512894bd-165c-4947-9693-5abf21c137b9",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/2c4d80d6-d643-4d8f-8d40-0e25f043d97a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/5fa33774-6bc2-4b0d-ae6a-acded2e71dde",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/d50cf3cf-3496-45d6-ab0e-6db75b277458",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/2b8d1b8b-d1d2-4208-b6e0-edc3f302d8ad",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8012/5ae5970b-26d9-45ce-9f71-e5fff078f129",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "protectedFiles": [
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/supplied_crops.json",
+      "sha256Before": "996c8cf23cbc3b92bfdc52827625e8c00b4e270f43d8f4f6a54ac81fdba94f16",
+      "sha256After": "996c8cf23cbc3b92bfdc52827625e8c00b4e270f43d8f4f6a54ac81fdba94f16",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/docs/model.json",
+      "sha256Before": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+      "sha256After": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/docs/model.onnx",
+      "sha256Before": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+      "sha256After": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/config/supplied_crops.json",
+      "sha256Before": "d24ee8bcb7c40df37753e68cad2c97727b1d940a1ca3f7ead77d6897c135ed77",
+      "sha256After": "d24ee8bcb7c40df37753e68cad2c97727b1d940a1ca3f7ead77d6897c135ed77",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_린네/IMG_0845.jpg",
+      "sha256Before": "d567abb591d0d1ee599eae45cf03fd2f7235b668185828dfddbcf87ab8cc3238",
+      "sha256After": "d567abb591d0d1ee599eae45cf03fd2f7235b668185828dfddbcf87ab8cc3238",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0845/original.png",
+      "sha256Before": "44bc49954ef6c7729757cfc0c51cf1c4eecefaf031637d7d6204abc9fc1d581f",
+      "sha256After": "44bc49954ef6c7729757cfc0c51cf1c4eecefaf031637d7d6204abc9fc1d581f",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0845/provided.png",
+      "sha256Before": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+      "sha256After": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0845/original_input.png",
+      "sha256Before": "cd8903d15b89c3cdc62faac3053d7cc6cde9fc780aab89ebf220e7f4fbedb38e",
+      "sha256After": "cd8903d15b89c3cdc62faac3053d7cc6cde9fc780aab89ebf220e7f4fbedb38e",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0845/changed_input.png",
+      "sha256Before": "1b6bf68a055a13b65e7cd2711edb8e73da064d4d7d311a0c6cd0d2f64402e011",
+      "sha256After": "1b6bf68a055a13b65e7cd2711edb8e73da064d4d7d311a0c6cd0d2f64402e011",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_에이메스/IMG_0806.jpg",
+      "sha256Before": "a855c4557f8969c85ecea478d823171e5e2284ef515ccbd8dad38b8454f4da9b",
+      "sha256After": "a855c4557f8969c85ecea478d823171e5e2284ef515ccbd8dad38b8454f4da9b",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0806/original.png",
+      "sha256Before": "acf0835d06cc4b215efb5d38e15b8019937c5053b2113c4b1e1af5c22c822930",
+      "sha256After": "acf0835d06cc4b215efb5d38e15b8019937c5053b2113c4b1e1af5c22c822930",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0806/provided.png",
+      "sha256Before": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+      "sha256After": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0806/original_input.png",
+      "sha256Before": "05b19dcf72e6c912e5ace0a7d710282f214eea66359726270a7227dfcf8290e7",
+      "sha256After": "05b19dcf72e6c912e5ace0a7d710282f214eea66359726270a7227dfcf8290e7",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0806/changed_input.png",
+      "sha256Before": "589d751766005f46216945ab285c3927b7c5efd0a9aa4badb9972b1f70dd9375",
+      "sha256After": "589d751766005f46216945ab285c3927b7c5efd0a9aa4badb9972b1f70dd9375",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_에이메스/IMG_0818.jpg",
+      "sha256Before": "457cb7a3e404f947c0b96bfb031810e6ccbd3a58858de4b653a3706ea90fbbda",
+      "sha256After": "457cb7a3e404f947c0b96bfb031810e6ccbd3a58858de4b653a3706ea90fbbda",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0818/original.png",
+      "sha256Before": "b0bb23d45a9222a8a9e05926d48c0f82b14fef0ae5e53633379cc592ad683a2f",
+      "sha256After": "b0bb23d45a9222a8a9e05926d48c0f82b14fef0ae5e53633379cc592ad683a2f",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0818/provided.png",
+      "sha256Before": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+      "sha256After": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0818/original_input.png",
+      "sha256Before": "83162309d5a8b52bc8627cc3f6b3fbd3c853f77c8ee0db3915137443760f3866",
+      "sha256After": "83162309d5a8b52bc8627cc3f6b3fbd3c853f77c8ee0db3915137443760f3866",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/aemeath_IMG_0818/changed_input.png",
+      "sha256Before": "0b8b0630fa6ba051194e972e1ae92b97456cabf0a202c070a327853ce3a300c9",
+      "sha256After": "0b8b0630fa6ba051194e972e1ae92b97456cabf0a202c070a327853ce3a300c9",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_린네/IMG_0844.jpg",
+      "sha256Before": "ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247",
+      "sha256After": "ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0844/original.png",
+      "sha256Before": "79dd4ea6bc73afebac34aaac32ae5b186efa2fe379e28fd80dec9e5ca5e9b3cf",
+      "sha256After": "79dd4ea6bc73afebac34aaac32ae5b186efa2fe379e28fd80dec9e5ca5e9b3cf",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0844/provided.png",
+      "sha256Before": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+      "sha256After": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0844/original_input.png",
+      "sha256Before": "96871d069fe72c3951b603a447c08c0465137e1a25c5fb164b0817874fb91ca3",
+      "sha256After": "96871d069fe72c3951b603a447c08c0465137e1a25c5fb164b0817874fb91ca3",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/supplied_crops/lynae_IMG_0844/changed_input.png",
+      "sha256Before": "0f23efc141538bee913d1655216ccfb7e392e818c66117beffb83eef888501db",
+      "sha256After": "0f23efc141538bee913d1655216ccfb7e392e818c66117beffb83eef888501db",
+      "unchanged": true
+    }
+  ],
+  "modelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "referenceModelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "browserVersion": "154.0.8037.99",
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "summary": {
+    "pairs": 4,
+    "uploads": 8,
+    "matchedTopLabels": 8,
+    "maximumLogitGap": 0.0000016689300537109375,
+    "maximumProbabilityGap": 2.2256789922181497e-7,
+    "differingRgbChannels": 0,
+    "maximumRgbPixelGap": 0,
+    "tolerance": 0.0001,
+    "modelShaMatch": true,
+    "protectedFilesUnchanged": true
+  },
+  "pass": true
+}

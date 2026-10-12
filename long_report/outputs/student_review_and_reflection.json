@@ -1,0 +1,11 @@
+{
+  "student_reflection_verbatim": "줄어들 걸 예상하지 못 했고 올라갈 건 다 예상에 맞았다. 린네인데 에이메스로 헷갈렸던 게 린네 인형탈의 옷이 잘 보이지 않았기에 옷까지 있는 전체를 크롭하면 올라갈 줄 알았다. 근데 다시 생각해보니 세로로 크롭했기 때문에 모델이 그걸 다시 정사각형으로 읽으면서 옷이 안 들어갔을 수도 있겠다는 생각을 했다.",
+  "student_clean_review_verbatim": "사진 정리 이미 다 확인했어. clean 에 있는 게 다 정리된 거니까.",
+  "student_extra_setting_question_verbatim": "추가 실험 설정은 무슨 말이야?",
+  "clean_review_scope": "current data/clean only; does not retroactively attribute earlier removals to the student",
+  "reflection_status": "received; revised crop/preprocessing guess is tentative; no new transformation requested",
+  "setting_choice_status": "unconfirmed; question is not an approval or a historical choice",
+  "measurements_changed": false,
+  "new_inferences": 0,
+  "new_image_edits": 0
+}

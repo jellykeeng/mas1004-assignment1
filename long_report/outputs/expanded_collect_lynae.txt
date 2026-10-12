@@ -1,0 +1,15 @@
+Supplementary Lynae collection record validation
+Original collector stdout was shown in the tool session and was not redirected to a local file.
+This transcript validates the saved original collection/provenance records; it is not a reconstructed download log.
+Collector: provided src/collect.py collect_one_class; pinned uv environment unchanged.
+Query: Lynae Wuthering Waves fan art; saved JPEG images: 120
+Query: Lynae Wuthering Waves gameplay; saved JPEG images: 120
+Query: 鳴潮 リンネ; saved JPEG images: 120
+Query: 鸣潮 琳奈; saved JPEG images: 120
+Query: 명조 린네 일러스트; saved JPEG images: 120
+Downloaded candidates: 600
+SHA-256 verified files: 600
+Visual review keep/reject: 129/471
+Reason counts: {"duplicate": 306, "keep": 129, "not_main": 69, "severe_crop": 2, "ui": 33, "wrong_character": 61}
+Personal-photo feature similarity >= 0.95: 0 candidates
+No repository data, results, model, short_report, or git commits were changed by this collection/review task.

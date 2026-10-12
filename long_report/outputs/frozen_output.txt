@@ -1,0 +1,32 @@
+reading /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean
+600 images, 4 classes, read in 7 s
+  명조_린네                    150
+  명조_양양                    150
+  명조_에이메스                  150
+  명조_카멜리아                  150
+training on 480, testing on 120
+model has 11,178,564 parameters, 2,052 of them will be trained
+training device: mps
+Epoch 1/10: train loss=1.2771, train acc=0.4708, test loss=1.1017, test acc=0.5083
+Epoch 2/10: train loss=0.8895, train acc=0.6958, test loss=0.9788, test acc=0.6083
+Epoch 3/10: train loss=0.7620, train acc=0.7396, test loss=0.8548, test acc=0.6833
+Epoch 4/10: train loss=0.6536, train acc=0.7792, test loss=0.8356, test acc=0.6667
+Epoch 5/10: train loss=0.5716, train acc=0.8187, test loss=0.7888, test acc=0.7083
+Epoch 6/10: train loss=0.5384, train acc=0.8271, test loss=0.7332, test acc=0.7167
+Epoch 7/10: train loss=0.5088, train acc=0.8250, test loss=0.7179, test acc=0.7417
+Epoch 8/10: train loss=0.4752, train acc=0.8604, test loss=0.7319, test acc=0.7250
+Epoch 9/10: train loss=0.4377, train acc=0.8583, test loss=0.6840, test acc=0.7667
+Epoch 10/10: train loss=0.4008, train acc=0.8917, test loss=0.6977, test acc=0.7417
+
+trained in 0.3 minutes
+train accuracy 89.2%
+test  accuracy 74.2%
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/frozen_curves.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/frozen_confusion.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/frozen_worst.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/frozen_model.pt
+
+One line for your experiment table:
+| frozen | ImageNet | last layer | 10 | 0.001 | 2,052 | 89.2% | 74.2% |
+
+To put this model on your web page: python src/export_web.py --tag frozen

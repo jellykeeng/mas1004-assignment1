@@ -1,0 +1,242 @@
+Student-selected hair mask experiment: all 24 personal images, existing expanded ONNX model, no training
+Student hypothesis: 음 이미 말했지 않나 머리스타일을 보고 구별할 것 같고, 사진에서 머리카락만 제외해서 재확인하겠다
+Student selection: 24장 전부. 응 머리카락 부분만 회색으로 가리는 방식
+Pixel method: RGB(128,128,128) on annotated hair only; preserve the other canonical pixels exactly
+Canonical method: original RGB, short-side resize256 bilinear, center256; exact original224 input
+Hair ornaments/uncertain edges preserved; hair silhouette can remain; no claim of complete hairstyle removal
+Fixed configuration SHA256: ed8960a0dc13c63b60b9e0c1fa3d4b1905eb174dbf3753191fce92c683407e3c
+Fixed model SHA256: 2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0
+
+aemeath_IMG_0215 | IMG_0215.PNG | true 명조_에이메스
+Hair mask: 9047 pixels; actual224 mask 8557 pixels; changed224 8557 pixels
+Coverage note: Manually traced visible pink crown, bangs, side locks and wind-blown strands on the 256 RGB canonical image before inference. The overlaid white glove, face, skin, cyan/metal hair ornaments and clothing are excluded. Thin antialiased tips and ambiguous gaps between moving strands are conservatively omitted; this is a manual approximate hair segmentation. Explicit face/eye exclusions with a conservative margin protect the target eyes and skin; some adjacent hair at those margins intentionally remains unchanged.
+before: 명조_에이메스 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 100.0%; 명조_카멜리아 0.0%
+after: 명조_에이메스 50.6%; true-label 50.6%; correct True
+  명조_린네 0.1%; 명조_양양 0.0%; 명조_에이메스 50.6%; 명조_카멜리아 49.3%
+Outside-mask changed pixels: 0; original224 exact: True
+
+aemeath_IMG_0553 | IMG_0553.jpg | true 명조_에이메스
+Hair mask: 34263 pixels; actual224 mask 26204 pixels; changed224 26204 pixels
+Coverage note: Printed close-up hair is traced conservatively. The complete clock overlay region, both eyes and eyebrows, facial skin and cyan ornament are protected by explicit exclusions; hair immediately around overlapping text/eye margins therefore remains unchanged. Boundary antialiasing and near-white hair/skin cannot be separated perfectly, so this is a manual partial segmentation, not a claim that every hair pixel was removed.
+before: 명조_에이메스 99.9%; true-label 99.9%; correct True
+  명조_린네 0.0%; 명조_양양 0.1%; 명조_에이메스 99.9%; 명조_카멜리아 0.0%
+after: 명조_에이메스 84.7%; true-label 84.7%; correct True
+  명조_린네 0.6%; 명조_양양 14.3%; 명조_에이메스 84.7%; 명조_카멜리아 0.4%
+Outside-mask changed pixels: 0; original224 exact: True
+
+aemeath_IMG_0802 | IMG_0802.jpg | true 명조_에이메스
+Hair mask: 995 pixels; actual224 mask 909 pixels; changed224 909 pixels
+Coverage note: Both printed appearances of Aemeath are annotated: the large right-hand event-outfit head/side locks/visible ponytail and the smaller pink-haired character behind her. The black-haired foreground character and white-haired middle character are not modified. Hair bows and cyan ornaments are omitted. At this small banner scale, faint intertwined tail ends behind the arms/skirt cannot be separated reliably from decorative ribbons and are conservatively left unchanged. Explicit face/eye exclusions with a conservative margin protect the target eyes and skin; some adjacent hair at those margins intentionally remains unchanged. The raised hand and event-outfit sleeve are protected by a separate exclusion where they overlap the ponytail; the underlying occluded hair is not modified.
+before: 명조_에이메스 98.8%; true-label 98.8%; correct True
+  명조_린네 0.1%; 명조_양양 0.0%; 명조_에이메스 98.8%; 명조_카멜리아 1.1%
+after: 명조_에이메스 98.7%; true-label 98.7%; correct True
+  명조_린네 0.2%; 명조_양양 0.0%; 명조_에이메스 98.7%; 명조_카멜리아 1.2%
+Outside-mask changed pixels: 0; original224 exact: True
+
+aemeath_IMG_0806 | IMG_0806.jpg | true 명조_에이메스
+Hair mask: 581 pixels; actual224 mask 581 pixels; changed224 581 pixels
+Coverage note: The back standard-outfit Aemeath and the front event-outfit Aemeath each have separate crown/bang/side-lock polygons. Other characters, faces, bows and clothing are excluded. The banner is very small in the 256 input; only the hair components whose identity is visually clear are annotated. Ambiguous translucent ponytail/ribbon intersections and subpixel strands are intentionally not claimed as complete segmentation. Explicit face/eye exclusions with a conservative margin protect the target eyes and skin; some adjacent hair at those margins intentionally remains unchanged. The raised hand and event-outfit sleeve are protected by a separate exclusion where they overlap the ponytail; the underlying occluded hair is not modified.
+before: 명조_에이메스 69.6%; true-label 69.6%; correct True
+  명조_린네 30.1%; 명조_양양 0.1%; 명조_에이메스 69.6%; 명조_카멜리아 0.2%
+after: 명조_에이메스 54.2%; true-label 54.2%; correct True
+  명조_린네 45.4%; 명조_양양 0.0%; 명조_에이메스 54.2%; 명조_카멜리아 0.3%
+Outside-mask changed pixels: 0; original224 exact: True
+
+aemeath_IMG_0818 | IMG_0818.jpg | true 명조_에이메스
+Hair mask: 897 pixels; actual224 mask 897 pixels; changed224 897 pixels
+Coverage note: Both pink-haired Aemeath figures on the photographed screen are annotated, including clear crown/bangs, side locks and the front figure's visible ponytail. The dark-haired foreground and white-haired middle characters, screen text, face/skin and costume decorations remain outside the mask. The front figure's bow at the top and the pale ribbons below/right of the skirt are omitted. Screen glow and small size make thin boundaries approximate. Explicit face/eye exclusions with a conservative margin protect the target eyes and skin; some adjacent hair at those margins intentionally remains unchanged. The raised hand and event-outfit sleeve are protected by a separate exclusion where they overlap the ponytail; the underlying occluded hair is not modified. The ambiguous small upper pink bow/bun component is omitted to preserve the hair accessory.
+before: 명조_에이메스 75.8%; true-label 75.8%; correct True
+  명조_린네 22.9%; 명조_양양 0.3%; 명조_에이메스 75.8%; 명조_카멜리아 1.0%
+after: 명조_에이메스 61.9%; true-label 61.9%; correct True
+  명조_린네 36.4%; 명조_양양 0.3%; 명조_에이메스 61.9%; 명조_카멜리아 1.3%
+Outside-mask changed pixels: 0; original224 exact: True
+
+aemeath_IMG_0869 | IMG_0869.jpg | true 명조_에이메스
+Hair mask: 792 pixels; actual224 mask 792 pixels; changed224 792 pixels
+Coverage note: All clearly visible Aemeath appearances are considered: pink mascot hair above the car, the large door-wrap crown/locks and recognizable hair fragments of the foreshortened bonnet-wrap figure. The blonde person beside the rear car is not Aemeath and is unmodified. Metallic/cyan hair ornaments, faces, costume, car graphics and background are excluded. Reflections, tiny printed faces and overlapping pink wrap stripes prevent complete hair tracing; ambiguous edge fragments remain unchanged rather than recoloring the car or skin. Explicit face/eye exclusions with a conservative margin protect the target eyes and skin; some adjacent hair at those margins intentionally remains unchanged. A previously broad bonnet-tail fragment was omitted because pink vehicle graphics cannot be separated confidently from that hair strand.
+before: 명조_에이메스 81.1%; true-label 81.1%; correct True
+  명조_린네 5.7%; 명조_양양 0.0%; 명조_에이메스 81.1%; 명조_카멜리아 13.2%
+after: 명조_에이메스 71.1%; true-label 71.1%; correct True
+  명조_린네 12.7%; 명조_양양 0.0%; 명조_에이메스 71.1%; 명조_카멜리아 16.3%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_0583 | IMG_0583.jpg | true 명조_카멜리아
+Hair mask: 12274 pixels; actual224 mask 10325 pixels; changed224 10324 pixels
+Coverage note: Trace the main mascot white crown, bangs/curls and right ponytail; preserve black band, red bows/vines, face and outfit. Pinned paper photo is preserved in full as an accessory because its tiny hair boundaries are unclear. Ear and ambiguous border pixels remain.
+before: 명조_카멜리아 99.8%; true-label 99.8%; correct True
+  명조_린네 0.2%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 99.8%
+after: 명조_카멜리아 99.6%; true-label 99.6%; correct True
+  명조_린네 0.4%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 99.6%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_0584 | IMG_0584.jpg | true 명조_카멜리아
+Hair mask: 3096 pixels; actual224 mask 3096 pixels; changed224 3096 pixels
+Coverage note: Visible white fringe/side curls and left ponytail only, plus small clear right locks. Preserve central black band, paper label, red ornaments/earrings, face and skin arms. Right hair mostly occluded by arms/accessories, retained when uncertain; partial coverage.
+before: 명조_카멜리아 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 100.0%
+after: 명조_카멜리아 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 100.0%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_0834 | IMG_0834.jpg | true 명조_카멜리아
+Hair mask: 2928 pixels; actual224 mask 2928 pixels; changed224 2928 pixels
+Coverage note: Target foreground Camellya white crown/fringe, left cheek curl and clear right locks; preserve black top ornament, red accessories/earrings, face, raised hand, gray sleeve and other mascot. Unclear/occluded ponytail segments remain.
+before: 명조_카멜리아 94.9%; true-label 94.9%; correct True
+  명조_린네 1.1%; 명조_양양 0.1%; 명조_에이메스 3.9%; 명조_카멜리아 94.9%
+after: 명조_카멜리아 97.4%; true-label 97.4%; correct True
+  명조_린네 0.7%; 명조_양양 0.1%; 명조_에이메스 1.7%; 명조_카멜리아 97.4%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_0867 | IMG_0867.jpg | true 명조_카멜리아
+Hair mask: 4084 pixels; actual224 mask 3485 pixels; changed224 3485 pixels
+Coverage note: Trace clear white hair on foreground Camellya mascot and same-character Camellya cosplayer behind it. Preserve mascot black band, red vines/bows, eyes/skin, hands/clothes and cosplayer face/head accessory. Both depictions are the target class; ambiguous edges remain.
+before: 명조_카멜리아 99.5%; true-label 99.5%; correct True
+  명조_린네 0.3%; 명조_양양 0.1%; 명조_에이메스 0.0%; 명조_카멜리아 99.5%
+after: 명조_카멜리아 99.5%; true-label 99.5%; correct True
+  명조_린네 0.3%; 명조_양양 0.2%; 명조_에이메스 0.0%; 명조_카멜리아 99.5%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_2554 | IMG_2554.jpg | true 명조_카멜리아
+Hair mask: 711 pixels; actual224 mask 520 pixels; changed224 520 pixels
+Coverage note: Target only visible hair of the clipped Camellya mascot at right; some remains in the actual central224 input, so not a no-effect case. Preserve head clip/black band, eyes/face, gold tag/red rope, mascot clothes and presenter hair/background. Partial target visibility and tiny boundaries limit coverage.
+before: 명조_에이메스 80.8%; true-label 0.9%; correct False
+  명조_린네 15.3%; 명조_양양 3.1%; 명조_에이메스 80.8%; 명조_카멜리아 0.9%
+after: 명조_에이메스 85.2%; true-label 0.7%; correct False
+  명조_린네 10.7%; 명조_양양 3.4%; 명조_에이메스 85.2%; 명조_카멜리아 0.7%
+Outside-mask changed pixels: 0; original224 exact: True
+
+camellya_IMG_2555 | IMG_2555.jpg | true 명조_카멜리아
+Hair mask: 8037 pixels; actual224 mask 5982 pixels; changed224 5982 pixels
+Coverage note: Visible white fringe, cheek curls and pink/white ponytail on Camellya mascot. Preserve central/dark bands, red bows/vines, sunglasses, skin, arms/clothes and hanging gold tags. Some ambiguous band-versus-hair borders and covered locks remain; partial coverage.
+before: 명조_카멜리아 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 100.0%
+after: 명조_카멜리아 100.0%; true-label 100.0%; correct True
+  명조_린네 0.0%; 명조_양양 0.0%; 명조_에이메스 0.0%; 명조_카멜리아 100.0%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_0844 | IMG_0844.jpg | true 명조_린네
+Hair mask: 21773 pixels; actual224 mask 16813 pixels; changed224 16813 pixels
+Coverage note: Trace visible blonde crown, fringe, side locks and left long hair. Protect the eye/face, bubble, teal earring and clothes. Some hair edges and occluded locks remain; no claim of complete hair removal.
+before: 명조_린네 80.9%; true-label 80.9%; correct True
+  명조_린네 80.9%; 명조_양양 0.4%; 명조_에이메스 18.8%; 명조_카멜리아 0.0%
+after: 명조_린네 53.5%; true-label 53.5%; correct True
+  명조_린네 53.5%; 명조_양양 6.4%; 명조_에이메스 40.1%; 명조_카멜리아 0.1%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_0845 | IMG_0845.jpg | true 명조_린네
+Hair mask: 16841 pixels; actual224 mask 13629 pixels; changed224 13629 pixels
+Coverage note: Only the left Lynae mascot blonde/green hair is targeted, including its hair braid; the other central blonde mascot is preserved. Exclusions protect the target ear and earring. Conservative boundary pixels remain.
+before: 명조_린네 65.7%; true-label 65.7%; correct True
+  명조_린네 65.7%; 명조_양양 5.6%; 명조_에이메스 28.4%; 명조_카멜리아 0.3%
+after: 명조_린네 37.1%; true-label 37.1%; correct True
+  명조_린네 37.1%; 명조_양양 25.4%; 명조_에이메스 35.6%; 명조_카멜리아 1.9%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_0850 | IMG_0850.jpg | true 명조_린네
+Hair mask: 9176 pixels; actual224 mask 8855 pixels; changed224 8855 pixels
+Coverage note: Only foreground Lynae hair: crown/fringe, right braid, blonde/green long locks and outer curl. Preserve left non-target mascot, skull clip, earrings, eyes/face, bubble, hands and outfit. Hair behind hands/clothes is not inferred.
+before: 명조_린네 87.5%; true-label 87.5%; correct True
+  명조_린네 87.5%; 명조_양양 0.6%; 명조_에이메스 11.5%; 명조_카멜리아 0.5%
+after: 명조_에이메스 85.9%; true-label 10.8%; correct False
+  명조_린네 10.8%; 명조_양양 3.0%; 명조_에이메스 85.9%; 명조_카멜리아 0.3%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_0860 | IMG_0860.jpg | true 명조_린네
+Hair mask: 14715 pixels; actual224 mask 12157 pixels; changed224 12157 pixels
+Coverage note: Trace the visible crown, fringe, side curls, right braid and lower-left lock. Protect skull ornament, eye outlines/skin, bubble, teal earring, arms and clothes. Occluded lower-right hair and ambiguous borders remain.
+before: 명조_에이메스 45.6%; true-label 17.2%; correct False
+  명조_린네 17.2%; 명조_양양 36.5%; 명조_에이메스 45.6%; 명조_카멜리아 0.8%
+after: 명조_에이메스 50.6%; true-label 4.4%; correct False
+  명조_린네 4.4%; 명조_양양 44.9%; 명조_에이메스 50.6%; 명조_카멜리아 0.2%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_0871 | IMG_0871.jpg | true 명조_린네
+Hair mask: 1546 pixels; actual224 mask 809 pixels; changed224 809 pixels
+Coverage note: Target only the identifiable Lynae cosplayer wig at left (crown and long blonde/green locks), preserving its decorated headband, face, clothes and car/background. Tiny Lynae hood artwork hair cannot be separated confidently from yellow printed background at 256 pixels and remains unmasked; partial coverage.
+before: 명조_린네 89.2%; true-label 89.2%; correct True
+  명조_린네 89.2%; 명조_양양 1.1%; 명조_에이메스 9.2%; 명조_카멜리아 0.5%
+after: 명조_린네 78.5%; true-label 78.5%; correct True
+  명조_린네 78.5%; 명조_양양 1.7%; 명조_에이메스 19.0%; 명조_카멜리아 0.7%
+Outside-mask changed pixels: 0; original224 exact: True
+
+lynae_IMG_1417 | IMG_1417.JPG | true 명조_린네
+Hair mask: 3551 pixels; actual224 mask 3551 pixels; changed224 3551 pixels
+Coverage note: Trace in-game blonde/brown fringe and visible flowing brown/green locks, keeping duck clip, flower, earring, face, white shirt/skin arms and turquoise weapon/background. Hair hidden behind weapon/arm and uncertain thin borders is retained; conservative partial coverage.
+before: 명조_린네 96.6%; true-label 96.6%; correct True
+  명조_린네 96.6%; 명조_양양 0.3%; 명조_에이메스 0.1%; 명조_카멜리아 3.0%
+after: 명조_린네 92.8%; true-label 92.8%; correct True
+  명조_린네 92.8%; 명조_양양 0.2%; 명조_에이메스 0.9%; 명조_카멜리아 6.1%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_0804 | IMG_0804.jpg | true 명조_양양
+Hair mask: 4821 pixels; actual224 mask 4821 pixels; changed224 4821 pixels
+Coverage note: Visible dark hair of the inflatable Yangyang, including fringe, side masses and small exposed rear ends, is annotated. Patterned oversized ribbon and blue rear ornament, face/forehead mark, gloves, arms and clothes are preserved. Conservatively inset boundaries leave thin mixed edge pixels; hair hidden behind gloves or decoration cannot be covered.
+before: 명조_양양 98.6%; true-label 98.6%; correct True
+  명조_린네 0.1%; 명조_양양 98.6%; 명조_에이메스 1.3%; 명조_카멜리아 0.0%
+after: 명조_양양 97.3%; true-label 97.3%; correct True
+  명조_린네 1.4%; 명조_양양 97.3%; 명조_에이메스 0.2%; 명조_카멜리아 1.0%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_0809 | IMG_0809.jpg | true 명조_양양
+Hair mask: 6807 pixels; actual224 mask 6807 pixels; changed224 6807 pixels
+Coverage note: Fringe, outer side hair and exposed right rear tail of the Yangyang mascot are annotated. The face and forehead mark, patterned bow/sleeve, white hands, costume and other attendees remain. Hair mostly hidden behind the left sleeve is not inferred; narrow uncertain edge pixels are left unmasked.
+before: 명조_양양 98.2%; true-label 98.2%; correct True
+  명조_린네 0.3%; 명조_양양 98.2%; 명조_에이메스 1.3%; 명조_카멜리아 0.2%
+after: 명조_양양 99.5%; true-label 99.5%; correct True
+  명조_린네 0.2%; 명조_양양 99.5%; 명조_에이메스 0.2%; 명조_카멜리아 0.0%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_0810 | IMG_0810.jpg | true 명조_양양
+Hair mask: 16027 pixels; actual224 mask 14007 pixels; changed224 14007 pixels
+Coverage note: Visible side-view fringe, near-side tufts and long rear hair are covered. Hair already clipped above the canonical square is not recoverable. Face/eye, white hand/arm, blue costume and the separate blue rear ornament are preserved; the low-resolution silhouette is conservatively inset and some mixed boundary pixels remain.
+before: 명조_양양 93.7%; true-label 93.7%; correct True
+  명조_린네 2.2%; 명조_양양 93.7%; 명조_에이메스 4.0%; 명조_카멜리아 0.1%
+after: 명조_린네 78.9%; true-label 20.2%; correct False
+  명조_린네 78.9%; 명조_양양 20.2%; 명조_에이메스 0.7%; 명조_카멜리아 0.2%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_0812 | IMG_0812.jpg | true 명조_양양
+Hair mask: 16295 pixels; actual224 mask 9703 pixels; changed224 9703 pixels
+Coverage note: Large visible fringe and right side/rear mascot hair plus tiny left-edge tufts are annotated. The head is already cropped at the top/left by the fixed model view. Forehead mark, both eyes, cheeks, gloves, sleeve pattern and outfit remain; uncertain hair/face edge pixels are retained rather than masking skin or eyelashes.
+before: 명조_양양 96.6%; true-label 96.6%; correct True
+  명조_린네 1.2%; 명조_양양 96.6%; 명조_에이메스 2.2%; 명조_카멜리아 0.1%
+after: 명조_양양 89.3%; true-label 89.3%; correct True
+  명조_린네 9.2%; 명조_양양 89.3%; 명조_에이메스 1.4%; 명조_카멜리아 0.1%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_1390 | IMG_1390.JPG | true 명조_양양
+Hair mask: 4489 pixels; actual224 mask 4252 pixels; changed224 4252 pixels
+Coverage note: Clearly visible blue fringe, near-head side locks and central-view ponytail strands are annotated separately. Gold head ornaments, turquoise hair band/fasteners and red ribbon are excluded; blue feather-like neck decoration and costume feathers are preserved as accessories. Fine outer strands mixed with background or ornaments are conservatively left, and hair outside the original central view cannot be tested.
+before: 명조_양양 99.5%; true-label 99.5%; correct True
+  명조_린네 0.2%; 명조_양양 99.5%; 명조_에이메스 0.0%; 명조_카멜리아 0.2%
+after: 명조_양양 88.2%; true-label 88.2%; correct True
+  명조_린네 11.3%; 명조_양양 88.2%; 명조_에이메스 0.0%; 명조_카멜리아 0.5%
+Outside-mask changed pixels: 0; original224 exact: True
+
+yangyang_IMG_1392 | IMG_1392.JPG | true 명조_양양
+Hair mask: 2469 pixels; actual224 mask 2469 pixels; changed224 2469 pixels
+Coverage note: Fringe, visible near-head locks and flowing blue/white rear hair at the left and right are annotated. Gold/turquoise ornaments, red ribbon, neck/chest feather accessory, raised sleeve, outfit, sword and background remain. Only confidently visible rear strands are covered; narrow mixed/occluded strand edges and any hair outside the central view remain.
+before: 명조_양양 99.8%; true-label 99.8%; correct True
+  명조_린네 0.1%; 명조_양양 99.8%; 명조_에이메스 0.0%; 명조_카멜리아 0.1%
+after: 명조_양양 83.0%; true-label 83.0%; correct True
+  명조_린네 13.5%; 명조_양양 83.0%; 명조_에이메스 0.2%; 명조_카멜리아 3.2%
+Outside-mask changed pixels: 0; original224 exact: True
+
+명조_린네: before 5/6 = 83.3%; after 4/6 = 66.7%; prediction changes 1
+True-label score rose 0; fell 6; unchanged 0; zero-visible-mask cases 0
+
+명조_양양: before 6/6 = 100.0%; after 5/6 = 83.3%; prediction changes 1
+True-label score rose 1; fell 5; unchanged 0; zero-visible-mask cases 0
+
+명조_에이메스: before 6/6 = 100.0%; after 6/6 = 100.0%; prediction changes 0
+True-label score rose 0; fell 6; unchanged 0; zero-visible-mask cases 0
+
+명조_카멜리아: before 5/6 = 83.3%; after 5/6 = 83.3%; prediction changes 0
+True-label score rose 4; fell 2; unchanged 0; zero-visible-mask cases 0
+
+ALL: before 22/24 = 91.7%; after 20/24 = 83.3%; prediction changes 2
+True-label score rose 5; fell 19; unchanged 0; zero-visible-mask cases 0
+
+Original photos, model, metadata and fixed config SHA256 unchanged: True
+Saved results/student_hair_masks.json

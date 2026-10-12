@@ -1,0 +1,55 @@
+Original photo | data/new_images/명조_린네/IMG_0844.jpg | ICC true | browser 명조_에이메스 68.3% | Python 명조_에이메스 68.3% | label match true
+Original photo | data/new_images/명조_린네/IMG_0845.jpg | ICC true | browser 명조_양양 77.5% | Python 명조_양양 77.5% | label match true
+Original photo | data/new_images/명조_린네/IMG_0850.jpg | ICC true | browser 명조_린네 59.2% | Python 명조_린네 59.2% | label match true
+Original photo | data/new_images/명조_린네/IMG_0860.jpg | ICC true | browser 명조_에이메스 58.8% | Python 명조_에이메스 58.8% | label match true
+Original photo | data/new_images/명조_린네/IMG_0871.jpg | ICC true | browser 명조_에이메스 55.8% | Python 명조_에이메스 55.8% | label match true
+Original photo | data/new_images/명조_린네/IMG_1417.JPG | ICC false | browser 명조_린네 65.3% | Python 명조_린네 65.3% | label match true
+Original photo | data/new_images/명조_양양/IMG_0804.jpg | ICC true | browser 명조_양양 98.9% | Python 명조_양양 98.9% | label match true
+Original photo | data/new_images/명조_양양/IMG_0809.jpg | ICC true | browser 명조_양양 57.3% | Python 명조_양양 57.3% | label match true
+Original photo | data/new_images/명조_양양/IMG_0810.jpg | ICC true | browser 명조_양양 72.6% | Python 명조_양양 72.6% | label match true
+Original photo | data/new_images/명조_양양/IMG_0812.jpg | ICC true | browser 명조_양양 80.7% | Python 명조_양양 80.7% | label match true
+Original photo | data/new_images/명조_양양/IMG_1390.JPG | ICC false | browser 명조_양양 99.7% | Python 명조_양양 99.7% | label match true
+Original photo | data/new_images/명조_양양/IMG_1392.JPG | ICC false | browser 명조_양양 99.9% | Python 명조_양양 99.9% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0215.PNG | ICC false | browser 명조_에이메스 99.9% | Python 명조_에이메스 99.9% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0553.jpg | ICC true | browser 명조_에이메스 98.3% | Python 명조_에이메스 98.3% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0802.jpg | ICC true | browser 명조_에이메스 96.6% | Python 명조_에이메스 96.6% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0806.jpg | ICC true | browser 명조_에이메스 91.4% | Python 명조_에이메스 91.4% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0818.jpg | ICC true | browser 명조_에이메스 94.0% | Python 명조_에이메스 94.0% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0869.jpg | ICC true | browser 명조_에이메스 47.3% | Python 명조_에이메스 47.3% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0583.jpg | ICC true | browser 명조_카멜리아 99.9% | Python 명조_카멜리아 99.9% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0584.jpg | ICC true | browser 명조_카멜리아 99.9% | Python 명조_카멜리아 99.9% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0834.jpg | ICC true | browser 명조_카멜리아 89.5% | Python 명조_카멜리아 89.5% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0867.jpg | ICC true | browser 명조_카멜리아 99.1% | Python 명조_카멜리아 99.1% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_2554.jpg | ICC true | browser 명조_에이메스 89.6% | Python 명조_에이메스 89.6% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_2555.jpg | ICC true | browser 명조_카멜리아 98.9% | Python 명조_카멜리아 98.9% | label match true
+Original photo | data/raw/명조_양양/0089.jpg | ICC false | browser 명조_양양 87.7% | Python 명조_양양 87.7% | label match true
+{
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "photoSummary": {
+    "uploaded": 25,
+    "profiles": 20,
+    "matchedProfileTopLabels": 20,
+    "matchedTopLabels": 25,
+    "maximumConfidenceGapPoints": 0.048914718627926845,
+    "maximumLogitGap": 0.0000019073486328125,
+    "maximumProbabilityGap": 4.245678386638474e-7,
+    "originalCount": 24,
+    "originalCorrect": 19,
+    "note": "Browser uploads remove ICC metadata in memory and use Pillow-compatible bilinear resizing and half-even center cropping."
+  },
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/final-demo/selftest.png",
+    "p3-photo-upload": "/private/tmp/mas1004-browser-test/final-demo/p3-photo-upload.png",
+    "lynnae-upload": "/private/tmp/mas1004-browser-test/final-demo/lynnae-upload.png",
+    "known-upload": "/private/tmp/mas1004-browser-test/final-demo/known-upload.png",
+    "ood-upload": "/private/tmp/mas1004-browser-test/final-demo/ood-upload.png"
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "pass": true
+}

@@ -1,0 +1,28 @@
+{
+  "format": "mas1004-onnx-v1",
+  "labels": [
+    "\uba85\uc870_\ub9b0\ub124",
+    "\uba85\uc870_\uc591\uc591",
+    "\uba85\uc870_\uc5d0\uc774\uba54\uc2a4",
+    "\uba85\uc870_\uce74\uba5c\ub9ac\uc544"
+  ],
+  "input": {
+    "name": "image",
+    "resize": 256,
+    "crop": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "output": {
+    "name": "logits"
+  },
+  "n_parameters": 11178564
+}

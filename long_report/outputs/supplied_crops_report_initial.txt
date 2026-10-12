@@ -1,0 +1,50 @@
+\clearpage
+\subsection*{Student-provided follow-up crop files}
+앞서 정답으로 분류된 사진 중 정답 점수가 낮았던 사진을 대상으로,
+학생이 직접 만든 크롭본을 다음 순서로 전달했다.
+\begin{quote}
+``순서대로 iimg\_0845, img\_0806, img\_0818, img\_0844 야''
+\end{quote}
+\texttt{iimg\_0845}는 앞서 선택한 기존 \texttt{IMG\_0845.jpg}에 대응시켰다.
+\texttt{IMG\_0845}, \texttt{IMG\_0806}, \texttt{IMG\_0818} 크롭본은 채팅에 보였으나
+파일 경로가 없었고, 학생도 저장된 경로가 없다고 확인했다.
+이 세 크롭본의 예측은 측정하지 않았다.
+파일로 접근할 수 있는 마지막 \texttt{IMG\_0844} 크롭 스크린샷만
+수신한 바이트 그대로 복사하여 현재의 같은 ONNX 모델과 전처리로 비교했다.
+새 크롭 좌표를 추정하거나 제공본을 추가로 편집하지 않았다.
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule 사진 & 원본의 정답 점수 & 제공 크롭본의 정답 점수 \\
+\midrule
+린네 \texttt{IMG\_0844} & 80.9\% & 68.5\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+전후 모두 린네로 분류했지만 정답 점수는 낮아졌다.
+정답 사진의 크롭이 항상 점수를 높인다는 결론을 내릴 수 없다.
+스크린샷의 프레이밍, 크기와 저장 과정이 함께 달라질 수 있으므로
+원본의 정확한 RGB 픽셀 부분영역이나 단일 특징의 효과라고 주장하지 않는다.
+학생의 이 결과에 대한 해석과 확신 정도는 아직 받지 않았다.
+
+\sidebyside{figures/supplied_crop_IMG_0844_original.jpg}{원본: 린네 80.9\%}{figures/supplied_crop_IMG_0844_changed.png}{제공 크롭본: 린네 68.5\%}
+\sidebyside{figures/supplied_crop_IMG_0844_before_input.png}{원본의 실제 224 입력}{figures/supplied_crop_IMG_0844_after_input.png}{제공 크롭본의 실제 224 입력}
+
+\clearpage
+\subsection*{Output from the received follow-up file}
+다음은 접근 가능한 파일만 비교한 코드의 전체 출력이다.
+미수신 크롭본은 결과 JSON의 대기 목록에만 기록했다.
+재현 코드와 요청, 전체 점수는 ZIP의
+\path{outputs/supplied_crops_code.py}, \path{outputs/supplied_crops_request.json},
+\path{outputs/supplied_crops.json}에 보존했다.
+\outputfile{outputs/supplied_crops_output.txt}
+같은 원본과 제공본을 로컬 데모에 실제 업로드한 결과도 확인했다.
+\outputfile{outputs/supplied_crops_browser_summary.txt}
+\par\noindent\begin{minipage}{\linewidth}
+\sidebyside{figures/supplied_crop_IMG_0844_browser_original.png}{원본 데모 업로드}{figures/supplied_crop_IMG_0844_browser_changed.png}{제공 크롭본 데모 업로드}
+\end{minipage}\par\medskip
+전체 브라우저 원문과 배열은 \path{outputs/supplied_crops_browser_output.txt}와
+\path{outputs/supplied_crops_browser_results.json}에 보존했다.
+현재 파일로 검증한 추가 사례만 기록했으며,
+각 변경을 여러 이미지에서 시험하는 조건 전체를 충족했다고 표시하지 않는다.
+

@@ -1,0 +1,16 @@
+class                    downloaded  removed   kept  other
+명조_린네                           800      617    183      0
+명조_양양                           620      464    156      0
+명조_에이메스                         510      286    224      0
+명조_카멜리아                         390      210    180      0
+
+reasons
+   809  동일 원본·자세의 크기/압축/자막/UI 변형인 근접 중복
+   348  다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음
+   239  대상 캐릭터가 주된 대상이 아니거나 여러 인물이 대등하게 등장
+    93  글·표·UI·상품 설명이 주된 이미지
+    59  심하게 가리거나 잘려 캐릭터를 식별하기 어려움
+    21  글·표·무기·UI 또는 무관한 대상이 주된 이미지
+     8  심한 가림·크롭으로 대상 캐릭터를 식별하기 어려움
+
+"other" is images that are in data/raw but neither in data/clean nor removed with `clean.py remove`, for example ones you deleted by hand. Their reasons are not recorded.

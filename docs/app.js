@@ -38,44 +38,128 @@ function softmax(logits) {
 
 const scratch = document.createElement("canvas");
 
-function resizeShorterSide(source, target) {
-  // Step 2: the shorter side becomes `target` and the shape is kept.
-  // Going from a 4000 pixel photo to 256 in one step throws away almost every
-  // pixel. Halving repeatedly keeps much more, and lands closer to what
-  // Pillow does in Python.
-  let width = source.videoWidth || source.naturalWidth || source.width;
-  let height = source.videoHeight || source.naturalHeight || source.height;
-  const scale = target / Math.min(width, height);
-  const finalWidth = width <= height ? target : Math.floor(width * scale);
-  const finalHeight = width <= height ? Math.floor(height * scale) : target;
+// Pillow 12.3 RGB BILINEAR resize, used by torchvision's PIL preparation.
+// Algorithm reference: https://github.com/python-pillow/Pillow/blob/12.3.0/src/libImaging/Resample.c
+// The filter widens for downsampling, and each separable pass rounds to bytes.
+const PILLOW_COEFFICIENT_SCALE = 1 << 22;
+const PILLOW_ROUNDING_BIAS = 1 << 21;
 
-  let stage = document.createElement("canvas");
-  stage.width = width;
-  stage.height = height;
-  stage.getContext("2d").drawImage(source, 0, 0, width, height);
+function pillowBilinearCoefficients(inputSize, outputSize) {
+  const scale = inputSize / outputSize;
+  const filterScale = Math.max(scale, 1);
+  const inverseFilterScale = 1 / filterScale;
+  const coefficients = [];
+  for (let output = 0; output < outputSize; output++) {
+    const center = (output + 0.5) * scale;
+    const start = Math.max(0, Math.trunc(center - filterScale + 0.5));
+    const end = Math.min(inputSize, Math.trunc(center + filterScale + 0.5));
+    const weights = new Float64Array(end - start);
+    let total = 0;
+    for (let i = 0; i < weights.length; i++) {
+      const distance = Math.abs((i + start - center + 0.5) * inverseFilterScale);
+      const weight = distance < 1 ? 1 - distance : 0;
+      weights[i] = weight;
+      total += weight;
+    }
+    const fixedWeights = new Int32Array(weights.length);
+    for (let i = 0; i < weights.length; i++) {
+      // BILINEAR weights are nonnegative; Pillow uses integer half-up here.
+      fixedWeights[i] = Math.trunc(0.5 + (weights[i] / total) * PILLOW_COEFFICIENT_SCALE);
+    }
+    coefficients.push({ start, weights: fixedWeights });
+  }
+  return coefficients;
+}
 
-  while (width >= finalWidth * 2 && height >= finalHeight * 2) {
-    const next = document.createElement("canvas");
-    next.width = Math.floor(width / 2);
-    next.height = Math.floor(height / 2);
-    const context = next.getContext("2d");
-    context.imageSmoothingEnabled = true;
-    context.imageSmoothingQuality = "high";
-    context.drawImage(stage, 0, 0, next.width, next.height);
-    stage = next;
-    width = next.width;
-    height = next.height;
+function pillowByte(sum) {
+  return Math.max(0, Math.min(255, Math.floor(sum / PILLOW_COEFFICIENT_SCALE)));
+}
+
+function pillowResizeRGB(pixels, width, height, finalWidth, finalHeight) {
+  // Input/output use canvas RGBA layout. RGB is resampled and output is opaque.
+  let horizontal = pixels;
+  if (width !== finalWidth) {
+    const columns = pillowBilinearCoefficients(width, finalWidth);
+    horizontal = new Uint8ClampedArray(finalWidth * height * 4);
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < finalWidth; x++) {
+        const { start, weights } = columns[x];
+        let red = PILLOW_ROUNDING_BIAS;
+        let green = PILLOW_ROUNDING_BIAS;
+        let blue = PILLOW_ROUNDING_BIAS;
+        for (let i = 0; i < weights.length; i++) {
+          const source = (y * width + start + i) * 4;
+          red += pixels[source] * weights[i];
+          green += pixels[source + 1] * weights[i];
+          blue += pixels[source + 2] * weights[i];
+        }
+        const target = (y * finalWidth + x) * 4;
+        horizontal[target] = pillowByte(red);
+        horizontal[target + 1] = pillowByte(green);
+        horizontal[target + 2] = pillowByte(blue);
+        horizontal[target + 3] = 255;
+      }
+    }
   }
 
-  if (width === finalWidth && height === finalHeight) return stage;
-  const last = document.createElement("canvas");
-  last.width = finalWidth;
-  last.height = finalHeight;
-  const context = last.getContext("2d");
-  context.imageSmoothingEnabled = true;
-  context.imageSmoothingQuality = "high";
-  context.drawImage(stage, 0, 0, finalWidth, finalHeight);
-  return last;
+  if (height === finalHeight) {
+    const result = new Uint8ClampedArray(horizontal);
+    for (let i = 3; i < result.length; i += 4) result[i] = 255;
+    return result;
+  }
+  const rows = pillowBilinearCoefficients(height, finalHeight);
+  const result = new Uint8ClampedArray(finalWidth * finalHeight * 4);
+  for (let y = 0; y < finalHeight; y++) {
+    const { start, weights } = rows[y];
+    for (let x = 0; x < finalWidth; x++) {
+      let red = PILLOW_ROUNDING_BIAS;
+      let green = PILLOW_ROUNDING_BIAS;
+      let blue = PILLOW_ROUNDING_BIAS;
+      for (let i = 0; i < weights.length; i++) {
+        const source = ((start + i) * finalWidth + x) * 4;
+        red += horizontal[source] * weights[i];
+        green += horizontal[source + 1] * weights[i];
+        blue += horizontal[source + 2] * weights[i];
+      }
+      const target = (y * finalWidth + x) * 4;
+      result[target] = pillowByte(red);
+      result[target + 1] = pillowByte(green);
+      result[target + 2] = pillowByte(blue);
+      result[target + 3] = 255;
+    }
+  }
+  return result;
+}
+
+function pillowRoundHalfEven(value) {
+  // torchvision center_crop calls Python round(), whose .5 ties go to even.
+  const lower = Math.floor(value);
+  const fraction = value - lower;
+  if (fraction < 0.5) return lower;
+  if (fraction > 0.5) return lower + 1;
+  return lower % 2 === 0 ? lower : lower + 1;
+}
+
+function resizeShorterSide(source, target) {
+  const width = source.videoWidth || source.naturalWidth || source.width;
+  const height = source.videoHeight || source.naturalHeight || source.height;
+  const finalWidth = width <= height ? target : Math.floor(target * width / height);
+  const finalHeight = width <= height ? Math.floor(target * height / width) : target;
+
+  // Draw at original size only: the browser must not perform the resize.
+  const original = document.createElement("canvas");
+  original.width = width;
+  original.height = height;
+  const originalContext = original.getContext("2d", { willReadFrequently: true });
+  originalContext.drawImage(source, 0, 0, width, height);
+  const pixels = originalContext.getImageData(0, 0, width, height).data;
+  const resized = pillowResizeRGB(pixels, width, height, finalWidth, finalHeight);
+
+  const result = document.createElement("canvas");
+  result.width = finalWidth;
+  result.height = finalHeight;
+  result.getContext("2d").putImageData(new ImageData(resized, finalWidth, finalHeight), 0, 0);
+  return result;
 }
 
 function toInput(source) {
@@ -85,8 +169,8 @@ function toInput(source) {
   const resized = resizeShorterSide(source, resize);
 
   // Step 3: cut out the crop x crop square in the middle.
-  const left = Math.round((resized.width - crop) / 2);
-  const top = Math.round((resized.height - crop) / 2);
+  const left = pillowRoundHalfEven((resized.width - crop) / 2);
+  const top = pillowRoundHalfEven((resized.height - crop) / 2);
   scratch.width = crop;
   scratch.height = crop;
   const context = scratch.getContext("2d", { willReadFrequently: true });
@@ -289,11 +373,62 @@ if (navigator.mediaDevices) {
   navigator.mediaDevices.addEventListener("devicechange", listCameras);
 }
 
-// Upload
+// Upload. Pillow reads the stored RGB values without applying an ICC profile.
+// Remove only that metadata from an in-memory copy before browser decoding;
+// compressed image data and JPEG EXIF (including orientation) stay unchanged.
+async function withoutIccProfile(file) {
+  const bytes = new Uint8Array(await file.arrayBuffer());
+  const view = new DataView(bytes.buffer);
+  const parts = [];
+  let keptStart = 0;
+
+  const isPng = bytes.length >= 8 &&
+    [137, 80, 78, 71, 13, 10, 26, 10].every((v, i) => bytes[i] === v);
+  if (isPng) {
+    let offset = 8;
+    while (offset + 12 <= bytes.length) {
+      const end = offset + 12 + view.getUint32(offset);
+      if (end > bytes.length) return file;
+      const type = String.fromCharCode(...bytes.subarray(offset + 4, offset + 8));
+      if (type === "iCCP") {
+        parts.push(bytes.subarray(keptStart, offset));
+        keptStart = end;
+      }
+      offset = end;
+      if (type === "IEND") break;
+    }
+  } else if (bytes.length >= 2 && bytes[0] === 255 && bytes[1] === 216) {
+    let offset = 2;
+    while (offset < bytes.length) {
+      const markerStart = offset;
+      if (bytes[offset] !== 255) return file;
+      while (offset < bytes.length && bytes[offset] === 255) offset++;
+      const marker = bytes[offset++];
+      // Everything from the start of scan onward is compressed image data.
+      if (marker === 218 || marker === 217) break;
+      if (marker === 1 || (marker >= 208 && marker <= 216)) continue;
+      if (offset + 2 > bytes.length) return file;
+      const length = view.getUint16(offset);
+      const end = offset + length;
+      if (length < 2 || end > bytes.length) return file;
+      const signature = "ICC_PROFILE\0";
+      if (marker === 226 && length >= signature.length + 2 &&
+          Array.from(signature).every((v, i) => bytes[offset + 2 + i] === v.charCodeAt(0))) {
+        parts.push(bytes.subarray(keptStart, markerStart));
+        keptStart = end;
+      }
+      offset = end;
+    }
+  }
+  if (!parts.length) return file;
+  parts.push(bytes.subarray(keptStart));
+  return new Blob(parts, { type: file.type });
+}
+
 $("file").onchange = async (event) => {
   const chosen = event.target.files[0];
   if (!chosen) return;
-  const image = await loadImage(URL.createObjectURL(chosen));
+  const image = await loadImage(URL.createObjectURL(await withoutIccProfile(chosen)));
   const preview = $("preview");
   preview.src = image.src;
   preview.hidden = false;

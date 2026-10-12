@@ -1,0 +1,190 @@
+Original photo | data/new_images/명조_린네/IMG_0844.jpg | ICC true | browser 명조_린네 80.9% | Python 명조_린네 80.9% | label match true
+Original photo | data/new_images/명조_린네/IMG_0845.jpg | ICC true | browser 명조_린네 65.7% | Python 명조_린네 65.7% | label match true
+Original photo | data/new_images/명조_린네/IMG_0850.jpg | ICC true | browser 명조_린네 87.5% | Python 명조_린네 87.5% | label match true
+Original photo | data/new_images/명조_린네/IMG_0860.jpg | ICC true | browser 명조_에이메스 45.6% | Python 명조_에이메스 45.6% | label match true
+Original photo | data/new_images/명조_린네/IMG_0871.jpg | ICC true | browser 명조_린네 89.2% | Python 명조_린네 89.2% | label match true
+Original photo | data/new_images/명조_린네/IMG_1417.JPG | ICC false | browser 명조_린네 96.6% | Python 명조_린네 96.6% | label match true
+Original photo | data/new_images/명조_양양/IMG_0804.jpg | ICC true | browser 명조_양양 98.6% | Python 명조_양양 98.6% | label match true
+Original photo | data/new_images/명조_양양/IMG_0809.jpg | ICC true | browser 명조_양양 98.2% | Python 명조_양양 98.2% | label match true
+Original photo | data/new_images/명조_양양/IMG_0810.jpg | ICC true | browser 명조_양양 93.7% | Python 명조_양양 93.7% | label match true
+Original photo | data/new_images/명조_양양/IMG_0812.jpg | ICC true | browser 명조_양양 96.6% | Python 명조_양양 96.6% | label match true
+Original photo | data/new_images/명조_양양/IMG_1390.JPG | ICC false | browser 명조_양양 99.5% | Python 명조_양양 99.5% | label match true
+Original photo | data/new_images/명조_양양/IMG_1392.JPG | ICC false | browser 명조_양양 99.8% | Python 명조_양양 99.8% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0215.PNG | ICC false | browser 명조_에이메스 100.0% | Python 명조_에이메스 100.0% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0553.jpg | ICC true | browser 명조_에이메스 99.9% | Python 명조_에이메스 99.9% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0802.jpg | ICC true | browser 명조_에이메스 98.8% | Python 명조_에이메스 98.8% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0806.jpg | ICC true | browser 명조_에이메스 69.6% | Python 명조_에이메스 69.6% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0818.jpg | ICC true | browser 명조_에이메스 75.8% | Python 명조_에이메스 75.8% | label match true
+Original photo | data/new_images/명조_에이메스/IMG_0869.jpg | ICC true | browser 명조_에이메스 81.1% | Python 명조_에이메스 81.1% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0583.jpg | ICC true | browser 명조_카멜리아 99.8% | Python 명조_카멜리아 99.8% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0584.jpg | ICC true | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0834.jpg | ICC true | browser 명조_카멜리아 94.9% | Python 명조_카멜리아 94.9% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_0867.jpg | ICC true | browser 명조_카멜리아 99.5% | Python 명조_카멜리아 99.5% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_2554.jpg | ICC true | browser 명조_에이메스 80.8% | Python 명조_에이메스 80.8% | label match true
+Original photo | data/new_images/명조_카멜리아/IMG_2555.jpg | ICC true | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+Original photo | data/raw/명조_양양/0089.jpg | ICC false | browser 명조_린네 59.3% | Python 명조_린네 59.3% | label match true
+{
+  "modelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:8010/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.wasm.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/model.json",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.mjs",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.wasm",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/model.onnx",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/selftest.json",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/e92b9b65-99b1-4f28-9ca0-3e4dfd619572",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/0ca07cd8-c9a8-4c4b-8296-e809503a8f26",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/b2af049d-0a73-47cf-ac8f-403958d554d1",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/cd6db5ba-5215-406d-8b19-adcabaf98443",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/6f366bda-2ba9-4f6c-a749-255067fffbe6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/fa813165-c340-4010-b031-77f1676ded2c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/1ade4c84-e0ff-42ea-aae8-8519cdfde04b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/d7ae2d5d-0ba0-49b1-85d2-5c352e690e54",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/5bf133fd-87a9-4a81-8cae-2a154fb72c9d",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/962bd9d3-11ae-4460-8edf-3f689de9fed5",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/a73d9ed0-5fa2-48e3-a1db-d77be4e66d57",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/03d96b4a-404c-4e95-a58a-ec1d4190adaf",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/6f2b5d4f-ed89-4d7e-ab16-a3bda10bea05",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/d7d87453-56a2-4493-81b1-6ae8c8cda7d5",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/ba458b7c-8ea7-4885-8a45-119a993dee59",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/d2d2f9ad-43be-4c68-8d8b-5bfc783f2b1c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/627bf528-9f35-4e00-93c5-6a65dd2742b4",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/959cdd1b-3a72-4654-a2cb-73dfc9756cb8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/c0ea8122-6e16-42a0-ad43-94c04b661b30",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/8e330bf9-106d-48e4-ae04-609d3bc3ef3a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/04a73146-bdc1-4305-8cd7-676c5081b2e3",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/9cc79832-bb97-46c3-9075-2d361ad5bd0b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/78814184-09a5-4496-8ee6-ff0ff3836485",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/861c945d-16be-434b-920d-f6a565398561",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/95408816-30ac-476d-86c5-f8feba4de46a",
+      "status": 200
+    }
+  ],
+  "photoSummary": {
+    "uploaded": 25,
+    "profiles": 20,
+    "matchedProfileTopLabels": 20,
+    "matchedTopLabels": 25,
+    "maximumConfidenceGapPoints": 0.048307514190668144,
+    "maximumLogitGap": 0.000002384185791015625,
+    "maximumProbabilityGap": 3.32771808969623e-7,
+    "originalCount": 24,
+    "originalCorrect": 22,
+    "note": "Browser uploads remove ICC metadata in memory and use Pillow-compatible bilinear resizing and half-even center cropping."
+  },
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/final-expanded-demo/selftest.png",
+    "p3-photo-upload": "/private/tmp/mas1004-browser-test/final-expanded-demo/p3-photo-upload.png",
+    "lynnae-upload": "/private/tmp/mas1004-browser-test/final-expanded-demo/lynnae-upload.png",
+    "known-upload": "/private/tmp/mas1004-browser-test/final-expanded-demo/known-upload.png",
+    "ood-upload": "/private/tmp/mas1004-browser-test/final-expanded-demo/ood-upload.png"
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "pass": true
+}

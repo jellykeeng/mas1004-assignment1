@@ -1,0 +1,39 @@
+{
+  "model": "docs/model.onnx",
+  "metadata": "docs/model.json",
+  "output_dir": "data/changed/supplied_crops",
+  "student_request_verbatim": "순서대로 iimg_0845, img_0806, img_0818, img_0844 야",
+  "selection": "Student personally supplied four crops for the previously correct photos with the lowest true-label scores, in order IMG_0845, IMG_0806, IMG_0818, IMG_0844. All four exact files are now available; each is copied byte for byte without further image edits or prediction-based crop selection.",
+  "pending_cases": [],
+  "cases": [
+    {
+      "id": "lynae_IMG_0845",
+      "source": "data/new_images/명조_린네/IMG_0845.jpg",
+      "provided": "/Users/seoyoung/Downloads/User attachment.png",
+      "true_label": "명조_린네",
+      "change": "Student-provided crop file; no additional editing."
+    },
+    {
+      "id": "aemeath_IMG_0806",
+      "source": "data/new_images/명조_에이메스/IMG_0806.jpg",
+      "provided": "/Users/seoyoung/Downloads/User attachment2.png",
+      "true_label": "명조_에이메스",
+      "change": "Student-provided crop file; no additional editing."
+    },
+    {
+      "id": "aemeath_IMG_0818",
+      "source": "data/new_images/명조_에이메스/IMG_0818.jpg",
+      "provided": "/Users/seoyoung/Downloads/User attachment3.png",
+      "true_label": "명조_에이메스",
+      "change": "Student-provided crop file; no additional editing."
+    },
+    {
+      "id": "lynae_IMG_0844",
+      "source": "data/new_images/명조_린네/IMG_0844.jpg",
+      "provided": "/Users/seoyoung/Desktop/Screenshot 2026-10-10 at 23.00.54.png",
+      "true_label": "명조_린네",
+      "change": "Student-supplied crop screenshot, copied byte for byte, without inferring pixel coordinates or applying further image edits."
+    }
+  ],
+  "file_mapping_request_verbatim": "각각 순서대로야"
+}

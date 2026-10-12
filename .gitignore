@@ -12,3 +12,8 @@ __pycache__/
 
 # Do NOT add docs/ here. GitHub Pages serves that folder, so your trained
 # model has to be committed and pushed like everything else.
+
+# Local submission files and the Overleaf upload kit stay off GitHub.
+.DS_Store
+submission/
+long_report/README.txt

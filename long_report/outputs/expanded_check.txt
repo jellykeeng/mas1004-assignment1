@@ -1,0 +1,53 @@
+MAS1004 Assignment 1, checking your work
+
+Training images  (/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean)
+---------------------------------------------------------------------------------------------------
+  명조_린네                          183 images
+  명조_양양                          156 images
+  명조_에이메스                        224 images
+  명조_카멜리아                        180 images
+
+Your images from a new source  (/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images)
+----------------------------------------------------------------------------------------------------------------------
+  명조_린네                            6 images
+  명조_양양                            6 images
+  명조_에이메스                          6 images
+  명조_카멜리아                          6 images
+
+The same image appearing twice
+------------------------------
+  ok       no file appears twice byte for byte. Near copies (the same picture resized or re-saved) are only found by `python src/clean.py suspects` and `python src/clean.py overlap`.
+
+The model you exported for the web page
+---------------------------------------
+  ok       4 classes: 명조_린네, 명조_양양, 명조_에이메스, 명조_카멜리아
+  ok       model.onnx is 44.8 MB, 11,178,564 parameters
+           input [1, 3, 224, 224], prepared as: shorter side 256, centre 224 x 224, mean [0.485, 0.456, 0.406], std [0.229, 0.224, 0.225]
+  warning  docs/model.onnx is not committed. Your published page will not have a model until you commit and push it.
+
+Does the exported model give the answers Python gave?
+-----------------------------------------------------
+  ok       yes, they agree (largest gap 0.0000)
+
+Your images from a new source  (/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images)
+----------------------------------------------------------------------------------------------------------------------
+
+  accuracy on your new images: 22/24 = 91.7%
+
+  rows are what it really is, columns are what the model said
+                 명조_린네    명조_양양  명조_에이메스  명조_카멜리아
+    명조_린네            5        0        1        0
+    명조_양양            0        6        0        0
+    명조_에이메스          0        0        6        0
+    명조_카멜리아          0        0        1        5
+
+  the mistakes it was most sure about:
+    IMG_2554.jpg                 said 명조_에이메스 (81%), really 명조_카멜리아
+    IMG_0860.jpg                 said 명조_에이메스 (46%), really 명조_린네
+
+Summary
+-------
+  nothing is broken
+  1 thing(s) worth a sentence in your report:
+    - docs/model.onnx is not committed. Your published page will not have a model until you commit and push it.
+

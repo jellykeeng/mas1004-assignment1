@@ -1,0 +1,225 @@
+original | 양양_IMG_1390.png | browser 명조_양양 99.5% | Python 명조_양양 99.5% | label match true
+original | 양양_IMG_1392.png | browser 명조_양양 99.8% | Python 명조_양양 99.8% | label match true
+original | 카멜리아_IMG_0584.png | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+original | 카멜리아_IMG_2555.png | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+original | 린네_IMG_1417.png | browser 명조_린네 96.6% | Python 명조_린네 96.6% | label match true
+original | 린네_IMG_0850.png | browser 명조_린네 87.5% | Python 명조_린네 87.5% | label match true
+original | 에이메스_IMG_0215.png | browser 명조_에이메스 100.0% | Python 명조_에이메스 100.0% | label match true
+original | 에이메스_IMG_0553.png | browser 명조_에이메스 99.9% | Python 명조_에이메스 99.9% | label match true
+gray | 양양_IMG_1390.png | browser 명조_양양 99.9% | Python 명조_양양 99.9% | label match true
+head_mask | 양양_IMG_1390.png | browser 명조_양양 92.3% | Python 명조_양양 92.3% | label match true
+clothes_mask | 양양_IMG_1390.png | browser 명조_양양 99.5% | Python 명조_양양 99.5% | label match true
+gray | 양양_IMG_1392.png | browser 명조_양양 99.2% | Python 명조_양양 99.2% | label match true
+head_mask | 양양_IMG_1392.png | browser 명조_양양 97.9% | Python 명조_양양 97.9% | label match true
+clothes_mask | 양양_IMG_1392.png | browser 명조_양양 99.3% | Python 명조_양양 99.3% | label match true
+gray | 카멜리아_IMG_0584.png | browser 명조_에이메스 67.9% | Python 명조_에이메스 67.9% | label match true
+head_mask | 카멜리아_IMG_0584.png | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+clothes_mask | 카멜리아_IMG_0584.png | browser 명조_카멜리아 98.6% | Python 명조_카멜리아 98.6% | label match true
+gray | 카멜리아_IMG_2555.png | browser 명조_양양 63.9% | Python 명조_양양 63.9% | label match true
+head_mask | 카멜리아_IMG_2555.png | browser 명조_카멜리아 100.0% | Python 명조_카멜리아 100.0% | label match true
+clothes_mask | 카멜리아_IMG_2555.png | browser 명조_카멜리아 97.3% | Python 명조_카멜리아 97.3% | label match true
+gray | 린네_IMG_1417.png | browser 명조_린네 90.7% | Python 명조_린네 90.7% | label match true
+head_mask | 린네_IMG_1417.png | browser 명조_린네 83.0% | Python 명조_린네 83.0% | label match true
+clothes_mask | 린네_IMG_1417.png | browser 명조_린네 94.5% | Python 명조_린네 94.5% | label match true
+gray | 린네_IMG_0850.png | browser 명조_에이메스 82.5% | Python 명조_에이메스 82.5% | label match true
+head_mask | 린네_IMG_0850.png | browser 명조_린네 50.9% | Python 명조_린네 50.9% | label match true
+clothes_mask | 린네_IMG_0850.png | browser 명조_린네 96.9% | Python 명조_린네 96.9% | label match true
+gray | 에이메스_IMG_0215.png | browser 명조_에이메스 76.9% | Python 명조_에이메스 76.9% | label match true
+head_mask | 에이메스_IMG_0215.png | browser 명조_에이메스 99.8% | Python 명조_에이메스 99.8% | label match true
+clothes_mask | 에이메스_IMG_0215.png | browser 명조_에이메스 100.0% | Python 명조_에이메스 100.0% | label match true
+gray | 에이메스_IMG_0553.png | browser 명조_에이메스 93.2% | Python 명조_에이메스 93.2% | label match true
+head_mask | 에이메스_IMG_0553.png | browser 명조_에이메스 39.8% | Python 명조_에이메스 39.8% | label match true
+{
+  "modelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:8010/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.wasm.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/model.json",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.mjs",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.wasm",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/model.onnx",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8010/selftest.json",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/f9f59245-aa7b-46a2-aa44-9656745fbbff",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/3130f623-d49c-4000-9688-8d2fdcb214cc",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/70b9a1b9-4ee4-4eb5-8e82-b9ba8a29b3ad",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/754601c4-c5fd-4aa0-8eac-2c92c6482bc5",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/3f848f81-d69a-4e0e-8a05-10d9e4472b60",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/68cfdc6a-3a41-47ef-bf96-19edd9987c7c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/8c8711a6-155a-480a-92a9-7fd3f52da42b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/1e36f8fb-6e7d-46ab-9ef2-248bfa49d69f",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/10ee6dec-1611-4404-843b-1a338a872c53",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/6e66caef-481e-4ed6-99d7-be274dcbdb79",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/b38fa0a6-b944-4319-982b-edeada93ae83",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/06100015-0682-4c0e-b67c-62dad481bd6b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/0a757c1c-193a-49d7-abc0-e4e8a66e3c28",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/a6afa278-a869-4463-9d80-727b88cb78cb",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/f6d070fb-0d18-4b73-9a88-11c2626259a7",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/0a4c10da-e266-4679-9554-8fd53c33f897",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/02a0829a-ed89-4d07-9254-a65591ef541c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/169f3586-dd68-48e0-ac00-7ae14442ff92",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/1298b36b-7cd4-4f26-a693-f6963454f4df",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/4989370f-4250-482a-bbae-e3a25139ab52",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/8ea81950-364f-422f-a687-d8e977e5021f",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/fe1a783e-ab2a-41d3-a595-991b13aac719",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/c0c03564-9834-47a8-a646-4d44ac97e2b7",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/9261691f-92d0-4664-950f-834a825988f4",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/3811bea2-fda0-443c-a750-92fcbf7c3992",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/bc92258c-b476-40b4-8b35-39076eb1ffad",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/12d6a150-594c-47c7-b3a5-34b500ebf219",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/5481aaa0-5ba9-4f9c-9438-bad924d1e660",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/92901dfc-a381-4d20-b981-a5e2d6dceff1",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/ad1f2243-1002-48e6-804d-7f8e3021a2bf",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8010/0e560862-5d53-4071-b348-f57997501ed7",
+      "status": 200
+    }
+  ],
+  "ablationSummary": {
+    "pairCount": 23,
+    "originalCount": 8,
+    "changedCount": 23,
+    "uploadCount": 31,
+    "matchedTopLabels": 31,
+    "maximumRoundedConfidenceGapPoints": 0.04682321548462198,
+    "maximumLogitGap": 0.000006198883056640625,
+    "maximumProbabilityGap": 6.600105331155959e-7,
+    "differences": [],
+    "confidenceGapTolerancePoints": 0.051,
+    "note": "Browser bars display one decimal place; confidence differences include this rounding."
+  },
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/final-expanded-ablations/selftest.png",
+    "original": "/private/tmp/mas1004-browser-test/final-expanded-ablations/original.png",
+    "crop-original": "/private/tmp/mas1004-browser-test/final-expanded-ablations/crop-original.png",
+    "gray": "/private/tmp/mas1004-browser-test/final-expanded-ablations/gray.png",
+    "crop-gray": "/private/tmp/mas1004-browser-test/final-expanded-ablations/crop-gray.png",
+    "head_mask": "/private/tmp/mas1004-browser-test/final-expanded-ablations/head_mask.png",
+    "crop-head_mask": "/private/tmp/mas1004-browser-test/final-expanded-ablations/crop-head_mask.png",
+    "clothes_mask": "/private/tmp/mas1004-browser-test/final-expanded-ablations/clothes_mask.png",
+    "crop-clothes_mask": "/private/tmp/mas1004-browser-test/final-expanded-ablations/crop-clothes_mask.png"
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "pass": true
+}

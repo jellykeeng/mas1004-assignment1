@@ -1,0 +1,16 @@
+ADDITIONAL QUERY: Aemeath Wuthering Waves fanart
+  duckduckgo stopped at page 1: No results found.
+"Aemeath Wuthering Waves fanart": search returned 276 links, downloading...
+"Aemeath Wuthering Waves fanart": kept 90 images in /private/tmp/mas1004-extra-aemeath/aemeath_wuthering_waves_fanart
+ADDITIONAL QUERY: 鸣潮 爱弥斯 插画
+"鸣潮 爱弥斯 插画": search returned 337 links, downloading...
+"鸣潮 爱弥斯 插画": kept 90 images in /private/tmp/mas1004-extra-aemeath/鸣潮_爱弥斯_插画
+ADDITIONAL QUERY: 鳴潮 エイメス イラスト
+  duckduckgo stopped at page 1: No results found.
+"鳴潮 エイメス イラスト": search returned 295 links, downloading...
+"鳴潮 エイメス イラスト": kept 90 images in /private/tmp/mas1004-extra-aemeath/鳴潮_エイメス_イラスト
+ADDITIONAL QUERY: Aemeath Wuthering Waves screenshot
+  duckduckgo stopped at page 1: No results found.
+"Aemeath Wuthering Waves screenshot": search returned 292 links, downloading...
+"Aemeath Wuthering Waves screenshot": kept 90 images in /private/tmp/mas1004-extra-aemeath/aemeath_wuthering_waves_screenshot
+Downloaded total: 360

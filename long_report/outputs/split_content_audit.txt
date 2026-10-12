@@ -1,0 +1,11 @@
+run train/test shared paths: 0 train/test shared exact image contents: 0
+scratch train/test shared paths: 0 train/test shared exact image contents: 0
+frozen train/test shared paths: 0 train/test shared exact image contents: 0
+lr3e4 train/test shared paths: 0 train/test shared exact image contents: 0
+clean train/test shared paths: 0 train/test shared exact image contents: 0
+final train/test shared paths: 0 train/test shared exact image contents: 0
+Final counts:
+명조_린네 54
+명조_양양 59
+명조_에이메스 90
+명조_카멜리아 108

@@ -1,0 +1,17 @@
+  duckduckgo stopped at page 1: No results found.
+"명조 양양": search returned 314 links, downloading...
+"명조 양양": kept 150 images in data/raw/명조_양양
+  duckduckgo stopped at page 1: No results found.
+"명조 카멜리아": search returned 314 links, downloading...
+"명조 카멜리아": kept 150 images in data/raw/명조_카멜리아
+"명조 린네": search returned 463 links, downloading...
+"명조 린네": kept 150 images in data/raw/명조_린네
+  duckduckgo stopped at page 1: No results found.
+"명조 에이메스": search returned 333 links, downloading...
+"명조 에이메스": kept 150 images in data/raw/명조_에이메스
+
+Summary
+  명조 양양                          150
+  명조 카멜리아                        150
+  명조 린네                          150
+  명조 에이메스                        150

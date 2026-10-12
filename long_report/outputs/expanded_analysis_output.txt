@@ -1,0 +1,37 @@
+expanded: train 100.0%; downloaded test 93.3%; fixed personal evaluation 91.7% (22/24)
+Fixed personal confusion matrix (true rows, predicted columns):
+[[5 0 1 0]
+ [0 6 0 0]
+ [0 0 6 0]
+ [0 0 1 5]]
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/expanded_new_worst.png
+Confident new-image mistake 1: data/new_images/명조_카멜리아/IMG_2554.jpg; true 명조_카멜리아; predicted 명조_에이메스 80.8%
+Confident new-image mistake 2: data/new_images/명조_린네/IMG_0860.jpg; true 명조_린네; predicted 명조_에이메스 45.6%
+gray: data/new_images/명조_양양/IMG_1390.JPG: 명조_양양 99.5% => 명조_양양 99.9%; rectangle None
+head_mask: data/new_images/명조_양양/IMG_1390.JPG: 명조_양양 99.5% => 명조_양양 92.3%; rectangle [107, 20, 208, 110]
+clothes_mask: data/new_images/명조_양양/IMG_1390.JPG: 명조_양양 99.5% => 명조_양양 99.5%; rectangle [89, 135, 197, 239]
+gray: data/new_images/명조_양양/IMG_1392.JPG: 명조_양양 99.8% => 명조_양양 99.2%; rectangle None
+head_mask: data/new_images/명조_양양/IMG_1392.JPG: 명조_양양 99.8% => 명조_양양 97.9%; rectangle [42, 22, 130, 93]
+clothes_mask: data/new_images/명조_양양/IMG_1392.JPG: 명조_양양 99.8% => 명조_양양 99.3%; rectangle [62, 133, 152, 239]
+gray: data/new_images/명조_카멜리아/IMG_0584.jpg: 명조_카멜리아 100.0% => 명조_에이메스 67.9%; rectangle None
+head_mask: data/new_images/명조_카멜리아/IMG_0584.jpg: 명조_카멜리아 100.0% => 명조_카멜리아 100.0%; rectangle [45, 16, 196, 118]
+clothes_mask: data/new_images/명조_카멜리아/IMG_0584.jpg: 명조_카멜리아 100.0% => 명조_카멜리아 98.6%; rectangle [67, 127, 182, 238]
+gray: data/new_images/명조_카멜리아/IMG_2555.jpg: 명조_카멜리아 100.0% => 명조_양양 63.9%; rectangle None
+head_mask: data/new_images/명조_카멜리아/IMG_2555.jpg: 명조_카멜리아 100.0% => 명조_카멜리아 100.0%; rectangle [16, 16, 230, 140]
+clothes_mask: data/new_images/명조_카멜리아/IMG_2555.jpg: 명조_카멜리아 100.0% => 명조_카멜리아 97.3%; rectangle [17, 145, 239, 239]
+gray: data/new_images/명조_린네/IMG_1417.JPG: 명조_린네 96.6% => 명조_린네 90.7%; rectangle None
+head_mask: data/new_images/명조_린네/IMG_1417.JPG: 명조_린네 96.6% => 명조_린네 83.0%; rectangle [95, 25, 171, 89]
+clothes_mask: data/new_images/명조_린네/IMG_1417.JPG: 명조_린네 96.6% => 명조_린네 94.5%; rectangle [85, 120, 174, 230]
+gray: data/new_images/명조_린네/IMG_0850.jpg: 명조_린네 87.5% => 명조_에이메스 82.5%; rectangle None
+head_mask: data/new_images/명조_린네/IMG_0850.jpg: 명조_린네 87.5% => 명조_린네 50.9%; rectangle [80, 56, 193, 150]
+clothes_mask: data/new_images/명조_린네/IMG_0850.jpg: 명조_린네 87.5% => 명조_린네 96.9%; rectangle [90, 148, 189, 239]
+gray: data/new_images/명조_에이메스/IMG_0215.PNG: 명조_에이메스 100.0% => 명조_에이메스 76.9%; rectangle None
+head_mask: data/new_images/명조_에이메스/IMG_0215.PNG: 명조_에이메스 100.0% => 명조_에이메스 99.8%; rectangle [98, 16, 212, 115]
+clothes_mask: data/new_images/명조_에이메스/IMG_0215.PNG: 명조_에이메스 100.0% => 명조_에이메스 100.0%; rectangle [56, 133, 213, 239]
+gray: data/new_images/명조_에이메스/IMG_0553.jpg: 명조_에이메스 99.9% => 명조_에이메스 93.2%; rectangle None
+head_mask: data/new_images/명조_에이메스/IMG_0553.jpg: 명조_에이메스 99.9% => 명조_에이메스 39.8%; rectangle [16, 16, 239, 192]
+gray summary: original 8/8; changed 5/8; label flips 3
+head_mask summary: original 8/8; changed 8/8; label flips 0
+clothes_mask summary: original 7/7; changed 7/7; label flips 0
+Weapons-only OOD image: data/raw/명조_양양/0089.jpg => 명조_린네 59.3% (no unknown class)
+Existing changed image files unchanged: 31

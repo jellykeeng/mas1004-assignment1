@@ -11,6 +11,8 @@ downloads the ImageNet weights, about 45 MB.
 
 import torch
 import torch.nn as nn
+from torch.utils.data import DataLoader, TensorDataset
+from torchvision.models import ResNet18_Weights, resnet18
 
 
 def build_model(num_classes, pretrained=True, freeze=False):
@@ -35,7 +37,17 @@ def build_model(num_classes, pretrained=True, freeze=False):
     Do not put a softmax at the end. The loss function adds it for you, and the
     web page adds it for you.
     """
-    raise NotImplementedError("Problem 3: fill in build_model")
+    if num_classes < 1:
+        raise ValueError("num_classes must be at least 1")
+
+    weights = ResNet18_Weights.IMAGENET1K_V1 if pretrained else None
+    model = resnet18(weights=weights)
+    if freeze:
+        for parameter in model.parameters():
+            parameter.requires_grad = False
+    # Replacing the layer after freezing makes its new parameters trainable.
+    model.fc = nn.Linear(model.fc.in_features, num_classes)
+    return model
 
 
 def train(model, X_train, y_train, X_test, y_test,
@@ -60,8 +72,7 @@ def train(model, X_train, y_train, X_test, y_test,
                       the epoch, between 0.0 and 1.0
 
     What to do
-        Use a GPU when there is one:
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        Use CUDA when available, otherwise Apple's MPS GPU, otherwise CPU.
         Move the model there once, and each batch there as you use it. Keep
         X_train and X_test themselves in ordinary memory: they may not fit on
         the GPU.
@@ -78,7 +89,87 @@ def train(model, X_train, y_train, X_test, y_test,
     The model is trained in place. When this function returns, `model` is the
     trained one, and it is left on the device it was trained on.
     """
-    raise NotImplementedError("Problem 3: fill in train")
+    if epochs < 1 or batch_size < 1 or lr <= 0:
+        raise ValueError("epochs, batch_size, and lr must be positive")
+    if len(X_train) == 0 or len(X_test) == 0:
+        raise ValueError("Training and test sets must both contain rows")
+    if len(X_train) != len(y_train) or len(X_test) != len(y_test):
+        raise ValueError("Each input row must have one label")
+
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+    elif torch.backends.mps.is_available():
+        device = torch.device("mps")
+    else:
+        device = torch.device("cpu")
+    print(f"training device: {device}")
+    model.to(device)
+    trainable = [p for p in model.parameters() if p.requires_grad]
+    if not trainable:
+        raise ValueError("The model has no trainable parameters")
+    optimizer = torch.optim.Adam(trainable, lr=lr)
+    loss_function = nn.CrossEntropyLoss()
+
+    # The complete datasets stay on the CPU; only the current batch moves.
+    train_dataset = TensorDataset(
+        torch.as_tensor(X_train, dtype=torch.float32, device="cpu"),
+        torch.as_tensor(y_train, dtype=torch.long, device="cpu"),
+    )
+    test_dataset = TensorDataset(
+        torch.as_tensor(X_test, dtype=torch.float32, device="cpu"),
+        torch.as_tensor(y_test, dtype=torch.long, device="cpu"),
+    )
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+    history = {key: [] for key in
+               ("train_loss", "train_acc", "test_loss", "test_acc")}
+
+    # Frozen BatchNorm layers must also keep their running means and variances.
+    frozen_batchnorm = [
+        module for module in model.modules()
+        if isinstance(module, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d))
+        and not any(p.requires_grad for p in module.parameters())
+    ]
+
+    for epoch in range(epochs):
+        model.train()
+        for module in frozen_batchnorm:
+            module.eval()
+        train_loss = 0.0
+        train_correct = 0
+        for inputs, labels in train_loader:
+            inputs, labels = inputs.to(device), labels.to(device)
+            optimizer.zero_grad()
+            scores = model(inputs)
+            loss = loss_function(scores, labels)
+            loss.backward()
+            optimizer.step()
+            train_loss += loss.item() * len(labels)
+            train_correct += (scores.argmax(dim=1) == labels).sum().item()
+
+        model.eval()
+        test_loss = 0.0
+        test_correct = 0
+        with torch.no_grad():
+            for inputs, labels in test_loader:
+                inputs, labels = inputs.to(device), labels.to(device)
+                scores = model(inputs)
+                test_loss += loss_function(scores, labels).item() * len(labels)
+                test_correct += (scores.argmax(dim=1) == labels).sum().item()
+
+        history["train_loss"].append(train_loss / len(train_dataset))
+        history["train_acc"].append(train_correct / len(train_dataset))
+        history["test_loss"].append(test_loss / len(test_dataset))
+        history["test_acc"].append(test_correct / len(test_dataset))
+        print(
+            f"Epoch {epoch + 1}/{epochs}: "
+            f"train loss={history['train_loss'][-1]:.4f}, "
+            f"train acc={history['train_acc'][-1]:.4f}, "
+            f"test loss={history['test_loss'][-1]:.4f}, "
+            f"test acc={history['test_acc'][-1]:.4f}"
+        )
+
+    return history
 
 
 def count_trainable(model):

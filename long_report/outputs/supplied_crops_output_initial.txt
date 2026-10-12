@@ -1,0 +1,23 @@
+Student-provided crop comparison: existing ONNX model, CPU, no training
+Provided files are copied byte for byte; no extra crop, resize or image generation
+Only model inputs use the existing RGB/bilinear resize/centre-crop preprocessing
+model: docs/model.onnx; SHA256 2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0
+labels: 명조_린네, 명조_양양, 명조_에이메스, 명조_카멜리아
+Pending supplied files (not measured): 3
+
+lynae_IMG_0844: true 명조_린네
+source: data/new_images/명조_린네/IMG_0844.jpg; SHA256 ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247
+provided: /Users/seoyoung/Desktop/Screenshot 2026-10-10 at 23.00.54.png; SHA256 e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed
+original size (3024, 4032); provided size (932, 1010)
+before: 명조_린네 80.9%; true-label 80.9%; correct True
+  명조_린네 80.9%; 명조_양양 0.4%; 명조_에이메스 18.8%; 명조_카멜리아 0.0%
+after: 명조_린네 68.5%; true-label 68.5%; correct True
+  명조_린네 68.5%; 명조_양양 0.9%; 명조_에이메스 30.5%; 명조_카멜리아 0.0%
+Provided file bytes/pixels/embedded metadata unchanged: True
+224-pixel inputs match prepare_image: True
+
+before selected-case top-1 accuracy: 1/1 = 100.0%
+
+after selected-case top-1 accuracy: 1/1 = 100.0%
+Source/provided/config/metadata/model/helper SHA256 unchanged: True
+Saved results/supplied_crops.json

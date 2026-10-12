@@ -1,0 +1,10 @@
+expanded training images: 594 test images: 149 total: 743
+Train/test shared paths: 0
+Train/test shared exact image contents: 0
+Personal evaluation images: 24
+Training/downloaded-test content shared with personal evaluation: 0
+Clean exact pixel duplicate groups: 0
+Clean/personal evaluation exact pixel overlap: 0
+Previous raw/clean and all personal photos, short report and style unchanged: 989 files
+Identical existing image-change definitions: 23
+Existing original/changed image files preserved: 31

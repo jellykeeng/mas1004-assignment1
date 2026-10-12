@@ -1,0 +1,87 @@
+{
+  "counts": {
+    "명조_린네": {
+      "raw": 800,
+      "clean": 183,
+      "removed": 617
+    },
+    "명조_양양": {
+      "raw": 620,
+      "clean": 156,
+      "removed": 464
+    },
+    "명조_에이메스": {
+      "raw": 510,
+      "clean": 224,
+      "removed": 286
+    },
+    "명조_카멜리아": {
+      "raw": 390,
+      "clean": 180,
+      "removed": 210
+    }
+  },
+  "removal_reasons": {
+    "동일 원본·자세의 크기/압축/자막/UI 변형인 근접 중복": 809,
+    "다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음": 348,
+    "글·표·무기·UI 또는 무관한 대상이 주된 이미지": 21,
+    "대상 캐릭터가 주된 대상이 아니거나 여러 인물이 대등하게 등장": 239,
+    "심한 가림·크롭으로 대상 캐릭터를 식별하기 어려움": 8,
+    "글·표·UI·상품 설명이 주된 이미지": 93,
+    "심하게 가리거나 잘려 캐릭터를 식별하기 어려움": 59
+  },
+  "additional_classes": {
+    "명조_린네": {
+      "downloaded": 600,
+      "added": 129,
+      "removed": 471,
+      "reasons": {
+        "duplicate": 306,
+        "keep": 129,
+        "wrong_character": 61,
+        "ui": 33,
+        "not_main": 69,
+        "severe_crop": 2
+      }
+    },
+    "명조_양양": {
+      "downloaded": 470,
+      "added": 97,
+      "removed": 373,
+      "reasons": {
+        "keep": 97,
+        "not_main": 34,
+        "wrong_character": 122,
+        "duplicate": 161,
+        "ui": 44,
+        "severe_crop": 12
+      }
+    },
+    "명조_에이메스": {
+      "downloaded": 360,
+      "added": 134,
+      "removed": 226,
+      "reasons": {
+        "keep": 134,
+        "duplicate": 133,
+        "not_main": 47,
+        "severe_crop": 14,
+        "ui": 12,
+        "wrong_character": 20
+      }
+    },
+    "명조_카멜리아": {
+      "downloaded": 240,
+      "added": 72,
+      "removed": 168,
+      "reasons": {
+        "keep": 72,
+        "duplicate": 77,
+        "ui": 4,
+        "not_main": 14,
+        "severe_crop": 31,
+        "wrong_character": 42
+      }
+    }
+  }
+}

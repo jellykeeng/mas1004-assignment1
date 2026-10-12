@@ -1,0 +1,4 @@
+Reason metadata corrected: 명조_에이메스/0150.jpg => 다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음
+Reason metadata corrected: 명조_린네/0111.jpg => 다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음
+Reason metadata corrected: 명조_린네/0148.jpg => 다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음
+Image locations unchanged; correction rows: 3 log rows: 300

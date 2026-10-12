@@ -1,0 +1,1503 @@
+{
+  "runs": {
+    "run": {
+      "train_pct": "99.8%",
+      "test_pct": "78.3%",
+      "new_pct": "87.5%",
+      "new_correct": 21,
+      "gap": "21.5",
+      "matrix": [
+        [
+          19,
+          5,
+          3,
+          3
+        ],
+        [
+          3,
+          20,
+          4,
+          3
+        ],
+        [
+          2,
+          0,
+          27,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          28
+        ]
+      ],
+      "settings": {
+        "tag": "run",
+        "start": "ImageNet",
+        "trained": "all layers",
+        "epochs": 10,
+        "lr": 0.0001,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 600,
+        "n_parameters": 11178564,
+        "n_trainable": 11178564,
+        "train_accuracy": 0.9979,
+        "test_accuracy": 0.7833,
+        "minutes": 0.84,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0147.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0048.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0103.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0004.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0045.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0148.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0136.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0082.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0008.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0055.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0080.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0020.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0114.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0073.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0094.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0093.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0135.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0021.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0126.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0043.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0120.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0022.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0089.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0145.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0122.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0106.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0078.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0050.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0053.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0014.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0075.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0116.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0119.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0019.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0146.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0060.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0034.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0018.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0017.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0040.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0095.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0086.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0081.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0032.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0039.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0083.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0111.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0035.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0068.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0057.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0012.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0079.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0035.jpg"
+        ]
+      }
+    },
+    "scratch": {
+      "train_pct": "99.4%",
+      "test_pct": "51.7%",
+      "new_pct": "50.0%",
+      "new_correct": 12,
+      "gap": "47.7",
+      "matrix": [
+        [
+          16,
+          9,
+          1,
+          4
+        ],
+        [
+          8,
+          16,
+          3,
+          3
+        ],
+        [
+          7,
+          4,
+          17,
+          2
+        ],
+        [
+          6,
+          7,
+          4,
+          13
+        ]
+      ],
+      "settings": {
+        "tag": "scratch",
+        "start": "random",
+        "trained": "all layers",
+        "epochs": 10,
+        "lr": 0.0001,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 600,
+        "n_parameters": 11178564,
+        "n_trainable": 11178564,
+        "train_accuracy": 0.9938,
+        "test_accuracy": 0.5167,
+        "minutes": 0.81,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0147.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0048.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0103.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0004.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0045.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0148.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0136.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0082.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0008.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0055.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0080.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0020.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0114.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0073.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0094.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0093.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0135.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0021.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0126.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0043.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0120.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0022.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0089.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0145.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0122.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0106.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0078.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0050.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0053.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0014.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0075.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0116.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0119.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0019.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0146.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0060.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0034.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0018.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0017.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0040.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0095.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0086.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0081.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0032.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0039.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0083.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0111.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0035.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0068.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0057.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0012.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0079.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0035.jpg"
+        ]
+      }
+    },
+    "frozen": {
+      "train_pct": "89.2%",
+      "test_pct": "74.2%",
+      "new_pct": "62.5%",
+      "new_correct": 15,
+      "gap": "15.0",
+      "matrix": [
+        [
+          16,
+          8,
+          5,
+          1
+        ],
+        [
+          3,
+          25,
+          1,
+          1
+        ],
+        [
+          2,
+          4,
+          24,
+          0
+        ],
+        [
+          0,
+          4,
+          2,
+          24
+        ]
+      ],
+      "settings": {
+        "tag": "frozen",
+        "start": "ImageNet",
+        "trained": "last layer",
+        "epochs": 10,
+        "lr": 0.001,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 600,
+        "n_parameters": 11178564,
+        "n_trainable": 2052,
+        "train_accuracy": 0.8917,
+        "test_accuracy": 0.7417,
+        "minutes": 0.26,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0147.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0048.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0103.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0004.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0045.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0148.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0136.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0082.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0008.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0055.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0080.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0020.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0114.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0073.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0094.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0093.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0135.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0021.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0126.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0043.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0120.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0022.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0089.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0145.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0122.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0106.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0078.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0050.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0053.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0014.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0075.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0116.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0119.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0019.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0146.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0060.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0034.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0018.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0017.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0040.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0095.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0086.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0081.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0032.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0039.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0083.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0111.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0035.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0068.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0057.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0012.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0079.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0035.jpg"
+        ]
+      }
+    },
+    "lr3e4": {
+      "train_pct": "99.8%",
+      "test_pct": "80.8%",
+      "new_pct": "91.7%",
+      "new_correct": 22,
+      "gap": "19.0",
+      "matrix": [
+        [
+          25,
+          5,
+          0,
+          0
+        ],
+        [
+          2,
+          24,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          25,
+          1
+        ],
+        [
+          1,
+          6,
+          0,
+          23
+        ]
+      ],
+      "settings": {
+        "tag": "lr3e4",
+        "start": "ImageNet",
+        "trained": "all layers",
+        "epochs": 10,
+        "lr": 0.0003,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 600,
+        "n_parameters": 11178564,
+        "n_trainable": 11178564,
+        "train_accuracy": 0.9979,
+        "test_accuracy": 0.8083,
+        "minutes": 0.8,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0147.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0048.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0103.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0004.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0045.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0148.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0136.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0082.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0008.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0055.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0080.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0020.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0114.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0073.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0094.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0093.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0135.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0021.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0126.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0043.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0120.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0099.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0022.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0089.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0109.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0145.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0122.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0106.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0078.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0050.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0053.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0014.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0075.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0116.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0119.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0019.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0146.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0060.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0034.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0018.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0017.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0088.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0040.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0095.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0086.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0081.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0032.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0039.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0015.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0083.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0142.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0111.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0035.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0139.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0068.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0057.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0006.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0149.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0121.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0012.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0117.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0023.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0042.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0079.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0100.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0035.jpg"
+        ]
+      }
+    },
+    "clean": {
+      "train_pct": "100.0%",
+      "test_pct": "88.5%",
+      "new_pct": "75.0%",
+      "new_correct": 18,
+      "gap": "11.5",
+      "matrix": [
+        [
+          8,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          11,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          17,
+          0
+        ],
+        [
+          0,
+          3,
+          1,
+          18
+        ]
+      ],
+      "settings": {
+        "tag": "clean",
+        "start": "ImageNet",
+        "trained": "all layers",
+        "epochs": 10,
+        "lr": 0.0001,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 300,
+        "n_parameters": 11178564,
+        "n_trainable": 11178564,
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.8852,
+        "minutes": 0.46,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0007.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0135.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0068.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0127.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0066.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0016.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0076.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0030.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0037.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0038.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0007.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0036.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0133.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0048.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0110.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0026.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0018.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0120.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0132.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0045.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0096.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0144.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0030.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0108.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0132.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0044.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0029.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0012.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0050.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0110.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0131.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0101.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0089.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0103.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0098.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0112.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0013.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0009.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0130.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0041.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0107.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0082.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0134.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0111.jpg"
+        ]
+      }
+    },
+    "final": {
+      "train_pct": "100.0%",
+      "test_pct": "93.7%",
+      "new_pct": "79.2%",
+      "new_correct": 19,
+      "gap": "6.3",
+      "matrix": [
+        [
+          10,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          17,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          21
+        ]
+      ],
+      "settings": {
+        "tag": "final",
+        "start": "ImageNet",
+        "trained": "all layers",
+        "epochs": 10,
+        "lr": 0.0001,
+        "batch_size": 8,
+        "seed": 0,
+        "class_names": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "n_images": 311,
+        "n_parameters": 11178564,
+        "n_trainable": 11178564,
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.9365,
+        "minutes": 0.43,
+        "test_paths": [
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0052.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0080.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0096.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0002.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0104.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0061.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0027.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0009.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0053.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0066.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0141.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0049.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0021.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0108.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0026.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0062.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0087.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0161.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0005.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0112.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0113.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0033.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0007.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0065.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0011.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0087.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0074.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0063.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0025.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0129.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0064.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0073.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0072.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0049.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0024.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0095.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0138.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0069.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0046.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0096.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0124.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0051.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0086.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0003.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0005.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0036.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0054.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0137.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0049.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0001.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0075.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0014.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0092.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_양양/0123.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0081.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0108.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0118.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_린네/0022.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_에이메스/0084.jpg",
+          "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean/명조_카멜리아/0028.jpg"
+        ]
+      }
+    }
+  },
+  "names": [
+    "명조_린네",
+    "명조_양양",
+    "명조_에이메스",
+    "명조_카멜리아"
+  ],
+  "first20": {
+    "명조_린네": 19,
+    "명조_양양": 18,
+    "명조_에이메스": 6,
+    "명조_카멜리아": 9
+  },
+  "copy_pairs": 48,
+  "pair_retained": 0,
+  "removed_outside_top20": 248,
+  "new_mistakes": [
+    {
+      "path": "data/new_images/명조_카멜리아/IMG_2554.jpg",
+      "true": 3,
+      "predicted": 2,
+      "confidence": 0.8963739275932312,
+      "true_label": "명조_카멜리아",
+      "predicted_label": "명조_에이메스",
+      "confidence_pct": "89.6%"
+    },
+    {
+      "path": "data/new_images/명조_린네/IMG_0845.jpg",
+      "true": 0,
+      "predicted": 1,
+      "confidence": 0.7749363780021667,
+      "true_label": "명조_린네",
+      "predicted_label": "명조_양양",
+      "confidence_pct": "77.5%"
+    },
+    {
+      "path": "data/new_images/명조_린네/IMG_0844.jpg",
+      "true": 0,
+      "predicted": 2,
+      "confidence": 0.6825105547904968,
+      "true_label": "명조_린네",
+      "predicted_label": "명조_에이메스",
+      "confidence_pct": "68.3%"
+    },
+    {
+      "path": "data/new_images/명조_린네/IMG_0860.jpg",
+      "true": 0,
+      "predicted": 2,
+      "confidence": 0.5875579714775085,
+      "true_label": "명조_린네",
+      "predicted_label": "명조_에이메스",
+      "confidence_pct": "58.8%"
+    },
+    {
+      "path": "data/new_images/명조_린네/IMG_0871.jpg",
+      "true": 0,
+      "predicted": 2,
+      "confidence": 0.5583572387695312,
+      "true_label": "명조_린네",
+      "predicted_label": "명조_에이메스",
+      "confidence_pct": "55.8%"
+    }
+  ],
+  "ood": {
+    "predicted": 1,
+    "label": "명조_양양",
+    "confidence": 0.8771966695785522
+  },
+  "ablations": [
+    {
+      "kind": "gray",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1390.JPG",
+      "original": "data/changed/original/양양_IMG_1390.png",
+      "changed": "data/changed/gray/양양_IMG_1390.png",
+      "box": null,
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9974452257156372
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9857649207115173
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1390.JPG",
+      "original": "data/changed/original/양양_IMG_1390.png",
+      "changed": "data/changed/head_mask/양양_IMG_1390.png",
+      "box": [
+        107,
+        20,
+        208,
+        110
+      ],
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9974452257156372
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9016048312187195
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1390.JPG",
+      "original": "data/changed/original/양양_IMG_1390.png",
+      "changed": "data/changed/clothes_mask/양양_IMG_1390.png",
+      "box": [
+        89,
+        135,
+        197,
+        239
+      ],
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9974452257156372
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9967721104621887
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1392.JPG",
+      "original": "data/changed/original/양양_IMG_1392.png",
+      "changed": "data/changed/gray/양양_IMG_1392.png",
+      "box": null,
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9990816116333008
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9991670846939087
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1392.JPG",
+      "original": "data/changed/original/양양_IMG_1392.png",
+      "changed": "data/changed/head_mask/양양_IMG_1392.png",
+      "box": [
+        42,
+        22,
+        130,
+        93
+      ],
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9990816116333008
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.997896671295166
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_양양",
+      "source": "data/new_images/명조_양양/IMG_1392.JPG",
+      "original": "data/changed/original/양양_IMG_1392.png",
+      "changed": "data/changed/clothes_mask/양양_IMG_1392.png",
+      "box": [
+        62,
+        133,
+        152,
+        239
+      ],
+      "baseline": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9990816116333008
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.9991458654403687
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_0584.jpg",
+      "original": "data/changed/original/카멜리아_IMG_0584.png",
+      "changed": "data/changed/gray/카멜리아_IMG_0584.png",
+      "box": null,
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9986781477928162
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.5786569714546204
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_0584.jpg",
+      "original": "data/changed/original/카멜리아_IMG_0584.png",
+      "changed": "data/changed/head_mask/카멜리아_IMG_0584.png",
+      "box": [
+        45,
+        16,
+        196,
+        118
+      ],
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9986781477928162
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9994446635246277
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_0584.jpg",
+      "original": "data/changed/original/카멜리아_IMG_0584.png",
+      "changed": "data/changed/clothes_mask/카멜리아_IMG_0584.png",
+      "box": [
+        67,
+        127,
+        182,
+        238
+      ],
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9986781477928162
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.999437153339386
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_2555.jpg",
+      "original": "data/changed/original/카멜리아_IMG_2555.png",
+      "changed": "data/changed/gray/카멜리아_IMG_2555.png",
+      "box": null,
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9891384243965149
+      },
+      "answer": {
+        "predicted": 1,
+        "label": "명조_양양",
+        "confidence": 0.5151015520095825
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_2555.jpg",
+      "original": "data/changed/original/카멜리아_IMG_2555.png",
+      "changed": "data/changed/head_mask/카멜리아_IMG_2555.png",
+      "box": [
+        16,
+        16,
+        230,
+        140
+      ],
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9891384243965149
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.993622362613678
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_카멜리아",
+      "source": "data/new_images/명조_카멜리아/IMG_2555.jpg",
+      "original": "data/changed/original/카멜리아_IMG_2555.png",
+      "changed": "data/changed/clothes_mask/카멜리아_IMG_2555.png",
+      "box": [
+        17,
+        145,
+        239,
+        239
+      ],
+      "baseline": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9891384243965149
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.9973984956741333
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_1417.JPG",
+      "original": "data/changed/original/린네_IMG_1417.png",
+      "changed": "data/changed/gray/린네_IMG_1417.png",
+      "box": null,
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.6529061198234558
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.8991632461547852
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_1417.JPG",
+      "original": "data/changed/original/린네_IMG_1417.png",
+      "changed": "data/changed/head_mask/린네_IMG_1417.png",
+      "box": [
+        95,
+        25,
+        171,
+        89
+      ],
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.6529061198234558
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.4036017954349518
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_1417.JPG",
+      "original": "data/changed/original/린네_IMG_1417.png",
+      "changed": "data/changed/clothes_mask/린네_IMG_1417.png",
+      "box": [
+        85,
+        120,
+        174,
+        230
+      ],
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.6529061198234558
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.5691868662834167
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_0850.jpg",
+      "original": "data/changed/original/린네_IMG_0850.png",
+      "changed": "data/changed/gray/린네_IMG_0850.png",
+      "box": null,
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.5916107296943665
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.7846576571464539
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_0850.jpg",
+      "original": "data/changed/original/린네_IMG_0850.png",
+      "changed": "data/changed/head_mask/린네_IMG_0850.png",
+      "box": [
+        80,
+        56,
+        193,
+        150
+      ],
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.5916107296943665
+      },
+      "answer": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.6057958006858826
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_0850.jpg",
+      "original": "data/changed/original/린네_IMG_0850.png",
+      "changed": "data/changed/clothes_mask/린네_IMG_0850.png",
+      "box": [
+        90,
+        148,
+        189,
+        239
+      ],
+      "baseline": {
+        "predicted": 0,
+        "label": "명조_린네",
+        "confidence": 0.5916107296943665
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.6967833042144775
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0215.PNG",
+      "original": "data/changed/original/에이메스_IMG_0215.png",
+      "changed": "data/changed/gray/에이메스_IMG_0215.png",
+      "box": null,
+      "baseline": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.999169111251831
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.6409409046173096
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0215.PNG",
+      "original": "data/changed/original/에이메스_IMG_0215.png",
+      "changed": "data/changed/head_mask/에이메스_IMG_0215.png",
+      "box": [
+        98,
+        16,
+        212,
+        115
+      ],
+      "baseline": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.999169111251831
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.8410902619361877
+      }
+    },
+    {
+      "kind": "clothes_mask",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0215.PNG",
+      "original": "data/changed/original/에이메스_IMG_0215.png",
+      "changed": "data/changed/clothes_mask/에이메스_IMG_0215.png",
+      "box": [
+        56,
+        133,
+        213,
+        239
+      ],
+      "baseline": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.999169111251831
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.9998136162757874
+      }
+    },
+    {
+      "kind": "gray",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0553.jpg",
+      "original": "data/changed/original/에이메스_IMG_0553.png",
+      "changed": "data/changed/gray/에이메스_IMG_0553.png",
+      "box": null,
+      "baseline": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.9831328988075256
+      },
+      "answer": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.7451555728912354
+      }
+    },
+    {
+      "kind": "head_mask",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0553.jpg",
+      "original": "data/changed/original/에이메스_IMG_0553.png",
+      "changed": "data/changed/head_mask/에이메스_IMG_0553.png",
+      "box": [
+        16,
+        16,
+        239,
+        192
+      ],
+      "baseline": {
+        "predicted": 2,
+        "label": "명조_에이메스",
+        "confidence": 0.9831328988075256
+      },
+      "answer": {
+        "predicted": 3,
+        "label": "명조_카멜리아",
+        "confidence": 0.5208548307418823
+      }
+    }
+  ],
+  "final_tag": "final"
+}

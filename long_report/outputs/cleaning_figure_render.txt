@@ -1,0 +1,14 @@
+Cleaning sheet rendering from saved CSV; no scoring or training rerun.
+Font: /System/Library/Fonts/Supplemental/AppleGothic.ttf
+Display labels: NFC normalization only.
+Probabilities and similarities: exact four-decimal strings from saved CSV.
+Saved CSV rows: 648
+Saved labelled images: 600
+Saved near-copy pairs: 48
+Rendered class: 명조_린네, saved ranks 1-32, 32 images
+Rendered class: 명조_양양, saved ranks 1-32, 32 images
+Rendered class: 명조_에이메스, saved ranks 1-32, 32 images
+Rendered class: 명조_카멜리아, saved ranks 1-32, 32 images
+Rendered near-copy pairs: first 24 saved pairs, 48 images
+Saved CSV SHA256 unchanged: 78daaf520963f6f9d985c63d735f5527b0c8156c2d27a27af69183161f8418cb
+Data, saved CSV, feature arrays, source and model weights were not modified.

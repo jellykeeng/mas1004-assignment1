@@ -1,0 +1,51 @@
+/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/.venv/lib/python3.12/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+  duckduckgo stopped at page 1: No results found.
+"Yangyang Wuthering Waves fanart": search returned 283 links, downloading...
+"Yangyang Wuthering Waves fanart": kept 90 images in /private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_fanart
+  duckduckgo stopped at page 1: No results found.
+"鸣潮 秧秧 同人 插画": search returned 271 links, downloading...
+"鸣潮 秧秧 同人 插画": kept 90 images in /private/tmp/mas1004-extra-yangyang/鸣潮_秧秧_同人_插画
+"鳴潮 ヤンヤン イラスト": search returned 265 links, downloading...
+"鳴潮 ヤンヤン イラスト": kept 80 images in /private/tmp/mas1004-extra-yangyang/鳴潮_ヤンヤン_イラスト
+  duckduckgo stopped at page 1: No results found.
+"명조 양양 일러스트": search returned 249 links, downloading...
+"명조 양양 일러스트": kept 80 images in /private/tmp/mas1004-extra-yangyang/명조_양양_일러스트
+  duckduckgo stopped at page 1: No results found.
+"Yangyang Wuthering Waves screenshot": search returned 258 links, downloading...
+"Yangyang Wuthering Waves screenshot": kept 80 images in /private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_screenshot
+  duckduckgo stopped at page 1: No results found.
+"Yangyang Wuthering Waves chibi": search returned 174 links, downloading...
+"Yangyang Wuthering Waves chibi": kept 50 images in /private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_chibi
+[
+  {
+    "query": "Yangyang Wuthering Waves fanart",
+    "count": 90,
+    "folder": "/private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_fanart"
+  },
+  {
+    "query": "鸣潮 秧秧 同人 插画",
+    "count": 90,
+    "folder": "/private/tmp/mas1004-extra-yangyang/鸣潮_秧秧_同人_插画"
+  },
+  {
+    "query": "鳴潮 ヤンヤン イラスト",
+    "count": 80,
+    "folder": "/private/tmp/mas1004-extra-yangyang/鳴潮_ヤンヤン_イラスト"
+  },
+  {
+    "query": "명조 양양 일러스트",
+    "count": 80,
+    "folder": "/private/tmp/mas1004-extra-yangyang/명조_양양_일러스트"
+  },
+  {
+    "query": "Yangyang Wuthering Waves screenshot",
+    "count": 80,
+    "folder": "/private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_screenshot"
+  },
+  {
+    "query": "Yangyang Wuthering Waves chibi",
+    "count": 50,
+    "folder": "/private/tmp/mas1004-extra-yangyang/yangyang_wuthering_waves_chibi"
+  }
+]

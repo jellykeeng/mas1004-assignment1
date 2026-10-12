@@ -1,0 +1,3764 @@
+{
+  "명조_카멜리아/0001.jpg": {
+    "keep": true,
+    "observation": "캐릭터 소개 세로 포스터; 은발·붉은 땋은 머리와 흰 의상.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0002.jpg": {
+    "keep": true,
+    "observation": "꽃·후드 장식의 팬 일러스트; 카멜리아 중심.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0003.jpg": {
+    "keep": false,
+    "observation": "붉은 머리 변신 상태의 획득 화면.",
+    "reason": "0030과 같은 원본 획득 장면의 축소·UI 변형; 더 선명한 0030 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0004.jpg": {
+    "keep": true,
+    "observation": "얼굴이 큰 원형 초상과 하단 재료 정보 포스터.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0005.jpg": {
+    "keep": true,
+    "observation": "밝은 역광의 은발 장발 인게임 얼굴·상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0006.jpg": {
+    "keep": true,
+    "observation": "양팔을 올리고 검 앞에 있는 얼굴·상반신 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0010.jpg",
+      "명조_카멜리아/0032.jpg",
+      "명조_카멜리아/0054.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0007.jpg": {
+    "keep": true,
+    "observation": "은발·검은 상의의 팬 일러스트; 꽃 장식과 붉은 리본.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0008.jpg": {
+    "keep": true,
+    "observation": "푸른 조명의 인게임 얼굴 클로즈업.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0009.jpg": {
+    "keep": false,
+    "observation": "별 장식의 공명 체인 메뉴; 카멜리아 상반신 중심.",
+    "reason": "동일 자세·장면의 가까운 복사본; 0142.jpg 유지",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0017.jpg",
+      "명조_카멜리아/0137.jpg",
+      "명조_카멜리아/0142.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단.",
+    "duplicate_of": "명조_카멜리아/0142.jpg"
+  },
+  "명조_카멜리아/0010.jpg": {
+    "keep": false,
+    "observation": "양팔·검 장면의 다른 얼굴 구도.",
+    "reason": "동일 자세·장면의 가까운 복사본; 0032.jpg 유지",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0006.jpg",
+      "명조_카멜리아/0032.jpg",
+      "명조_카멜리아/0054.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단.",
+    "duplicate_of": "명조_카멜리아/0032.jpg"
+  },
+  "명조_카멜리아/0011.jpg": {
+    "keep": true,
+    "observation": "옆·뒤에서 본 카멜리아 게임 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0012.jpg": {
+    "keep": true,
+    "observation": "카멜리아 공개 안내 썸네일; 얼굴·몸이 크게 보임.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0013.jpg": {
+    "keep": true,
+    "observation": "붉은 꽃·뿌리와 함께 나타나는 변신 상태 카멜리아.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0014.jpg": {
+    "keep": true,
+    "observation": "카멜리아 가이드 썸네일; 변신 모습 게임 화면.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0015.jpg": {
+    "keep": true,
+    "observation": "캐릭터 소개 썸네일; 흰 의상의 얼굴·몸 중심.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0016.jpg": {
+    "keep": true,
+    "observation": "카멜리아 캐릭터 메뉴와 정보.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0017.jpg": {
+    "keep": true,
+    "observation": "공명 체인 상세 메뉴; 카멜리아 얼굴·상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0009.jpg",
+      "명조_카멜리아/0137.jpg",
+      "명조_카멜리아/0142.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0018.jpg": {
+    "keep": true,
+    "observation": "검은 배경의 카멜리아 얼굴과 명조 로고.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0019.jpg": {
+    "keep": false,
+    "observation": "팬 일러스트가 눈과 머리까지만 잘려 아래 얼굴·신체가 없음.",
+    "reason": "얼굴 아래쪽과 몸이 크게 잘려 대상 식별에 필요한 내용이 부족함.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0020.jpg": {
+    "keep": false,
+    "observation": "캐릭터 정보 표와 오른쪽의 공식 일러스트.",
+    "reason": "캐릭터 정보 표·설명이 주된 이미지이며 대상은 오른쪽의 작은 삽입 일러스트.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0021.jpg": {
+    "keep": true,
+    "observation": "역광의 장발 카멜리아 얼굴 클로즈업; 하단 대사 자막.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0022.jpg": {
+    "keep": false,
+    "observation": "공식 캐릭터 소개 사각 포스터.",
+    "reason": "0042와 같은 공식 소개 포스터 축소본; 더 선명한 0042 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0023.jpg": {
+    "keep": true,
+    "observation": "원형 초상 위주의 카멜리아 소개 이미지.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0024.jpg": {
+    "keep": true,
+    "observation": "역광의 장발 카멜리아 정면 얼굴·상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0108.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0025.jpg": {
+    "keep": true,
+    "observation": "무기 메뉴의 카멜리아 전신과 붉은 땋은 머리.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0026.jpg": {
+    "keep": true,
+    "observation": "검은 상의 형태의 카멜리아 공명 체인 메뉴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0027.jpg": {
+    "keep": true,
+    "observation": "캐릭터 목록 메뉴의 카멜리아 전신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0036.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0028.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아 성능 후기 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0029.jpg": {
+    "keep": true,
+    "observation": "왼쪽 방랑자와 오른쪽 카멜리아가 마주 보는 게임 컷; 카멜리아 전신 식별.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0030.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아 획득 장면; 고해상도.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0031.jpg": {
+    "keep": true,
+    "observation": "검 앞에서 웃는 카멜리아 얼굴 클로즈업; 배경·구도가 다른 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0032.jpg": {
+    "keep": true,
+    "observation": "양팔·검 장면의 카멜리아 상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0006.jpg",
+      "명조_카멜리아/0010.jpg",
+      "명조_카멜리아/0054.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0033.jpg": {
+    "keep": false,
+    "observation": "공식 일러스트 소개 포스터에 큰 추가 글이 덮인 썸네일.",
+    "reason": "0042와 같은 원본 소개 그림에 큰 글이 덧씌워진 변형; 글이 덜 가리는 0042 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0034.jpg": {
+    "keep": false,
+    "observation": "공식 일러스트 포스터에 파티·콤보 글이 덮인 썸네일.",
+    "reason": "0042와 같은 원본 소개 그림·포스터에 큰 글이 덧씌워진 변형; 0042 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0035.jpg": {
+    "keep": true,
+    "observation": "대기 동작을 보여주는 카멜리아 전신 포스터.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0036.jpg": {
+    "keep": true,
+    "observation": "속성 상세정보 메뉴의 카멜리아 전신; 고해상도.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0027.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0037.jpg": {
+    "keep": true,
+    "observation": "밝은 역광의 장발 카멜리아 얼굴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0038.jpg": {
+    "keep": true,
+    "observation": "명조 로고와 카멜리아의 큰 얼굴·상반신 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0039.jpg": {
+    "keep": false,
+    "observation": "네 캐릭터 파티 조합 설명; 대상 하나가 주된 이미지가 아님.",
+    "reason": "여러 캐릭터 파티 조합 표로 특정 대상 캐릭터가 주된 이미지가 아님.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0040.jpg": {
+    "keep": true,
+    "observation": "어두운 조명의 카멜리아 얼굴 클로즈업.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0041.jpg": {
+    "keep": true,
+    "observation": "카멜리아 SD 캐릭터가 크게 보이며 작은 방랑자가 앞에 있는 팬 그림.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0042.jpg": {
+    "keep": true,
+    "observation": "공식 캐릭터 소개 포스터; 0022보다 큰 해상도.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0043.jpg": {
+    "keep": true,
+    "observation": "붉은 꽃 배경의 카멜리아 얼굴 클로즈업.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0044.jpg": {
+    "keep": true,
+    "observation": "카멜리아 일러스트 중심의 라이브 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0045.jpg": {
+    "keep": true,
+    "observation": "카멜리아의 큰 얼굴과 공략 글 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0046.jpg": {
+    "keep": true,
+    "observation": "풀 배경에서 대사가 붙은 카멜리아 얼굴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0047.jpg": {
+    "keep": true,
+    "observation": "꽃 뿌리 위의 카멜리아 전신 게임 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0048.jpg": {
+    "keep": false,
+    "observation": "카멜리아·로코코·파수인 3인의 같은 크기 초상 목록.",
+    "reason": "세 캐릭터가 같은 크기로 나열되어 카멜리아가 주된 이미지가 아님.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0049.jpg": {
+    "keep": true,
+    "observation": "공식 일러스트와 얼굴 컷으로 구성한 카멜리아 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0050.jpg": {
+    "keep": true,
+    "observation": "카멜리아 중심 전신 게임 컷; 주변에 같은 캐릭터 환영들이 보임.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0051.jpg": {
+    "keep": true,
+    "observation": "카멜리아 SD 그림이 중심인 분홍색 포스터.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0052.jpg": {
+    "keep": true,
+    "observation": "왼쪽 카멜리아와 오른쪽 방랑자가 함께 있는 게임 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0053.jpg": {
+    "keep": false,
+    "observation": "세로 스킬 설명 카드; 작은 뒤 모습 게임 화면과 큰 빈칸·설명.",
+    "reason": "스킬 설명·인터페이스가 주된 이미지이며 캐릭터는 작은 뒤 모습만 보임.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0054.jpg": {
+    "keep": false,
+    "observation": "양팔·검 장면의 카멜리아 상반신.",
+    "reason": "동일 자세·장면의 가까운 복사본; 0032.jpg 유지",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0006.jpg",
+      "명조_카멜리아/0010.jpg",
+      "명조_카멜리아/0032.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단.",
+    "duplicate_of": "명조_카멜리아/0032.jpg"
+  },
+  "명조_카멜리아/0055.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아 피규어가 크게 보이는 홍보 포스터.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0056.jpg": {
+    "keep": false,
+    "observation": "0036과 같은 속성 상세정보 화면의 축소본.",
+    "reason": "0036과 같은 속성 화면의 축소본; 더 선명한 0036 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0057.jpg": {
+    "keep": true,
+    "observation": "공명 해방 소개 카드; 카멜리아 뒤 모습 전신이 게임 화면 중앙에 보임.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0058.jpg": {
+    "keep": false,
+    "observation": "검은 단발 방랑자의 메뉴 화면.",
+    "reason": "다른 캐릭터인 검은 단발 방랑자가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0059.jpg": {
+    "keep": false,
+    "observation": "여러 캐릭터를 나열한 티어 표; 카멜리아는 작은 한 칸.",
+    "reason": "여러 캐릭터 티어 표이며 카멜리아가 아주 작은 한 칸으로만 표시됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0060.jpg": {
+    "keep": false,
+    "observation": "카멜리아와 남성 방랑자가 등을 맞댄 게임 컷에 큰 로고가 덮임.",
+    "reason": "0086과 같은 카멜리아·남성 방랑자 원본 장면에 큰 로고가 덧씌워진 변형; 0086 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0061.jpg": {
+    "keep": true,
+    "observation": "들판의 카멜리아 전신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0062.jpg": {
+    "keep": true,
+    "observation": "앞모습이 크게 보이는 카멜리아 인형 탈 행사 사진.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0063.jpg": {
+    "keep": true,
+    "observation": "카멜리아 SD 캐릭터와 같은 디자인의 인형 탈을 그린 팬 그림.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0064.jpg": {
+    "keep": true,
+    "observation": "왼쪽 사람과 오른쪽 카멜리아 얼굴을 합친 영상 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0065.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴이 크게 보이고 방랑자의 뒤통수가 왼쪽에 있는 게임 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0066.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴과 명조 로고·분석 글 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0067.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴과 검붉은 꽃 장식·브금 글 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0068.jpg": {
+    "keep": false,
+    "observation": "세로 반주 스킬 카드; 작은 뒤 모습과 설명·빈칸.",
+    "reason": "스킬 설명·인터페이스가 주된 이미지이며 캐릭터는 작은 뒤 모습만 보임.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0069.jpg": {
+    "keep": true,
+    "observation": "거꾸로 매달린 변신 카멜리아와 붉은 달 게임 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0070.jpg": {
+    "keep": true,
+    "observation": "변신 모습과 공식 일러스트를 합친 카멜리아 PV 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0071.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴과 적의 모습을 합친 솔플 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0072.jpg": {
+    "keep": true,
+    "observation": "카멜리아와 방랑자가 함께 보이는 게임 컷에 업적 안내 글.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0073.jpg": {
+    "keep": false,
+    "observation": "여섯 칸 여러 캐릭터의 얼굴·몸 콜라주.",
+    "reason": "여러 다른 캐릭터의 콜라주로 카멜리아가 주된 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0074.jpg": {
+    "keep": true,
+    "observation": "OST 글과 카멜리아의 큰 얼굴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0075.jpg": {
+    "keep": false,
+    "observation": "0034의 같은 공식 일러스트·글 포스터 축소본.",
+    "reason": "0034/0042와 같은 공식 소개 그림과 글의 축소본; 0042 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0076.jpg": {
+    "keep": true,
+    "observation": "후드를 쓴 장발 카멜리아의 측면 얼굴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0077.jpg": {
+    "keep": true,
+    "observation": "검붉은 꽃 장식을 든 카멜리아 얼굴과 상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0078.jpg": {
+    "keep": true,
+    "observation": "붉은 꽃 뿌리 위 카멜리아의 전신을 담은 소개 카드.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0079.jpg": {
+    "keep": true,
+    "observation": "행사장의 카멜리아 인형 탈을 뒤·옆에서 촬영한 사진.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0080.jpg": {
+    "keep": true,
+    "observation": "카멜리아와 여성 방랑자가 등을 맞댄 게임 컷; 0060의 남성 방랑자와 다름.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0081.jpg": {
+    "keep": false,
+    "observation": "능양이라고 적힌 획득 화면; 은발 남성·짐승 귀.",
+    "reason": "화면의 이름이 능양이며 다른 캐릭터가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0082.jpg": {
+    "keep": false,
+    "observation": "은발 장발·녹색 눈·보라색 복장과 큰 검을 든 팬 일러스트.",
+    "reason": "대상 캐릭터를 식별할 수 없는 다른 의상·눈 색의 일러스트; 불확실하여 제외",
+    "uncertain": true,
+    "uncertainty_note": "팬 일러스트의 정확한 캐릭터를 확신할 수 없음. 흰 장발·녹색 눈·보라 복장·검의 디자인을 root가 확인할 것."
+  },
+  "명조_카멜리아/0083.jpg": {
+    "keep": true,
+    "observation": "풀밭에 함께 앉은 카멜리아와 방랑자; 카멜리아 몸과 얼굴 식별.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0084.jpg": {
+    "keep": true,
+    "observation": "전투 화면 오른쪽에 큰 카멜리아 팬 일러스트가 있는 솔플 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0085.jpg": {
+    "keep": false,
+    "observation": "갈색 머리·큰 쥐 귀·분홍 재킷의 다른 캐릭터.",
+    "reason": "쥐 귀·갈색 머리·분홍 재킷의 다른 캐릭터가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0086.jpg": {
+    "keep": true,
+    "observation": "카멜리아와 남성 방랑자가 등을 맞댄 장면; 큰 로고가 얼굴을 덮지 않음.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0087.jpg": {
+    "keep": true,
+    "observation": "카멜리아 두 얼굴을 나란히 비교하는 모델 이미지.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0088.jpg": {
+    "keep": true,
+    "observation": "행사장의 카멜리아 인형 탈 전신 정면 사진.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0089.jpg": {
+    "keep": true,
+    "observation": "게임 화면 중앙의 카멜리아 상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0090.jpg": {
+    "keep": false,
+    "observation": "매우 긴 세로 공명자 정보 카드; 대부분 설명 글과 다른 소품 정보.",
+    "reason": "매우 긴 설명 카드 대부분이 글·소품 정보이며 대상 얼굴은 위쪽의 작은 일부뿐임.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0091.jpg": {
+    "keep": true,
+    "observation": "카멜리아 큰 얼굴과 공략 글 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0092.jpg": {
+    "keep": true,
+    "observation": "붉은 포스터 배경의 카멜리아 대기 동작 전신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0093.jpg": {
+    "keep": false,
+    "observation": "0063과 동일한 SD 캐릭터·인형 탈 팬 그림.",
+    "reason": "0063과 동일한 SD 캐릭터·인형 탈 그림의 압축 변형; 0063 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0094.jpg": {
+    "keep": true,
+    "observation": "카멜리아 인형 탈이 중심인 게임 배경 합성 이미지.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0095.jpg": {
+    "keep": true,
+    "observation": "왼쪽 사람과 오른쪽 카멜리아 전신을 합친 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0096.jpg": {
+    "keep": true,
+    "observation": "카멜리아 공식 일러스트와 SD 그림의 콜라주.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0097.jpg": {
+    "keep": true,
+    "observation": "캐릭터 포지션 안내 글과 카멜리아 전투 장면.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0098.jpg": {
+    "keep": false,
+    "observation": "재료 아이콘 표와 왼쪽의 카멜리아 공식 일러스트.",
+    "reason": "재료 아이콘 표가 주된 이미지이며 캐릭터는 왼쪽의 삽입 일러스트.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0099.jpg": {
+    "keep": true,
+    "observation": "붉은 꽃과 뿌리가 펼쳐진 카멜리아 중심의 팬 일러스트.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0100.jpg": {
+    "keep": true,
+    "observation": "방랑자의 등이 일부 가리지만 카멜리아 얼굴·상반신 식별 가능한 액션 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0101.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴·손 클로즈업.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0102.jpg": {
+    "keep": false,
+    "observation": "전투 효과와 데미지 숫자가 주된 장면; 얼굴이 가려지고 몸 식별이 어려움.",
+    "reason": "강한 전투 효과에 얼굴과 신체가 가려져 대상 캐릭터를 명확히 식별하기 어려움.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0103.jpg": {
+    "keep": true,
+    "observation": "행사장의 카멜리아 인형 탈 전신 정면 사진.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0104.jpg": {
+    "keep": true,
+    "observation": "카멜리아의 큰 눈·얼굴 클로즈업.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0105.jpg": {
+    "keep": true,
+    "observation": "카멜리아 SD 그림이 중심인 분홍색 굿즈 이미지.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0106.jpg": {
+    "keep": false,
+    "observation": "소개 설명 글과 오른쪽 카멜리아 공식 일러스트의 정보 슬라이드.",
+    "reason": "캐릭터 소개 글이 주된 이미지이며 대상은 오른쪽의 삽입 일러스트.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0107.jpg": {
+    "keep": true,
+    "observation": "인형 탈 모습의 카멜리아 SD 캐릭터 셋이 중심인 팬 그림.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0108.jpg": {
+    "keep": true,
+    "observation": "역광의 장발 카멜리아 얼굴·상반신에 게임 대사와 UI.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0024.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0109.jpg": {
+    "keep": true,
+    "observation": "가운데 카멜리아 인형 탈과 양옆 다른 캐릭터를 합친 이미지; 인형 탈이 큼.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0110.jpg": {
+    "keep": true,
+    "observation": "앞에 있는 카멜리아 상반신과 오른쪽 방랑자 뒷모습의 게임 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0111.jpg": {
+    "keep": false,
+    "observation": "능양이라고 적힌 획득 화면; 0081과 같은 다른 캐릭터.",
+    "reason": "화면의 이름이 능양이며 다른 캐릭터가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0112.jpg": {
+    "keep": true,
+    "observation": "눈을 감고 웃는 카멜리아 얼굴.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0113.jpg": {
+    "keep": true,
+    "observation": "손에 꽃을 든 카멜리아 상반신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0114.jpg": {
+    "keep": true,
+    "observation": "카멜리아 봉제 인형 사진이 중심인 제품 포스터.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0115.jpg": {
+    "keep": true,
+    "observation": "들판에 있는 카멜리아 뒤 모습 전신.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0116.jpg": {
+    "keep": true,
+    "observation": "양팔·검 장면 카멜리아 얼굴과 PC 안내 글 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0010.jpg",
+      "명조_카멜리아/0032.jpg",
+      "명조_카멜리아/0054.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0117.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아의 큰 얼굴과 짧은 글.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0118.jpg": {
+    "keep": true,
+    "observation": "눈을 감은 카멜리아의 큰 얼굴과 공략 글.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0119.jpg": {
+    "keep": true,
+    "observation": "카멜리아 일러스트와 전투 효과를 합친 데미지 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0120.jpg": {
+    "keep": true,
+    "observation": "들판에서 나란히 서 있는 카멜리아와 방랑자; 카멜리아 얼굴·몸 식별.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0121.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴 컷과 공식 일러스트의 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0122.jpg": {
+    "keep": false,
+    "observation": "0086과 같은 남성 방랑자·카멜리아 컷에 위아래 검은 여백.",
+    "reason": "0086과 같은 카멜리아·남성 방랑자 원본 장면의 검은 여백 변형; 0086 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0123.jpg": {
+    "keep": true,
+    "observation": "바닥에 앉은 카멜리아 인형 탈 행사 사진.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0124.jpg": {
+    "keep": true,
+    "observation": "카멜리아 공식 일러스트·변신 모습을 합친 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0125.jpg": {
+    "keep": false,
+    "observation": "공식 소개 포스터를 줄여 넣고 큰 글을 덮은 썸네일.",
+    "reason": "0042와 같은 원본 소개 포스터를 줄여 넣고 큰 글로 가린 변형; 0042 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0126.jpg": {
+    "keep": false,
+    "observation": "청색·분홍색 머리와 검은 장식 드레스의 로코코 얼굴.",
+    "reason": "다른 캐릭터인 로코코가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0127.jpg": {
+    "keep": true,
+    "observation": "카멜리아 공식 일러스트와 전투 장면의 노히트 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0128.jpg": {
+    "keep": false,
+    "observation": "변주 스킬 정보 카드; 다른 캐릭터가 앞에 있고 대상 캐릭터가 식별되지 않음.",
+    "reason": "변주 스킬 설명·인터페이스가 주된 이미지이고 앞에 다른 캐릭터만 크게 보임.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0129.jpg": {
+    "keep": false,
+    "observation": "0055와 같은 붉은 카멜리아 피규어 홍보 포스터.",
+    "reason": "0055와 같은 피규어 홍보 포스터의 압축·크기 변형; 0055 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0130.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아의 큰 얼굴 클로즈업과 자막.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0131.jpg": {
+    "keep": false,
+    "observation": "넓은 전투 배경에서 카멜리아가 매우 작게 보임.",
+    "reason": "게임 배경이 대부분이고 캐릭터가 작아 얼굴과 의상을 명확히 식별하기 어려움.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0132.jpg": {
+    "keep": false,
+    "observation": "무기 사진 두 개와 무기 성능 설명 표; 캐릭터 모습 없음.",
+    "reason": "무기 사진과 성능 설명만 있으며 대상 캐릭터의 모습이 없음.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0133.jpg": {
+    "keep": true,
+    "observation": "전투 화면 오른쪽에 큰 카멜리아 팬 일러스트가 있는 솔플 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0134.jpg": {
+    "keep": true,
+    "observation": "행사장에서 카멜리아 인형 탈과 코스프레 인물이 마주 본 사진; 인형 탈 식별 가능.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0135.jpg": {
+    "keep": true,
+    "observation": "땋은 장발 형태 카멜리아의 게임 전신 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0136.jpg": {
+    "keep": false,
+    "observation": "매우 긴 세로 공명 회로 설명 카드; 대부분 글이며 작은 뒤 모습만 있음.",
+    "reason": "설명 글·인터페이스가 대부분이고 대상은 작은 뒤 모습으로만 표시됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0137.jpg": {
+    "keep": false,
+    "observation": "공명 체인 메뉴의 카멜리아 얼굴·상반신.",
+    "reason": "동일 자세·장면의 가까운 복사본; 0142.jpg 유지",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0009.jpg",
+      "명조_카멜리아/0017.jpg",
+      "명조_카멜리아/0142.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단.",
+    "duplicate_of": "명조_카멜리아/0142.jpg"
+  },
+  "명조_카멜리아/0138.jpg": {
+    "keep": true,
+    "observation": "다른 코스프레 인물이 바닥에 있는 카멜리아 인형 탈 전신 행사 사진; 인형 탈이 큼.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0139.jpg": {
+    "keep": false,
+    "observation": "흰 머리 남성과 검은 머리 남성 둘의 팬 일러스트; 카멜리아 없음.",
+    "reason": "남성 캐릭터들의 팬 일러스트이며 카멜리아가 없음.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0140.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아 획득 장면에 큰 제목을 붙인 세로 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0030.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0141.jpg": {
+    "keep": false,
+    "observation": "로코코와 솜인형의 큰 얼굴 및 라이브 안내 글.",
+    "reason": "다른 캐릭터인 로코코가 주된 대상.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0142.jpg": {
+    "keep": true,
+    "observation": "공명 체인 메뉴의 카멜리아 얼굴·상반신; 별 장식 상태가 0009와 다름.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false,
+    "near_copy_candidates": [
+      "명조_카멜리아/0009.jpg",
+      "명조_카멜리아/0017.jpg",
+      "명조_카멜리아/0137.jpg"
+    ],
+    "near_copy_note": "같은 모델·유사 장면이나 얼굴·구도·UI 변화가 있어 동일 원본으로 확정하지 않음. root가 suspects/copies와 함께 판단."
+  },
+  "명조_카멜리아/0143.jpg": {
+    "keep": true,
+    "observation": "두 카멜리아 얼굴·상반신과 사람을 합친 영상 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0144.jpg": {
+    "keep": false,
+    "observation": "0021과 동일한 얼굴·대사 클로즈업의 축소·압축본.",
+    "reason": "0021과 동일한 얼굴·자막 컷의 압축·크기 변형; 더 큰 0021 유지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0145.jpg": {
+    "keep": false,
+    "observation": "0106과 같은 소개 정보 슬라이드; 제목 일부만 다름.",
+    "reason": "0106과 같은 소개 설명 슬라이드의 제목 변형이며 글이 주된 이미지.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0146.jpg": {
+    "keep": true,
+    "observation": "변신 상태 눈 확대와 은발 카멜리아 상반신을 합친 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0147.jpg": {
+    "keep": true,
+    "observation": "카멜리아 얼굴이 왼쪽에 크게 보이고 다른 얼굴이 오른쪽인 영상 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0148.jpg": {
+    "keep": true,
+    "observation": "후드 쓴 카멜리아와 방랑자가 함께 보이는 영상 썸네일.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0149.jpg": {
+    "keep": true,
+    "observation": "붉은 머리 카멜리아가 노래하는 큰 얼굴·상반신 컷.",
+    "reason": "카멜리아의 모습이 식별 가능하고 이미지의 주된 시각적 대상에 포함됨.",
+    "uncertain": false
+  },
+  "명조_카멜리아/0150.jpg": {
+    "keep": false,
+    "observation": "지도가 대부분이고 밑에 작은 게임 화면·모서리 얼굴 아이콘이 붙은 안내 이미지.",
+    "reason": "지도가 주된 이미지이고 대상 캐릭터는 작은 아이콘·작은 게임 화면에만 표시됨.",
+    "uncertain": false
+  },
+  "명조_양양/0001.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0117.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0002.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0003.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0004.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0005.jpg": {
+    "keep": true,
+    "reason": "다른 캐릭터도 등장하지만 양양이 중앙 또는 전경의 주된 대상이며 외형이 명확하다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0006.jpg": {
+    "keep": false,
+    "reason": "전투 적과 이펙트가 캐릭터를 심하게 가려 양양의 외형을 식별하기 어렵다.",
+    "uncertainty": false,
+    "category": "occluded_or_cropped"
+  },
+  "명조_양양/0007.jpg": {
+    "keep": false,
+    "reason": "회색 머리의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0008.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0009.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0010.jpg": {
+    "keep": false,
+    "reason": "기염 캐릭터 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0011.jpg": {
+    "keep": false,
+    "reason": "흰 머리의 별도 캐릭터 일러스트로 양양의 외형을 명확하게 식별할 수 없다.",
+    "uncertainty": true,
+    "category": "wrong_character"
+  },
+  "명조_양양/0012.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터의 청추 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0013.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0014.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0015.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0044.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0016.jpg": {
+    "keep": true,
+    "reason": "다른 캐릭터도 등장하지만 양양이 중앙 또는 전경의 주된 대상이며 외형이 명확하다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0017.jpg": {
+    "keep": false,
+    "reason": "얼굴 하단과 눈의 일부가 잘려 머리 윗부분만 남은 심한 크롭이다.",
+    "uncertainty": false,
+    "category": "occluded_or_cropped"
+  },
+  "명조_양양/0018.jpg": {
+    "keep": false,
+    "reason": "흰 머리와 붉은 눈의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0019.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0020.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0021.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0022.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0023.jpg": {
+    "keep": false,
+    "reason": "초록 의상의 감심 일러스트이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0024.jpg": {
+    "keep": false,
+    "reason": "꽃 장식과 파란 꽃을 든 다른 캐릭터가 주된 대상으로, 양양의 특징이 확인되지 않는다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0025.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": true,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0026.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0027.jpg": {
+    "keep": false,
+    "reason": "금발의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0028.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0045.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0029.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0030.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0031.jpg": {
+    "keep": true,
+    "reason": "상품에 표현된 양양의 외형이 명확하고 이미지의 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0032.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0033.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0034.jpg": {
+    "keep": false,
+    "reason": "붉은 눈 중심의 다른 캐릭터 클로즈업이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0035.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0036.jpg": {
+    "keep": false,
+    "reason": "방랑자가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0037.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0038.jpg": {
+    "keep": false,
+    "reason": "흰 머리의 다른 캐릭터로 보이며 양양을 확실히 식별할 수 없다.",
+    "uncertainty": true,
+    "category": "wrong_character"
+  },
+  "명조_양양/0039.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0040.jpg": {
+    "keep": false,
+    "reason": "방랑자의 뒷모습이 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0041.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0042.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0043.jpg": {
+    "keep": false,
+    "reason": "음림이 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0044.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0045.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0046.jpg": {
+    "keep": false,
+    "reason": "회색 머리 캐릭터의 게임 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0047.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0048.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0049.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0050.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0051.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0052.jpg": {
+    "keep": true,
+    "reason": "과장된 패러디 그림체지만 양양의 파란 베레모·이마 문양·복장과 맥락이 명확한 팬 그림이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0053.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0054.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0055.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0117.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0056.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0057.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0058.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0059.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0117.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0060.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0061.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0062.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0047.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0063.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0064.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0065.jpg": {
+    "keep": true,
+    "reason": "상품에 표현된 양양의 외형이 명확하고 이미지의 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0066.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0067.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0068.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0069.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터의 게임 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0070.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0071.jpg": {
+    "keep": false,
+    "reason": "음림 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0072.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0073.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0074.jpg": {
+    "keep": false,
+    "reason": "금발 인형이 주된 대상이며 양양을 식별할 수 없다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0075.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0076.jpg": {
+    "keep": false,
+    "reason": "흰 머리의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0077.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0078.jpg": {
+    "keep": false,
+    "reason": "흰 머리의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0079.jpg": {
+    "keep": false,
+    "reason": "투우 광고로 명조 캐릭터 이미지가 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0080.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0081.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0082.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0041.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0083.jpg": {
+    "keep": false,
+    "reason": "기염 일러스트이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0084.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0085.jpg": {
+    "keep": false,
+    "reason": "보라색 머리와 모자를 쓴 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0086.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0087.jpg": {
+    "keep": true,
+    "reason": "대화 장면에서 말하는 양양이 전경에 등장하고 머리 장식·푸른 머리 끝·의상으로 명확하게 식별된다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0088.jpg": {
+    "keep": false,
+    "reason": "치샤 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0089.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0090.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0091.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0050.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0092.jpg": {
+    "keep": true,
+    "reason": "양양의 베레모·깃털 장식·파랑/검정 의상이 명확한 단독 코스프레 사진이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0093.jpg": {
+    "keep": false,
+    "reason": "기염 일러스트이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0094.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0095.jpg": {
+    "keep": true,
+    "reason": "여러 칸의 만화 대부분에서 양양이 주된 대상으로 명확하게 그려져 있다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0096.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0097.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0098.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0099.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0100.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0101.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0068.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0102.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0103.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0104.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0105.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0106.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0107.jpg": {
+    "keep": false,
+    "reason": "기염 소개 일러스트이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0108.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0109.jpg": {
+    "keep": false,
+    "reason": "풍경이 주된 대상이며 양양의 외형을 식별할 수 없다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0110.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0111.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0112.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0113.jpg": {
+    "keep": false,
+    "reason": "기염 일러스트이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0114.jpg": {
+    "keep": false,
+    "reason": "금희·현령 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0115.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0116.jpg": {
+    "keep": false,
+    "reason": "흰 머리의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0117.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0118.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0117.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0119.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0120.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0121.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0122.jpg": {
+    "keep": true,
+    "reason": "인터페이스도 있지만 양양의 큰 단독 SD 그림이 이미지의 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0123.jpg": {
+    "keep": true,
+    "reason": "대화 장면에서 말하는 양양이 전경에 등장하고 머리 장식·푸른 머리 끝·의상으로 명확하게 식별된다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0124.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0125.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0126.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0127.jpg": {
+    "keep": false,
+    "reason": "방랑자가 주된 대상이고 양양은 오른쪽 작은 아이콘으로만 나온다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0128.jpg": {
+    "keep": false,
+    "reason": "연한 머리의 다른 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0129.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0130.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0131.jpg": {
+    "keep": false,
+    "reason": "긴 회색 머리와 다른 복장의 별도 캐릭터가 주된 대상이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0132.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0133.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터의 청추 소개 이미지이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0134.jpg": {
+    "keep": false,
+    "reason": "분홍 머리와 검정·노랑 복장의 다른 두 캐릭터이며 양양이 아니다.",
+    "uncertainty": false,
+    "category": "wrong_character"
+  },
+  "명조_양양/0135.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0136.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0137.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0138.jpg": {
+    "keep": true,
+    "reason": "양양의 머리 장식·이마 문양·복장 등으로 캐릭터가 식별되는 팬 일러스트 또는 만화이며 주된 대상이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0139.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0140.jpg": {
+    "keep": true,
+    "reason": "양양의 외형이 명확하고 주된 대상으로 등장하는 게임 화면이다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0141.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": false,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0142.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0143.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0144.jpg": {
+    "keep": true,
+    "reason": "양양을 명확하게 식별할 수 있고 주된 대상으로 보여 주는 일러스트 또는 캐릭터 소개 이미지다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_양양/0145.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0146.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0117.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0147.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터들이 동등하거나 더 큰 주된 대상으로 등장해 양양을 단일 주된 대상으로 보기 어렵다.",
+    "uncertainty": true,
+    "category": "multiple_subjects"
+  },
+  "명조_양양/0148.jpg": {
+    "keep": false,
+    "reason": "글·표·인터페이스·무기/기술 아이콘·배경 또는 광고가 주된 대상이고 양양 캐릭터의 단독 외형이 주된 대상이 아니다.",
+    "uncertainty": false,
+    "category": "text_ui_or_unrelated"
+  },
+  "명조_양양/0149.jpg": {
+    "keep": false,
+    "reason": "같은 원본 양양 그림의 크기·크롭·배경/글자 구성 차이인 근접 중복이다. 더 명확한 명조_양양/0102.jpg를 유지한다.",
+    "uncertainty": false,
+    "category": "duplicate"
+  },
+  "명조_양양/0150.jpg": {
+    "keep": true,
+    "reason": "다른 캐릭터도 등장하지만 양양이 중앙 또는 전경의 주된 대상이며 외형이 명확하다.",
+    "uncertainty": false,
+    "category": "keep"
+  },
+  "명조_에이메스/0001.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0002.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0003.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0004.jpg": {
+    "keep": false,
+    "reason": "기사 본문과 설명 글이 주된 이미지이며 캐릭터 그림은 작음",
+    "uncertain": false,
+    "observation": "기사 본문과 설명 글이 주된 이미지이며 캐릭터 그림은 작음"
+  },
+  "명조_에이메스/0005.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0006.jpg": {
+    "keep": false,
+    "reason": "팀 조합 아이콘 표로 대상 캐릭터가 주된 대상이 아님",
+    "uncertain": false,
+    "observation": "팀 조합 아이콘 표로 대상 캐릭터가 주된 대상이 아님"
+  },
+  "명조_에이메스/0007.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0008.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0009.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0010.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0104.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0104.jpg"
+  },
+  "명조_에이메스/0011.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0012.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0013.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0014.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0015.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0016.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0017.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0018.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0019.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0020.jpg": {
+    "keep": false,
+    "reason": "캐릭터 설명 표가 주된 이미지이고 실제 입력 중앙은 글과 아이콘",
+    "uncertain": false,
+    "observation": "캐릭터 설명 표가 주된 이미지이고 실제 입력 중앙은 글과 아이콘"
+  },
+  "명조_에이메스/0021.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0022.jpg": {
+    "keep": false,
+    "reason": "다른 캐릭터 3명 선택 메뉴이며 에이메스가 없음",
+    "uncertain": false,
+    "observation": "다른 캐릭터 3명 선택 메뉴이며 에이메스가 없음"
+  },
+  "명조_에이메스/0023.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0024.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0025.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0103.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0103.jpg"
+  },
+  "명조_에이메스/0026.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0027.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0028.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0029.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0030.jpg": {
+    "keep": false,
+    "reason": "무기 정보만 표시되고 캐릭터가 없음",
+    "uncertain": false,
+    "observation": "무기 정보만 표시되고 캐릭터가 없음"
+  },
+  "명조_에이메스/0031.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0032.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0033.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0034.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0035.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0104.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0104.jpg"
+  },
+  "명조_에이메스/0036.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0037.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0038.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0039.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0040.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0041.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0042.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0043.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0044.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0045.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0046.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0047.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0048.jpg": {
+    "keep": false,
+    "reason": "검은 머리 남성 캐릭터의 흑백 일러스트",
+    "uncertain": false,
+    "observation": "검은 머리 남성 캐릭터의 흑백 일러스트"
+  },
+  "명조_에이메스/0049.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0050.jpg": {
+    "keep": false,
+    "reason": "다른 인물과 대등한 비중으로 나오므로 단일 클래스의 주된 대상을 정하기 어려움",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0051.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0052.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0053.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0054.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0055.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0056.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0049.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0049.jpg"
+  },
+  "명조_에이메스/0057.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0058.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0059.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0060.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0008.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0008.jpg"
+  },
+  "명조_에이메스/0061.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0062.jpg": {
+    "keep": false,
+    "reason": "캐릭터 설명 표가 주된 이미지이고 실제 입력 중앙은 글과 아이콘",
+    "uncertain": false,
+    "observation": "캐릭터 설명 표가 주된 이미지이고 실제 입력 중앙은 글과 아이콘"
+  },
+  "명조_에이메스/0063.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0064.jpg": {
+    "keep": false,
+    "reason": "흰 머리 캐릭터의 다른 의상과 머리 장식이며 에이메스가 아님",
+    "uncertain": false,
+    "observation": "흰 머리 캐릭터의 다른 의상과 머리 장식이며 에이메스가 아님"
+  },
+  "명조_에이메스/0065.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0066.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0067.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0068.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0069.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0070.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0071.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0072.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0073.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0074.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0075.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0076.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0144.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0144.jpg"
+  },
+  "명조_에이메스/0077.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0078.jpg": {
+    "keep": false,
+    "reason": "검은 머리 방랑자가 주된 대상",
+    "uncertain": false,
+    "observation": "검은 머리 방랑자가 주된 대상"
+  },
+  "명조_에이메스/0079.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0104.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0104.jpg"
+  },
+  "명조_에이메스/0080.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0081.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0082.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0013.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0013.jpg"
+  },
+  "명조_에이메스/0083.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0084.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0085.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0086.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0087.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0088.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0065.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0065.jpg"
+  },
+  "명조_에이메스/0089.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0090.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0091.jpg": {
+    "keep": false,
+    "reason": "붉은 머리 장리 선택 화면이며 에이메스가 아님",
+    "uncertain": false,
+    "observation": "붉은 머리 장리 선택 화면이며 에이메스가 아님"
+  },
+  "명조_에이메스/0092.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0093.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0094.jpg": {
+    "keep": false,
+    "reason": "다른 인물과 대등한 비중으로 나오므로 단일 클래스의 주된 대상을 정하기 어려움",
+    "uncertain": false,
+    "observation": "단체 사진이나 중앙 에이메스가 크게 식별되고 주된 두 인물 중 하나여서 유지"
+  },
+  "명조_에이메스/0095.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0096.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0097.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0098.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0099.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0087.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0087.jpg"
+  },
+  "명조_에이메스/0100.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0049.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0049.jpg"
+  },
+  "명조_에이메스/0101.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0102.jpg": {
+    "keep": false,
+    "reason": "팀 조합 아이콘 표로 대상 캐릭터가 주된 대상이 아님",
+    "uncertain": false,
+    "observation": "팀 조합 아이콘 표로 대상 캐릭터가 주된 대상이 아님"
+  },
+  "명조_에이메스/0103.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0104.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0105.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0070.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0070.jpg"
+  },
+  "명조_에이메스/0106.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0107.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0108.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 변신 메카 전신이며 공식 캐릭터 표현으로 유지"
+  },
+  "명조_에이메스/0109.jpg": {
+    "keep": false,
+    "reason": "캐릭터 능력치 표이며 캐릭터 그림이 작고 주된 대상이 아님",
+    "uncertain": false,
+    "observation": "캐릭터 능력치 표이며 캐릭터 그림이 작고 주된 대상이 아님"
+  },
+  "명조_에이메스/0110.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0111.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0112.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "만화의 위·아래 칸에 에이메스가 크게 나오므로 팬 일러스트로 유지"
+  },
+  "명조_에이메스/0113.jpg": {
+    "keep": false,
+    "reason": "위치 안내 글과 배경이 주된 이미지이며 캐릭터가 작음",
+    "uncertain": false,
+    "observation": "위치 안내 글과 배경이 주된 이미지이며 캐릭터가 작음"
+  },
+  "명조_에이메스/0114.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0115.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0041.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0041.jpg"
+  },
+  "명조_에이메스/0116.jpg": {
+    "keep": false,
+    "reason": "금발 모자를 쓴 페비 일러스트이며 에이메스가 아님",
+    "uncertain": false,
+    "observation": "금발 모자를 쓴 페비 일러스트이며 에이메스가 아님"
+  },
+  "명조_에이메스/0117.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0012.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0012.jpg"
+  },
+  "명조_에이메스/0118.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0110.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0110.jpg"
+  },
+  "명조_에이메스/0119.jpg": {
+    "keep": false,
+    "reason": "공명 체인 설명 글과 아이콘만 있는 정보 화면",
+    "uncertain": false,
+    "observation": "공명 체인 설명 글과 아이콘만 있는 정보 화면"
+  },
+  "명조_에이메스/0120.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0063.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0063.jpg"
+  },
+  "명조_에이메스/0121.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0053.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0053.jpg"
+  },
+  "명조_에이메스/0122.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0123.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0124.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0125.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0126.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0058.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0058.jpg"
+  },
+  "명조_에이메스/0127.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0128.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0104.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0104.jpg"
+  },
+  "명조_에이메스/0129.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0130.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0131.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0087.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0087.jpg"
+  },
+  "명조_에이메스/0132.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0133.jpg": {
+    "keep": false,
+    "reason": "무기 선택 화면으로 캐릭터가 없음",
+    "uncertain": false,
+    "observation": "무기 선택 화면으로 캐릭터가 없음"
+  },
+  "명조_에이메스/0134.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0135.jpg": {
+    "keep": false,
+    "reason": "공지·초대 글이 주된 이미지이며 캐릭터 그림이 작음",
+    "uncertain": false,
+    "observation": "공지·초대 글이 주된 이미지이며 캐릭터 그림이 작음"
+  },
+  "명조_에이메스/0136.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0137.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0024.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0024.jpg"
+  },
+  "명조_에이메스/0138.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0139.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0140.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0141.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0142.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0143.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0003.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0003.jpg"
+  },
+  "명조_에이메스/0144.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0145.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0144.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0144.jpg"
+  },
+  "명조_에이메스/0146.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0033.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0033.jpg"
+  },
+  "명조_에이메스/0147.jpg": {
+    "keep": false,
+    "reason": "동일 원본의 크기·압축·자막/UI 변형; 0028.jpg 유지",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트",
+    "duplicate_of": "명조_에이메스/0028.jpg"
+  },
+  "명조_에이메스/0148.jpg": {
+    "keep": true,
+    "reason": "",
+    "uncertain": false,
+    "observation": "에이메스의 분홍 머리·청록색 머리 장식·흰색 의상 또는 변신 메카를 식별할 수 있는 게임 화면/일러스트"
+  },
+  "명조_에이메스/0149.jpg": {
+    "keep": false,
+    "reason": "초록색 눈·땋은 머리·금속 얼굴 장식으로 에이메스를 식별할 수 없음",
+    "uncertain": false,
+    "observation": "초록색 눈·땋은 머리·금속 얼굴 장식으로 에이메스를 식별할 수 없음"
+  },
+  "명조_에이메스/0150.jpg": {
+    "keep": false,
+    "reason": "화면에 앙코라고 표시된 다른 캐릭터 뽑기 화면",
+    "uncertain": false,
+    "observation": "화면에 앙코라고 표시된 다른 캐릭터 뽑기 화면"
+  },
+  "명조_린네/0001.jpg": {
+    "path": "명조_린네/0001.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·옆머리 땋음·초록 끝머리·홀로그램 재킷이 선명한 공식 측면 풍선껌 원화의 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0002.jpg": {
+    "path": "명조_린네/0002.jpg",
+    "keep": false,
+    "reason": "같은 에코 메뉴·앰프·손을 내민 자세의 크기와 UI가 다른 근접 중복.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0064.jpg"
+  },
+  "명조_린네/0003.jpg": {
+    "path": "명조_린네/0003.jpg",
+    "keep": false,
+    "reason": "0001과 같은 측면 풍선껌 공식 원화의 이름 배너 버전.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0004.jpg": {
+    "path": "명조_린네/0004.jpg",
+    "keep": true,
+    "reason": "린네의 얼굴과 해골 머리핀이 선명한 야외 브이 포즈 게임 이미지.",
+    "uncertain": false
+  },
+  "명조_린네/0005.jpg": {
+    "path": "명조_린네/0005.jpg",
+    "keep": false,
+    "reason": "0001과 같은 측면 풍선껌 공식 원화를 사용한 세로 포스터.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0006.jpg": {
+    "path": "명조_린네/0006.jpg",
+    "keep": false,
+    "reason": "0001과 같은 측면 풍선껌 공식 원화의 가로 홍보 편집.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0007.jpg": {
+    "path": "명조_린네/0007.jpg",
+    "keep": true,
+    "reason": "헤드폰·해골 머리핀·별 귀걸이와 얼굴이 선명한 정면 게임 클로즈업.",
+    "uncertain": false
+  },
+  "명조_린네/0008.jpg": {
+    "path": "명조_린네/0008.jpg",
+    "keep": true,
+    "reason": "증명서와 셀카 포즈의 공식 일러스트이며 린네가 화면의 주 대상.",
+    "uncertain": false
+  },
+  "명조_린네/0009.jpg": {
+    "path": "명조_린네/0009.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·헤드폰·청록 넥타이가 선명한 학생증 형식의 별도 공식 원화.",
+    "uncertain": false
+  },
+  "명조_린네/0010.jpg": {
+    "path": "명조_린네/0010.jpg",
+    "keep": true,
+    "reason": "린네가 오토바이에 앉아 있는 공식 원화의 전체 구도가 선명한 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0011.jpg": {
+    "path": "명조_린네/0011.jpg",
+    "keep": false,
+    "reason": "0001과 0010을 재사용한 큰 문구 썸네일이며 독립된 캐릭터 원본이 아님.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0012.jpg": {
+    "path": "명조_린네/0012.jpg",
+    "keep": false,
+    "reason": "0118과 같은 무기·몸·손 자세의 장비 화면에 큰 UI와 워터마크를 더한 근접 중복.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0013.jpg": {
+    "path": "명조_린네/0013.jpg",
+    "keep": true,
+    "reason": "문구가 있지만 린네의 얼굴·해골 머리핀·헤드폰이 크게 보이는 별도 게임 표정.",
+    "uncertain": false
+  },
+  "명조_린네/0014.jpg": {
+    "path": "명조_린네/0014.jpg",
+    "keep": true,
+    "reason": "린네의 머리 장식·헤드폰·의상과 긴 머리가 식별되는 별도 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0015.jpg": {
+    "path": "명조_린네/0015.jpg",
+    "keep": false,
+    "reason": "린네와 흰색·푸른 머리의 다른 캐릭터가 함께 크게 있는 문구 썸네일. 린네 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0016.jpg": {
+    "path": "명조_린네/0016.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터 얼굴을 거의 같은 비중으로 병치한 합성 화면.",
+    "uncertain": false
+  },
+  "명조_린네/0017.jpg": {
+    "path": "명조_린네/0017.jpg",
+    "keep": false,
+    "reason": "0001의 공식 원화를 재사용한 할인 광고.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0018.jpg": {
+    "path": "명조_린네/0018.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·헤드폰이 선명한 푸른 조명 액션 장면의 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0019.jpg": {
+    "path": "명조_린네/0019.jpg",
+    "keep": true,
+    "reason": "린네의 얼굴·머리핀·별 귀걸이가 주 대상인 별도 게임 클로즈업.",
+    "uncertain": false
+  },
+  "명조_린네/0020.jpg": {
+    "path": "명조_린네/0020.jpg",
+    "keep": false,
+    "reason": "0001을 반전·확대하고 문구를 더한 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0021.jpg": {
+    "path": "명조_린네/0021.jpg",
+    "keep": false,
+    "reason": "실제 사람을 가운데 크게 놓고 린네와 다른 캐릭터 원화를 양옆에 합성한 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0022.jpg": {
+    "path": "명조_린네/0022.jpg",
+    "keep": true,
+    "reason": "옆머리 매듭·해골 머리핀·헤드폰으로 식별되는 별도 게임 얼굴 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0023.jpg": {
+    "path": "명조_린네/0023.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터 얼굴을 병치하고 큰 글을 더한 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0024.jpg": {
+    "path": "명조_린네/0024.jpg",
+    "keep": true,
+    "reason": "린네가 크게 보이는 캐릭터 획득 화면의 원본 구도 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0025.jpg": {
+    "path": "명조_린네/0025.jpg",
+    "keep": true,
+    "reason": "린네의 얼굴·해골 머리핀·헤드폰이 선명하며 표정과 시점이 다른 게임 이미지.",
+    "uncertain": false
+  },
+  "명조_린네/0026.jpg": {
+    "path": "명조_린네/0026.jpg",
+    "keep": true,
+    "reason": "청록 머리끝·해골 장식·의상이 식별되는 전화기를 든 별도 거리 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0027.jpg": {
+    "path": "명조_린네/0027.jpg",
+    "keep": true,
+    "reason": "린네의 해골 머리핀·별 귀걸이·헤드폰·의상이 선명한 정면 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0028.jpg": {
+    "path": "명조_린네/0028.jpg",
+    "keep": true,
+    "reason": "단순한 그림체지만 해골 머리핀·옆머리 매듭·헤드폰·넥타이로 린네가 식별되는 팬 그림.",
+    "uncertain": false
+  },
+  "명조_린네/0029.jpg": {
+    "path": "명조_린네/0029.jpg",
+    "keep": true,
+    "reason": "문구가 주변에 있지만 가운데 얼굴의 해골 머리핀·별 귀걸이·헤드폰으로 린네가 선명하게 식별되는 별도 그림.",
+    "uncertain": false
+  },
+  "명조_린네/0030.jpg": {
+    "path": "명조_린네/0030.jpg",
+    "keep": true,
+    "reason": "문구가 있지만 오토바이에 앉은 린네의 얼굴·머리·의상이 주 대상인 별도 게임 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0031.jpg": {
+    "path": "명조_린네/0031.jpg",
+    "keep": false,
+    "reason": "린네의 반복 장면과 다른 캐릭터 장면을 여러 칸으로 동등하게 나눈 합성 화면.",
+    "uncertain": false
+  },
+  "명조_린네/0032.jpg": {
+    "path": "명조_린네/0032.jpg",
+    "keep": false,
+    "reason": "린네·다른 캐릭터·실제 사람을 함께 넣은 합성 썸네일. 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0033.jpg": {
+    "path": "명조_린네/0033.jpg",
+    "keep": true,
+    "reason": "0026과 배경은 같지만 팔과 전화기 자세가 다른 별도 그림이며 린네가 선명.",
+    "uncertain": false
+  },
+  "명조_린네/0034.jpg": {
+    "path": "명조_린네/0034.jpg",
+    "keep": true,
+    "reason": "권총을 내민 별도 공식 원화이며 헤드폰·머리핀·넥타이와 전체 자세가 식별됨.",
+    "uncertain": false
+  },
+  "명조_린네/0035.jpg": {
+    "path": "명조_린네/0035.jpg",
+    "keep": false,
+    "reason": "린네와 다른 게임 캐릭터가 비슷한 비중으로 등장하는 대화 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0036.jpg": {
+    "path": "명조_린네/0036.jpg",
+    "keep": true,
+    "reason": "린네의 해골 머리핀·헤드폰·청록 머리끝이 식별되는 별도 브이 포즈 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0037.jpg": {
+    "path": "명조_린네/0037.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 단발과 붉은 눈의 다른 캐릭터가 주 대상이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0038.jpg": {
+    "path": "명조_린네/0038.jpg",
+    "keep": true,
+    "reason": "0018과 다른 팔·다리 자세의 액션 게임 장면이며 머리핀·헤드폰·의상으로 린네가 식별됨.",
+    "uncertain": false
+  },
+  "명조_린네/0039.jpg": {
+    "path": "명조_린네/0039.jpg",
+    "keep": false,
+    "reason": "린네·다른 캐릭터 얼굴과 큰 문구·반응 그림을 합친 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0040.jpg": {
+    "path": "명조_린네/0040.jpg",
+    "keep": false,
+    "reason": "린네 공식 원화와 다른 캐릭터 공식 원화를 큰 문구와 함께 병치한 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0041.jpg": {
+    "path": "명조_린네/0041.jpg",
+    "keep": false,
+    "reason": "0070과 같은 소파·전화기·윙크 셀카 원본에 문구를 더한 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0070.jpg"
+  },
+  "명조_린네/0042.jpg": {
+    "path": "명조_린네/0042.jpg",
+    "keep": false,
+    "reason": "0044의 동일 액션 공식 원화에 큰 이름 문구와 크롭을 더한 버전.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0044.jpg"
+  },
+  "명조_린네/0043.jpg": {
+    "path": "명조_린네/0043.jpg",
+    "keep": false,
+    "reason": "검은 머리와 초록 의상의 다른 캐릭터가 주 대상이며 린네의 특징이 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0044.jpg": {
+    "path": "명조_린네/0044.jpg",
+    "keep": true,
+    "reason": "0042·0104에 사용된 공식 액션 원화의 문구가 적고 전체 자세가 선명한 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0045.jpg": {
+    "path": "명조_린네/0045.jpg",
+    "keep": false,
+    "reason": "검은색·붉은 머리 남성 캐릭터 화면으로 린네가 아님. 화면 일부도 손에 가려짐.",
+    "uncertain": false
+  },
+  "명조_린네/0046.jpg": {
+    "path": "명조_린네/0046.jpg",
+    "keep": false,
+    "reason": "캐릭터가 없이 육성 재료와 아이콘만 있는 표.",
+    "uncertain": false
+  },
+  "명조_린네/0047.jpg": {
+    "path": "명조_린네/0047.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 단발의 다른 캐릭터가 주 대상이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0048.jpg": {
+    "path": "명조_린네/0048.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 머리 다른 캐릭터의 공식 포스터로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0049.jpg": {
+    "path": "명조_린네/0049.jpg",
+    "keep": false,
+    "reason": "0010과 같은 오토바이 공식 원화의 정사각 홍보 크롭.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0010.jpg"
+  },
+  "명조_린네/0050.jpg": {
+    "path": "명조_린네/0050.jpg",
+    "keep": false,
+    "reason": "사람을 가운데 크게 두고 린네와 다른 캐릭터를 양옆에 놓은 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0051.jpg": {
+    "path": "명조_린네/0051.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터 얼굴을 병치한 큰 글 중심 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0052.jpg": {
+    "path": "명조_린네/0052.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터 원화를 함께 크게 놓은 문구 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0053.jpg": {
+    "path": "명조_린네/0053.jpg",
+    "keep": true,
+    "reason": "팔짱을 낀 린네의 얼굴·머리핀·헤드폰이 크게 보이는 공명 체인 화면 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0054.jpg": {
+    "path": "명조_린네/0054.jpg",
+    "keep": false,
+    "reason": "0118과 같은 캐릭터 장비 자세이며 무기와 UI만 다른 근접 중복.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0055.jpg": {
+    "path": "명조_린네/0055.jpg",
+    "keep": false,
+    "reason": "작은 캐릭터 아이콘을 늘어놓은 평가표이며 식별 가능한 린네 단일 대상이 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0056.jpg": {
+    "path": "명조_린네/0056.jpg",
+    "keep": false,
+    "reason": "여러 캐릭터·얼굴과 큰 평가 문구를 합친 썸네일. 린네가 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0057.jpg": {
+    "path": "명조_린네/0057.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·옆머리 고리·헤드폰·청록 넥타이를 구현한 식별 가능한 린네 코스프레 사진.",
+    "uncertain": false
+  },
+  "명조_린네/0058.jpg": {
+    "path": "명조_린네/0058.jpg",
+    "keep": false,
+    "reason": "0001 원화의 작은 삽입본을 포함한 긴 웹 문서 캡처. 문서 UI가 주 대상.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0059.jpg": {
+    "path": "명조_린네/0059.jpg",
+    "keep": false,
+    "reason": "0001의 공식 측면 풍선껌 얼굴 원화를 재사용한 큰 문구 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0060.jpg": {
+    "path": "명조_린네/0060.jpg",
+    "keep": false,
+    "reason": "린네 외 여러 캐릭터와 협업 상표가 함께 놓인 상품 홍보. 린네 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0061.jpg": {
+    "path": "명조_린네/0061.jpg",
+    "keep": false,
+    "reason": "0060과 같은 여러 캐릭터 협업 상품 홍보의 편집본. 린네 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0062.jpg": {
+    "path": "명조_린네/0062.jpg",
+    "keep": false,
+    "reason": "캐릭터가 없이 재료·아이콘·숫자만 있는 표.",
+    "uncertain": false
+  },
+  "명조_린네/0063.jpg": {
+    "path": "명조_린네/0063.jpg",
+    "keep": false,
+    "reason": "검은 머리·붉은 의상의 남성 캐릭터 굿즈 광고이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0064.jpg": {
+    "path": "명조_린네/0064.jpg",
+    "keep": true,
+    "reason": "앰프를 들고 손을 내민 에코 화면의 린네 얼굴과 의상이 선명한 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0065.jpg": {
+    "path": "명조_린네/0065.jpg",
+    "keep": false,
+    "reason": "0018과 같은 푸른 조명 액션의 매우 가까운 프레임·구도. 0018의 얼굴이 더 크고 선명.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0018.jpg"
+  },
+  "명조_린네/0066.jpg": {
+    "path": "명조_린네/0066.jpg",
+    "keep": false,
+    "reason": "0001 공식 원화를 문구와 배경에 재사용한 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0067.jpg": {
+    "path": "명조_린네/0067.jpg",
+    "keep": false,
+    "reason": "0001을 작은 원형 프로필로 넣은 문구·화살표 중심 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0068.jpg": {
+    "path": "명조_린네/0068.jpg",
+    "keep": false,
+    "reason": "0024와 같은 획득 화면 자세와 햇빛 구도의 정사각 크롭.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0024.jpg"
+  },
+  "명조_린네/0069.jpg": {
+    "path": "명조_린네/0069.jpg",
+    "keep": false,
+    "reason": "린네와 여러 다른 캐릭터의 원화를 병치한 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0070.jpg": {
+    "path": "명조_린네/0070.jpg",
+    "keep": true,
+    "reason": "머리핀·헤드폰·넥타이가 선명한 소파 앞 셀카 게임 장면 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0071.jpg": {
+    "path": "명조_린네/0071.jpg",
+    "keep": false,
+    "reason": "0010을 작게 삽입한 긴 웹 글 캡처. 글과 UI가 주 대상.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0010.jpg"
+  },
+  "명조_린네/0072.jpg": {
+    "path": "명조_린네/0072.jpg",
+    "keep": true,
+    "reason": "소형 물건을 손바닥에 올린 별도 게임 자세이며 린네 얼굴·머리 장식·의상이 주 대상.",
+    "uncertain": false
+  },
+  "명조_린네/0073.jpg": {
+    "path": "명조_린네/0073.jpg",
+    "keep": true,
+    "reason": "다른 인물이 가장자리에 일부 나오지만 린네의 얼굴과 의상이 화면의 주 대상인 게임 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0074.jpg": {
+    "path": "명조_린네/0074.jpg",
+    "keep": false,
+    "reason": "다른 캐릭터 여러 명·린네 원화·큰 글을 병치한 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0075.jpg": {
+    "path": "명조_린네/0075.jpg",
+    "keep": false,
+    "reason": "0008을 작게 삽입한 긴 웹 글 캡처. 글과 UI가 주 대상.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0008.jpg"
+  },
+  "명조_린네/0076.jpg": {
+    "path": "명조_린네/0076.jpg",
+    "keep": false,
+    "reason": "0053과 같은 팔짱·머리·공명 체인 구도의 근접 중복이며 UI가 더 많음.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0053.jpg"
+  },
+  "명조_린네/0077.jpg": {
+    "path": "명조_린네/0077.jpg",
+    "keep": true,
+    "reason": "머리핀·헤드폰·청록 넥타이와 긴 머리가 선명한 난간 옆 별도 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0078.jpg": {
+    "path": "명조_린네/0078.jpg",
+    "keep": false,
+    "reason": "0024 획득 화면 원본의 문구 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0024.jpg"
+  },
+  "명조_린네/0079.jpg": {
+    "path": "명조_린네/0079.jpg",
+    "keep": false,
+    "reason": "서로 다른 금발 캐릭터 두 명의 그림이며 린네의 해골 장식·헤드폰·머리끝과 의상을 확인할 수 없어 대상으로 식별하지 않음.",
+    "uncertain": true
+  },
+  "명조_린네/0080.jpg": {
+    "path": "명조_린네/0080.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터가 비슷한 비중으로 있는 게임 장면. 단일 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0081.jpg": {
+    "path": "명조_린네/0081.jpg",
+    "keep": false,
+    "reason": "0001 공식 원화를 재사용한 음식 협업 광고 포스터.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0082.jpg": {
+    "path": "명조_린네/0082.jpg",
+    "keep": true,
+    "reason": "정보가 하단에 있지만 린네의 별도 얼굴 원화가 상단에 크게 보이고 해골 머리핀·헤드폰이 식별됨.",
+    "uncertain": false
+  },
+  "명조_린네/0083.jpg": {
+    "path": "명조_린네/0083.jpg",
+    "keep": false,
+    "reason": "붉은/검은 머리 남성 캐릭터 굿즈 그림으로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0084.jpg": {
+    "path": "명조_린네/0084.jpg",
+    "keep": false,
+    "reason": "린네 외 여러 캐릭터와 큰 글을 합친 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0085.jpg": {
+    "path": "명조_린네/0085.jpg",
+    "keep": false,
+    "reason": "0001 원화를 삽입한 글과 웹 UI 중심 캡처.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0086.jpg": {
+    "path": "명조_린네/0086.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터 얼굴을 비슷한 비중으로 병치한 합성 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0087.jpg": {
+    "path": "명조_린네/0087.jpg",
+    "keep": false,
+    "reason": "0001 공식 측면 풍선껌 원화의 안내용 크롭·편집본.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0088.jpg": {
+    "path": "명조_린네/0088.jpg",
+    "keep": false,
+    "reason": "0010과 같은 오토바이 공식 원화의 확대 크롭.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0010.jpg"
+  },
+  "명조_린네/0089.jpg": {
+    "path": "명조_린네/0089.jpg",
+    "keep": false,
+    "reason": "원경의 뒤쪽 오토바이 탑승자가 작게 보이고 얼굴·해골 장식 등 식별 단서가 부족. 린네라고 추정하여 유지하지 않음.",
+    "uncertain": true
+  },
+  "명조_린네/0090.jpg": {
+    "path": "명조_린네/0090.jpg",
+    "keep": false,
+    "reason": "0010 원화가 작게 들어간 통계·웹 UI 중심 문서 캡처.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0010.jpg"
+  },
+  "명조_린네/0091.jpg": {
+    "path": "명조_린네/0091.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 단발의 다른 캐릭터와 실제 사람 얼굴이 주 대상인 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0092.jpg": {
+    "path": "명조_린네/0092.jpg",
+    "keep": true,
+    "reason": "두 눈을 감고 웃는 별도 게임 얼굴 장면이며 해골 머리핀·별 귀걸이·헤드폰이 선명.",
+    "uncertain": false
+  },
+  "명조_린네/0093.jpg": {
+    "path": "명조_린네/0093.jpg",
+    "keep": false,
+    "reason": "0072 게임 원본의 캐릭터 일부만 작게 남긴 통계 화면 크롭. UI가 주 대상.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0072.jpg"
+  },
+  "명조_린네/0094.jpg": {
+    "path": "명조_린네/0094.jpg",
+    "keep": false,
+    "reason": "검은색·붉은 머리 남성 캐릭터 공식 원화이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0095.jpg": {
+    "path": "명조_린네/0095.jpg",
+    "keep": false,
+    "reason": "0108과 동일한 협업 카드 원화를 사용한 상품 포장 광고. 상단·하단 글과 다른 카드 삽입이 많음.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0108.jpg"
+  },
+  "명조_린네/0096.jpg": {
+    "path": "명조_린네/0096.jpg",
+    "keep": false,
+    "reason": "금발·땋은 머리만으로 린네라고 식별할 수 없음. 해골 머리핀·헤드폰·옆머리 고리·기본 의상 등 추가 식별 단서가 없는 크리스마스 그림.",
+    "uncertain": true
+  },
+  "명조_린네/0097.jpg": {
+    "path": "명조_린네/0097.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 머리 다른 캐릭터의 공식 원화이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0098.jpg": {
+    "path": "명조_린네/0098.jpg",
+    "keep": false,
+    "reason": "금발 남성 캐릭터 팬 그림으로 린네의 헤어·장식·의상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0099.jpg": {
+    "path": "명조_린네/0099.jpg",
+    "keep": true,
+    "reason": "문구가 오른쪽에 있지만 왼쪽의 린네 머리·의상·전체 스케이트 자세가 식별되는 별도 전투 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0100.jpg": {
+    "path": "명조_린네/0100.jpg",
+    "keep": false,
+    "reason": "검은 머리의 남성 캐릭터와 금색 무기 원화로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0101.jpg": {
+    "path": "명조_린네/0101.jpg",
+    "keep": false,
+    "reason": "검은 단발 남성 캐릭터가 주 대상인 게임 장면으로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0102.jpg": {
+    "path": "명조_린네/0102.jpg",
+    "keep": false,
+    "reason": "검은색·붉은 머리 남성 캐릭터 얼굴 장면으로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0103.jpg": {
+    "path": "명조_린네/0103.jpg",
+    "keep": false,
+    "reason": "0118과 같은 장비 자세를 가진 화면을 다시 촬영한 사진으로 UI와 촬영 왜곡이 큼.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0104.jpg": {
+    "path": "명조_린네/0104.jpg",
+    "keep": false,
+    "reason": "0044의 동일 공식 액션 원화를 사용한 포럼 홍보 포스터.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0044.jpg"
+  },
+  "명조_린네/0105.jpg": {
+    "path": "명조_린네/0105.jpg",
+    "keep": false,
+    "reason": "0072의 손바닥 물건·머리·몸 구도를 확대해 문구를 더한 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0072.jpg"
+  },
+  "명조_린네/0106.jpg": {
+    "path": "명조_린네/0106.jpg",
+    "keep": false,
+    "reason": "검은 머리 남성 캐릭터와 금색 무기 원화로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0107.jpg": {
+    "path": "명조_린네/0107.jpg",
+    "keep": true,
+    "reason": "다른 캐릭터가 작은 칸에 나오지만 가장 큰 중앙 칸과 반복 장면의 주 대상이 식별 가능한 린네인 팬 만화.",
+    "uncertain": false
+  },
+  "명조_린네/0108.jpg": {
+    "path": "명조_린네/0108.jpg",
+    "keep": true,
+    "reason": "린네의 이름과 헤드폰·청록 넥타이·긴 초록 끝머리가 보이는 협업 카드 그림의 촬영 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0109.jpg": {
+    "path": "명조_린네/0109.jpg",
+    "keep": false,
+    "reason": "흰색·푸른 단발 다른 캐릭터의 다리와 화면 효과가 주 대상이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0110.jpg": {
+    "path": "명조_린네/0110.jpg",
+    "keep": false,
+    "reason": "린네와 다른 캐릭터의 얼굴 장면을 비슷한 비중으로 병치한 썸네일.",
+    "uncertain": false
+  },
+  "명조_린네/0111.jpg": {
+    "path": "명조_린네/0111.jpg",
+    "keep": false,
+    "reason": "붉은 머리 다른 캐릭터의 이름이 표시된 공식 포스터로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0112.jpg": {
+    "path": "명조_린네/0112.jpg",
+    "keep": false,
+    "reason": "무기 수치와 설명 화면이며 린네 캐릭터가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0113.jpg": {
+    "path": "명조_린네/0113.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·별 귀걸이·헤드폰이 선명한 서류를 든 별도 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0114.jpg": {
+    "path": "명조_린네/0114.jpg",
+    "keep": false,
+    "reason": "0064와 같은 에코 메뉴의 앰프·손을 내민 자세. 크롭/UI만 달라진 근접 중복.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0064.jpg"
+  },
+  "명조_린네/0115.jpg": {
+    "path": "명조_린네/0115.jpg",
+    "keep": false,
+    "reason": "0010 원화가 작게 삽입된 긴 글·웹 UI 캡처.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0010.jpg"
+  },
+  "명조_린네/0116.jpg": {
+    "path": "명조_린네/0116.jpg",
+    "keep": false,
+    "reason": "0001 공식 원화를 재사용하고 다른 장면과 큰 글을 합친 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  },
+  "명조_린네/0117.jpg": {
+    "path": "명조_린네/0117.jpg",
+    "keep": false,
+    "reason": "검은색·붉은 머리 남성 캐릭터 원화로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0118.jpg": {
+    "path": "명조_린네/0118.jpg",
+    "keep": true,
+    "reason": "무기를 세워 든 장비 자세의 린네를 큰 UI와 워터마크 없이 보여 주는 대표본.",
+    "uncertain": false
+  },
+  "명조_린네/0119.jpg": {
+    "path": "명조_린네/0119.jpg",
+    "keep": false,
+    "reason": "검은 머리 다른 캐릭터들 및 큰 글이 주 대상이며 린네가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0120.jpg": {
+    "path": "명조_린네/0120.jpg",
+    "keep": false,
+    "reason": "0118과 동일한 장비 자세의 캐릭터에 큰 글과 X 표시를 더한 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0121.jpg": {
+    "path": "명조_린네/0121.jpg",
+    "keep": true,
+    "reason": "린네의 해골 머리핀·헤드폰·머리와 전체 스케이트 자세가 식별되는 게임 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0122.jpg": {
+    "path": "명조_린네/0122.jpg",
+    "keep": false,
+    "reason": "0082에 있는 동일 얼굴 원화를 더 작게 사용한 정보표의 가로 버전.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0082.jpg"
+  },
+  "명조_린네/0123.jpg": {
+    "path": "명조_린네/0123.jpg",
+    "keep": false,
+    "reason": "마스크를 쓴 뒤쪽 탑승자의 얼굴이 가려지고 린네의 해골 머리핀·옆머리 고리·헤드폰이 확인되지 않음. 긴 초록 끝머리만으로 린네라고 추정하지 않음.",
+    "uncertain": true
+  },
+  "명조_린네/0124.jpg": {
+    "path": "명조_린네/0124.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·초록 끝머리·홀로그램 재킷을 구현한 별도 린네 코스프레 사진. 0001의 그림과 다른 촬영 자료.",
+    "uncertain": false
+  },
+  "명조_린네/0125.jpg": {
+    "path": "명조_린네/0125.jpg",
+    "keep": false,
+    "reason": "0072 장비 화면의 얼굴 일부만 남긴 극단적인 통계 UI 크롭.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0072.jpg"
+  },
+  "명조_린네/0126.jpg": {
+    "path": "명조_린네/0126.jpg",
+    "keep": false,
+    "reason": "0060·0061과 같은 여러 캐릭터 협업 광고의 편집본. 단일 린네 주 대상이 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0127.jpg": {
+    "path": "명조_린네/0127.jpg",
+    "keep": false,
+    "reason": "뽑기·선택 UI와 다른 캐릭터가 주 대상이며 린네가 큰 식별 대상으로 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0128.jpg": {
+    "path": "명조_린네/0128.jpg",
+    "keep": false,
+    "reason": "0022의 동일 게임 이미지가 삽입된 SNS 웹 화면.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0022.jpg"
+  },
+  "명조_린네/0129.jpg": {
+    "path": "명조_린네/0129.jpg",
+    "keep": false,
+    "reason": "액션 효과·동작 흐림과 뒤쪽 시점으로 얼굴·머리 장식이 가려짐. 머리색·비슷한 의상만으로 린네라고 추정하지 않음.",
+    "uncertain": true
+  },
+  "명조_린네/0130.jpg": {
+    "path": "명조_린네/0130.jpg",
+    "keep": false,
+    "reason": "검은 머리와 붉은 리본의 다른 캐릭터 팬 그림으로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0131.jpg": {
+    "path": "명조_린네/0131.jpg",
+    "keep": true,
+    "reason": "0121과 장소가 같아도 얼굴 방향과 몸·팔·다리 자세가 다른 측면 게임 장면이며 린네가 식별됨.",
+    "uncertain": false
+  },
+  "명조_린네/0132.jpg": {
+    "path": "명조_린네/0132.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·별 귀걸이·헤드폰과 얼굴이 선명한 카페 대화 게임 장면.",
+    "uncertain": false
+  },
+  "명조_린네/0133.jpg": {
+    "path": "명조_린네/0133.jpg",
+    "keep": true,
+    "reason": "해골 머리핀·옆머리 고리·헤드폰·청록 넥타이가 선명한 별도 린네 코스프레 사진.",
+    "uncertain": false
+  },
+  "명조_린네/0134.jpg": {
+    "path": "명조_린네/0134.jpg",
+    "keep": false,
+    "reason": "긴 뾰족한 귀와 숲 장식의 다른 게임 캐릭터 팬 그림이며 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0135.jpg": {
+    "path": "명조_린네/0135.jpg",
+    "keep": true,
+    "reason": "단순한 SD 그림체지만 해골 머리핀·헤드폰·넥타이로 린네가 확실하게 식별되는 팬 일러스트.",
+    "uncertain": false
+  },
+  "명조_린네/0136.jpg": {
+    "path": "명조_린네/0136.jpg",
+    "keep": false,
+    "reason": "짧은 검은 머리와 다른 전투 의상의 캐릭터를 흑백 세 칸으로 보여 주는 그림. 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0137.jpg": {
+    "path": "명조_린네/0137.jpg",
+    "keep": false,
+    "reason": "무기와 능력치만 있는 게임 화면. 캐릭터가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0138.jpg": {
+    "path": "명조_린네/0138.jpg",
+    "keep": false,
+    "reason": "음식 사진과 문구가 주 대상인 캡처로 캐릭터가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0139.jpg": {
+    "path": "명조_린네/0139.jpg",
+    "keep": false,
+    "reason": "0118과 동일한 장비 자세의 화면을 확대한 크롭으로 UI가 남아 있음.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0140.jpg": {
+    "path": "명조_린네/0140.jpg",
+    "keep": false,
+    "reason": "얼굴 아래쪽과 의상이 잘린 극단적인 부분 크롭. 더 완전한 별도 린네 그림들을 유지.",
+    "uncertain": false
+  },
+  "명조_린네/0141.jpg": {
+    "path": "명조_린네/0141.jpg",
+    "keep": false,
+    "reason": "눈·머리만 남고 얼굴 아래쪽과 의상이 잘린 극단적인 부분 크롭.",
+    "uncertain": false
+  },
+  "명조_린네/0142.jpg": {
+    "path": "명조_린네/0142.jpg",
+    "keep": false,
+    "reason": "무기와 큰 설명 글이 주 대상인 썸네일. 린네 캐릭터가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0143.jpg": {
+    "path": "명조_린네/0143.jpg",
+    "keep": false,
+    "reason": "0064와 같은 에코 손·앰프 자세의 가까운 프레임 크롭. 큰 세로 워터마크와 UI가 추가됨.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0064.jpg"
+  },
+  "명조_린네/0144.jpg": {
+    "path": "명조_린네/0144.jpg",
+    "keep": false,
+    "reason": "무기 표·큰 글·X 표시가 주 대상. 린네 캐릭터가 없음.",
+    "uncertain": false
+  },
+  "명조_린네/0145.jpg": {
+    "path": "명조_린네/0145.jpg",
+    "keep": false,
+    "reason": "푸른색·흰색 머리와 갑옷·마법 고리의 다른 게임 캐릭터로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0146.jpg": {
+    "path": "명조_린네/0146.jpg",
+    "keep": false,
+    "reason": "0118과 같은 캐릭터 장비 자세에 무기·인벤토리 UI가 크게 추가된 화면.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0147.jpg": {
+    "path": "명조_린네/0147.jpg",
+    "keep": false,
+    "reason": "0118과 같은 캐릭터·무기 구도에 중앙 큰 문구와 다른 자막을 더한 버전.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0118.jpg"
+  },
+  "명조_린네/0148.jpg": {
+    "path": "명조_린네/0148.jpg",
+    "keep": false,
+    "reason": "검은 머리·안경의 다른 캐릭터 이름이 표시된 공식 포스터로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0149.jpg": {
+    "path": "명조_린네/0149.jpg",
+    "keep": false,
+    "reason": "보라색 머리의 다른 캐릭터와 마스코트 공식 원화로 린네가 아님.",
+    "uncertain": false
+  },
+  "명조_린네/0150.jpg": {
+    "path": "명조_린네/0150.jpg",
+    "keep": false,
+    "reason": "0001 공식 측면 풍선껌 원화를 재사용한 큰 안내 문구 썸네일.",
+    "uncertain": false,
+    "duplicate_of": "명조_린네/0001.jpg"
+  }
+}

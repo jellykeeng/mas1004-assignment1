@@ -1,0 +1,64 @@
+original | 양양_IMG_1390.png | browser 명조_양양 99.7% | Python 명조_양양 99.7% | label match true
+original | 양양_IMG_1392.png | browser 명조_양양 99.9% | Python 명조_양양 99.9% | label match true
+original | 카멜리아_IMG_0584.png | browser 명조_카멜리아 99.9% | Python 명조_카멜리아 99.9% | label match true
+original | 카멜리아_IMG_2555.png | browser 명조_카멜리아 98.9% | Python 명조_카멜리아 98.9% | label match true
+original | 린네_IMG_1417.png | browser 명조_린네 65.3% | Python 명조_린네 65.3% | label match true
+original | 린네_IMG_0850.png | browser 명조_린네 59.2% | Python 명조_린네 59.2% | label match true
+original | 에이메스_IMG_0215.png | browser 명조_에이메스 99.9% | Python 명조_에이메스 99.9% | label match true
+original | 에이메스_IMG_0553.png | browser 명조_에이메스 98.3% | Python 명조_에이메스 98.3% | label match true
+gray | 양양_IMG_1390.png | browser 명조_양양 98.6% | Python 명조_양양 98.6% | label match true
+head_mask | 양양_IMG_1390.png | browser 명조_양양 90.2% | Python 명조_양양 90.2% | label match true
+clothes_mask | 양양_IMG_1390.png | browser 명조_양양 99.7% | Python 명조_양양 99.7% | label match true
+gray | 양양_IMG_1392.png | browser 명조_양양 99.9% | Python 명조_양양 99.9% | label match true
+head_mask | 양양_IMG_1392.png | browser 명조_양양 99.8% | Python 명조_양양 99.8% | label match true
+clothes_mask | 양양_IMG_1392.png | browser 명조_양양 99.9% | Python 명조_양양 99.9% | label match true
+gray | 카멜리아_IMG_0584.png | browser 명조_카멜리아 57.9% | Python 명조_카멜리아 57.9% | label match true
+head_mask | 카멜리아_IMG_0584.png | browser 명조_카멜리아 99.9% | Python 명조_카멜리아 99.9% | label match true
+clothes_mask | 카멜리아_IMG_0584.png | browser 명조_카멜리아 99.9% | Python 명조_카멜리아 99.9% | label match true
+gray | 카멜리아_IMG_2555.png | browser 명조_양양 51.5% | Python 명조_양양 51.5% | label match true
+head_mask | 카멜리아_IMG_2555.png | browser 명조_카멜리아 99.4% | Python 명조_카멜리아 99.4% | label match true
+clothes_mask | 카멜리아_IMG_2555.png | browser 명조_카멜리아 99.7% | Python 명조_카멜리아 99.7% | label match true
+gray | 린네_IMG_1417.png | browser 명조_에이메스 89.9% | Python 명조_에이메스 89.9% | label match true
+head_mask | 린네_IMG_1417.png | browser 명조_에이메스 40.4% | Python 명조_에이메스 40.4% | label match true
+clothes_mask | 린네_IMG_1417.png | browser 명조_에이메스 56.9% | Python 명조_에이메스 56.9% | label match true
+gray | 린네_IMG_0850.png | browser 명조_에이메스 78.5% | Python 명조_에이메스 78.5% | label match true
+head_mask | 린네_IMG_0850.png | browser 명조_린네 60.6% | Python 명조_린네 60.6% | label match true
+clothes_mask | 린네_IMG_0850.png | browser 명조_에이메스 69.7% | Python 명조_에이메스 69.7% | label match true
+gray | 에이메스_IMG_0215.png | browser 명조_에이메스 64.1% | Python 명조_에이메스 64.1% | label match true
+head_mask | 에이메스_IMG_0215.png | browser 명조_에이메스 84.1% | Python 명조_에이메스 84.1% | label match true
+clothes_mask | 에이메스_IMG_0215.png | browser 명조_에이메스 100.0% | Python 명조_에이메스 100.0% | label match true
+gray | 에이메스_IMG_0553.png | browser 명조_에이메스 74.5% | Python 명조_에이메스 74.5% | label match true
+head_mask | 에이메스_IMG_0553.png | browser 명조_카멜리아 52.1% | Python 명조_카멜리아 52.1% | label match true
+{
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "ablationSummary": {
+    "pairCount": 23,
+    "originalCount": 8,
+    "changedCount": 23,
+    "uploadCount": 31,
+    "matchedTopLabels": 31,
+    "maximumRoundedConfidenceGapPoints": 0.04452257156371786,
+    "differences": [],
+    "confidenceGapTolerancePoints": 0.051,
+    "note": "Browser bars display one decimal place; confidence differences include this rounding."
+  },
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/final-ablations/selftest.png",
+    "original": "/private/tmp/mas1004-browser-test/final-ablations/original.png",
+    "crop-original": "/private/tmp/mas1004-browser-test/final-ablations/crop-original.png",
+    "gray": "/private/tmp/mas1004-browser-test/final-ablations/gray.png",
+    "crop-gray": "/private/tmp/mas1004-browser-test/final-ablations/crop-gray.png",
+    "head_mask": "/private/tmp/mas1004-browser-test/final-ablations/head_mask.png",
+    "crop-head_mask": "/private/tmp/mas1004-browser-test/final-ablations/crop-head_mask.png",
+    "clothes_mask": "/private/tmp/mas1004-browser-test/final-ablations/clothes_mask.png",
+    "crop-clothes_mask": "/private/tmp/mas1004-browser-test/final-ablations/crop-clothes_mask.png"
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "pass": true
+}

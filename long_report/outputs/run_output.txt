@@ -1,0 +1,32 @@
+reading /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean
+600 images, 4 classes, read in 8 s
+  명조_린네                    150
+  명조_양양                    150
+  명조_에이메스                  150
+  명조_카멜리아                  150
+training on 480, testing on 120
+model has 11,178,564 parameters, 11,178,564 of them will be trained
+training device: mps
+Epoch 1/10: train loss=0.8401, train acc=0.6854, test loss=0.5441, test acc=0.8167
+Epoch 2/10: train loss=0.2284, train acc=0.9250, test loss=0.4665, test acc=0.8167
+Epoch 3/10: train loss=0.1063, train acc=0.9854, test loss=0.5381, test acc=0.8167
+Epoch 4/10: train loss=0.0838, train acc=0.9833, test loss=0.5346, test acc=0.8250
+Epoch 5/10: train loss=0.0768, train acc=0.9750, test loss=0.5375, test acc=0.8333
+Epoch 6/10: train loss=0.0716, train acc=0.9750, test loss=0.5517, test acc=0.7917
+Epoch 7/10: train loss=0.0825, train acc=0.9750, test loss=0.5553, test acc=0.8250
+Epoch 8/10: train loss=0.0560, train acc=0.9792, test loss=0.6804, test acc=0.7917
+Epoch 9/10: train loss=0.0891, train acc=0.9646, test loss=0.6180, test acc=0.7917
+Epoch 10/10: train loss=0.0656, train acc=0.9750, test loss=0.5893, test acc=0.7833
+
+trained in 0.8 minutes
+train accuracy 99.8%
+test  accuracy 78.3%
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/run_curves.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/run_confusion.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/run_worst.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/run_model.pt
+
+One line for your experiment table:
+| run | ImageNet | all layers | 10 | 0.0001 | 11,178,564 | 99.8% | 78.3% |
+
+To put this model on your web page: python src/export_web.py --tag run

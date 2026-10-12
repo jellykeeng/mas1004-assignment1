@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "result_path": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/student_hair_masks.json",
+  "result_sha256": "52afc098dad5d46fccba741955a55f12e4241ee4c56d1751fb24073eade2514b",
+  "config_sha256": "ed8960a0dc13c63b60b9e0c1fa3d4b1905eb174dbf3753191fce92c683407e3c",
+  "model_sha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "metadata_sha256": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+  "case_count": 24,
+  "all_current_personal_sources_used": true,
+  "recorded_inferences": 48,
+  "new_inferences_in_this_audit": 0,
+  "no_training": true,
+  "reference_original_labels_matching": 24,
+  "reference_absolute_tolerance": 0.0001,
+  "reference_max_logit_gap": 1.9073486328125e-06,
+  "reference_max_probability_gap": 3.1886032592076674e-07,
+  "reference_max_confidence_gap": 3.1886032592076674e-07,
+  "source_hashes_preserved": 24,
+  "canonical_hashes_preserved": 24,
+  "fixed_preinference_masks_preserved": 24,
+  "original224_inputs_equal": 24,
+  "nonempty_actual224_masks": 24,
+  "outside_mask_changed_pixels_total": 0,
+  "max_probability_sum_error": 2.220446049250313e-16,
+  "protected_files_checked": 4755,
+  "protected_files_changed": [],
+  "old_preflight_config_sha256": "a34f7f1058422e11edf6d2fb644edd059c1e26b4ccb45aa6035c5532e229d8a4",
+  "old_preflight_sha256_preserved": "10b72514c4a543afa71018997f267f071f3ba1ea249eb84c7c4ce5bfa769228e",
+  "final_preflight_config_sha256": "ed8960a0dc13c63b60b9e0c1fa3d4b1905eb174dbf3753191fce92c683407e3c",
+  "student_reflection_received_at_measurement": false
+}
+명조_린네: before 5/6=83.3%; after 4/6=66.7%; prediction changes 1; true score rose 0, fell 6; zero actual224 masks 0
+명조_양양: before 6/6=100.0%; after 5/6=83.3%; prediction changes 1; true score rose 1, fell 5; zero actual224 masks 0
+명조_에이메스: before 6/6=100.0%; after 6/6=100.0%; prediction changes 0; true score rose 0, fell 6; zero actual224 masks 0
+명조_카멜리아: before 5/6=83.3%; after 5/6=83.3%; prediction changes 0; true score rose 4, fell 2; zero actual224 masks 0
+ALL: before 22/24=91.7%; after 20/24=83.3%; prediction changes 2; true score rose 5, fell 19; zero actual224 masks 0
+JSON: /private/tmp/mas1004-student-hair-masks-readonly-qa.json
+TXT: /private/tmp/mas1004-student-hair-masks-readonly-qa.txt

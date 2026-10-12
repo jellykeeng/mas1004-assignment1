@@ -7,7 +7,12 @@ that the model can eat.
 Run `pytest tests/test_data.py` after you fill them in.
 """
 
+from pathlib import Path
+
 import numpy as np
+from PIL import Image
+from torchvision.transforms import InterpolationMode
+from torchvision.transforms import functional as transforms
 
 # Files with any other extension should be ignored.
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
@@ -50,7 +55,12 @@ def prepare_image(image):
     The web page does these same six steps in JavaScript. If your version is
     different, the self test badge at the top of your page turns red.
     """
-    raise NotImplementedError("Problem 2: fill in prepare_image")
+    image = image.convert("RGB")
+    image = transforms.resize(image, RESIZE, InterpolationMode.BILINEAR)
+    image = transforms.center_crop(image, [CROP, CROP])
+    values = transforms.to_tensor(image)
+    values = transforms.normalize(values, MEAN, STD)
+    return values.numpy().astype(np.float32, copy=False)
 
 
 def load_folder(root):
@@ -83,7 +93,32 @@ def load_folder(root):
     Memory: every image becomes 3 x 224 x 224 numbers of 4 bytes, about 0.6 MB.
     750 images is about 450 MB. That fits on Colab and on most laptops.
     """
-    raise NotImplementedError("Problem 2: fill in load_folder")
+    root = Path(root)
+    if not root.is_dir():
+        raise FileNotFoundError(f"Image folder does not exist: {root}")
+
+    folders = sorted(path for path in root.iterdir() if path.is_dir())
+    class_names = [folder.name for folder in folders]
+    images, labels, paths = [], [], []
+    for label, folder in enumerate(folders):
+        for path in sorted(folder.iterdir()):
+            if not path.is_file() or path.suffix.lower() not in IMAGE_SUFFIXES:
+                continue
+            try:
+                with Image.open(path) as image:
+                    image.load()
+                    prepared = prepare_image(image)
+            except (OSError, SyntaxError) as error:
+                print(f"Skipping unreadable image {path}: {error}")
+                continue
+            images.append(prepared)
+            labels.append(label)
+            paths.append(path)
+
+    X = (np.stack(images).astype(np.float32)
+         if images else np.empty((0, 3, CROP, CROP), dtype=np.float32))
+    y = np.asarray(labels, dtype=np.int64)
+    return X, y, class_names, paths
 
 
 def split_train_test(X, y, paths, test_ratio=0.2, seed=0):
@@ -102,4 +137,28 @@ def split_train_test(X, y, paths, test_ratio=0.2, seed=0):
         up with a class that has no test images at all, and then your accuracy
         number means nothing.
     """
-    raise NotImplementedError("Problem 2: fill in split_train_test")
+    if not 0 < test_ratio < 1:
+        raise ValueError("test_ratio must be between 0 and 1 (exclusive).")
+    if len(X) != len(y) or len(y) != len(paths):
+        raise ValueError("X, y and paths must have the same number of rows.")
+    if len(y) == 0:
+        raise ValueError("There are no images to split.")
+    if len({Path(path).resolve() for path in paths}) != len(paths):
+        raise ValueError("Each image path must appear only once before splitting.")
+
+    rng = np.random.default_rng(seed)
+    train_indices, test_indices = [], []
+    for label in np.unique(y):
+        indices = rng.permutation(np.flatnonzero(y == label))
+        if len(indices) < 2:
+            raise ValueError(f"Class {label} needs at least two readable images "
+                             "to appear in both train and test sets.")
+        # Split each class separately and leave at least one row on each side.
+        n_test = max(1, min(len(indices) - 1, int(round(len(indices) * test_ratio))))
+        test_indices.extend(indices[:n_test])
+        train_indices.extend(indices[n_test:])
+
+    train_indices = rng.permutation(train_indices)
+    test_indices = rng.permutation(test_indices)
+    return (X[train_indices], y[train_indices], [paths[i] for i in train_indices],
+            X[test_indices], y[test_indices], [paths[i] for i in test_indices])

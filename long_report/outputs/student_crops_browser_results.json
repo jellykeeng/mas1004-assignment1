@@ -1,0 +1,901 @@
+{
+  "url": "http://127.0.0.1:8011/",
+  "analysisPath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/student_crops.json",
+  "uploads": [
+    {
+      "id": "camellya_IMG_2554",
+      "kind": "original",
+      "source": "data/changed/student_crops/camellya_IMG_2554/original.png",
+      "sourceSha256": "6cd04c9413351b25f0a2abddb4c8c5b92f8144209e046e36695541d334285e6e",
+      "python": {
+        "label": "명조_에이메스",
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "logits": [
+          0.6875427961349487,
+          -0.9065308570861816,
+          2.3542890548706055,
+          -2.147932291030884
+        ],
+        "probabilities": [
+          0.1525157779101348,
+          0.030975432775350954,
+          0.8075575413026169,
+          0.00895124801189743
+        ]
+      },
+      "browser": {
+        "rows": [
+          {
+            "label": "명조_에이메스",
+            "percentageText": "80.8%",
+            "percentage": 80.8
+          },
+          {
+            "label": "명조_린네",
+            "percentageText": "15.3%",
+            "percentage": 15.3
+          },
+          {
+            "label": "명조_양양",
+            "percentageText": "3.1%",
+            "percentage": 3.1
+          },
+          {
+            "label": "명조_카멜리아",
+            "percentageText": "0.9%",
+            "percentage": 0.9
+          }
+        ],
+        "logits": [
+          0.6875429153442383,
+          -0.9065313935279846,
+          2.3542890548706055,
+          -2.147932291030884
+        ],
+        "probabilities": [
+          0.1525157958527788,
+          0.030975416110368505,
+          0.8075575400389621,
+          0.00895124799789064
+        ],
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "canvas": {
+          "width": 224,
+          "height": 224
+        }
+      },
+      "labelMatch": true,
+      "maxLogitGap": 5.364418029785156e-7,
+      "maxProbabilityGap": 1.7942644009449893e-8,
+      "pythonInputImage": {
+        "path": "data/changed/student_crops/camellya_IMG_2554/before_input.png",
+        "sha256": "c552c0ca558727d43b82de87046b6c1d11cd4cde741b6cffed0a683299e74d2e",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-original-actual224.png"
+    },
+    {
+      "id": "camellya_IMG_2554",
+      "kind": "changed",
+      "source": "data/changed/student_crops/camellya_IMG_2554/changed.png",
+      "sourceSha256": "2f9494678309337ea41a4c56ba41bf20c249d959fd388fbf2adee43bb9c3f66b",
+      "python": {
+        "label": "명조_카멜리아",
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "logits": [
+          -1.7550745010375977,
+          -3.646514654159546,
+          -3.5801620483398438,
+          8.353361129760742
+        ],
+        "probabilities": [
+          0.000040732303792046534,
+          0.000006144647203897866,
+          0.000006566191179844168,
+          0.9999465568578241
+        ]
+      },
+      "browser": {
+        "rows": [
+          {
+            "label": "명조_카멜리아",
+            "percentageText": "100.0%",
+            "percentage": 100
+          },
+          {
+            "label": "명조_린네",
+            "percentageText": "0.0%",
+            "percentage": 0
+          },
+          {
+            "label": "명조_에이메스",
+            "percentageText": "0.0%",
+            "percentage": 0
+          },
+          {
+            "label": "명조_양양",
+            "percentageText": "0.0%",
+            "percentage": 0
+          }
+        ],
+        "logits": [
+          -1.7550745010375977,
+          -3.646514654159546,
+          -3.580162525177002,
+          8.353362083435059
+        ],
+        "probabilities": [
+          0.000040732264948916636,
+          0.000006144641344240854,
+          0.000006566181787194279,
+          0.9999465569119197
+        ],
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "canvas": {
+          "width": 224,
+          "height": 224
+        }
+      },
+      "labelMatch": true,
+      "maxLogitGap": 9.5367431640625e-7,
+      "maxProbabilityGap": 5.409561687486075e-11,
+      "pythonInputImage": {
+        "path": "data/changed/student_crops/camellya_IMG_2554/after_input.png",
+        "sha256": "e0ce1ce5dbe52029413143e72b903601f8e2f24a656dc848792bb78913c6d3ed",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-changed-actual224.png"
+    },
+    {
+      "id": "lynae_IMG_0860",
+      "kind": "original",
+      "source": "data/changed/student_crops/lynae_IMG_0860/original.png",
+      "sourceSha256": "a5566bbea8191fbf13c51c3e172cf6f61a49ab9cabe0b0a0116663e18dc1ece2",
+      "python": {
+        "label": "명조_에이메스",
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "logits": [
+          0.32616832852363586,
+          1.081919550895691,
+          1.3032644987106323,
+          -2.779811382293701
+        ],
+        "probabilities": [
+          0.17150536480401385,
+          0.36517101209458136,
+          0.4556435056748749,
+          0.007680117426530018
+        ]
+      },
+      "browser": {
+        "rows": [
+          {
+            "label": "명조_에이메스",
+            "percentageText": "45.6%",
+            "percentage": 45.6
+          },
+          {
+            "label": "명조_양양",
+            "percentageText": "36.5%",
+            "percentage": 36.5
+          },
+          {
+            "label": "명조_린네",
+            "percentageText": "17.2%",
+            "percentage": 17.2
+          },
+          {
+            "label": "명조_카멜리아",
+            "percentageText": "0.8%",
+            "percentage": 0.8
+          }
+        ],
+        "logits": [
+          0.3261675238609314,
+          1.0819203853607178,
+          1.303264856338501,
+          -2.7798118591308594
+        ],
+        "probabilities": [
+          0.1715051708881557,
+          0.3651711977686594,
+          0.45564352008259207,
+          0.007680111260592952
+        ],
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "canvas": {
+          "width": 224,
+          "height": 224
+        }
+      },
+      "labelMatch": true,
+      "maxLogitGap": 8.344650268554688e-7,
+      "maxProbabilityGap": 1.9391585814876322e-7,
+      "pythonInputImage": {
+        "path": "data/changed/student_crops/lynae_IMG_0860/before_input.png",
+        "sha256": "2e87ab90bb3fd57c4bd1dbcfb6a1b9334aee16fcc4da21cb9312f83ecdae7ac2",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-original.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-original-actual224.png"
+    },
+    {
+      "id": "lynae_IMG_0860",
+      "kind": "changed",
+      "source": "data/changed/student_crops/lynae_IMG_0860/changed.png",
+      "sourceSha256": "a7015a404d650a92ba4cc1083e159068cb623b5b67e4aadb395aaca59375834b",
+      "python": {
+        "label": "명조_린네",
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "logits": [
+          1.4702718257904053,
+          -0.2691831588745117,
+          0.1103721559047699,
+          -1.537736415863037
+        ],
+        "probabilities": [
+          0.674903836148878,
+          0.11852397148074668,
+          0.17323872314391905,
+          0.033333469226456455
+        ]
+      },
+      "browser": {
+        "rows": [
+          {
+            "label": "명조_린네",
+            "percentageText": "67.5%",
+            "percentage": 67.5
+          },
+          {
+            "label": "명조_에이메스",
+            "percentageText": "17.3%",
+            "percentage": 17.3
+          },
+          {
+            "label": "명조_양양",
+            "percentageText": "11.9%",
+            "percentage": 11.9
+          },
+          {
+            "label": "명조_카멜리아",
+            "percentageText": "3.3%",
+            "percentage": 3.3
+          }
+        ],
+        "logits": [
+          1.4702708721160889,
+          -0.2691829800605774,
+          0.11037273705005646,
+          -1.5377367734909058
+        ],
+        "probabilities": [
+          0.674903552698986,
+          0.11852405592941029,
+          0.1732389162764308,
+          0.03333347509517291
+        ],
+        "labels": [
+          "명조_린네",
+          "명조_양양",
+          "명조_에이메스",
+          "명조_카멜리아"
+        ],
+        "canvas": {
+          "width": 224,
+          "height": 224
+        }
+      },
+      "labelMatch": true,
+      "maxLogitGap": 9.5367431640625e-7,
+      "maxProbabilityGap": 2.8344989189132974e-7,
+      "pythonInputImage": {
+        "path": "data/changed/student_crops/lynae_IMG_0860/after_input.png",
+        "sha256": "b96dc3526cc9fd509e927ab1b31eafbb42f3bcab3443ed5004cdb4e033a72805",
+        "size": [
+          224,
+          224
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "differingRgbChannels": 0,
+      "maximumRgbPixelGap": 0,
+      "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-changed.png",
+      "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-changed-actual224.png"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "camellya_IMG_2554",
+      "original": {
+        "id": "camellya_IMG_2554",
+        "kind": "original",
+        "source": "data/changed/student_crops/camellya_IMG_2554/original.png",
+        "sourceSha256": "6cd04c9413351b25f0a2abddb4c8c5b92f8144209e046e36695541d334285e6e",
+        "python": {
+          "label": "명조_에이메스",
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "logits": [
+            0.6875427961349487,
+            -0.9065308570861816,
+            2.3542890548706055,
+            -2.147932291030884
+          ],
+          "probabilities": [
+            0.1525157779101348,
+            0.030975432775350954,
+            0.8075575413026169,
+            0.00895124801189743
+          ]
+        },
+        "browser": {
+          "rows": [
+            {
+              "label": "명조_에이메스",
+              "percentageText": "80.8%",
+              "percentage": 80.8
+            },
+            {
+              "label": "명조_린네",
+              "percentageText": "15.3%",
+              "percentage": 15.3
+            },
+            {
+              "label": "명조_양양",
+              "percentageText": "3.1%",
+              "percentage": 3.1
+            },
+            {
+              "label": "명조_카멜리아",
+              "percentageText": "0.9%",
+              "percentage": 0.9
+            }
+          ],
+          "logits": [
+            0.6875429153442383,
+            -0.9065313935279846,
+            2.3542890548706055,
+            -2.147932291030884
+          ],
+          "probabilities": [
+            0.1525157958527788,
+            0.030975416110368505,
+            0.8075575400389621,
+            0.00895124799789064
+          ],
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "canvas": {
+            "width": 224,
+            "height": 224
+          }
+        },
+        "labelMatch": true,
+        "maxLogitGap": 5.364418029785156e-7,
+        "maxProbabilityGap": 1.7942644009449893e-8,
+        "pythonInputImage": {
+          "path": "data/changed/student_crops/camellya_IMG_2554/before_input.png",
+          "sha256": "c552c0ca558727d43b82de87046b6c1d11cd4cde741b6cffed0a683299e74d2e",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        },
+        "differingRgbChannels": 0,
+        "maximumRgbPixelGap": 0,
+        "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-original.png",
+        "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-original-actual224.png"
+      },
+      "changed": {
+        "id": "camellya_IMG_2554",
+        "kind": "changed",
+        "source": "data/changed/student_crops/camellya_IMG_2554/changed.png",
+        "sourceSha256": "2f9494678309337ea41a4c56ba41bf20c249d959fd388fbf2adee43bb9c3f66b",
+        "python": {
+          "label": "명조_카멜리아",
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "logits": [
+            -1.7550745010375977,
+            -3.646514654159546,
+            -3.5801620483398438,
+            8.353361129760742
+          ],
+          "probabilities": [
+            0.000040732303792046534,
+            0.000006144647203897866,
+            0.000006566191179844168,
+            0.9999465568578241
+          ]
+        },
+        "browser": {
+          "rows": [
+            {
+              "label": "명조_카멜리아",
+              "percentageText": "100.0%",
+              "percentage": 100
+            },
+            {
+              "label": "명조_린네",
+              "percentageText": "0.0%",
+              "percentage": 0
+            },
+            {
+              "label": "명조_에이메스",
+              "percentageText": "0.0%",
+              "percentage": 0
+            },
+            {
+              "label": "명조_양양",
+              "percentageText": "0.0%",
+              "percentage": 0
+            }
+          ],
+          "logits": [
+            -1.7550745010375977,
+            -3.646514654159546,
+            -3.580162525177002,
+            8.353362083435059
+          ],
+          "probabilities": [
+            0.000040732264948916636,
+            0.000006144641344240854,
+            0.000006566181787194279,
+            0.9999465569119197
+          ],
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "canvas": {
+            "width": 224,
+            "height": 224
+          }
+        },
+        "labelMatch": true,
+        "maxLogitGap": 9.5367431640625e-7,
+        "maxProbabilityGap": 5.409561687486075e-11,
+        "pythonInputImage": {
+          "path": "data/changed/student_crops/camellya_IMG_2554/after_input.png",
+          "sha256": "e0ce1ce5dbe52029413143e72b903601f8e2f24a656dc848792bb78913c6d3ed",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        },
+        "differingRgbChannels": 0,
+        "maximumRgbPixelGap": 0,
+        "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-changed.png",
+        "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-changed-actual224.png"
+      }
+    },
+    {
+      "id": "lynae_IMG_0860",
+      "original": {
+        "id": "lynae_IMG_0860",
+        "kind": "original",
+        "source": "data/changed/student_crops/lynae_IMG_0860/original.png",
+        "sourceSha256": "a5566bbea8191fbf13c51c3e172cf6f61a49ab9cabe0b0a0116663e18dc1ece2",
+        "python": {
+          "label": "명조_에이메스",
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "logits": [
+            0.32616832852363586,
+            1.081919550895691,
+            1.3032644987106323,
+            -2.779811382293701
+          ],
+          "probabilities": [
+            0.17150536480401385,
+            0.36517101209458136,
+            0.4556435056748749,
+            0.007680117426530018
+          ]
+        },
+        "browser": {
+          "rows": [
+            {
+              "label": "명조_에이메스",
+              "percentageText": "45.6%",
+              "percentage": 45.6
+            },
+            {
+              "label": "명조_양양",
+              "percentageText": "36.5%",
+              "percentage": 36.5
+            },
+            {
+              "label": "명조_린네",
+              "percentageText": "17.2%",
+              "percentage": 17.2
+            },
+            {
+              "label": "명조_카멜리아",
+              "percentageText": "0.8%",
+              "percentage": 0.8
+            }
+          ],
+          "logits": [
+            0.3261675238609314,
+            1.0819203853607178,
+            1.303264856338501,
+            -2.7798118591308594
+          ],
+          "probabilities": [
+            0.1715051708881557,
+            0.3651711977686594,
+            0.45564352008259207,
+            0.007680111260592952
+          ],
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "canvas": {
+            "width": 224,
+            "height": 224
+          }
+        },
+        "labelMatch": true,
+        "maxLogitGap": 8.344650268554688e-7,
+        "maxProbabilityGap": 1.9391585814876322e-7,
+        "pythonInputImage": {
+          "path": "data/changed/student_crops/lynae_IMG_0860/before_input.png",
+          "sha256": "2e87ab90bb3fd57c4bd1dbcfb6a1b9334aee16fcc4da21cb9312f83ecdae7ac2",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        },
+        "differingRgbChannels": 0,
+        "maximumRgbPixelGap": 0,
+        "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-original.png",
+        "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-original-actual224.png"
+      },
+      "changed": {
+        "id": "lynae_IMG_0860",
+        "kind": "changed",
+        "source": "data/changed/student_crops/lynae_IMG_0860/changed.png",
+        "sourceSha256": "a7015a404d650a92ba4cc1083e159068cb623b5b67e4aadb395aaca59375834b",
+        "python": {
+          "label": "명조_린네",
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "logits": [
+            1.4702718257904053,
+            -0.2691831588745117,
+            0.1103721559047699,
+            -1.537736415863037
+          ],
+          "probabilities": [
+            0.674903836148878,
+            0.11852397148074668,
+            0.17323872314391905,
+            0.033333469226456455
+          ]
+        },
+        "browser": {
+          "rows": [
+            {
+              "label": "명조_린네",
+              "percentageText": "67.5%",
+              "percentage": 67.5
+            },
+            {
+              "label": "명조_에이메스",
+              "percentageText": "17.3%",
+              "percentage": 17.3
+            },
+            {
+              "label": "명조_양양",
+              "percentageText": "11.9%",
+              "percentage": 11.9
+            },
+            {
+              "label": "명조_카멜리아",
+              "percentageText": "3.3%",
+              "percentage": 3.3
+            }
+          ],
+          "logits": [
+            1.4702708721160889,
+            -0.2691829800605774,
+            0.11037273705005646,
+            -1.5377367734909058
+          ],
+          "probabilities": [
+            0.674903552698986,
+            0.11852405592941029,
+            0.1732389162764308,
+            0.03333347509517291
+          ],
+          "labels": [
+            "명조_린네",
+            "명조_양양",
+            "명조_에이메스",
+            "명조_카멜리아"
+          ],
+          "canvas": {
+            "width": 224,
+            "height": 224
+          }
+        },
+        "labelMatch": true,
+        "maxLogitGap": 9.5367431640625e-7,
+        "maxProbabilityGap": 2.8344989189132974e-7,
+        "pythonInputImage": {
+          "path": "data/changed/student_crops/lynae_IMG_0860/after_input.png",
+          "sha256": "b96dc3526cc9fd509e927ab1b31eafbb42f3bcab3443ed5004cdb4e033a72805",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        },
+        "differingRgbChannels": 0,
+        "maximumRgbPixelGap": 0,
+        "screenshot": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-changed.png",
+        "actual224Canvas": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-changed-actual224.png"
+      }
+    }
+  ],
+  "screenshots": {
+    "selftest": "/private/tmp/mas1004-browser-test/student-crops-artifacts/selftest.png",
+    "camellya_IMG_2554-original": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-original.png",
+    "camellya_IMG_2554-changed": "/private/tmp/mas1004-browser-test/student-crops-artifacts/camellya_IMG_2554-changed.png",
+    "lynae_IMG_0860-original": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-original.png",
+    "lynae_IMG_0860-changed": "/private/tmp/mas1004-browser-test/student-crops-artifacts/lynae_IMG_0860-changed.png"
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:8011/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8011/app.js",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.wasm.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8011/model.json",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.mjs",
+      "status": 200
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort-wasm-simd-threaded.wasm",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8011/model.onnx",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8011/selftest.json",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8011/ce0c62db-2519-479c-a228-344901e63215",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8011/4792c57d-4470-4eb7-bc21-efdd0ba2374d",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8011/5d193dbf-a22a-4303-9e0d-058784ad67e3",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8011/8ef3e441-6f3a-4719-bff1-767307c726e3",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "httpFailures": [],
+  "protectedFiles": [
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/student_crops.json",
+      "sha256Before": "afddd514d29d5ea231d857eeac56dac8fdb6ccbe3e0cf2aaeede11bf326df225",
+      "sha256After": "afddd514d29d5ea231d857eeac56dac8fdb6ccbe3e0cf2aaeede11bf326df225",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/docs/model.json",
+      "sha256Before": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+      "sha256After": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/docs/model.onnx",
+      "sha256Before": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+      "sha256After": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/config/student_crops.json",
+      "sha256Before": "f1f8b6ef49320104cbdc6f672f676b451a524c9e51832fde91eca7373755296f",
+      "sha256After": "f1f8b6ef49320104cbdc6f672f676b451a524c9e51832fde91eca7373755296f",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_카멜리아/IMG_2554.jpg",
+      "sha256Before": "75d6dc9e4c7f21a0734cdfc1e3671223497ea911d173cea7b80190a699cd21ab",
+      "sha256After": "75d6dc9e4c7f21a0734cdfc1e3671223497ea911d173cea7b80190a699cd21ab",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/camellya_IMG_2554/original.png",
+      "sha256Before": "6cd04c9413351b25f0a2abddb4c8c5b92f8144209e046e36695541d334285e6e",
+      "sha256After": "6cd04c9413351b25f0a2abddb4c8c5b92f8144209e046e36695541d334285e6e",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/camellya_IMG_2554/changed.png",
+      "sha256Before": "2f9494678309337ea41a4c56ba41bf20c249d959fd388fbf2adee43bb9c3f66b",
+      "sha256After": "2f9494678309337ea41a4c56ba41bf20c249d959fd388fbf2adee43bb9c3f66b",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/camellya_IMG_2554/before_input.png",
+      "sha256Before": "c552c0ca558727d43b82de87046b6c1d11cd4cde741b6cffed0a683299e74d2e",
+      "sha256After": "c552c0ca558727d43b82de87046b6c1d11cd4cde741b6cffed0a683299e74d2e",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/camellya_IMG_2554/after_input.png",
+      "sha256Before": "e0ce1ce5dbe52029413143e72b903601f8e2f24a656dc848792bb78913c6d3ed",
+      "sha256After": "e0ce1ce5dbe52029413143e72b903601f8e2f24a656dc848792bb78913c6d3ed",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/new_images/명조_린네/IMG_0860.jpg",
+      "sha256Before": "d95ab846d4907a7c686e2eec0552ffd94b445b2c76c42808d0bb4135aa032903",
+      "sha256After": "d95ab846d4907a7c686e2eec0552ffd94b445b2c76c42808d0bb4135aa032903",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/lynae_IMG_0860/original.png",
+      "sha256Before": "a5566bbea8191fbf13c51c3e172cf6f61a49ab9cabe0b0a0116663e18dc1ece2",
+      "sha256After": "a5566bbea8191fbf13c51c3e172cf6f61a49ab9cabe0b0a0116663e18dc1ece2",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/lynae_IMG_0860/changed.png",
+      "sha256Before": "a7015a404d650a92ba4cc1083e159068cb623b5b67e4aadb395aaca59375834b",
+      "sha256After": "a7015a404d650a92ba4cc1083e159068cb623b5b67e4aadb395aaca59375834b",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/lynae_IMG_0860/before_input.png",
+      "sha256Before": "2e87ab90bb3fd57c4bd1dbcfb6a1b9334aee16fcc4da21cb9312f83ecdae7ac2",
+      "sha256After": "2e87ab90bb3fd57c4bd1dbcfb6a1b9334aee16fcc4da21cb9312f83ecdae7ac2",
+      "unchanged": true
+    },
+    {
+      "filePath": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/changed/student_crops/lynae_IMG_0860/after_input.png",
+      "sha256Before": "b96dc3526cc9fd509e927ab1b31eafbb42f3bcab3443ed5004cdb4e033a72805",
+      "sha256After": "b96dc3526cc9fd509e927ab1b31eafbb42f3bcab3443ed5004cdb4e033a72805",
+      "unchanged": true
+    }
+  ],
+  "modelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "referenceModelSha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "browserVersion": "154.0.8037.99",
+  "badge": {
+    "text": "self test passed: the browser agrees with Python (largest gap 0.0000)",
+    "className": "badge ok"
+  },
+  "summary": {
+    "pairs": 2,
+    "uploads": 4,
+    "matchedTopLabels": 4,
+    "maximumLogitGap": 9.5367431640625e-7,
+    "maximumProbabilityGap": 2.8344989189132974e-7,
+    "differingRgbChannels": 0,
+    "maximumRgbPixelGap": 0,
+    "tolerance": 0.0001,
+    "modelShaMatch": true,
+    "protectedFilesUnchanged": true
+  },
+  "pass": true
+}

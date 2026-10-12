@@ -1,0 +1,19 @@
+All four student-provided framings: actual local demo upload verification
+URL: http://127.0.0.1:8012/
+Model SHA256: 2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0
+Self-test badge: self test passed: the browser agrees with Python (largest gap 0.0000)
+Pairs: 4; uploads: 8; matched top labels: 8
+lynae_IMG_0845 original: 명조_린네 65.7%
+lynae_IMG_0845 changed: 명조_린네 87.5%
+aemeath_IMG_0806 original: 명조_에이메스 69.6%
+aemeath_IMG_0806 changed: 명조_에이메스 100.0%
+aemeath_IMG_0818 original: 명조_에이메스 75.8%
+aemeath_IMG_0818 changed: 명조_에이메스 100.0%
+lynae_IMG_0844 original: 명조_린네 80.9%
+lynae_IMG_0844 changed: 명조_린네 68.5%
+Maximum logit gap: 1.6689300537109375e-06
+Maximum probability gap: 2.2256789922181497e-07
+Differing RGB channels in actual 224 input: 0
+Protected files unchanged: True
+Page/console/request/HTTP errors: 0/0/0/0
+PASS: True

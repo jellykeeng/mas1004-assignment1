@@ -1,0 +1,24 @@
+{
+  "model": "docs/model.onnx",
+  "metadata": "docs/model.json",
+  "output_dir": "data/changed/student_crops",
+  "student_hypothesis_verbatim": "내 생각에 카멜리아 같은 경우는 사진이 너무 큰데 카멜리악 보이는 부분은 작아서 그런것 같아. 린네를 넣었는데 에이메스로 잘못 판단한 건 배경이 핑크색이기도 하고, 풍선껌 때문에 얼굴이 제대로 안 보이고, 옷 부분이 잘려서 린네인 걸 못 알아본 것 같아.",
+  "student_request_verbatim": "카멜리아 같은 경우는 배경은 자르고, 카멜리아 부분만 사진을 크롭하면 맞출 수 있을 것 같고, 린네는 좀 첨부한 것처럼 좀 더 아래쪽에서 crop 하면 될 거 같아.",
+  "coordinate_selection": "Agent translated the student's two requested framings into source RGB pixel coordinates before measuring any changed-image prediction. No prediction-based crop search. Lynae's crop approximates the composition of the attached example rather than claiming identical attachment bytes.",
+  "cases": [
+    {
+      "id": "camellya_IMG_2554",
+      "source": "data/new_images/명조_카멜리아/IMG_2554.jpg",
+      "true_label": "명조_카멜리아",
+      "box": [820, 390, 1120, 702],
+      "change": "Crop around the SD Camellya illustration on the right, removing most background, lettering, and presenters."
+    },
+    {
+      "id": "lynae_IMG_0860",
+      "source": "data/new_images/명조_린네/IMG_0860.jpg",
+      "true_label": "명조_린네",
+      "box": [0, 1248, 3024, 4032],
+      "change": "Crop the lower portion so the face and outfit share the frame, using the student's attached example as a composition reference."
+    }
+  ]
+}

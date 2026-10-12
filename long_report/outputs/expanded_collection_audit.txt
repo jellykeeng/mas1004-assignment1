@@ -1,0 +1,58 @@
+Merged feature cache: 2074 MD5 keys from 6 caches
+{
+  "candidates": 1670,
+  "kept": 432,
+  "kept_by_class": {
+    "명조_린네": 129,
+    "명조_양양": 97,
+    "명조_에이메스": 134,
+    "명조_카멜리아": 72
+  },
+  "existing_clean": 311,
+  "personal_evaluation": 24,
+  "raw_described": 650,
+  "full_cache_keys": 2074,
+  "cache_sources": [
+    {
+      "path": "/Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/cleaning/features.npz",
+      "rows": 673,
+      "new_keys": 673
+    },
+    {
+      "path": "/private/tmp/mas1004-supplement-review/features.npz",
+      "rows": 673,
+      "new_keys": 0
+    },
+    {
+      "path": "/private/tmp/mas1004-extra-lynae/review/features.npz",
+      "rows": 1160,
+      "new_keys": 487
+    },
+    {
+      "path": "/private/tmp/mas1004-extra-yangyang/review/features.npz",
+      "rows": 1072,
+      "new_keys": 391
+    },
+    {
+      "path": "/private/tmp/mas1004-extra-aemeath/features.npz",
+      "rows": 1008,
+      "new_keys": 332
+    },
+    {
+      "path": "/private/tmp/mas1004-expansion-audit/features.npz",
+      "rows": 2074,
+      "new_keys": 191
+    }
+  ],
+  "cache_conflicts": [],
+  "cache_conflict_max_abs": 0,
+  "flagged_pairs": 0,
+  "pairs_by_kind": {},
+  "cross_class_pairs": 0,
+  "exact_sha_pairs": 0,
+  "exact_pixel_pairs": 0,
+  "pair_sheets": 0,
+  "personal_max_similarity": 0.8304592370986938,
+  "feature_cache": "/private/tmp/mas1004-expansion-audit/features.npz"
+}
+All audit writes are confined to /private/tmp; repository data/results have not been changed.

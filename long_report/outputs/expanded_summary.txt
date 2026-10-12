@@ -1,0 +1,36 @@
+명조_린네: previously clean 54; useful added 129; current clean 183; current raw 800; current removed 617
+  additional query: Lynae Wuthering Waves fan art; downloaded 120
+  additional query: Lynae Wuthering Waves gameplay; downloaded 120
+  additional query: 鳴潮 リンネ; downloaded 120
+  additional query: 鸣潮 琳奈; downloaded 120
+  additional query: 명조 린네 일러스트; downloaded 120
+명조_양양: previously clean 59; useful added 97; current clean 156; current raw 620; current removed 464
+  additional query: Yangyang Wuthering Waves chibi; downloaded 50
+  additional query: Yangyang Wuthering Waves fanart; downloaded 90
+  additional query: Yangyang Wuthering Waves screenshot; downloaded 80
+  additional query: 鳴潮 ヤンヤン イラスト; downloaded 80
+  additional query: 鸣潮 秧秧 同人 插画; downloaded 90
+  additional query: 명조 양양 일러스트; downloaded 80
+명조_에이메스: previously clean 90; useful added 134; current clean 224; current raw 510; current removed 286
+  additional query: Aemeath Wuthering Waves fanart; downloaded 90
+  additional query: Aemeath Wuthering Waves screenshot; downloaded 90
+  additional query: 鳴潮 エイメス イラスト; downloaded 90
+  additional query: 鸣潮 爱弥斯 插画; downloaded 90
+명조_카멜리아: previously clean 108; useful added 72; current clean 180; current raw 390; current removed 210
+  additional query: Camellya fan art; downloaded 60
+  additional query: 鳴潮 ツバキ イラスト; downloaded 60
+  additional query: 鸣潮 椿 同人图; downloaded 60
+  additional query: 명조 카멜리아 팬아트; downloaded 60
+Current raw images: 2320
+Current clean images: 743
+Current removed images: 1577
+Personal evaluation images unchanged: 24
+All previous files preserved: True files checked: 989
+All logged removal reasons:
+  동일 원본·자세의 크기/압축/자막/UI 변형인 근접 중복: 809
+  다른 캐릭터이거나 대상 캐릭터를 식별할 수 없음: 348
+  글·표·무기·UI 또는 무관한 대상이 주된 이미지: 21
+  대상 캐릭터가 주된 대상이 아니거나 여러 인물이 대등하게 등장: 239
+  심한 가림·크롭으로 대상 캐릭터를 식별하기 어려움: 8
+  글·표·UI·상품 설명이 주된 이미지: 93
+  심하게 가리거나 잘려 캐릭터를 식별하기 어려움: 59

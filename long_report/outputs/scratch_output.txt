@@ -1,0 +1,32 @@
+reading /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/data/clean
+600 images, 4 classes, read in 7 s
+  명조_린네                    150
+  명조_양양                    150
+  명조_에이메스                  150
+  명조_카멜리아                  150
+training on 480, testing on 120
+model has 11,178,564 parameters, 11,178,564 of them will be trained
+training device: mps
+Epoch 1/10: train loss=1.2485, train acc=0.4271, test loss=1.0615, test acc=0.5417
+Epoch 2/10: train loss=0.9905, train acc=0.6104, test loss=1.2923, test acc=0.4417
+Epoch 3/10: train loss=0.7937, train acc=0.6917, test loss=1.0484, test acc=0.5583
+Epoch 4/10: train loss=0.5850, train acc=0.7792, test loss=1.4296, test acc=0.4750
+Epoch 5/10: train loss=0.4856, train acc=0.8271, test loss=1.4706, test acc=0.5667
+Epoch 6/10: train loss=0.3117, train acc=0.8896, test loss=1.5782, test acc=0.5333
+Epoch 7/10: train loss=0.2943, train acc=0.8854, test loss=1.6815, test acc=0.4667
+Epoch 8/10: train loss=0.2085, train acc=0.9292, test loss=1.5139, test acc=0.5833
+Epoch 9/10: train loss=0.1974, train acc=0.9250, test loss=1.6507, test acc=0.5250
+Epoch 10/10: train loss=0.1189, train acc=0.9583, test loss=1.4926, test acc=0.5167
+
+trained in 0.8 minutes
+train accuracy 99.4%
+test  accuracy 51.7%
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/scratch_curves.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/scratch_confusion.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/scratch_worst.png
+wrote /Users/seoyoung/Documents/서강대/2학년-4학기/Data&AI/Assignment 1/results/scratch_model.pt
+
+One line for your experiment table:
+| scratch | random | all layers | 10 | 0.0001 | 11,178,564 | 99.4% | 51.7% |
+
+To put this model on your web page: python src/export_web.py --tag scratch

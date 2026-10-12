@@ -1,0 +1,3 @@
+none of your 24 new images is a near copy of any of the 649 images you downloaded
+
+the closest any new image comes to a downloaded one: 0.86 (near copies are above 0.95)

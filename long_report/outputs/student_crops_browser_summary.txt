@@ -1,0 +1,12 @@
+Student-selected crops: actual demo file uploads
+Model SHA256: 2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0
+self test passed: the browser agrees with Python (largest gap 0.0000)
+camellya_IMG_2554 original: 명조_에이메스 80.8%; Python label match True
+camellya_IMG_2554 changed: 명조_카멜리아 100.0%; Python label match True
+lynae_IMG_0860 original: 명조_에이메스 45.6%; Python label match True
+lynae_IMG_0860 changed: 명조_린네 67.5%; Python label match True
+Matching top labels: 4/4
+Largest logit gap: 9.5367431640625e-07
+Largest full-probability gap: 2.8344989189132974e-07
+Differing actual input RGB channels: 0; maximum pixel gap: 0
+Protected files unchanged: True

@@ -1,0 +1,765 @@
+{
+  "config": "config/supplied_crops.json",
+  "config_sha256": "d24ee8bcb7c40df37753e68cad2c97727b1d940a1ca3f7ead77d6897c135ed77",
+  "model": "docs/model.onnx",
+  "model_sha256": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+  "metadata": "docs/model.json",
+  "metadata_sha256": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+  "labels": [
+    "명조_린네",
+    "명조_양양",
+    "명조_에이메스",
+    "명조_카멜리아"
+  ],
+  "preprocessing": {
+    "name": "image",
+    "resize": 256,
+    "crop": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "provider": "CPUExecutionProvider",
+  "inferences_per_case": {
+    "before": 1,
+    "after": 1
+  },
+  "provided_processing": "byte copy only; no crop/resampling/generation",
+  "student_request_verbatim": "순서대로 iimg_0845, img_0806, img_0818, img_0844 야",
+  "selection": "Student personally supplied four crops for the previously correct photos with the lowest true-label scores, in order IMG_0845, IMG_0806, IMG_0818, IMG_0844. All four exact files are now available; each is copied byte for byte without further image edits or prediction-based crop selection.",
+  "pending_cases": [],
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "/Users/seoyoung/Downloads/User attachment2.png": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+    "/Users/seoyoung/Downloads/User attachment3.png": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+    "docs/model.onnx": "2aa265f03bb48b9870f7146ccb2f5e671dcd00c349f8066fff79ab79016a38d0",
+    "data/new_images/명조_에이메스/IMG_0806.jpg": "a855c4557f8969c85ecea478d823171e5e2284ef515ccbd8dad38b8454f4da9b",
+    "data/new_images/명조_린네/IMG_0845.jpg": "d567abb591d0d1ee599eae45cf03fd2f7235b668185828dfddbcf87ab8cc3238",
+    "data/new_images/명조_에이메스/IMG_0818.jpg": "457cb7a3e404f947c0b96bfb031810e6ccbd3a58858de4b653a3706ea90fbbda",
+    "config/supplied_crops.json": "d24ee8bcb7c40df37753e68cad2c97727b1d940a1ca3f7ead77d6897c135ed77",
+    "docs/model.json": "47fc19b0513d9f194e5bf778fa1d5cbcea73fe95dffea4d6228ac7cf2eef0b54",
+    "data/new_images/명조_린네/IMG_0844.jpg": "ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247",
+    "src/crop_experiment.py": "84242b23600eecdd726bbd0c2dbcd14d59e62f7785d4ff5d155f0727b6e88b8a",
+    "src/data.py": "bb588284049a1dd28062d85d2c15982d2fd606e8bcaeccb7cc8ee1506ddac03a",
+    "/Users/seoyoung/Desktop/Screenshot 2026-10-10 at 23.00.54.png": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+    "/Users/seoyoung/Downloads/User attachment.png": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2"
+  },
+  "accuracy": {
+    "before": {
+      "correct": 4,
+      "total": 4,
+      "percent": 100.0
+    },
+    "after": {
+      "correct": 4,
+      "total": 4,
+      "percent": 100.0
+    }
+  },
+  "cases": [
+    {
+      "id": "lynae_IMG_0845",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_0845.jpg",
+      "source_details": {
+        "path": "data/new_images/명조_린네/IMG_0845.jpg",
+        "sha256": "d567abb591d0d1ee599eae45cf03fd2f7235b668185828dfddbcf87ab8cc3238",
+        "bytes": 2080768,
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          3024,
+          4032
+        ],
+        "decoded_pixel_sha256": "6d107dd58237e13326bb1a3ef968f2e78d1feaee29fa516270ca7ed942ed4752",
+        "rgb_pixel_sha256": "6d107dd58237e13326bb1a3ef968f2e78d1feaee29fa516270ca7ed942ed4752",
+        "metadata_keys": [
+          "icc_profile",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version",
+          "photoshop"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+        "has_exif": false
+      },
+      "source_sha256": "d567abb591d0d1ee599eae45cf03fd2f7235b668185828dfddbcf87ab8cc3238",
+      "provided_source": {
+        "path": "/Users/seoyoung/Downloads/User attachment.png",
+        "sha256": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+        "bytes": 1392013,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          548,
+          1316
+        ],
+        "decoded_pixel_sha256": "90ad0fa3f479fa7931b45c6fd401208ab123dafa4b860c0cd438655cf4dfb207",
+        "rgb_pixel_sha256": "fb346d4b4e1746e75adf2b9379334d08ec01408b9403fa0dd7971d5f537c4d47",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "48094da8b10814bc1222fba1dab8324dd2ba7ad669b6b86e06f9a013ca7a612a"
+      },
+      "original_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0845/original.png",
+        "sha256": "44bc49954ef6c7729757cfc0c51cf1c4eecefaf031637d7d6204abc9fc1d581f",
+        "size": [
+          3024,
+          4032
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0845/provided.png",
+        "sha256": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+        "bytes": 1392013,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          548,
+          1316
+        ],
+        "decoded_pixel_sha256": "90ad0fa3f479fa7931b45c6fd401208ab123dafa4b860c0cd438655cf4dfb207",
+        "rgb_pixel_sha256": "fb346d4b4e1746e75adf2b9379334d08ec01408b9403fa0dd7971d5f537c4d47",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "48094da8b10814bc1222fba1dab8324dd2ba7ad669b6b86e06f9a013ca7a612a"
+      },
+      "provided_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0845/provided.png",
+        "sha256": "7046b9d720446b75b0e59d12b498d1dae21122863046f040a6e157970cade5e2",
+        "bytes": 1392013,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          548,
+          1316
+        ],
+        "decoded_pixel_sha256": "90ad0fa3f479fa7931b45c6fd401208ab123dafa4b860c0cd438655cf4dfb207",
+        "rgb_pixel_sha256": "fb346d4b4e1746e75adf2b9379334d08ec01408b9403fa0dd7971d5f537c4d47",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "48094da8b10814bc1222fba1dab8324dd2ba7ad669b6b86e06f9a013ca7a612a"
+      },
+      "provided_bytes_unchanged": true,
+      "provided_pixels_unchanged": true,
+      "provided_embedded_metadata_unchanged": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          2.1504874229431152,
+          -0.3155949115753174,
+          1.3118284940719604,
+          -3.141972064971924
+        ],
+        "probabilities": {
+          "명조_린네": 0.656928306350174,
+          "명조_양양": 0.055784304879274084,
+          "명조_에이메스": 0.28398344974133855,
+          "명조_카멜리아": 0.003303939029213442
+        },
+        "pred_index": 0,
+        "pred_label": "명조_린네",
+        "pred_probability": 0.656928306350174,
+        "true_probability": 0.656928306350174,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/lynae_IMG_0845/original_input.png",
+          "sha256": "cd8903d15b89c3cdc62faac3053d7cc6cde9fc780aab89ebf220e7f4fbedb38e",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          3.4144973754882812,
+          1.4309542179107666,
+          -3.276042938232422,
+          -2.2339956760406494
+        ],
+        "probabilities": {
+          "명조_린네": 0.8753912624792427,
+          "명조_양양": 0.12043711939156872,
+          "명조_에이메스": 0.001087770979845899,
+          "명조_카멜리아": 0.0030838471493426535
+        },
+        "pred_index": 0,
+        "pred_label": "명조_린네",
+        "pred_probability": 0.8753912624792427,
+        "true_probability": 0.8753912624792427,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/lynae_IMG_0845/changed_input.png",
+          "sha256": "1b6bf68a055a13b65e7cd2711edb8e73da064d4d7d311a0c6cd0d2f64402e011",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    },
+    {
+      "id": "aemeath_IMG_0806",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0806.jpg",
+      "source_details": {
+        "path": "data/new_images/명조_에이메스/IMG_0806.jpg",
+        "sha256": "a855c4557f8969c85ecea478d823171e5e2284ef515ccbd8dad38b8454f4da9b",
+        "bytes": 1841230,
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          3024,
+          4032
+        ],
+        "decoded_pixel_sha256": "644300fd53857b6658ef7df81c99ec3c11cd0449fdc134039a64ea124d0a4a90",
+        "rgb_pixel_sha256": "644300fd53857b6658ef7df81c99ec3c11cd0449fdc134039a64ea124d0a4a90",
+        "metadata_keys": [
+          "icc_profile",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version",
+          "photoshop",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+        "has_exif": false
+      },
+      "source_sha256": "a855c4557f8969c85ecea478d823171e5e2284ef515ccbd8dad38b8454f4da9b",
+      "provided_source": {
+        "path": "/Users/seoyoung/Downloads/User attachment2.png",
+        "sha256": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+        "bytes": 151533,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          256,
+          268
+        ],
+        "decoded_pixel_sha256": "8d8ac2213544ce18bf360a8253af2576f75db127d33b0a824ef81cf24c3e49b2",
+        "rgb_pixel_sha256": "a8027bff096c10d92bee92b6fbf78b0c61b526a423612b951011051d5dcc7b83",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "c3cf429d5ba3903aa838299746565771cdaaaa65a7537f15f09d78546f2950a0"
+      },
+      "original_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0806/original.png",
+        "sha256": "acf0835d06cc4b215efb5d38e15b8019937c5053b2113c4b1e1af5c22c822930",
+        "size": [
+          3024,
+          4032
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0806/provided.png",
+        "sha256": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+        "bytes": 151533,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          256,
+          268
+        ],
+        "decoded_pixel_sha256": "8d8ac2213544ce18bf360a8253af2576f75db127d33b0a824ef81cf24c3e49b2",
+        "rgb_pixel_sha256": "a8027bff096c10d92bee92b6fbf78b0c61b526a423612b951011051d5dcc7b83",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "c3cf429d5ba3903aa838299746565771cdaaaa65a7537f15f09d78546f2950a0"
+      },
+      "provided_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0806/provided.png",
+        "sha256": "aefd588a6865cda4c0fa31288aabd5241475a18ba7549b1e930a0a507e66ea45",
+        "bytes": 151533,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          256,
+          268
+        ],
+        "decoded_pixel_sha256": "8d8ac2213544ce18bf360a8253af2576f75db127d33b0a824ef81cf24c3e49b2",
+        "rgb_pixel_sha256": "a8027bff096c10d92bee92b6fbf78b0c61b526a423612b951011051d5dcc7b83",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "c3cf429d5ba3903aa838299746565771cdaaaa65a7537f15f09d78546f2950a0"
+      },
+      "provided_bytes_unchanged": true,
+      "provided_pixels_unchanged": true,
+      "provided_embedded_metadata_unchanged": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          2.396493911743164,
+          -3.888758659362793,
+          3.233487844467163,
+          -2.4785523414611816
+        ],
+        "probabilities": {
+          "명조_린네": 0.3013035048427083,
+          "명조_양양": 0.0005615050603552659,
+          "명조_에이메스": 0.6958346158511304,
+          "명조_카멜리아": 0.0023003742458060426
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.6958346158511304,
+        "true_probability": 0.6958346158511304,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/aemeath_IMG_0806/original_input.png",
+          "sha256": "05b19dcf72e6c912e5ace0a7d710282f214eea66359726270a7227dfcf8290e7",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          -0.7348690032958984,
+          -5.493090629577637,
+          7.285909652709961,
+          -1.9734492301940918
+        ],
+        "probabilities": {
+          "명조_린네": 0.00032842397918260555,
+          "명조_양양": 2.8181588082763276e-06,
+          "명조_에이메스": 0.9995735821135536,
+          "명조_카멜리아": 9.517574845564553e-05
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.9995735821135536,
+        "true_probability": 0.9995735821135536,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/aemeath_IMG_0806/changed_input.png",
+          "sha256": "589d751766005f46216945ab285c3927b7c5efd0a9aa4badb9972b1f70dd9375",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    },
+    {
+      "id": "aemeath_IMG_0818",
+      "true_label": "명조_에이메스",
+      "source": "data/new_images/명조_에이메스/IMG_0818.jpg",
+      "source_details": {
+        "path": "data/new_images/명조_에이메스/IMG_0818.jpg",
+        "sha256": "457cb7a3e404f947c0b96bfb031810e6ccbd3a58858de4b653a3706ea90fbbda",
+        "bytes": 2936007,
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          3024,
+          4032
+        ],
+        "decoded_pixel_sha256": "3391665f1b291edbe934300d018de7277450a31bdb815d5912daa1d86c6d652f",
+        "rgb_pixel_sha256": "3391665f1b291edbe934300d018de7277450a31bdb815d5912daa1d86c6d652f",
+        "metadata_keys": [
+          "icc_profile",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version",
+          "photoshop"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+        "has_exif": false
+      },
+      "source_sha256": "457cb7a3e404f947c0b96bfb031810e6ccbd3a58858de4b653a3706ea90fbbda",
+      "provided_source": {
+        "path": "/Users/seoyoung/Downloads/User attachment3.png",
+        "sha256": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+        "bytes": 222659,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          306,
+          306
+        ],
+        "decoded_pixel_sha256": "d94644aeaa8195a20b17f7c584d090d9f3fc70bb3ce86c960fcb50b23606972d",
+        "rgb_pixel_sha256": "8134de1ebae2847d9327d27a023d9e041a310d7a029fdded3a56741528fc5f78",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "4f98b295078a47cce24502c7273b53eb3f7ea05a9f26c6728e14ccfc5e56f775"
+      },
+      "original_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0818/original.png",
+        "sha256": "b0bb23d45a9222a8a9e05926d48c0f82b14fef0ae5e53633379cc592ad683a2f",
+        "size": [
+          3024,
+          4032
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0818/provided.png",
+        "sha256": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+        "bytes": 222659,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          306,
+          306
+        ],
+        "decoded_pixel_sha256": "d94644aeaa8195a20b17f7c584d090d9f3fc70bb3ce86c960fcb50b23606972d",
+        "rgb_pixel_sha256": "8134de1ebae2847d9327d27a023d9e041a310d7a029fdded3a56741528fc5f78",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "4f98b295078a47cce24502c7273b53eb3f7ea05a9f26c6728e14ccfc5e56f775"
+      },
+      "provided_image": {
+        "path": "data/changed/supplied_crops/aemeath_IMG_0818/provided.png",
+        "sha256": "e75a298e6de50f03897622ebc8baa5c97836f60e5db51e714be8f3442fc6230d",
+        "bytes": 222659,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          306,
+          306
+        ],
+        "decoded_pixel_sha256": "d94644aeaa8195a20b17f7c584d090d9f3fc70bb3ce86c960fcb50b23606972d",
+        "rgb_pixel_sha256": "8134de1ebae2847d9327d27a023d9e041a310d7a029fdded3a56741528fc5f78",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "4f98b295078a47cce24502c7273b53eb3f7ea05a9f26c6728e14ccfc5e56f775"
+      },
+      "provided_bytes_unchanged": true,
+      "provided_pixels_unchanged": true,
+      "provided_embedded_metadata_unchanged": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          1.092829942703247,
+          -3.3112266063690186,
+          2.2906394004821777,
+          -1.993953824043274
+        ],
+        "probabilities": {
+          "명조_린네": 0.22879482653746158,
+          "명조_양양": 0.0027976201207567538,
+          "명조_에이메스": 0.7579634047186428,
+          "명조_카멜리아": 0.010444148623138702
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.7579634047186428,
+        "true_probability": 0.7579634047186428,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/aemeath_IMG_0818/original_input.png",
+          "sha256": "83162309d5a8b52bc8627cc3f6b3fbd3c853f77c8ee0db3915137443760f3866",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          -2.2065536975860596,
+          -6.914549827575684,
+          8.991449356079102,
+          -1.4506916999816895
+        ],
+        "probabilities": {
+          "명조_린네": 1.3700940818980663e-05,
+          "명조_양양": 1.236213979221344e-07,
+          "명조_에이메스": 0.9999570000199116,
+          "명조_카멜리아": 2.917541787144837e-05
+        },
+        "pred_index": 2,
+        "pred_label": "명조_에이메스",
+        "pred_probability": 0.9999570000199116,
+        "true_probability": 0.9999570000199116,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/aemeath_IMG_0818/changed_input.png",
+          "sha256": "0b8b0630fa6ba051194e972e1ae92b97456cabf0a202c070a327853ce3a300c9",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    },
+    {
+      "id": "lynae_IMG_0844",
+      "true_label": "명조_린네",
+      "source": "data/new_images/명조_린네/IMG_0844.jpg",
+      "source_details": {
+        "path": "data/new_images/명조_린네/IMG_0844.jpg",
+        "sha256": "ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247",
+        "bytes": 2241706,
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          3024,
+          4032
+        ],
+        "decoded_pixel_sha256": "71a26d225298534ddc23d5ac8092320e6b4e23d8b0cb233dde339ca4a04c20b0",
+        "rgb_pixel_sha256": "71a26d225298534ddc23d5ac8092320e6b4e23d8b0cb233dde339ca4a04c20b0",
+        "metadata_keys": [
+          "icc_profile",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version",
+          "photoshop"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+        "has_exif": false
+      },
+      "source_sha256": "ad4da7f6cc34fbf1d42489b0677826e7ed206cd0b4fd9a03ff254c3d31e36247",
+      "provided_source": {
+        "path": "/Users/seoyoung/Desktop/Screenshot 2026-10-10 at 23.00.54.png",
+        "sha256": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+        "bytes": 1882589,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          932,
+          1010
+        ],
+        "decoded_pixel_sha256": "2372a7ffb624d049a517ec9b42acf5384b17cfc70da1614e3154907d6f6bb832",
+        "rgb_pixel_sha256": "166693ee9705a8fbfc16c10b118f76ec9970a2f5f3595adff26253e04da1a410",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "9cb20dec172f8f410c526c734147898299e74bd5a602f0a79ae7e3938e805ad1"
+      },
+      "original_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0844/original.png",
+        "sha256": "79dd4ea6bc73afebac34aaac32ae5b186efa2fe379e28fd80dec9e5ca5e9b3cf",
+        "size": [
+          3024,
+          4032
+        ],
+        "rgb_pixels_unchanged": true,
+        "icc_profile_omitted": true
+      },
+      "changed_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0844/provided.png",
+        "sha256": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+        "bytes": 1882589,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          932,
+          1010
+        ],
+        "decoded_pixel_sha256": "2372a7ffb624d049a517ec9b42acf5384b17cfc70da1614e3154907d6f6bb832",
+        "rgb_pixel_sha256": "166693ee9705a8fbfc16c10b118f76ec9970a2f5f3595adff26253e04da1a410",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "9cb20dec172f8f410c526c734147898299e74bd5a602f0a79ae7e3938e805ad1"
+      },
+      "provided_image": {
+        "path": "data/changed/supplied_crops/lynae_IMG_0844/provided.png",
+        "sha256": "e5a06d0c00253c331c7c4768c949f5f3f3878269ea185a867305cc27705f0fed",
+        "bytes": 1882589,
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          932,
+          1010
+        ],
+        "decoded_pixel_sha256": "2372a7ffb624d049a517ec9b42acf5384b17cfc70da1614e3154907d6f6bb832",
+        "rgb_pixel_sha256": "166693ee9705a8fbfc16c10b118f76ec9970a2f5f3595adff26253e04da1a410",
+        "metadata_keys": [
+          "XML:com.adobe.xmp",
+          "dpi",
+          "exif",
+          "icc_profile",
+          "xmp"
+        ],
+        "has_icc_profile": true,
+        "icc_profile_sha256": "520858e1af416818616679e32a1714a1b7087c5b2b47a3d793932c79916ab44b",
+        "has_exif": true,
+        "exif_sha256": "9cb20dec172f8f410c526c734147898299e74bd5a602f0a79ae7e3938e805ad1"
+      },
+      "provided_bytes_unchanged": true,
+      "provided_pixels_unchanged": true,
+      "provided_embedded_metadata_unchanged": true,
+      "input_matches_prepare_image": true,
+      "before": {
+        "logits": [
+          3.9755349159240723,
+          -1.3894058465957642,
+          2.514370918273926,
+          -5.138585090637207
+        ],
+        "probabilities": {
+          "명조_린네": 0.8085682705234819,
+          "명조_양양": 0.003782269982657763,
+          "명조_에이메스": 0.1875604359930574,
+          "명조_카멜리아": 8.902350080298382e-05
+        },
+        "pred_index": 0,
+        "pred_label": "명조_린네",
+        "pred_probability": 0.8085682705234819,
+        "true_probability": 0.8085682705234819,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/lynae_IMG_0844/original_input.png",
+          "sha256": "96871d069fe72c3951b603a447c08c0465137e1a25c5fb164b0817874fb91ca3",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      },
+      "after": {
+        "logits": [
+          3.074280261993408,
+          -1.2105909585952759,
+          2.2647361755371094,
+          -4.2177534103393555
+        ],
+        "probabilities": {
+          "명조_린네": 0.6851580470806665,
+          "명조_양양": 0.009438323006179078,
+          "명조_에이메스": 0.3049370771379744,
+          "명조_카멜리아": 0.0004665527751800147
+        },
+        "pred_index": 0,
+        "pred_label": "명조_린네",
+        "pred_probability": 0.6851580470806665,
+        "true_probability": 0.6851580470806665,
+        "correct": true,
+        "input_image": {
+          "path": "data/changed/supplied_crops/lynae_IMG_0844/changed_input.png",
+          "sha256": "0f23efc141538bee913d1655216ccfb7e392e818c66117beffb83eef888501db",
+          "size": [
+            224,
+            224
+          ],
+          "rgb_pixels_unchanged": true,
+          "icc_profile_omitted": true
+        }
+      }
+    }
+  ]
+}

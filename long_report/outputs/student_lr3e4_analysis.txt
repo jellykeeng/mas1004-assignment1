@@ -1,0 +1,14 @@
+Student-selected direction: increase learning rate; keep 10 epochs
+Agent execution value: 0.0001 -> 0.0003
+Chronology: additional comparison after cleaning, not an initial before-cleaning experiment
+Same 743 clean images; same 594 training images and 149 test paths in the same order
+Same ImageNet start, all layers, batch size 8, split/model seed 0; training device mps
+| tag | lr | epochs | train accuracy | downloaded test | personal evaluation |
+| expanded | 0.0001 | 10 | 100.0% | 93.3% | 91.7% (22/24) |
+| student_lr3e4 | 0.0003 | 10 | 99.8% | 93.3% | 91.7% (22/24) |
+Downloaded-test difference from displayed measurements: 0.0 percentage points
+Personal-evaluation difference from displayed measurements: 0.0 percentage points
+First/last printed train loss: 0.6251 -> 0.0795
+First/last printed test loss: 0.4113 -> 0.1943
+One training run per setting; epochs/learning-time efficiency not compared
+Current demo and all existing crop evidence still use the unchanged expanded model

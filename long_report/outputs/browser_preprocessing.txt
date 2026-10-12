@@ -1,0 +1,15 @@
+Browser preprocessing fix saved: docs/app.js.
+Upload PNG iCCP and JPEG ICC_PROFILE APP2 metadata is stripped only in memory.
+JPEG EXIF/orientation, other APP segments, and compressed image bytes are preserved.
+Browser RGB resizing uses Pillow 12.3 BILINEAR coefficients and byte rounding.
+Center crop uses Python half-even rounding instead of JavaScript half-up rounding.
+Exact resize core: 36/36 byte-identical cases (12 edge fixtures and 24 evaluation images).
+Upload metadata parser: 56/56 real-image retained-byte checks passed.
+Derived PNG metadata: 31 checked; 15 iCCP chunks removed.
+Derived PNG RGB hashes: 31/31 unchanged; analysis values remain valid.
+Original evaluation photo file hashes: 24/24 unchanged.
+Initial browser discrepancy: ICC profiles changed probabilities by up to 12.020419931411737 percentage points on ablations.
+Initial full-size Lynae IMG_1417.JPG: browser Aemeath 42.7%, Python Lynae 65.3%; corrected by exact RGB resize/crop.
+Pillow algorithm source: https://github.com/python-pillow/Pillow/blob/12.3.0/src/libImaging/Resample.c
+PNG metadata specification: https://www.w3.org/TR/png-3/#11iCCP
+JPEG profile embedding: https://www.color.org/profile_embedding/
