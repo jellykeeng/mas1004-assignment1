@@ -408,7 +408,29 @@ The demo exports the \texttt{expanded} checkpoint after additional collection an
 Historical output records the correction of staged downscaling and ICC interpretation differences found with \texttt{final}. ICC metadata is removed only from an in-memory upload copy, not the source photograph. Original personal images and earlier variants were uploaded again to the local browser using \texttt{expanded}.
 \outputfile{outputs/browser_preprocessing.txt}
 
-The code repository is \url{https://github.com/jellykeeng/mas1004-assignment1}, with \texttt{docs/model.onnx}, \texttt{model.json}, and \texttt{selftest.json} committed on \texttt{main}. The public demo is \url{https://jellykeeng.github.io/mas1004-assignment1/}. Direct remote requests now load the page, model metadata, and exported ONNX file over HTTPS. This confirms deployment and asset availability, but a separate-computer browser inference test has not yet been recorded. The new hair-mask pairs also still need a live demo upload comparison.
+The code repository is \url{https://github.com/jellykeeng/mas1004-assignment1}, with \texttt{docs/model.onnx}, \texttt{model.json}, and \texttt{selftest.json} committed on \texttt{main}. The public demo is \url{https://jellykeeng.github.io/mas1004-assignment1/}. Direct remote requests loaded the page, model metadata, and exported ONNX file over HTTPS. On 14 October 2026, a friend reported opening the published demo on another computer and sent screenshots. One shows the green self-test with largest Python/browser gap 0.0000; 16 show completed image uploads. The loading screen was excluded. The four ordinary photos were classified as Aemeath (\texttt{IMG\_0215}, 100.0\%), Lynae (\texttt{IMG\_1417}, 96.6\%), Camellya (\texttt{IMG\_0584}, 100.0\%), and Yangyang (\texttt{IMG\_1390}, 99.5\%). These are displayed browser scores, not a new accuracy measurement.
+
+The same screenshots show two crop pairs and four hair-mask pairs. Their displayed top classes and scores are transcribed below; the corresponding true-class scores and all screenshot filenames are in \path{outputs/friend_browser_validation.txt}. Each displayed score matches the saved local result after rounding to one decimal place. The screenshots show the uploaded subjects and results, but the KakaoTalk filenames do not establish byte identity with the packaged source images. The other-computer setting is the student's report about the friend's test; it is not independently determined from device metadata. These selected uploads support that public browser inference worked in that setting. They do not demonstrate webcam or drawing use, or browser testing of all 24 hair masks.
+\begin{center}\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lll}
+\toprule
+Case & Original browser answer & Changed browser answer \\
+\midrule
+Camellya \texttt{IMG\_2554} crop & Aemeath 80.8\% & Camellya 100.0\% \\
+Lynae \texttt{IMG\_0860} crop & Aemeath 45.6\% & Lynae 67.5\% \\
+Yangyang \texttt{IMG\_0810} hair mask & Yangyang 93.7\% & Lynae 78.9\% \\
+Lynae \texttt{IMG\_0845} hair mask & Lynae 65.7\% & Lynae 37.1\% \\
+Lynae \texttt{IMG\_0844} hair mask & Lynae 80.9\% & Lynae 53.5\% \\
+Aemeath \texttt{IMG\_0553} hair mask & Aemeath 99.9\% & Aemeath 84.7\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+\par\noindent \picturefile[0.72\linewidth]{figures/friend_public_selftest.png}\par
+\par\noindent\begin{minipage}{\linewidth}
+\sidebyside{figures/friend_crop_lynae_before.png}{Friend's upload: Lynae before crop}{figures/friend_crop_lynae_after.png}{Friend's upload: Lynae after crop}
+\sidebyside{figures/friend_hair_yangyang_0810_before.png}{Friend's upload: Yangyang before masking}{figures/friend_hair_yangyang_0810_after.png}{Friend's upload: Yangyang after masking}
+\end{minipage}\par\medskip
 
 A weapon image outside the four classes nevertheless produced Lynae at 59.3\% rather than an ``unknown'' answer. This classifier has no unknown class, so it cannot reject unrelated objects. The green self-test, local upload checks, and out-of-domain browser result are preserved below.
 \outputfile{outputs/expanded_browser_demo.txt}

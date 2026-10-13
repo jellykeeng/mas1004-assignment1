@@ -1,0 +1,51 @@
+Student-supplied friend browser validation screenshots, 14 October 2026
+Reported setting: published GitHub Pages demo on another person's computer.
+Source screenshots: KakaoTalk_Photo_2026-10-14-01-37-36-N.png (N below).
+The files below are byte-for-byte copies of those supplied screenshots.
+This is a transcription of displayed browser results, not check.py output.
+
+01 figures/friend_public_selftest.png
+   Green badge: self test passed; largest gap 0.0000.
+02 Loading screen only. Excluded from the report evidence archive.
+
+03 figures/friend_crop_lynae_before.png
+   IMG_0860 original: Aemeath 45.6% top; Lynae 17.2% true class.
+04 figures/friend_crop_lynae_after.png
+   IMG_0860 crop: Lynae 67.5% top and true class.
+05 figures/friend_crop_camellya_before.png
+   IMG_2554 original: Aemeath 80.8% top; Camellya 0.9% true class.
+06 figures/friend_crop_camellya_after.png
+   IMG_2554 crop: Camellya 100.0% top and true class.
+
+07 figures/friend_hair_yangyang_0810_before.png
+   IMG_0810 original: Yangyang 93.7% top and true class.
+08 figures/friend_hair_yangyang_0810_after.png
+   IMG_0810 hair masked: Lynae 78.9% top; Yangyang 20.2% true class.
+09 figures/friend_hair_lynae_0845_before.png
+   IMG_0845 original: Lynae 65.7% top and true class.
+10 figures/friend_hair_lynae_0845_after.png
+   IMG_0845 hair masked: Lynae 37.1% top and true class.
+11 figures/friend_hair_lynae_0844_before.png
+   IMG_0844 original: Lynae 80.9% top and true class.
+12 figures/friend_hair_lynae_0844_after.png
+   IMG_0844 hair masked: Lynae 53.5% top and true class.
+13 figures/friend_hair_aemeath_0553_before.png
+   IMG_0553 original: Aemeath 99.9% top and true class.
+14 figures/friend_hair_aemeath_0553_after.png
+   IMG_0553 hair masked: Aemeath 84.7% top and true class.
+
+15 figures/friend_basic_aemeath_0215.png
+   IMG_0215: Aemeath 100.0% top and true class.
+16 figures/friend_basic_lynae_1417.png
+   IMG_1417: Lynae 96.6% top and true class.
+17 figures/friend_basic_camellya_0584.png
+   IMG_0584: Camellya 100.0% top and true class.
+18 figures/friend_basic_yangyang_1390.png
+   IMG_1390: Yangyang 99.5% top and true class.
+
+The screenshot upload filenames are KakaoTalk names. They do not prove that
+uploaded image bytes match the original/crop/mask files in this repository.
+The depicted subjects and one-decimal scores match the saved local results.
+The friend/device setting comes from the student's statement, not independently
+verified device metadata. Webcam and drawing were not shown. Four of 24 hair
+pairs, not all 24, were shown in these browser screenshots.
