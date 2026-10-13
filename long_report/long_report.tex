@@ -16,159 +16,116 @@
 
 \section*{Problem 1. Categories and images}
 \subsection*{Why these categories}
-분류 대상은 명조의 양양, 카멜리아, 린네, 에이메스이다.
-루파는 보유 사진이 적어 제외했고, 페비 대신 린네로 변경했다.
-공식 일러스트, 팬 일러스트, 인게임 스크린샷을 모두 포함한다.
-선정 이유는 학생이 다음과 같이 설명했다.
+Original Korean student statements and printed program outputs are preserved verbatim as evidence. I chose four characters from Wuthering Waves: Yangyang, Camellya, Lynae, and Aemeath. I dropped Lupa because I had too few photos and replaced Phoebe with Lynae. The intended images include official art, fan art, and in-game screenshots. My overall reason was:
 \begin{quote}
 ``내가 평소에 매우 좋아하는 명조와 관련된 것을 일단 하고 싶었다. 그리고 명조 일러스트가 다양한 그림체, 3D 모델이 많기에 그것들을 분류하고 싶었다.''
 \end{quote}
 
-학생은 이후 각 캐릭터를 고른 이유를 다음과 같이 설명했다. 아래는 학생의 설명 원문이다.
+My reasons for the individual characters, in my original words, were:
 \par\noindent\begin{minipage}{\linewidth}
-\textbf{카멜리아}
+\textbf{Camellya}
 \begin{quote}
 ``일단 카멜리아 같은 경우, 가장 '밈'적으로 활용도가 높은 캐릭터이기 때문에 다양한 그림체가 있을 거라 판단했다. 그래서 그런 변형된 이미지도 잘 확인이 될 지 궁금했다.''
 \end{quote}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\textbf{에이메스}
+\textbf{Aemeath}
 \begin{quote}
 ``에이메스는 내가 개인적으로 가장 좋아하는 캐릭터이기 때문에 골랐다. 별 다른 특별한 이유는 없다.''
 \end{quote}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\textbf{양양}
+\textbf{Yangyang}
 \begin{quote}
 ``양양은 명조 게임의 마스코트라고 볼 수 있는 캐릭터이다. 게임 앱의 아이콘을 담당하기도 하기 때문에 게임을 하는 사람 입장에서는 의미가 깊은 캐릭터다. 또한 양양은 원래 4성 캐릭터이지만, 최근에 5성으로 업그레이드된 버전도 있기에 외형이 달라졌는데, 외형이 달라졌는데도 같은 캐릭터로 인식할지가 궁금했다.''
 \end{quote}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\textbf{린네}
+\textbf{Lynae}
 \begin{quote}
 ``린네 또한 내가 개인적으로 좋아하는 캐릭터이다.''
 \end{quote}
 \end{minipage}\par\medskip
 
-네 캐릭터의 이름은 제공된 ImageNet 범주 목록에 없었다.
-같은 게임 안의 캐릭터라도 머리, 의상, 그림체와 표현 방식이 달라지는 이미지를 구분하는 과제로 정했다.
+None of the four character names occurs in the supplied ImageNet class list. The task tests recognition across character-specific hair, clothing, art styles, and representations within one game.
 
 \subsection*{What I expected the model to use}
-학습 전에 학생이 적은 예상은 다음과 같다.
+Before training, I expected the model to use:
 \begin{quote}
 ``머리카락 색과 모양, 입고 있는 옷의 스타일링''
 \end{quote}
 
 \subsection*{Images per category}
-처음에는 검색어 ``명조 양양'', ``명조 카멜리아'', ``명조 린네'', ``명조 에이메스''로 각각 150장씩 수집했다.
-이 600장으로 정리 전 실험을 모두 마친 후 정리했다.
-린네는 최초 정리 후 43장이 남아 ``Lynae Wuthering Waves''로 50장을 추가 수집했고 그중 11장을 유지했다.
-이 단계의 전체 다운로드 원본은 650장, 정리본은 311장이었으며 모델 tag는 \texttt{final}이었다.
-이 수치는 아래에서 과거 실험의 결과로 보존한다.
+I first downloaded 150 images per class using the Korean queries ``명조 양양'', ``명조 카멜리아'', ``명조 린네'', and ``명조 에이메스''. I completed the pre-cleaning experiments on these 600 images before cleaning. Only 43 Lynae images survived that first pass, so I downloaded 50 more using ``Lynae Wuthering Waves'' and retained 11. At that historical \texttt{final} stage there were 650 raw downloads and 311 cleaned images.
 
-학생이 ``너무 적어 좀 더 사진 찾아봐''라고 요청해 네 범주를 다시 수집했다.
-영어·한국어·일본어·중국어의 캐릭터별 검색어를 사용했고, 제공된 수집 도구와 고정된 패키지 버전을 유지했다.
-모든 새 후보를 시각 검토하고 기존 다운로드 원본, 다른 새 후보와 개인 평가용 사진에 대한 중복도 확인했다.
-색이나 그림체가 비슷하다는 이유만으로 다른 캐릭터를 포함하지 않았다.
-다운로드 사본은 원본 폴더에 모두 추가 보관하고, 제외 파일은 공식 제거 도구로 이동·기록했다.
-현재 학습용 자료는 다음 표와 같다. 개인 촬영/캡처 24장은 이 자료에 포함하지 않았다.
+After I asked ``너무 적어 좀 더 사진 찾아봐'' (find more photos because there are too few), further searches used character-specific terms in English, Korean, Japanese, and Chinese with the provided collection tool and pinned dependencies. New candidates were visually reviewed and compared with existing downloads, one another, and the personal evaluation photos for duplicates. Similar colour or drawing style alone was not a reason to include a different character. The downloaded copies were retained under raw data, and exclusions were moved and logged with the official cleaning tool. The 24 personally photographed or captured evaluation images are separate from the training data below.
 \begin{center}\small
 \begin{tabular}{lrrrrr}
 \toprule
-범주 & 최초 수집 & 1차 추가 & 이번 추가 & 전체 제거 & 현재 유지 \\
+Class & Initial & First add. & Expansion & Removed & Retained \\
 \midrule
-린네 & 150 & 50 & 600 & 617 & 183 \\
-양양 & 150 & 0 & 470 & 464 & 156 \\
-에이메스 & 150 & 0 & 360 & 286 & 224 \\
-카멜리아 & 150 & 0 & 240 & 210 & 180 \\
+Lynae & 150 & 50 & 600 & 617 & 183 \\
+Yangyang & 150 & 0 & 470 & 464 & 156 \\
+Aemeath & 150 & 0 & 360 & 286 & 224 \\
+Camellya & 150 & 0 & 240 & 210 & 180 \\
 \bottomrule
 \end{tabular}
 \end{center}
-현재 다운로드 원본은 2320장, 유지한 학습용 정리본은 743장이다.
+The current collection contains 2,320 raw downloads and 743 retained training images.
 
-이번 추가 수집·정리의 근거와 현재 클래스별 수는 아래에 보존한다.
+The expansion audit and current class counts are preserved in the following output.
 \outputfile{outputs/expanded_summary.txt}
 
-최초 수집과 린네 1차 추가 수집 출력도 역사 기록으로 그대로 보존한다.
+The original collection and first Lynae supplement outputs are retained as historical records.
 \outputfile{outputs/collect.txt}
 \outputfile{outputs/collect_supplement.txt}
 
 \section*{Problem 2. Preparing an image}
-\texttt{prepare\_image}는 RGB 변환, 짧은 변 256으로 bilinear 리사이즈,
-중앙 224 정사각형 크롭, 픽셀 스케일링과 채널별 정규화, 채널 우선 배열 변환 순서로 구현했다.
-반환값은 \texttt{float32}, 크기는 \texttt{(3, 224, 224)}다.
-투명 PNG, 회색조, 대문자 확장자와 읽을 수 없는 파일을 처리했고,
-각 범주가 학습과 테스트에 모두 들어가도록 분할했다.
+\texttt{prepare\_image} converts to RGB, bilinearly resizes the shorter side to 256, takes a central 224-by-224 crop, scales and normalises each colour channel, and returns channels first. The result is \texttt{float32} with shape \texttt{(3, 224, 224)}. It handles transparent PNGs, grayscale images, uppercase extensions, and unreadable files; the split includes each class on both training and test sides.
 
-\sidebyside{figures/prepare_original.jpg}{다운로드 원본: 에이메스 \texttt{0033.jpg}}
-           {figures/prepare_result.png}{정규화를 되돌려 표시한 실제 모델 입력}
-원본의 길게 뻗은 머리카락, 어깨 아래 의상과 왼쪽의 다른 인물은 중앙 크롭에서 잘린다.
-얼굴과 머리 장식은 남지만, 원본 전체의 포즈와 옷의 형태를 모두 볼 수는 없다.
-따라서 원본에서 보이는 특징과 모델 입력에서 보이는 특징을 구분해야 한다.
+\sidebyside{figures/prepare_original.jpg}{Downloaded original: Aemeath \texttt{0033.jpg}}
+           {figures/prepare_result.png}{Actual model input, displayed after undoing normalisation}
+The central crop removes the long hair tips, clothing below the shoulders, and the other figure on the left. The face and hair ornament remain, but the original pose and full outfit do not. Feature claims must refer to what the model actually receives.
 
 \section*{Problem 3. First training runs}
-첫 네 실험은 정리 전에 동일한 600장과 동일한 분할로 실행했다.
-모든 실험의 batch size는 8, seed는 0이다.
-첫 네 실험은 480장으로 학습하고 120장으로 테스트했다.
-Apple Silicon의 MPS를 사용했다. 추가 설정은 학습률을 바꾼 \texttt{lr3e4}이다.
-기본 학습률 0.0001 대신 0.0003을 사용했고, 나머지 표의 조건은 같다.
-이 최초 \texttt{lr3e4} 설정을 학생이 당시 직접 선택했는지는 대화 기록으로 확인되지 않았다.
-아래의 \texttt{student\_lr3e4}는 이후 학생이 학습률 증가를 직접 고른 뒤 수행한 별도 정리 후 실험이다.
-새 선택을 최초 정리 전 실험의 학생 선택으로 소급하여 기록하지 않는다.
-\texttt{clean}은 최초 자료 정리 후, \texttt{final}은 린네 1차 추가 수집과 정리 후의 과거 모델이다.
-이번 네 범주 추가 수집·정리 후의 모델은 \texttt{expanded}이며 현재 데모에서 사용하는 모델이다.
+The first four runs used the same uncleaned 600 images and split: 480 for training and 120 for testing. All used batch size 8, seed 0, and Apple Silicon MPS. The \texttt{lr3e4} run changed the default learning rate from 0.0001 to 0.0003. The conversation does not establish that I chose this early setting at the time. The later \texttt{student\_lr3e4} run is a separate, explicitly student-selected follow-up after cleaning; it is not retroactively credited to the first phase. \texttt{clean} and \texttt{final} are historical models after cleaning and the first Lynae supplement. \texttt{expanded} uses the later four-class expansion and is the model exported for the demo.
 \begin{center}\scriptsize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{lllrrrrr}
 \toprule
-tag & 시작 & 학습 층 & epochs & lr & 학습 파라미터 & 학습 정확도 & 테스트 정확도 \\
+tag & Init. & Layers & Epochs & LR & Params & Train acc. & Test acc. \\
 \midrule
-\multicolumn{8}{l}{\textbf{정리 전 비교: 같은 600장, 학습 480장 / 테스트 120장}} \\
+\multicolumn{8}{l}{\textbf{Before cleaning: same 600 images, 480 train / 120 test}} \\
 run & ImageNet & all & 10 & 0.0001 & 11,178,564 & 99.8\% & 78.3\% \\
 scratch & random & all & 10 & 0.0001 & 11,178,564 & 99.4\% & 51.7\% \\
 frozen & ImageNet & last layer & 10 & 0.001 & 2,052 & 89.2\% & 74.2\% \\
 lr3e4 & ImageNet & all & 10 & 0.0003 & 11,178,564 & 99.8\% & 80.8\% \\
 \midrule
-\multicolumn{8}{l}{\textbf{자료 변경 후 기록: 정리 및 추가 수집으로 테스트 분할이 달라짐}} \\
+\multicolumn{8}{l}{\textbf{After data changes: cleaning and collection changed the test split}} \\
 clean & ImageNet & all & 10 & 0.0001 & 11,178,564 & 100.0\% & 88.5\% \\
 final & ImageNet & all & 10 & 0.0001 & 11,178,564 & 100.0\% & 93.7\% \\
 \midrule
-\multicolumn{8}{l}{\textbf{현재 자료의 학습률 비교: 같은 743장, 동일 테스트 149장}} \\
+\multicolumn{8}{l}{\textbf{Current-data learning-rate comparison: same 743 images and 149 test images}} \\
 expanded & ImageNet & all layers & 10 & 0.0001 & 11,178,564 & 100.0\% & 93.3\% \\
 student\_lr3e4 & ImageNet & all layers & 10 & 0.0003 & 11,178,564 & 99.8\% & 93.3\% \\
 \bottomrule
 \end{tabular}
 \end{center}
-정리 전 첫 네 실행은 같은 테스트 파일에서 초기 가중치, 학습 층과 학습률에 따른 결과를 비교했다.
-\texttt{clean}과 \texttt{final}은 자료와 분할이 달라 그 수치의 차이를 동일한 테스트 사진에서의 개선으로 해석하지 않는다.
-\texttt{expanded}와 \texttt{student\_lr3e4}는 같은 자료와 동일한 순서의 테스트 파일에서 학습률을 비교한 정리 후 실험이다.
-이 비교는 각 설정을 한 번씩 실행한 결과이며, 최초 정리 전 설정의 학생 선택 여부를 바꾸지 않는다.
+The first four runs compare initialisation, trained layers, and learning rate on identical test files. \texttt{clean} and \texttt{final} used changed data and splits, so their differences are not improvements measured on the same downloaded test images. \texttt{expanded} and \texttt{student\_lr3e4} use the same 743 images and the same ordered 149-image test split. Each setting was run once; the later student choice does not change who selected the earlier setting.
 \subsection*{Loss and generalization}
-기본 실험의 학습 손실은 초반에 빠르게 내려가고 이후 낮은 수준에서 변동했다.
-반면 테스트 손실은 초반 이후 꾸준히 개선되지 않았고 후반에 증가했다.
-학습 정확도 99.8\%와 테스트 정확도 78.3\%의 차이는 21.5 percentage points다.
-이는 학습 이미지에 잘 맞춘 결과가 같은 비율로 새로운 이미지까지 이어지지 않음을 보여준다.
-정리 전에는 다른 캐릭터, 정보 화면과 근접 중복이 섞여 있어 숫자를 순수한 캐릭터 구분 능력으로 해석하기 어렵다.
+For the baseline, training loss fell quickly and stayed low, whereas test loss did not improve consistently and rose late in training. The 99.8\% train and 78.3\% test accuracies differ by 21.5 percentage points. This is a generalisation gap, not evidence that the model learned the intended identity cues: the uncleaned set still contained other characters, information screens, and near duplicates.
 
-기본 실험에서 가장 많이 혼동한 쌍은 린네와 양양이었다.
-린네를 양양으로 5번, 양양을 린네로 3번 분류했다.
-머리카락 색과 모양을 단서로 삼을 것이라는 최초 예상에 비추어 이 혼동을 확인했다.
-배경, 다른 인물과 검색 라벨 오염도 함께 작용했을 가능성이 있다.
+The most frequent baseline confusion was Lynae versus Yangyang: five Lynae images were classified as Yangyang and three Yangyang images as Lynae. This was surprising given my expectation about hair, although background, additional figures, and search-label contamination are also possible contributors.
 
-이 혼동 결과를 보고 학생은 다음과 같이 반응했다.
+My reaction to this result was:
 \begin{quote}
 ``린네와 양양을 혼동한 결과는 놀라웠다. 일단 사용하는 color palette 가 너무 다르기 때문이다. 양양하면 '파란색'이고, 린네하면 '네온 초록'과 '노랑' 계열인데, 어떻게 혼동될까 싶었다.''
 \end{quote}
 
-ImageNet에서 시작한 테스트 정확도는 78.3\%, 무작위 초기값에서 시작한 정확도는 51.7\%로 26.6 percentage points 차이였다.
-작은 자료에서 처음부터 시각 특징을 배우는 것보다 이미 학습한 특징을 조정하는 편이 유리했던 결과로 해석한다.
-마지막 층만 학습한 결과는 74.2\%로 전체 층 학습보다 4.1 percentage points 낮았다.
-학습되는 파라미터가 2,052개여도 기본 분류에 상당 부분 도움이 되었으나, 전체 특징을 조정한 수준에는 도달하지 않았다.
-학습률을 바꾼 실험은 80.8\%로 기본 실험보다 2.5 percentage points 높았다.
+ImageNet initialisation yielded 78.3\% test accuracy versus 51.7\% from random initialisation, a 26.6-point difference. With this small dataset, adapting learned visual features helped. Training only the last layer gave 74.2\%, 4.1 points below full fine-tuning, despite just 2,052 trainable parameters. The early learning-rate variant gave 80.8\%, 2.5 points above the baseline on the same test split.
 
 \subsection*{Figures for every run}
-각 실험의 손실/정확도 곡선, 혼동 행렬과 자신 있게 틀린 테스트 이미지를 함께 보인다.
-\texttt{clean}, \texttt{final}, \texttt{expanded}는 자료와 테스트 분할이 바뀌었으므로 최초 실험과 같은 테스트 집합의 성능 비교는 아니다.
+The following figures show loss and accuracy curves, confusion matrices, and confidently misclassified downloaded-test images for each run. Data and test splits changed for \texttt{clean}, \texttt{final}, and \texttt{expanded}, so those accuracies are not paired measurements against the initial run.
 
 \subsection*{run}
 \par\noindent \picturefile{figures/run_curves.png}\par
@@ -201,41 +158,25 @@ ImageNet에서 시작한 테스트 정확도는 78.3\%, 무작위 초기값에�
 \par\noindent \picturefile{figures/final_worst.png}\par
 \clearpage
 \subsection*{expanded: current model}
-현재 정리본 743장 중 594장은 학습에, 149장은 다운로드 테스트에 사용했다. ImageNet 초기값에서 all layers를 학습했다. epochs 10, lr 0.0001, batch size 8, seed 0이며, 학습 정확도는 100.0\%, 다운로드 테스트 정확도는 93.3\%다.
+The current cleaned set has 743 images: 594 for training and 149 for downloaded testing. Fine-tuning all layers from ImageNet weights for 10 epochs at learning rate 0.0001, batch size 8, and seed 0 gave 100.0\% training and 93.3\% downloaded-test accuracy.
 \par\noindent \picturefile{figures/expanded_curves.png}\par
 \begin{center}\par\noindent \picturefile[0.62\linewidth]{figures/expanded_confusion.png}\par
 \end{center}
 \par\noindent \picturefile{figures/expanded_worst.png}\par
 \clearpage
 \subsection*{Student-selected learning-rate follow-up after cleaning}
-학생은 추가 실험의 방향과 이유를 다음과 같이 직접 설명했다.
+I chose the direction of the additional experiment and explained why:
 \begin{quote}
 ``학습 횟수보다는 학습률을 올리면 좋을 것 같아. 간혹 모델들은 학습을 반복해서 하면 좀 능률이 떨어지는 경우가 많은 것 같더라고''
 \end{quote}
 
-학습률을 올리는 방향은 학생이 선택했고, 실행 수치 0.0001에서 0.0003으로의 변경은 에이전트가 안내한 뒤 적용했다.
-현재 정리본을 그대로 사용하고 학습 횟수는 10, batch size는 8, seed는 0으로 유지했다.
-새 tag는 \texttt{student\_lr3e4}다. 기존 \texttt{expanded}와 같은 743장 중 594장으로 학습하고,
-동일한 순서의 149장 테스트 파일로 평가했음을 저장 설정과 사전·사후 검증으로 확인했다.
-ImageNet 가중치에서 새로 시작해 모든 층을 학습했으며, 기존 학습 결과를 이어서 학습한 것은 아니다.
-분할과 모델 초기화에 같은 seed를 사용했다.
+I chose to increase the learning rate; the agent suggested the concrete change from 0.0001 to 0.0003. Epochs stayed at 10, with batch size 8 and seed 0 on the same cleaned set. The \texttt{student\_lr3e4} run trained all layers afresh from ImageNet weights on the same 594 images and was evaluated on the same ordered 149 test images, as verified by saved settings and before/after checks. It did not continue training the earlier checkpoint.
 
-이는 학생의 이번 선택 이후 수행한 정리 후 추가 비교다.
-기존 600장으로 수행했던 정리 전 \texttt{lr3e4}를 학생이 당시 선택했다고 바꾸지 않는다.
-README의 본인 선택을 정리 전에 수행하라는 시간 순서를 과거에 충족했다고 주장하지 않는다.
-실행 명령과 학생 원문, 두 실행의 설정 및 측정값은 \path{outputs/student_lr3e4_analysis.json}에 보존했다.
+This is the follow-up conducted after my explicit choice. The earlier pre-cleaning \texttt{lr3e4} run on 600 images is not retroactively attributed to me, and the chronology of the README's student-choice requirement is not rewritten.
+The command, my original statement, settings, and measurements are preserved in \path{outputs/student_lr3e4_analysis.json}.
 
-기존 실행의 학습 정확도는 100.0\%, 다운로드 테스트 정확도는 93.3\%였다.
-새 실행은 각각 99.8\%와 93.3\%였고, 표시된 테스트 정확도의 차이는 0.0 percentage points다.
-같은 개인 평가 사진에서 기존 실행은 22/24 (91.7\%),
-새 실행은 22/24 (91.7\%)였다.
-
-개인 평가 비교는 기존 \texttt{check.py}의 독립 전처리로 수행했다.
-다운로드 테스트 수치는 각 실행 때 측정하여 저장한 값이며, 개인 사진 평가는 같은 24장에 대한 새 비교다.
-동일 자료·설정의 한 번씩의 MPS 실행이므로 실행 변동과 작은 테스트 표본을 고려해야 한다.
-학습률의 일반적인 우열을 확정하거나 반복 횟수에 따른 효율을 검증한 결과로 해석하지 않는다.
-이번에는 반복 횟수를 바꾸지 않았으므로 학생의 반복 학습에 대한 생각은 선택 이유와 예상으로 기록한다.
-새 모델은 추가 비교용으로 저장했다. 현재 웹 모델과 앞서 보고한 개인 평가 및 크롭 실험의 모델은 \texttt{expanded}다.
+The existing run had 100.0\% train accuracy, 93.3\% downloaded-test accuracy, and 22/24 (91.7\%) on the same personal images. The follow-up had 99.8\%, 93.3\%, and 22/24 (91.7\%), respectively; displayed test accuracy differed by 0.0 percentage points. Personal-image comparison used the independent preprocessing in \texttt{check.py}; downloaded-test figures were saved during their respective runs.
+Each MPS configuration was run once, so run-to-run variation and the small test set matter. These results do not establish a generally better learning rate or test the effect of increasing epochs, which remained fixed. The follow-up model was saved for comparison; the web demo and all preceding crop and personal-image results use \texttt{expanded}.
 
 \outputfile{outputs/student_lr3e4_analysis.txt}
 \outputfile{outputs/student_lr3e4_verification.txt}
@@ -258,99 +199,74 @@ README의 본인 선택을 정리 전에 수행하라는 시간 순서를 과거
 \outputfile{outputs/final_output.txt}
 \outputfile{outputs/expanded_output.txt}
 \section*{Problem 4. Cleaning}
-\subsection*{Student rule stated after the existing runs}
-학생은 기존 수집·정리·학습 결과를 확인한 뒤 다음 기준을 직접 제시했다.
+\subsection*{My selection criteria and final review}
+I chose the final training-image criteria and carried out a second review of the cleaned set after the agent's first-pass screening of incorrect downloads. I considered whether the target character occupied at least 50\% of the image, whether identifying hair or outfit details were visible, and whether the image quality was adequate. The 50\% criterion was my visual selection guide, not a pixel-area measurement made by code. My earlier wording about recognisable features and quality was:
 \begin{quote}
 ``사진 정리 규칙은 일단 내가 말한 그 캐릭터의 특징 (머리 색, 입고 있는 옷) 등이 어떤 식으로든 clear 하게 나와야 한다. 또한 화질이 너무 떨어지는 건 안 된다''
 \end{quote}
-이는 이번에 받은 학생의 기준이며, 최초 정리 전에 학생이 적었던 규칙으로 소급하여 기록하지 않는다.
-학생은 현재 정리본 검토에 대해 다음과 같이 확인했다.
+I stated the occupancy criterion explicitly in my completed short report; the earlier agent removal log did not record it as a numeric cutoff. I also confirmed my own review of the current cleaned set:
 \begin{quote}
 ``사진 정리 이미 다 확인했어. clean 에 있는 게 다 정리된 거니까.''
 \end{quote}
-현재 \path{data/clean/}의 사진 전체를 학생이 검토하고 유지하는 자료로 확인한 기록이다.
-이미 제거한 후보의 과거 장별 판단까지 학생이 직접 수행했다고 소급하지 않는다.
-화질의 구체적 수치 기준은 학생이 제시하지 않았으므로 임의로 정하지 않았다.
-아래의 기존 제거 목록과 학습 결과는 에이전트가 적용했던 당시 기준의 기록이다.
+I inspected and accepted the current images in \path{data/clean/} in this second pass. The agent had made earlier candidate file-level removals under my broad request, so those logged removal decisions remain attributed to it below. The distinction is the same as in my revised short report: the agent filtered mistaken downloads first, while I set the criteria and reviewed the resulting selection myself. No per-image occupancy percentage was calculated or logged; I do not claim that every retained file was mechanically verified against the 50\% guide. Likewise, image quality was judged visually rather than against a numeric threshold.
 
 \subsection*{Earlier agent rule and decisions}
-대상 캐릭터를 식별할 수 있고 그 캐릭터가 주된 대상인 게임 화면과 공식/팬 일러스트를 유지했다.
-다른 캐릭터, 글/무기/UI가 주된 이미지, 심하게 가려지거나 잘린 이미지는 제외하고, 같은 원본의 근접 중복은 올바른 클래스에서 명확한 대표본만 유지했다.
+The earlier agent rule kept identifiable target characters as the main subject in game screenshots and official or fan art. It excluded wrong characters, mainly textual/weapon/UI images, severe occlusion or cropping, and near duplicates of one source while retaining a clear representative in the correct class.
 
-범주와 이미지 범위는 학생이 결정했다. 다음 진행 위임에 따라 세부 규칙과 장별 검토는 에이전트가 수행했다.
-학생이 각 파일의 유지/제외를 직접 지정한 것처럼 기록하지 않는다.
+I selected the categories and image scope. Under my broad request to continue the assignment, the agent applied a preliminary detailed rule and screened individual files. I then personally reviewed and accepted the resulting cleaned set as the second pass. This distinguishes my final review from the agent's earlier logged keep/remove actions.
 \begin{quote}
 ``여기에도 정보가 있을거야 이것도 참고해주고, 지금부터는 short report 제외하고 전부 끝내놔. 커밋은 내가 할 거고 다 허용이니까 물어보지마''
 \end{quote}
-에이전트의 당시 규칙은 제거 전에 기록했고, 최초 600장을 모두 시트와 필요 시 원본 확대로 확인했다.
-실제 유지 목록에는 머리/의상으로 대상 캐릭터를 식별할 수 있는 코스프레 사진도 일부 있다.
-예를 들어 린네의 \texttt{0057.jpg}, \texttt{0124.jpg}, \texttt{0133.jpg}와 양양의 \texttt{0092.jpg}다.
-이들은 최초 규칙에 적은 게임/일러스트라는 표현보다 범위를 넓혀 유지한 예외이며,
-장별 판단 기록에 남겼다. 모든 정리본이 게임 화면과 그림만으로 구성됐다고 서술하지 않는다.
-제거는 \texttt{clean.py remove}로 이동/기록했고 다운로드 원본을 수정하지 않았다.
-기록의 공통 제거 사유가 잘못 분류된 세 항목은 장별 관찰 근거에 맞게 수정했다. 파일 위치와 학습 자료는 바뀌지 않았다.
+The agent recorded its rule before removing files and reviewed all initial 600 images on contact sheets, enlarging originals when needed. A few retained photos of cosplayers are exceptions to the original game-screen/art wording because hair and outfit identify the character, including Lynae \texttt{0057.jpg}, \texttt{0124.jpg}, \texttt{0133.jpg} and Yangyang \texttt{0092.jpg}. They are documented as exceptions, not silently described as illustrations. \texttt{clean.py remove} moved and logged exclusions without changing raw downloads. Three mislabelled common removal reasons were corrected against image-level observations; file locations and training data did not change.
 \outputfile{outputs/cleaning_rule.txt}
 \outputfile{outputs/clean_reason_correction.txt}
 
 \subsection*{Three kinds of junk}
 \par\noindent\begin{minipage}{\linewidth}
-다른 캐릭터가 검색 라벨에 섞인 예: 카멜리아 폴더의 \texttt{0058.jpg}는 방랑자 화면이다.
+Example of a wrong character under a search label: Camellya-folder \texttt{0058.jpg} shows Rover.
 \begin{center}\par\noindent \picturefile[0.55\linewidth]{figures/junk_other_character.jpg}\par\end{center}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-무기 옵션과 글이 주된 정보 화면의 예: 에이메스 폴더의 \texttt{0030.jpg}.
+Example of a weapon-stat screen dominated by UI and text: Aemeath-folder \texttt{0030.jpg}.
 \begin{center}\par\noindent \picturefile[0.4\linewidth]{figures/junk_weapon.jpg}\par\end{center}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-작은 아이콘/글이 주된 표의 예: 린네 폴더의 \texttt{0055.jpg}.
+Example of a table dominated by small icons and text: Lynae-folder \texttt{0055.jpg}.
 \begin{center}\par\noindent \picturefile[0.55\linewidth]{figures/junk_table.jpg}\par\end{center}
 \end{minipage}\par\medskip
 
 \subsection*{What I removed}
-아래는 최초 자료 정리와 린네 1차 추가 수집까지 반영한 과거 결과다. 이번 확장 결과는 별도로 구분한다.
-최초 600장 중 300장을 유지했고, 린네 추가분 50장 중 11장을 유지했다.
-전체 장별 판단은 ZIP의 \texttt{outputs/cleaning\_decisions.json},
-\texttt{supplement\_decisions.json}와 이동 로그 \texttt{removed\_log.csv}에 있다.
+The following are historical counts through the first Lynae supplement, separate from the later expansion. Of the initial 600 images, 300 were retained; 11 of the 50 supplemental Lynae images were retained. File-level decisions and the move log are in \path{outputs/cleaning_decisions.json}, \path{outputs/supplement_decisions.json}, and \path{outputs/removed_log.csv} in the source archive.
 \outputfile{outputs/clean_count_initial.txt}
 \outputfile{outputs/clean_count.txt}
-클래스별 제거 이유와 수는 아래 출력과 같다.
+Removal reasons and counts by class are shown below and in the saved output.
 \begin{center}\small
 \begin{tabular}{lrrrrrr}
-\toprule 범주 & 근접 중복 & 다른 캐릭터 & 주 대상 아님 & 글/UI & 가림/크롭 & 합계 \\
+\toprule Class & Near dup. & Wrong char. & Not primary & Text/UI & Occl./crop & Total \\
 \midrule
-린네 & 67 & 61 & 7 & 6 & 5 & 146 \\
-양양 & 18 & 17 & 53 & 1 & 2 & 91 \\
-에이메스 & 39 & 9 & 6 & 6 & 0 & 60 \\
-카멜리아 & 8 & 16 & 9 & 8 & 1 & 42 \\
+Lynae & 67 & 61 & 7 & 6 & 5 & 146 \\
+Yangyang & 18 & 17 & 53 & 1 & 2 & 91 \\
+Aemeath & 39 & 9 & 6 & 6 & 0 & 60 \\
+Camellya & 8 & 16 & 9 & 8 & 1 & 42 \\
 \bottomrule
 \end{tabular}\end{center}
 \outputfile{outputs/clean_reason_by_class.txt}
 
-도구가 처음 찾은 근접 중복 후보는 48쌍이다.
-최종 판단 후 두 파일을 모두 유지한 후보쌍은 없었다.
-도구가 찾지 않은 크롭/배너/반전 변형도 원본을 비교해 정리했다.
-린네 1차 추가까지의 과거 제거 사유 중 근접 중복은 132개 파일이다. 후보쌍 수와 제거한 파일 수는 서로 다른 수치다.
-아래 그림은 도구가 시트에 그린 후보이며 전체 쌍은 \texttt{outputs/suspects.csv}에 보존했다.
-한글 글꼴이 없는 시트는 저장된 CSV의 이미지 순서와 점수를 그대로 읽어 글꼴만 바꿔 다시 그렸다.
-확률과 유사도는 CSV에 저장된 소수 네 자리 문자열을 그대로 표시하며, 점수를 다시 측정하지 않았다.
+The tool initially flagged 48 near-duplicate pairs. After review, no flagged pair retained both files. Additional crop, banner, and mirrored variants were reviewed against originals. There were 132 files removed as near duplicates through the first Lynae supplement; a pair count and a removed-file count are different quantities. All flagged pairs are recorded in \path{outputs/suspects.csv}. The contact sheet was redrawn with a Korean-capable font from the saved CSV order and four-decimal strings; similarity and probability were not remeasured.
 \outputfile{outputs/cleaning_figure_render.txt}
 \par\noindent \picturefile{figures/copies.png}\par
 
-각 클래스 상위 20개 suspect 중 제거한 수는 다음과 같다.
+Among the top 20 suspects in each class, the reviewed removals were:
 \begin{center}\begin{tabular}{lr}
-\toprule 범주 & 제거/검토 \\
+\toprule Class & Removed/reviewed \\
 \midrule
 
-린네 & 19/20 \\
-양양 & 18/20 \\
-에이메스 & 6/20 \\
-카멜리아 & 9/20 \\
+Lynae & 19/20 \\
+Yangyang & 18/20 \\
+Aemeath & 6/20 \\
+Camellya & 9/20 \\
 \bottomrule\end{tabular}\end{center}
-suspect 순위만으로 제거하지 않았다. 메카 표현이나 다른 그림체의 팬 일러스트처럼 학습 범위에 맞는 드문 표현은 유지했다.
-상위 20개 밖에도 최초 자료에서 248장을 제거했다.
-자동 순위는 전체 육안 검토를 대신할 수 없었다.
-도구를 실행한 뒤 놓친 오염을 새로 발견했다고 가정하지 않고,
-이미 검토한 오염과 순위가 얼마나 겹치는지 확인했다.
+Rank alone did not determine removal. Rare but valid depictions, such as mecha-style and distinct fan art, were kept. A further 248 initial images outside the top-20 lists were removed. Automated suspects cannot replace full visual review. The overlap between previously reviewed contamination and the ranking was examined; no new discovery by the tool is implied.
 
 \par\noindent \picturefile{figures/suspects_lynae.png}\par
 \par\noindent \picturefile{figures/suspects_yangyang.png}\par
@@ -358,117 +274,63 @@ suspect 순위만으로 제거하지 않았다. 메카 표현이나 다른 그�
 \par\noindent \picturefile{figures/suspects_camellia.png}\par
 \subsection*{Before and after cleaning}
 \outputfile{outputs/compare.txt}
-정리 후 다운로드 테스트 정확도는 78.3\%에서 88.5\%로 높아졌지만,
-동일한 개인 촬영 사진에서는 87.5\%에서 75.0\%로 낮아졌다.
-다운로드 테스트 집합 자체가 바뀌었으므로 첫 숫자의 상승을 동일 이미지에서의 개선으로 보지 않는다.
-새 출처 사진에서는 정리된 일러스트/게임 화면에 더 잘 맞춘 특징이 실제 행사장 배경, 입체 인형 탈과 다른 촬영 시점에 그대로 적용되지 않았을 가능성이 있다.
-자료가 줄고 테스트 표본이 작아진 영향도 있다. 이 결과로 정리가 항상 새 출처 정확도를 높인다고 주장할 수 없다.
+Downloaded-test accuracy rose from 78.3\% to 88.5\% after cleaning, but accuracy on the same personally photographed images fell from 87.5\% to 75.0\%. The downloaded test set changed, so its increase is not a paired same-image improvement. Features fitted to cleaned art and game screens may transfer poorly to event backgrounds, three-dimensional mascots, and new camera angles; fewer training examples and the small personal test set could also matter. Cleaning cannot be claimed to always improve new-source accuracy.
 
-린네 1차 추가 수집까지 반영한 과거 \texttt{final}은 다운로드 테스트 93.7\%, 새 출처 79.2\%다.
-정리와 추가 수집의 효과를 하나로 합쳐서 설명하지 않는다.
-이 단계에서는 모든 범주의 정리본을 확보한 \texttt{final}을 모델로 지정했고,
-새 출처 정확도가 높은 정리 전 모델로 바꿔 고르지 않았다.
-모든 비교에서 개인 촬영 사진은 학습에 사용하지 않았다.
+The historical \texttt{final} model after the first Lynae supplement reached 93.7\% on its downloaded test set and 79.2\% on the new-source images. Cleaning and later collection are not conflated. \texttt{final} was designated after obtaining a cleaned set for every class, rather than selecting the earlier model for its higher personal-image score. Personal photos were never used for training in these comparisons.
 
 \subsection*{Additional collection and cleaning: expanded stage}
-기존 정리 결과와 여섯 학습 모델은 보존하고, 이번에 수집한 후보에 동일한 장별 검토를 적용했다.
-근접 중복 점수는 확인할 후보를 찾는 데 사용했다. 다른 포즈·표정·동작인 게임 프레임이나 SD 그림은 실제 이미지를 비교한 뒤 판단했다.
-같은 원본의 단순 크롭·재압축·배경·워터마크 변경은 제외했다.
-정확한 복장·머리 장식으로 식별되는 단독 코스프레는 앞서 명시한 예외 범위에서 유지했다.
-개인 평가용 사진은 새 후보의 라벨 정리나 학습에 넣지 않았다.
-전체 장별 유지/제외 사유와 검색 URL·파일 해시는 ZIP의 \path{outputs/expanded_decisions.json},
-\path{outputs/expanded_import.json}와 \path{outputs/expanded_removed_log.csv}에 보존했다.
-린네 이번 수집의 원래 터미널 출력은 파일로 저장되지 않았다.
-ZIP의 \path{outputs/expanded_collect_lynae.txt}는 저장된 후보 파일과 SHA256을 다시 검사한 사후 검증 출력이며,
-수집 당시 출력의 재구성이 아니다. 검색 출처 기록과 검색어별 실제 수집 요약은 별도 JSON에 보존했다.
-아래는 실제 폴더에 추가하기 전에 유지 후보 전체를 기존 정리본·개인 평가 사진과 함께 검사한 기록이다.
-이 출력의 ``repository data/results have not been changed''는 해당 사전 검사 시점을 가리킨다.
-그 후 원본 추가와 공식 제거를 실행했으며, 현재 파일 수는 이어지는 정리 도구 출력에 보존한다.
+The expansion kept the six existing runs and applied the same image-by-image review to new candidates. Similarity scores located potential copies, but distinct poses, expressions, game frames, and SD drawings were judged by visual comparison. Simple crops, recompression, background changes, and watermark variants of one source were excluded. Identifiable single-subject cosplay was retained under the stated exception. Personal evaluation photos were not used for training or labelling new downloads. File-level decisions, source URLs, hashes, and moves are in \path{outputs/expanded_decisions.json}, \path{outputs/expanded_import.json}, and \path{outputs/expanded_removed_log.csv}. The original terminal output for the Lynae expansion was not saved; \path{outputs/expanded_collect_lynae.txt} is a later integrity check on candidate files and hashes, not a reconstruction of the collection log. The following pre-import audit compares retained candidates against cleaned data and personal photos. Its ``repository data/results have not been changed'' statement refers only to that pre-import moment; import and official removal followed.
 \outputfile{outputs/expanded_collection_audit.txt}
 
-공식 정리 도구의 현재 수는 아래와 같다.
+Current counts from the official cleaning tool follow.
 \outputfile{outputs/expanded_clean_count.txt}
 
-\texttt{final}과 \texttt{expanded}를 동일한 개인 촬영/캡처 24장으로 비교했다.
-평가 사진의 정답률을 보고 과거 모델로 되돌려 고르지 않고, 추가 수집·정리를 완료한 \texttt{expanded}를 현재 모델로 정했다.
-다운로드 테스트 분할이 바뀌므로 그 정확도의 차이를 같은 사진에서의 개선이라고 해석하지 않는다.
+\texttt{final} and \texttt{expanded} were compared on the same 24 personal photos. I kept the expanded model chosen after collection and cleaning rather than switching back after looking at evaluation accuracy. The downloaded test split changed, so its accuracy difference is not a same-image comparison.
 \outputfile{outputs/expanded_compare.txt}
 
 \section*{Problem 5. Images from a new source}
 
 \begingroup\raggedright
-새 출처 평가용 이미지를 준비할 수 있는지에 대한 답변은 다음과 같다.
+I described the available new-source photos as follows:
 \begin{quote}
 ``모두 준비할 수 있고, 게임 이벤트에 가서 찍은 현수막 속의 사진 그리고 인형 탈 등도 있어''
 \end{quote}
 
-양양 이미지는 본인이 직접 촬영한 행사 사진과 직접 캡처한 인게임 화면이다.
-행사 사진의 원본 파일은 \path{IMG_0804.HEIC}, \path{IMG_0809.HEIC},
-\path{IMG_0810.HEIC}, \path{IMG_0812.HEIC}이며, 인게임 화면은
-\path{IMG_1390.JPG}, \path{IMG_1392.JPG}이다.
-캐릭터와 출처는 다음 답변으로 확인했다.
+The Yangyang set comprises my event photographs \path{IMG_0804.HEIC}, \path{IMG_0809.HEIC}, \path{IMG_0810.HEIC}, and \path{IMG_0812.HEIC}, plus my own in-game captures \path{IMG_1390.JPG} and \path{IMG_1392.JPG}. I confirmed both the class and provenance:
 \begin{quote}
 ``모두 양양이며, 모두 직접 촬영·캡처했어요''
 \end{quote}
 
-린네 이미지로 제공한 행사 사진의 원본 파일은
-\path{IMG_0844.HEIC}, \path{IMG_0845.HEIC}, \path{IMG_0850.jpg},
-\path{IMG_0860.HEIC}, \path{IMG_0871.HEIC}이며, 인게임 화면은
-\path{IMG_1417.JPG}이다. 출처는 다음 답변으로 확인했다.
+The Lynae set comprises event photographs \path{IMG_0844.HEIC}, \path{IMG_0845.HEIC}, \path{IMG_0850.jpg}, \path{IMG_0860.HEIC}, and \path{IMG_0871.HEIC}, plus in-game capture \path{IMG_1417.JPG}. I confirmed their provenance:
 \begin{quote}
 ``네, 모두 직접 촬영·캡처했어요''
 \end{quote}
-\path{IMG_0845.HEIC}에는 다른 인형 탈이 중앙에 크게 보이고 린네는 왼쪽에 있다.
-학생이 지정한 라벨을 유지해 평가에 포함했다. 중앙 크롭에서는 다른 캐릭터가 주된 대상이 되므로 오분류 해석 시 이 모호성을 구분한다.
+In \path{IMG_0845.HEIC}, another mascot dominates the centre while Lynae appears at left. I retained my Lynae label for the full photo, but a central crop can make a different character the main subject; this ambiguity matters when interpreting mistakes.
 
-에이메스 이미지의 원본 파일은 \path{IMG_0553.HEIC}, \path{IMG_0802.HEIC},
-\path{IMG_0806.HEIC}, \path{IMG_0818.HEIC}, \path{IMG_0869.HEIC},
-\path{IMG_0215.PNG}이다. 캐릭터와 출처는 다음 말로 확인했다.
+The Aemeath originals are \path{IMG_0553.HEIC}, \path{IMG_0802.HEIC}, \path{IMG_0806.HEIC}, \path{IMG_0818.HEIC}, \path{IMG_0869.HEIC}, and \path{IMG_0215.PNG}. I confirmed their class and provenance:
 \begin{quote}
 ``이건 에이메스고 전부 내가 직접 찍은 것들이야.''
 \end{quote}
-\path{IMG_0553.HEIC}는 캐릭터 그림과 시계가 표시된 화면을 촬영한 사진이다.
-\path{IMG_0802.HEIC}, \path{IMG_0806.HEIC}, \path{IMG_0818.HEIC}는
-행사의 외부 현수막, 내부 현수막, 모니터를 각각 촬영한 사진이다.
-\path{IMG_0869.HEIC}는 캐릭터 일러스트로 장식된 행사 차량을 촬영한 사진이며,
-\path{IMG_0215.PNG}는 인게임 캡처 화면이다.
-현수막과 모니터 사진에는 여러 캐릭터와 같은 일러스트가 보인다.
-직접 촬영한 사진의 시점과 배경은 다르지만 일부는 같은 행사 일러스트를 담으므로 서로 완전히 독립인 표본으로 보기 어렵다. 평가에서 그대로 유지하고 이 상관관계를 한계로 기록한다.
+\path{IMG_0553.HEIC} photographs a display with character art and a clock. \path{IMG_0802.HEIC}, \path{IMG_0806.HEIC}, and \path{IMG_0818.HEIC} show an outdoor banner, indoor banner, and monitor, respectively. \path{IMG_0869.HEIC} shows an event vehicle decorated with character art, and \path{IMG_0215.PNG} is an in-game capture. Some banners and the monitor repeat event artwork with several characters. Different viewpoints and backgrounds do not make these fully independent examples; they remain in the evaluation with this correlation stated as a limitation.
 
-카멜리아로 제공받은 파일은 \path{IMG_0867.HEIC}, \path{IMG_0834.HEIC},
-\path{IMG_0583.jpg}, \path{IMG_0584.jpg}, \path{IMG_2554.jpg},
-\path{IMG_2555.jpg}이다. 직접 촬영한 사진인지에 대한 답변은 다음과 같다.
+The Camellya originals are \path{IMG_0867.HEIC}, \path{IMG_0834.HEIC}, \path{IMG_0583.jpg}, \path{IMG_0584.jpg}, \path{IMG_2554.jpg}, and \path{IMG_2555.jpg}. I confirmed that I photographed them myself:
 \begin{quote}
 ``네, 모두 직접 촬영했어요''
 \end{quote}
-\path{IMG_0583.jpg}, \path{IMG_0584.jpg}, \path{IMG_0834.HEIC}는
-행사장의 인형 탈을 측면 또는 정면에서 촬영한 사진이다.
-\path{IMG_0867.HEIC}에는 인형 탈과 코스플레이 참가자가 함께 보인다.
-\path{IMG_2554.jpg}는 진행자와 캐릭터 일러스트가 표시된 무대 화면을 촬영한 사진이며,
-\path{IMG_2555.jpg}는 캐릭터 일러스트를 가까이 촬영한 사진이다.
-다운로드 이미지와의 근접 중복 여부는 overlap 도구로 검사했다.
-
-HEIC 원본은 별도로 보관하고, 화면에 보이는 방향을 유지한 JPEG 사본으로 변환했다.
-이 이미지들은 새 출처 평가용으로 보관하며 학습에 사용하지 않는다.
+\path{IMG_0583.jpg}, \path{IMG_0584.jpg}, and \path{IMG_0834.HEIC} show a mascot from different angles. \path{IMG_0867.HEIC} includes a mascot and cosplayer. \path{IMG_2554.jpg} photographs a stage screen with hosts and character art; \path{IMG_2555.jpg} is a closer photograph of that art. The overlap tool checked them against downloads. HEIC originals were retained separately and converted to correctly oriented JPEG copies for evaluation only; none entered training.
 
 
 \endgroup
 \subsection*{Sources and overlap}
-각 범주에 6장씩, 전체 24장을 사용했다.
-학생이 직접 촬영/캡처한 개인 파일이므로 다운로드한 인터넷 파일과 출처가 다르다.
-실제 행사장의 조명, 인형 탈, 자동차와 주변 인물이 나타나 다운로드 일러스트/게임 화면과 표현 방식도 다르다.
-파일 단위의 중복 검사와 특징 기반 overlap 검사 결과를 함께 확인했다.
-아래의 과거 \texttt{final} 단계 overlap은 650개 원본 중 서로 다른 다운로드 이미지 649개와 비교한 결과다.
-그 단계에서는 새 사진의 근접 중복이 없었고 가장 가까운 유사도는 0.86으로 기준 0.95보다 낮았다.
-같은 행사 그림을 다른 위치에서 찍은 사진은 상관관계가 있으므로 24장을 완전히 독립적인 표본으로 가정하지 않는다.
+There are six personally photographed or captured images per class, 24 in all. Their direct event/game provenance differs from downloaded web images. Event lighting, fabric mascots, cars, and bystanders also differ visually from much of the downloaded art and game imagery. Byte-level and feature-based overlap were checked. At the historical \texttt{final} stage, 24 personal photos were compared with 649 distinct images among 650 raw downloads: no near copy was found; the nearest similarity, 0.86, was below the 0.95 threshold. Repeated event artwork across personal photos still limits sample independence.
 \outputfile{outputs/new_images_received.txt}
 \outputfile{outputs/overlap.txt}
-확장 수집 후 전체 다운로드 원본과 같은 개인 사진 24장을 다시 검사한 현재 결과는 다음과 같다.
+The current overlap check after expansion compares the same 24 photos with all raw downloads.
 \outputfile{outputs/expanded_overlap.txt}
 
 \subsection*{Downloaded test versus new images}
 \begin{center}\begin{tabular}{lrr}
-\toprule 모델 & 다운로드 테스트 & 직접 촬영/캡처 \\
+\toprule Model & Downloaded test & Personal captures \\
 \midrule
 
 run & 78.3\% & 87.5\% \\
@@ -476,494 +338,385 @@ clean & 88.5\% & 75.0\% \\
 final & 93.7\% & 79.2\% \\
 expanded & 93.3\% & 91.7\% \\
 \bottomrule\end{tabular}\end{center}
-과거 \texttt{final}의 새 출처 결과는 19/24이었다. 현재 \texttt{expanded}의 결과는 22/24 (91.7\%)다.
-인게임 캡처의 화면 표현은 익숙하지만, 행사 사진에는 무대 조명, 실물 원단의 질감,
-카메라 시점, 군중, 차량, 휴대전화와 다른 캐릭터가 함께 나타난다.
-캐릭터가 프레임에서 작거나 중앙에서 벗어나면 중앙 크롭이 핵심 특징을 제거하기도 한다.
+On new-source photos the historical \texttt{final} model got 19/24, while \texttt{expanded} got 22/24 (91.7\%). The 93.3\% downloaded-test figure for \texttt{expanded} comes from its saved training-run output; the 22/24 new-source figure is printed by \texttt{check.py}. In-game captures are familiar visually, whereas event photos include stage lighting, fabric, crowds, vehicles, phones, and other characters. A small or off-centre target may lose identifying features in the central crop.
 
 \subsection*{Current expanded model: confident mistakes}
-현재 모델은 개인 평가 사진에서 두 장만 틀렸다. 따라서 현재 모델의 오답을 다섯 장으로 채우지 않고 실제 두 사례를 모두 기록한다. 과거 모델의 다섯 오답은 같은 Problem 5에서 별도로 제시한다.
+The current model made exactly two mistakes on the 24 personal photos; both are shown, without inventing five current mistakes. Five historical errors of \texttt{final} follow separately.
 \par\noindent \picturefile{figures/expanded_new_worst.png}\par
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{1. IMG\_2554.jpg}
-정답: 명조\_카멜리아; 예측: 명조\_에이메스 80.8\%
+True label: Camellya; Predicted: Aemeath 80.8\%
 \begin{center}\par\noindent \picturefile[0.35\linewidth]{figures/expanded_new_mistake_1.jpg}\par
 \end{center}
-무대 오른쪽에 SD 캐릭터 그림이 있고 큰 행사 글씨와 진행자가 함께 보인다. 실제 중앙 입력에서는 캐릭터의 얼굴·의상 대부분이 오른쪽에서 잘리고 글씨와 진행자 일부가 크게 남는다. 전체 사진의 사용자 라벨과 중앙 입력의 주된 정보가 다를 수 있다.
+A small SD-style character appears at the right edge of a stage photo with large event text and hosts. The actual central input cuts off much of the character's face and outfit, leaving text and people prominent. The full-image label and the central crop's dominant content may differ.
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{2. IMG\_0860.jpg}
-정답: 명조\_린네; 예측: 명조\_에이메스 45.6\%
+True label: Lynae; Predicted: Aemeath 45.6\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/expanded_new_mistake_2.jpg}\par
 \end{center}
-입체 인형 탈의 큰 눈과 풍선껌이 중심에 보이고, 앞쪽 휴대전화·손과 옆의 다른 인형 탈 일부가 함께 나타난다. 실제 중앙 입력은 머리·얼굴 위주이며 아래쪽 의상은 크롭과 휴대전화로 대부분 가려진다. 게임 화면과 비율·질감·조명이 다르다.
-위 설명은 관찰에 근거한 가능한 해석이며 특정 원인을 증명한 결과가 아니다. 점수는 네 범주 안의 상대 점수이며, 그 이미지가 범주에 적합하다는 확률을 보장하지 않는다.
+The three-dimensional mascot's eyes and bubble gum dominate, while a phone, hand, and another mascot intrude. The central input emphasises the head and face; crop and phone hide much of the lower outfit. Shape, texture, and lighting differ from the game model. These are observations consistent with possible explanations, not proof of one cause. Scores are relative to the four trained classes, not probabilities that the image belongs in the dataset.
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Historical final model: five confident mistakes}
-\par\noindent 아래 다섯 사례는 확장 전 \texttt{final} 모델에서 실제로 틀린 사진이다. 현재 모델의 오답과 구분하여 당시의 답과 점수를 그대로 보존한다.\par
+\par\noindent These five photographs were misclassified by the earlier \texttt{final} model. Its answers and scores are retained separately from the current model.\par
 \noindent \picturefile{figures/new_worst.png}\par
 
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{1. IMG\_2554.jpg}
-정답: 명조\_카멜리아; 예측: 명조\_에이메스 89.6\%
+True label: Camellya; Predicted: Aemeath 89.6\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/new_mistake_1.jpg}\par\end{center}
-캐릭터가 무대 오른쪽에 작게 있고 가운데에는 진행자와 큰 글씨가 있다. 파란 화면과 조명, 중앙 크롭의 비캐릭터 정보가 결과에 영향을 주었을 가능성이 있다.
+The target is small at the right of the stage; hosts and large text occupy the centre. Blue lighting and non-character content in the central crop may have contributed.
 \end{minipage}\par\medskip
 
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{2. IMG\_0845.jpg}
-정답: 명조\_린네; 예측: 명조\_양양 77.5\%
+True label: Lynae; Predicted: Yangyang 77.5\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/new_mistake_2.jpg}\par\end{center}
-린네는 왼쪽을 향한 뒤/측면이고 다른 인형 탈이 중앙에 크게 보인다. 학생이 지정한 전체 사진의 라벨과 모델의 중앙 입력이 보여 주는 주된 대상이 서로 다르다.
+Lynae appears from the back/side at left while another mascot dominates the centre. The full-photo student label and the model's main central subject differ.
 \end{minipage}\par\medskip
 
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{3. IMG\_0844.jpg}
-정답: 명조\_린네; 예측: 명조\_에이메스 68.3\%
+True label: Lynae; Predicted: Aemeath 68.3\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/new_mistake_3.jpg}\par\end{center}
-린네 인형 탈의 옆모습이며 큰 휴대전화와 손이 아래를 가린다. 청록 풍선껌, 원단과 파란 무대 배경이 게임 모델과 다른 형태로 보인다.
+A side view of the Lynae mascot has a large phone and hand obscuring the lower portion. Turquoise bubble gum, fabric, and blue stage light differ from the game rendering.
 \end{minipage}\par\medskip
 
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{4. IMG\_0860.jpg}
-정답: 명조\_린네; 예측: 명조\_에이메스 58.8\%
+True label: Lynae; Predicted: Aemeath 58.8\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/new_mistake_4.jpg}\par\end{center}
-입체 인형 탈, 큰 눈과 풍선껌이 원래 게임 얼굴의 비율과 다르고, 손/휴대전화가 의상을 가린다. 중심 입력에서 익숙한 의상 정보가 약해졌을 가능성이 있다.
+Mascot proportions, large eyes, and bubble gum differ from the game face, while a hand and phone hide clothing. Familiar outfit information may be weak in the central input.
 \end{minipage}\par\medskip
 
 \par\noindent\begin{minipage}{\linewidth}
 \subsection*{5. IMG\_0871.jpg}
-정답: 명조\_린네; 예측: 명조\_에이메스 55.8\%
+True label: Lynae; Predicted: Aemeath 55.8\%
 \begin{center}\par\noindent \picturefile[0.45\linewidth]{figures/new_mistake_5.jpg}\par\end{center}
-차량 앞부분의 일러스트를 행사장에서 촬영한 사진이다. 중앙 크롭에 차량과 반사, 주변 배경이 크게 들어가고 원화의 얼굴/의상 정보는 작고 비스듬하다.
+The photo shows artwork on the front of an event vehicle. The central crop contains much of the car, reflections, and background; face and outfit details are small and oblique.
 \end{minipage}\par\medskip
-이 설명은 관찰에 근거한 가능한 해석이며 특정 원인을 이미 증명했다는 뜻은 아니다.
-신뢰도는 네 범주 중 상대 점수이고, 이미지가 범주에 적합하다는 확률을 보장하지 않는다.
+These are observation-based interpretations, not established single causes. A softmax score is relative to the four known classes, not a guarantee that an image truly belongs to one.
 
 
 
 \section*{Problem 6. The demo}
-현재 데모 모델은 추가 수집·정리 후 학습한 \texttt{expanded}이다.
-같은 RGB 샘플, Pillow-compatible bilinear 필터와 half-even 중앙 크롭을 유지하고 이 체크포인트를 다시 내보냈다.
-현재 모델의 Python/ONNX 비교 결과는 다음 출력과 같다.
+The demo exports the \texttt{expanded} checkpoint after additional collection and cleaning. It uses matching RGB samples, Pillow-compatible bilinear resizing, and half-even central cropping. The current Python/ONNX comparison is preserved below.
 \outputfile{outputs/expanded_export.txt}
 
-기존 \texttt{final} 검증 때 발견한 단계적 축소와 ICC 해석 차이를 수정한 과정은 아래 과거 출력에 보존했다.
-업로드 사본의 ICC 메타데이터는 메모리에서만 제거하며, 원본 디스크 사진은 바꾸지 않는다.
-이번에는 \texttt{expanded}의 원본 개인 사진과 기존 변환본을 실제 브라우저에 다시 업로드해 확인했다.
+Historical output records the correction of staged downscaling and ICC interpretation differences found with \texttt{final}. ICC metadata is removed only from an in-memory upload copy, not the source photograph. Original personal images and earlier variants were uploaded again to the local browser using \texttt{expanded}.
 \outputfile{outputs/browser_preprocessing.txt}
 
-계획한 공개 주소는 \url{https://jellykeeng.github.io/mas1004-assignment1/},
-코드 주소는 \url{https://github.com/jellykeeng/mas1004-assignment1}이다.
-이 문서 작성 시점에는 공개 저장소 생성/게시 완료를 확인하지 못했다.
-GitHub 인증 확인 명령의 실행 승인이 거부되어 계정 설정을 중단했고,
-학생이 커밋을 직접 하겠다고 요청했으므로 에이전트는 커밋하거나 푸시하지 않았다.
-따라서 위 주소는 배포 예정 주소이며, 제출 전 실제 공개 URL과 동작을 확인해야 한다.
+The code repository is \url{https://github.com/jellykeeng/mas1004-assignment1}, with \texttt{docs/model.onnx}, \texttt{model.json}, and \texttt{selftest.json} committed on \texttt{main}. The public demo is \url{https://jellykeeng.github.io/mas1004-assignment1/}. Direct remote requests now load the page, model metadata, and exported ONNX file over HTTPS. This confirms deployment and asset availability, but a separate-computer browser inference test has not yet been recorded. The new hair-mask pairs also still need a live demo upload comparison.
 
-범주에 없는 무기 사진을 현재 모델에 넣어도 ``모름'' 대신 명조\_린네 59.3\%를 출력했다.
-이 모델에는 unknown 범주가 없어 다른 물체의 입력을 거부하지 못한다. 현재 초록색 self-test, 업로드 검사와 범주 밖 입력의 브라우저 화면은 아래에 보존한다.
+A weapon image outside the four classes nevertheless produced Lynae at 59.3\% rather than an ``unknown'' answer. This classifier has no unknown class, so it cannot reject unrelated objects. The green self-test, local upload checks, and out-of-domain browser result are preserved below.
 \outputfile{outputs/expanded_browser_demo.txt}
 \par\noindent \picturefile{figures/expanded_browser_selftest.png}\par
 \par\noindent \picturefile{figures/expanded_browser_ood.png}\par
 
 \section*{Problem 7. What the model looks at}
-학생이 직접 선택한 전체 개인 사진의 머리카락 가림과 결과 해석은 \hyperref[sec:student-hair]{후속 머리카락 가림 절}에 기록했다.
+The student-selected hair masking of all personal images and its interpretation are documented in the \hyperref[sec:student-hair]{later hair-masking section}.
 \subsection*{Student-selected crops: results at a glance}
-다음은 학생이 오분류 사진을 보고 직접 지정한 두 크롭과, 이후 직접 제공한 네 크롭본의 기존 결과를 모은 것이다.
-모두 같은 \texttt{expanded} 모델과 기존 전처리를 사용했다.
+The table summarises two crops I specified after seeing misclassified photos and four additional crops I made and supplied later. All use the unchanged \texttt{expanded} model and its existing preprocessing.
 \begin{center}\small
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{llrrl}
 \toprule
-범주 & 원본 파일 & 원본 정답 점수 & 변경 정답 점수 & 모델의 선택 \\
+Class & Original file & Original true score & Cropped true score & Prediction \\
 \midrule
-카멜리아 & \texttt{IMG\_2554.jpg} & 0.9\% & 100.0\% & 교정: 에이메스$\to$카멜리아 \\
-린네 & \texttt{IMG\_0860.jpg} & 17.2\% & 67.5\% & 교정: 에이메스$\to$린네 \\
-린네 & \texttt{IMG\_0845.jpg} & 65.7\% & 87.5\% & 유지: 린네 \\
-에이메스 & \texttt{IMG\_0806.jpg} & 69.6\% & 100.0\% & 유지: 에이메스 \\
-에이메스 & \texttt{IMG\_0818.jpg} & 75.8\% & 100.0\% & 유지: 에이메스 \\
-린네 & \texttt{IMG\_0844.jpg} & 80.9\% & 68.5\% & 유지: 린네 \\
+Camellya & \texttt{IMG\_2554.jpg} & 0.9\% & 100.0\% & Corrected: Aemeath$\to$Camellya \\
+Lynae & \texttt{IMG\_0860.jpg} & 17.2\% & 67.5\% & Corrected: Aemeath$\to$Lynae \\
+Lynae & \texttt{IMG\_0845.jpg} & 65.7\% & 87.5\% & Unchanged: Lynae \\
+Aemeath & \texttt{IMG\_0806.jpg} & 69.6\% & 100.0\% & Unchanged: Aemeath \\
+Aemeath & \texttt{IMG\_0818.jpg} & 75.8\% & 100.0\% & Unchanged: Aemeath \\
+Lynae & \texttt{IMG\_0844.jpg} & 80.9\% & 68.5\% & Unchanged: Lynae \\
 \bottomrule
 \end{tabular}
 \end{center}
-표의 점수는 정답 라벨의 softmax 점수이며, 가장 높은 점수로 선택된 답과 구분한다.
-두 오답은 원본 0/2에서 크롭 후 2/2로 바뀌었다.
-네 제공본은 원본과 변경본 모두 4/4를 맞혔으며 정답 점수는 세 사례에서 오르고 한 사례에서 낮아졌다.
-이는 선택된 사진들의 전후 비교이며, 원래 개인 평가 22/24 (91.7\%)를 바꾼 새 정확도가 아니다.
+Scores are softmax scores for the true label, distinct from the highest-scoring predicted class. The two selected errors changed from 0/2 correct to 2/2 after cropping. All four originally correct supplied examples stayed correct, while true-class scores rose in three and fell in one. These selected before/after comparisons do not replace the original personal-image accuracy of 22/24 (91.7\%).
 
-학생은 카멜리아가 작게 보이고 린네의 옷 부분이 잘렸을 가능성을 근거로 캐릭터 중심/아래쪽 크롭을 요청했다.
-그 관찰과 가설, 정확한 요청 원문은 \hyperref[p7:student_crop_request]{학생이 선택한 두 오답의 크롭} 절에 보존했다.
-이후 네 제공본의 정확한 파일 대응과 전후 결과는 \hyperref[p7:student_provided_crops]{학생 제공 크롭 파일} 절에 있다.
-\texttt{IMG\_0844}에서 정답 이름이 유지되면서 점수가 낮아진 결과는 학생의 예상과 달랐다.
-학생은 결과를 확인한 뒤 중앙 정사각형 입력에서 의상이 일부 잘릴 수 있다는 잠정 추측을 제시했다.
-이 사후 해석 원문과 실제 입력의 관찰은 \hyperref[p7:student_crop_reflection]{학생의 크롭 결과 해석} 절에서 구분해 기록한다.
-배경, 캐릭터의 크기/위치와 보이는 얼굴/의상이 함께 바뀌어 하나의 특징만의 인과 효과를 확정하지 않는다.
-아래의 과거 흑백/가림 실험은 에이전트 선택 기록이며, 학생의 직접 선택으로 바꾸어 서술하지 않는다.
+I proposed tighter framing because Camellya occupied little of one photograph and Lynae's outfit might be cut off in another. My observation, hypothesis, and verbatim request appear in the \hyperref[p7:student_crop_request]{two-error crop section}; the four later files appear in the \hyperref[p7:student_provided_crops]{provided-crops section}. \texttt{IMG\_0844} stayed correctly labelled but lost true-class score, contrary to my expectation. After seeing this I suggested that a portrait crop could still lose clothing during square centre cropping; my exact interpretation and the observed inputs appear in the \hyperref[p7:student_crop_reflection]{crop-reflection section}. Reframing also changes background, subject size and position, and visible face and outfit, so it does not isolate a single causal feature. Older grayscale and rectangular masks were selected by the agent, not by me.
 
-학생의 학습 전 예상은 ``머리카락 색과 모양, 입고 있는 옷의 스타일링''이었다.
-이 예상과 관련된 변화를 살펴보기 위해 흑백 변환, 머리/얼굴 영역 가림, 몸통/의상 영역 가림을 사용했다.
-아래의 기존 흑백/가림 실험을 준비할 당시에는 학생이 구체적인 변환과 파일명을 직접 지정한 요청이 없었다.
-이 세 실험의 구체적 변환 선택과 좌표는 진행 위임을 받은 에이전트가 결정한 것이며,
-학생이 스스로 선택한 실험이라고 대신 서술하지 않는다.
+My pre-training guess concerned hair colour, hair shape, and outfit styling. Earlier grayscale, head/face masking, and torso/outfit masking were selected and positioned by the agent under broad permission to continue, before I named specific transformations and files. They are exploratory evidence, not retroactively presented as experiments I designed.
 
-관련된 학생의 요청을 그대로 적으면 다음과 같다.
+The broad request under which the agent proceeded was:
 \begin{quote}
 ``여기에도 정보가 있을거야 이것도 참고해주고, 지금부터는 short report 제외하고 전부 끝내놔. 커밋은 내가 할 거고 다 허용이니까 물어보지마''
 \end{quote}
 
-양양의 인게임 화면 두 장, 카멜리아의 인형 탈/SD 그림 사진,
-린네의 인게임/인형 탈 사진, 에이메스의 인게임/화면 사진을 사용했다.
-원본 파일은 그대로 두고, 모델 입력을 정확히 보존하는 중앙 256 정사각형 사본에만 변환을 적용해
-\texttt{data/changed/}에 저장했다.
-각 사본을 다시 준비한 배열과 원본을 준비한 배열이 픽셀 단위로 같음을 확인했다.
-모델은 그 사본의 중앙 224 영역을 보므로 가림 위치가 실제 입력 안에 들어온다.
-아래 ``원본'' 그림은 이 입력용 중앙 사본이다.
-그림과 기존 23개 변환은 그대로 보존하고, 아래 캡션의 답과 점수만 현재 \texttt{expanded}로 다시 측정했다.
-과거 \texttt{final} 예측은 ZIP의 \path{outputs/analysis.json}, 전체 분석 출력과 확장 전 보고서 원문에 보존했다.
+The earlier examples used two Yangyang game frames; Camellya mascot and SD-style art; Lynae game and mascot images; and Aemeath game/display images. Originals stayed untouched. Transformations were made only on central 256-pixel square copies that reproduce the original model input exactly, under \path{data/changed/}. Pixel equality of the prepared original and canonical copy was checked. The model sees the central 224 pixels, so masks intersect its input. The earlier 23 changed images and figures remain fixed; captions here report the current \texttt{expanded} model's remeasured scores. Historical \texttt{final} answers remain in \path{outputs/analysis.json} and the saved analysis.
 
 \clearpage
 \subsection*{Guess 1. Hair colour}
-캐릭터별 머리색이 구분의 중요한 단서라는 최초 예상을 확인한다. 전체 중앙 사본을 흑백으로 바꿔 색 정보의 영향을 줄였다. 의상과 배경 색도 함께 바뀌므로 머리색만의 영향으로 단정할 수는 없다.
+To probe my initial hair-colour expectation, the agent made the whole canonical image grayscale. This removes outfit, skin, and background colour too, so it cannot isolate hair colour.
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_1390.JPG}
-\sidebyside{figures/gray_01_original.png}{원본: 명조\_양양 99.5\%}{figures/gray_01_changed.png}{변환: 명조\_양양 99.9\%}
+\sidebyside{figures/gray_01_original.png}{Original: Yangyang 99.5\%}{figures/gray_01_changed.png}{Changed: Yangyang 99.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_1392.JPG}
-\sidebyside{figures/gray_02_original.png}{원본: 명조\_양양 99.8\%}{figures/gray_02_changed.png}{변환: 명조\_양양 99.2\%}
+\sidebyside{figures/gray_02_original.png}{Original: Yangyang 99.8\%}{figures/gray_02_changed.png}{Changed: Yangyang 99.2\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_0584.jpg}
-\sidebyside{figures/gray_03_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/gray_03_changed.png}{변환: 명조\_에이메스 67.9\%}
+\sidebyside{figures/gray_03_original.png}{Original: Camellya 100.0\%}{figures/gray_03_changed.png}{Changed: Aemeath 67.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_2555.jpg}
-\sidebyside{figures/gray_04_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/gray_04_changed.png}{변환: 명조\_양양 63.9\%}
+\sidebyside{figures/gray_04_original.png}{Original: Camellya 100.0\%}{figures/gray_04_changed.png}{Changed: Yangyang 63.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_1417.JPG}
-\sidebyside{figures/gray_05_original.png}{원본: 명조\_린네 96.6\%}{figures/gray_05_changed.png}{변환: 명조\_린네 90.7\%}
+\sidebyside{figures/gray_05_original.png}{Original: Lynae 96.6\%}{figures/gray_05_changed.png}{Changed: Lynae 90.7\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_0850.jpg}
-\sidebyside{figures/gray_06_original.png}{원본: 명조\_린네 87.5\%}{figures/gray_06_changed.png}{변환: 명조\_에이메스 82.5\%}
+\sidebyside{figures/gray_06_original.png}{Original: Lynae 87.5\%}{figures/gray_06_changed.png}{Changed: Aemeath 82.5\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_0215.PNG}
-\sidebyside{figures/gray_07_original.png}{원본: 명조\_에이메스 100.0\%}{figures/gray_07_changed.png}{변환: 명조\_에이메스 76.9\%}
+\sidebyside{figures/gray_07_original.png}{Original: Aemeath 100.0\%}{figures/gray_07_changed.png}{Changed: Aemeath 76.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
 \texttt{IMG\_0553.jpg}
-\sidebyside{figures/gray_08_original.png}{원본: 명조\_에이메스 99.9\%}{figures/gray_08_changed.png}{변환: 명조\_에이메스 93.2\%}
+\sidebyside{figures/gray_08_original.png}{Original: Aemeath 99.9\%}{figures/gray_08_changed.png}{Changed: Aemeath 93.2\%}
 \end{minipage}\par\medskip
-현재 \texttt{expanded}의 원본 8/8에서 변환 후 5/8를 맞췄고 예측 클래스가 3번 바뀌었다. 이는 선택한 사진에서 전체 색 정보를 제거한 뒤 관찰한 결과다. 머리색의 효과와 의상·배경·피부 색의 효과를 분리한 결과는 아니다.
+On these eight selected images, the current model went from 8/8 correct to 5/8 after grayscale and changed its predicted class three times. This shows sensitivity to the removal of all colour, not the independent effect of hair colour.
 \clearpage
 \subsection*{Guess 2. Hair and head shape}
-머리카락 모양과 머리 주변의 특징이 필요한지 확인한다. 표시한 머리/얼굴 영역을 RGB 128의 회색 사각형으로 가렸다. 머리카락뿐 아니라 얼굴과 장식도 함께 가려지는 조작이므로 머리 모양만 따로 분리한 실험은 아니다.
+A grey RGB-128 rectangle covered the marked head/face region to probe features near the hair. Face and ornaments were masked too, so this does not isolate hair shape.
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1390.JPG} 가림 좌표 [107, 20, 208, 110]
-\sidebyside{figures/head_mask_01_original.png}{원본: 명조\_양양 99.5\%}{figures/head_mask_01_changed.png}{변환: 명조\_양양 92.3\%}
+\texttt{IMG\_1390.JPG} mask coordinates [107, 20, 208, 110]
+\sidebyside{figures/head_mask_01_original.png}{Original: Yangyang 99.5\%}{figures/head_mask_01_changed.png}{Changed: Yangyang 92.3\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1392.JPG} 가림 좌표 [42, 22, 130, 93]
-\sidebyside{figures/head_mask_02_original.png}{원본: 명조\_양양 99.8\%}{figures/head_mask_02_changed.png}{변환: 명조\_양양 97.9\%}
+\texttt{IMG\_1392.JPG} mask coordinates [42, 22, 130, 93]
+\sidebyside{figures/head_mask_02_original.png}{Original: Yangyang 99.8\%}{figures/head_mask_02_changed.png}{Changed: Yangyang 97.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0584.jpg} 가림 좌표 [45, 16, 196, 118]
-\sidebyside{figures/head_mask_03_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/head_mask_03_changed.png}{변환: 명조\_카멜리아 100.0\%}
+\texttt{IMG\_0584.jpg} mask coordinates [45, 16, 196, 118]
+\sidebyside{figures/head_mask_03_original.png}{Original: Camellya 100.0\%}{figures/head_mask_03_changed.png}{Changed: Camellya 100.0\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_2555.jpg} 가림 좌표 [16, 16, 230, 140]
-\sidebyside{figures/head_mask_04_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/head_mask_04_changed.png}{변환: 명조\_카멜리아 100.0\%}
+\texttt{IMG\_2555.jpg} mask coordinates [16, 16, 230, 140]
+\sidebyside{figures/head_mask_04_original.png}{Original: Camellya 100.0\%}{figures/head_mask_04_changed.png}{Changed: Camellya 100.0\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1417.JPG} 가림 좌표 [95, 25, 171, 89]
-\sidebyside{figures/head_mask_05_original.png}{원본: 명조\_린네 96.6\%}{figures/head_mask_05_changed.png}{변환: 명조\_린네 83.0\%}
+\texttt{IMG\_1417.JPG} mask coordinates [95, 25, 171, 89]
+\sidebyside{figures/head_mask_05_original.png}{Original: Lynae 96.6\%}{figures/head_mask_05_changed.png}{Changed: Lynae 83.0\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0850.jpg} 가림 좌표 [80, 56, 193, 150]
-\sidebyside{figures/head_mask_06_original.png}{원본: 명조\_린네 87.5\%}{figures/head_mask_06_changed.png}{변환: 명조\_린네 50.9\%}
+\texttt{IMG\_0850.jpg} mask coordinates [80, 56, 193, 150]
+\sidebyside{figures/head_mask_06_original.png}{Original: Lynae 87.5\%}{figures/head_mask_06_changed.png}{Changed: Lynae 50.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0215.PNG} 가림 좌표 [98, 16, 212, 115]
-\sidebyside{figures/head_mask_07_original.png}{원본: 명조\_에이메스 100.0\%}{figures/head_mask_07_changed.png}{변환: 명조\_에이메스 99.8\%}
+\texttt{IMG\_0215.PNG} mask coordinates [98, 16, 212, 115]
+\sidebyside{figures/head_mask_07_original.png}{Original: Aemeath 100.0\%}{figures/head_mask_07_changed.png}{Changed: Aemeath 99.8\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0553.jpg} 가림 좌표 [16, 16, 239, 192]
-\sidebyside{figures/head_mask_08_original.png}{원본: 명조\_에이메스 99.9\%}{figures/head_mask_08_changed.png}{변환: 명조\_에이메스 39.8\%}
+\texttt{IMG\_0553.jpg} mask coordinates [16, 16, 239, 192]
+\sidebyside{figures/head_mask_08_original.png}{Original: Aemeath 99.9\%}{figures/head_mask_08_changed.png}{Changed: Aemeath 39.8\%}
 \end{minipage}\par\medskip
-현재 \texttt{expanded}의 원본 8/8에서 변환 후 8/8를 맞췄고 예측 클래스가 0번 바뀌었다. 양양과 린네의 긴 머리는 가림 밖에 일부 남고, 에이메스의 얼굴 사진에서는 대부분의 시각 정보가 가려진다. 머리카락만의 효과를 분리할 수 없으며, 답이 유지됐다는 이유로 머리 특징을 사용하지 않는다고 단정할 수도 없다.
+The model remained correct on all eight selected images, with zero label changes. Some long hair remained outside the masks, while an Aemeath face image lost much of its visible content. Unchanged labels do not prove the model ignores hair; the effect of hair alone is unresolved.
 \clearpage
 \subsection*{Guess 3. Outfit styling}
-몸통과 의상 부분이 필요한지 확인한다. 그 영역을 회색 사각형으로 가렸다. 얼굴만 있는 에이메스 화면 사진은 가릴 옷이 없어 이 조작에서 제외했다. 사각형에는 일부 팔/피부도 포함되므로 의상만의 효과로 해석하지 않는다.
+Grey rectangles covered torso/outfit regions. An Aemeath face-only display lacked visible clothing and was excluded. Some arms and skin also fell inside rectangles, so this is not a clothing-only intervention.
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1390.JPG} 가림 좌표 [89, 135, 197, 239]
-\sidebyside{figures/clothes_mask_01_original.png}{원본: 명조\_양양 99.5\%}{figures/clothes_mask_01_changed.png}{변환: 명조\_양양 99.5\%}
+\texttt{IMG\_1390.JPG} mask coordinates [89, 135, 197, 239]
+\sidebyside{figures/clothes_mask_01_original.png}{Original: Yangyang 99.5\%}{figures/clothes_mask_01_changed.png}{Changed: Yangyang 99.5\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1392.JPG} 가림 좌표 [62, 133, 152, 239]
-\sidebyside{figures/clothes_mask_02_original.png}{원본: 명조\_양양 99.8\%}{figures/clothes_mask_02_changed.png}{변환: 명조\_양양 99.3\%}
+\texttt{IMG\_1392.JPG} mask coordinates [62, 133, 152, 239]
+\sidebyside{figures/clothes_mask_02_original.png}{Original: Yangyang 99.8\%}{figures/clothes_mask_02_changed.png}{Changed: Yangyang 99.3\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0584.jpg} 가림 좌표 [67, 127, 182, 238]
-\sidebyside{figures/clothes_mask_03_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/clothes_mask_03_changed.png}{변환: 명조\_카멜리아 98.6\%}
+\texttt{IMG\_0584.jpg} mask coordinates [67, 127, 182, 238]
+\sidebyside{figures/clothes_mask_03_original.png}{Original: Camellya 100.0\%}{figures/clothes_mask_03_changed.png}{Changed: Camellya 98.6\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_2555.jpg} 가림 좌표 [17, 145, 239, 239]
-\sidebyside{figures/clothes_mask_04_original.png}{원본: 명조\_카멜리아 100.0\%}{figures/clothes_mask_04_changed.png}{변환: 명조\_카멜리아 97.3\%}
+\texttt{IMG\_2555.jpg} mask coordinates [17, 145, 239, 239]
+\sidebyside{figures/clothes_mask_04_original.png}{Original: Camellya 100.0\%}{figures/clothes_mask_04_changed.png}{Changed: Camellya 97.3\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_1417.JPG} 가림 좌표 [85, 120, 174, 230]
-\sidebyside{figures/clothes_mask_05_original.png}{원본: 명조\_린네 96.6\%}{figures/clothes_mask_05_changed.png}{변환: 명조\_린네 94.5\%}
+\texttt{IMG\_1417.JPG} mask coordinates [85, 120, 174, 230]
+\sidebyside{figures/clothes_mask_05_original.png}{Original: Lynae 96.6\%}{figures/clothes_mask_05_changed.png}{Changed: Lynae 94.5\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0850.jpg} 가림 좌표 [90, 148, 189, 239]
-\sidebyside{figures/clothes_mask_06_original.png}{원본: 명조\_린네 87.5\%}{figures/clothes_mask_06_changed.png}{변환: 명조\_린네 96.9\%}
+\texttt{IMG\_0850.jpg} mask coordinates [90, 148, 189, 239]
+\sidebyside{figures/clothes_mask_06_original.png}{Original: Lynae 87.5\%}{figures/clothes_mask_06_changed.png}{Changed: Lynae 96.9\%}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\texttt{IMG\_0215.PNG} 가림 좌표 [56, 133, 213, 239]
-\sidebyside{figures/clothes_mask_07_original.png}{원본: 명조\_에이메스 100.0\%}{figures/clothes_mask_07_changed.png}{변환: 명조\_에이메스 100.0\%}
+\texttt{IMG\_0215.PNG} mask coordinates [56, 133, 213, 239]
+\sidebyside{figures/clothes_mask_07_original.png}{Original: Aemeath 100.0\%}{figures/clothes_mask_07_changed.png}{Changed: Aemeath 100.0\%}
 \end{minipage}\par\medskip
-현재 \texttt{expanded}의 원본 7/7에서 변환 후 7/7를 맞췄고 예측 클래스가 0번 바뀌었다. 린네 인게임 사진의 사각형에는 맨살인 복부가, 인형 탈 사진의 사각형에는 아래쪽 얼굴/턱과 앞쪽 손도 포함된다. 의상 스타일만의 효과나 한 캐릭터 전체의 특성으로 일반화할 수 없다.
+All seven selected examples stayed correct, with zero label changes. A Lynae game rectangle included bare abdomen, and the mascot rectangle included lower face/chin and a foreground hand. The result does not generalise to all characters or isolate outfit styling.
 \subsection*{What the evidence supports}
-현재 모델에 대해 같은 사진·변환을 다시 측정한 결과를 관찰했다.
-학생의 최초 예상과 관련된 단서를 시험했지만, 머리색/모양과 의상 스타일에 대한 인과적 의존을 확정하지는 못했다.
-흑백은 배경과 얼굴 색도 바꾸고, 사각형은 여러 특징을 동시에 제거하며 낯선 경계도 만든다.
-원본들은 과거 \texttt{final}에서 정답이었던 작은 표본에서 선택했고, 현재 모델에 대해 새로 독립적으로 선정한 자료가 아니다.
-가림 면적과 실험 분모도 서로 다르므로 변형 간 특징 중요도 순위를 매기거나 모든 사진으로 일반화하지 않는다.
-세 변환은 에이전트가 최초 예상을 나누어 살펴본 과거 병렬 실험이다. 이 세 실험의 선택을 학생이 직접 수행한 반복 탐구로 소급하지 않는다. 이후 학생이 두 오답을 보고 직접 정한 크롭 가설과 요청은 아래에서 별도로 기록한다.
-브라우저에도 같은 원본과 변환본을 업로드한 현재 검증을 아래에 보존한다.
+Remeasurement with the current model probes cues related to my initial guess but does not establish causal dependence on hair colour, hair shape, or outfit. Grayscale changes many colours; rectangles remove multiple features and add unnatural edges. The selected images were a small set originally correct for \texttt{final}, not a newly independent sample for \texttt{expanded}. Mask sizes and denominators differ, so the transformations cannot be ranked as feature-importance scores. These three agent-selected parallel probes remain distinct from my later, image-specific crop requests. Local browser uploads of the same originals and variants are recorded below.
 \outputfile{outputs/expanded_browser_ablations.txt}
 
 
 \clearpage
 \subsection*{Student-selected follow-up: reframing two mistakes}
 \label{p7:student_crop_request}
-현재 모델이 직접 촬영한 사진 두 장을 에이메스로 오분류한 결과를 본 뒤,
-학생은 각 사진의 구도에 대한 가설과 구체적인 크롭 방향을 직접 제시했다.
-학생의 관찰과 가설을 원문으로 기록하면 다음과 같다.
+After seeing two errors on my own photographs, I identified possible framing causes and specified a crop direction for each. My original observation and hypothesis were:
 \begin{quote}
 ``내 생각에 카멜리아 같은 경우는 사진이 너무 큰데 카멜리악 보이는 부분은 작아서 그런것 같아. 린네를 넣었는데 에이메스로 잘못 판단한 건 배경이 핑크색이기도 하고, 풍선껌 때문에 얼굴이 제대로 안 보이고, 옷 부분이 잘려서 린네인 걸 못 알아본 것 같아.''
 \end{quote}
-실행한 크롭은 다음 요청에 따른 것이다.
+My concrete request for the changes was:
 \begin{quote}
 ``카멜리아 같은 경우는 배경은 자르고, 카멜리아 부분만 사진을 크롭하면 맞출 수 있을 것 같고, 린네는 좀 첨부한 것처럼 좀 더 아래쪽에서 crop 하면 될 거 같아.''
 \end{quote}
-직전 대화에서 다룬 파일은 카멜리아의 \texttt{IMG\_2554.jpg}와
-린네의 \texttt{IMG\_0860.jpg}다. 학생이 선택한 대상과 크롭 방향을
-에이전트가 원본 픽셀 좌표로 옮겼으며, 좌표는 예측값을 확인하기 전에 고정했다.
-린네 좌표는 첨부 예시의 구도를 참고한 것으로, 첨부 파일과 바이트가 동일하다고 주장하지 않는다.
-기존 \texttt{expanded} 모델을 그대로 사용했고 새 학습이나 좌표별 예측 탐색은 하지 않았다.
-원본과 평가 폴더를 그대로 보존하며, 정확한 RGB 픽셀 크롭의 PNG 사본만
-\path{data/changed/student_crops/}에 저장했다. 기존 \texttt{prepare\_image}의
-resize/중앙 크롭 절차도 바꾸지 않았다.
+The images discussed immediately before this request were Camellya \texttt{IMG\_2554.jpg} and Lynae \texttt{IMG\_0860.jpg}. In my short report I described both as having the character occupy less than half the frame by visual inspection, below the 50\% guide I used when selecting clear training images. They remained in the unchanged new-source evaluation rather than being removed after the mistakes were observed. The agent translated my selected subjects and framing directions into source-pixel coordinates fixed before observing predictions. The Lynae coordinates followed the attached framing example; no byte-identical match to that example is claimed. The \texttt{expanded} model and \texttt{prepare\_image} were unchanged, and no coordinate search or retraining was performed. Only exact RGB-pixel PNG crop copies were saved under \path{data/changed/student_crops/}; originals and evaluation folders stayed untouched.
 
 \begin{center}\begin{tabular}{lrr}
-\toprule 사진 & 원본의 정답 점수 & 크롭 후 정답 점수 \\
+\toprule Image & Original true score & Cropped true score \\
 \midrule
-카멜리아 & 0.9\% & 100.0\% \\
-린네 & 17.2\% & 67.5\% \\
+Camellya & 0.9\% & 100.0\% \\
+Lynae & 17.2\% & 67.5\% \\
 \bottomrule\end{tabular}\end{center}
-이 표의 점수는 각각 정답 라벨의 softmax 점수다.
-모델이 선택한 이름과 그 이름의 점수는 아래 각 그림에 표시한다.
-이 두 선택된 오답에서 원본은 0/2, 크롭 후에는 2/2를 맞혔다.
-이는 선택된 두 사진의 전후 비교이며, 독립된 새 평가 자료의 정확도가 아니다.
-원래 개인 평가 사진의 결과인 22/24 (91.7\%)는 그대로 보존한다.
+These are softmax scores for the true class; the predicted labels and their scores appear beside each image. On these two selected mistakes, correct predictions changed from 0/2 to 2/2 after cropping. This is a paired observation on selected photos, not a new independent accuracy estimate. The original 22/24 (91.7\%) personal evaluation is unchanged.
 
 \clearpage
 \subsection*{Camellya: selected crop}
-\texttt{IMG\_2554.jpg}의 크롭 좌표: \texttt{[820, 390, 1120, 702]}. 원본 크기 1290$\times$702에서 300$\times$312로 바뀌었다. 좌상단을 포함하고 우하단을 제외하는 원본 RGB 픽셀 좌표다.
+Crop coordinates for \texttt{IMG\_2554.jpg}: \texttt{[820, 390, 1120, 702]}. The RGB image changed from 1290$\times$702 to 300$\times$312 pixels; coordinates include the top-left boundary and exclude the bottom-right boundary.
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/expanded_new_mistake_1.jpg}{원본: 명조\_에이메스 80.8\%}{figures/student_crop_camellya_changed.png}{크롭: 명조\_카멜리아 100.0\%}
-위는 전체 원본과 요청한 크롭 사본이다. 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/student_crop_camellya_before_input.png}{원본의 실제 입력}{figures/student_crop_camellya_after_input.png}{크롭 사본의 실제 입력}
-카멜리아 그림을 중심으로 잘라 큰 행사 글씨와 진행자를 대부분 제외했다. 실제 중앙 입력에도 얼굴과 의상의 주된 부분이 들어온다. 대상의 위치와 크기, 배경과 주변 인물이 동시에 달라지므로 배경색만의 효과를 분리한 실험은 아니다.
+\sidebyside{figures/expanded_new_mistake_1.jpg}{Original: Aemeath 80.8\%}{figures/student_crop_camellya_changed.png}{Crop: Camellya 100.0\%}
+Above are the full original and requested crop; below are the actual 224-pixel square inputs.
+\sidebyside{figures/student_crop_camellya_before_input.png}{Actual model input, original}{figures/student_crop_camellya_after_input.png}{Actual model input, crop}
+The crop centres Camellya art and largely removes stage lettering and hosts. Its central model input includes much more face and outfit. Subject size and position, background, and nearby people all change, so background colour alone was not isolated.
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Lynae: selected crop}
-\texttt{IMG\_0860.jpg}의 크롭 좌표: \texttt{[0, 1248, 3024, 4032]}. 원본 크기 3024$\times$4032에서 3024$\times$2784로 바뀌었다. 좌상단을 포함하고 우하단을 제외하는 원본 RGB 픽셀 좌표다.
+Crop coordinates for \texttt{IMG\_0860.jpg}: \texttt{[0, 1248, 3024, 4032]}. The RGB image changed from 3024$\times$4032 to 3024$\times$2784 pixels, with an included top-left and excluded bottom-right boundary.
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/expanded_new_mistake_2.jpg}{원본: 명조\_에이메스 45.6\%}{figures/student_crop_lynae_changed.png}{크롭: 명조\_린네 67.5\%}
-위는 전체 원본과 요청한 크롭 사본이다. 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/student_crop_lynae_before_input.png}{원본의 실제 입력}{figures/student_crop_lynae_after_input.png}{크롭 사본의 실제 입력}
-첨부 예시처럼 윗부분을 덜 포함하고 아래쪽 얼굴과 옷이 함께 보이도록 잘랐다. 실제 중앙 입력에서 옷과 팔의 영역이 늘었으며, 풍선껌과 분홍/보라 계열 배경 일부는 그대로 남는다. 따라서 풍선껌이나 배경색 하나가 오분류의 원인이었다고 단정할 수 없다.
+\sidebyside{figures/expanded_new_mistake_2.jpg}{Original: Aemeath 45.6\%}{figures/student_crop_lynae_changed.png}{Crop: Lynae 67.5\%}
+Above are the full original and requested crop; below are the actual 224-pixel square inputs.
+\sidebyside{figures/student_crop_lynae_before_input.png}{Actual model input, original}{figures/student_crop_lynae_after_input.png}{Actual model input, crop}
+As in my example, the crop contains less of the upper scene and more of the lower face and outfit. Clothing and arm occupy more of the actual central input, while bubble gum and some pink/purple background remain. Neither bubble gum nor background colour alone can be identified as the cause of the earlier error.
 \end{minipage}\par\medskip
 
 \subsection*{What this follow-up establishes and leaves open}
-학생이 예상한 방향대로 두 크롭에서 모델의 선택이 정답으로 바뀌었다.
-이는 이 두 사진의 구도를 바꾼 뒤 관찰한 결과이며, 각 캐릭터 전체로 일반화할 근거는 부족하다.
-README는 각 변경을 여러 이미지에서 비교하라고 하며, 캐릭터마다 여러 장을 요구하지는 않는다.
-이 두 사진과 아래 네 제공본은 학생이 선택한 크롭을 여러 이미지에서 비교한 기록이다.
-학생은 아래 네 제공본 결과까지 확인한 뒤,
-예상과 달리 점수가 낮아진 경우와 정사각형 입력에서 의상이 잘릴 가능성에 대한 해석을 직접 제시했다.
-그 원문과 실제 입력의 관찰은 아래 최신 학생 해석 절에 기록했다.
-배경, 캐릭터의 크기/위치와 보이는 얼굴/의상이 함께 바뀌었으므로 하나의 특징만을 분리한 결론을 내리지 않는다.
+Both selected crops changed the predicted label to the correct character in the direction I expected. The observation concerns these two photographs, not every image of either character. The README calls for comparisons on several images, not equal numbers per class; these two crops plus the four later supplied framings provide several student-selected cases. After examining all four additional cases, I identified a contrary score drop and suggested that the square model input might omit clothing visible in a portrait file. My verbatim reflection appears below. Because framing changes multiple visual factors together, it cannot isolate one feature.
 
 \clearpage
 \subsection*{Measured output and demo comparison}
-다음은 정확한 크롭 좌표, 전후 답, 전체 범주 점수와 파일 보존 확인을 코드가 출력한 원문이다.
-재현 코드와 학생 요청/좌표는 ZIP의 \path{outputs/student_crops_code.py}와
-\path{outputs/student_crops_request.json}에도 보존했다.
+The saved output records exact crop coordinates, before/after predictions, all class scores, and preservation checks. Reproduction code and my request/coordinates are in \path{outputs/student_crops_code.py} and \path{outputs/student_crops_request.json}.
 \outputfile{outputs/student_crops_output.txt}
-로컬 데모에 두 원본과 두 크롭본을 실제로 업로드하고,
-현재 내보낸 같은 모델과 실제 입력, 답과 점수를 확인한 기록은 다음과 같다.
+The two originals and two crops were uploaded to the local demo. The following records compare its actual input and answer with the exported model.
 \outputfile{outputs/student_crops_browser_summary.txt}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/student_crop_browser_camellya_IMG_2554.png}{카멜리아 크롭본 업로드}{figures/student_crop_browser_lynae_IMG_0860.png}{린네 크롭본 업로드}
+\sidebyside{figures/student_crop_browser_camellya_IMG_2554.png}{Camellya crop demo upload}{figures/student_crop_browser_lynae_IMG_0860.png}{Lynae crop demo upload}
 \end{minipage}\par\medskip
-전체 브라우저 측정 원문과 배열은 ZIP의 \path{outputs/student_crops_browser_output.txt}와
-\path{outputs/student_crops_browser_results.json}에 보존했다.
+The full browser output and arrays are stored in \path{outputs/student_crops_browser_output.txt} and \path{outputs/student_crops_browser_results.json}.
 
 
 
 \clearpage
 \subsection*{Student-provided follow-up crop files}
 \label{p7:student_provided_crops}
-앞서 정답으로 분류된 사진 중 정답 점수가 낮았던 사진을 대상으로,
-학생이 직접 만든 서로 다른 구도의 크롭본을 다음 순서로 전달했다.
+I then supplied four differently framed crops of images that the model had already classified correctly but with relatively low true-class scores, in this order:
 \begin{quote}
 ``순서대로 iimg\_0845, img\_0806, img\_0818, img\_0844 야''
 \end{quote}
 
-정확한 파일을 다시 제공하면서 순서를 다음과 같이 확인했다.
+When the four files became available, I confirmed their order again:
 \begin{quote}
 ``각각 순서대로야''
 \end{quote}
 
-\texttt{iimg\_0845}는 기존 \texttt{IMG\_0845.jpg}에 대응시켰다.
-이번에는 네 제공 파일 모두에 접근할 수 있어 위 순서대로 측정했다.
-앞서 \texttt{IMG\_0844} 한 장만 측정하고 세 파일을 대기한 기록은
-\path{outputs/supplied_crops_initial.json} 등 \texttt{\_initial} 파일에 과거 증거로 보존했다.
-제공 파일을 바이트 그대로 복사했고, 새 크롭 좌표를 추정하거나 추가 편집하지 않았다.
-같은 \texttt{expanded} ONNX 모델과 기존 RGB/resize/중앙 크롭 전처리를 사용해
-각 원본과 제공본을 한 번씩 평가했다.
+The spelling \texttt{iimg\_0845} was matched to original \texttt{IMG\_0845.jpg}. All four supplied files were available for the final comparison. The earlier one-file check and three pending files remain in \texttt{\_initial} records such as \path{outputs/supplied_crops_initial.json}. Supplied files were copied byte-for-byte; no new crop coordinates were guessed and no additional edits were made. Each original and supplied version was evaluated once with the same \texttt{expanded} ONNX model and RGB/resize/central-crop preprocessing.
 
 \begin{center}\begin{tabular}{lrr}
-\toprule 사진 & 원본의 정답 점수 & 제공본의 정답 점수 \\
+\toprule Image & Original true score & Supplied-crop true score \\
 \midrule
-린네 \texttt{IMG\_0845} & 65.7\% & 87.5\% \\
-에이메스 \texttt{IMG\_0806} & 69.6\% & 100.0\% \\
-에이메스 \texttt{IMG\_0818} & 75.8\% & 100.0\% \\
-린네 \texttt{IMG\_0844} & 80.9\% & 68.5\% \\
+Lynae \texttt{IMG\_0845} & 65.7\% & 87.5\% \\
+Aemeath \texttt{IMG\_0806} & 69.6\% & 100.0\% \\
+Aemeath \texttt{IMG\_0818} & 75.8\% & 100.0\% \\
+Lynae \texttt{IMG\_0844} & 80.9\% & 68.5\% \\
 \bottomrule\end{tabular}\end{center}
-정답 라벨의 softmax 점수는 3개에서 높아지고 1개에서 낮아졌다.
-선택된 원본은 4/4, 제공본은 4/4를 맞혔다.
-모델이 실제로 선택한 이름과 그 이름의 점수는 각 그림에 표시했다.
-\texttt{100.0\%}는 한 자리로 반올림한 softmax 점수이며 완전한 확신이나 항상 맞는다는 뜻이 아니다.
-이는 본래 정답인 사진 중에서 선택한 사례의 전후 비교이며 독립된 새 평가 정확도가 아니다.
-개인 평가 원본의 기존 결과는 바꾸지 않았다.
-제공본도 여러 사진의 크롭 전후 비교이며, 사진별 구도와 프레이밍이 달라 동일한 면적이나 하나의 특징만을 통제한 비교는 아니다.
-보이는 얼굴/의상, 대상의 크기와 위치, 배경, 스크린샷 저장 과정이 함께 달라질 수 있어
-원본의 정확한 RGB 픽셀 부분영역이나 단일 특징의 인과 효과라고 주장하지 않는다.
-이전 카멜리아/린네 두 오답의 학생 지정 크롭과 이번 네 제공본은 별도 기록이다.
-학생은 점수가 오른 결과는 예상에 맞았으나 하락은 예상하지 못했다고 설명했다.
-그리고 세로 제공본의 중앙 정사각형 입력에서 의상이 잘릴 수도 있다는 잠정 추측을 제시했다.
-아래에 그 원문을 보존하며, 새로운 변환 실행을 요청한 것으로 해석하지 않는다.
-최초 두 사례와 네 제공본을 합해 학생이 선택한 여섯 사진에서 크롭 전후를 비교했다.
-캐릭터별 사진 수가 다르다는 이유만으로 여러 이미지 비교가 미완료라고 판단하지 않는다.
-이 결과와 학생의 해석은 여러 사진의 구도 변경에 대한 증거이며, 특정 특징 하나의 인과 효과를 확정하지는 않는다.
+True-class scores rose in three cases and fell in one; predictions were correct for all four originals and all four supplied versions. Figures show each chosen label and its score. A displayed \texttt{100.0\%} is a one-decimal rounded softmax score, not certainty or a guarantee of future correctness. These originally correct images are selected paired examples, not a new independent evaluation set; the original 22/24 result is unchanged. Framing, visible face and outfit, target scale and position, background, and screenshot saving can change together. The supplied images are not claimed to be exact RGB subregions or single-feature causal tests. I expected the increases but not the decrease and later suggested that a portrait crop might lose clothing in the actual square input. The first two error crops and these four supplied files are distinct records: six student-selected photographs in total. Different counts per character do not invalidate the several-image comparison, but the result still cannot isolate one cue.
 
 \clearpage
 \subsection*{Provided framing: \texttt{IMG\_0845.jpg}}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0845_original.jpg}{원본: 린네 65.7\%}{figures/supplied_crop_IMG_0845_changed.png}{제공본: 린네 87.5\%}
-위는 전체 원본과 학생 제공본, 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/supplied_crop_IMG_0845_before_input.png}{원본의 실제 224 입력}{figures/supplied_crop_IMG_0845_after_input.png}{제공본의 실제 224 입력}
+\sidebyside{figures/supplied_crop_IMG_0845_original.jpg}{Original: Lynae 65.7\%}{figures/supplied_crop_IMG_0845_changed.png}{Provided crop: Lynae 87.5\%}
+Above are the full original and the student-provided crop; below are their actual 224-pixel square model inputs.
+\sidebyside{figures/supplied_crop_IMG_0845_before_input.png}{Actual 224 input, original}{figures/supplied_crop_IMG_0845_after_input.png}{Actual 224 input, provided crop}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Provided framing: \texttt{IMG\_0806.jpg}}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0806_original.jpg}{원본: 에이메스 69.6\%}{figures/supplied_crop_IMG_0806_changed.png}{제공본: 에이메스 100.0\%}
-위는 전체 원본과 학생 제공본, 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/supplied_crop_IMG_0806_before_input.png}{원본의 실제 224 입력}{figures/supplied_crop_IMG_0806_after_input.png}{제공본의 실제 224 입력}
+\sidebyside{figures/supplied_crop_IMG_0806_original.jpg}{Original: Aemeath 69.6\%}{figures/supplied_crop_IMG_0806_changed.png}{Provided crop: Aemeath 100.0\%}
+Above are the full original and the student-provided crop; below are their actual 224-pixel square model inputs.
+\sidebyside{figures/supplied_crop_IMG_0806_before_input.png}{Actual 224 input, original}{figures/supplied_crop_IMG_0806_after_input.png}{Actual 224 input, provided crop}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Provided framing: \texttt{IMG\_0818.jpg}}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0818_original.jpg}{원본: 에이메스 75.8\%}{figures/supplied_crop_IMG_0818_changed.png}{제공본: 에이메스 100.0\%}
-위는 전체 원본과 학생 제공본, 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/supplied_crop_IMG_0818_before_input.png}{원본의 실제 224 입력}{figures/supplied_crop_IMG_0818_after_input.png}{제공본의 실제 224 입력}
+\sidebyside{figures/supplied_crop_IMG_0818_original.jpg}{Original: Aemeath 75.8\%}{figures/supplied_crop_IMG_0818_changed.png}{Provided crop: Aemeath 100.0\%}
+Above are the full original and the student-provided crop; below are their actual 224-pixel square model inputs.
+\sidebyside{figures/supplied_crop_IMG_0818_before_input.png}{Actual 224 input, original}{figures/supplied_crop_IMG_0818_after_input.png}{Actual 224 input, provided crop}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Provided framing: \texttt{IMG\_0844.jpg}}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0844_original.jpg}{원본: 린네 80.9\%}{figures/supplied_crop_IMG_0844_changed.png}{제공본: 린네 68.5\%}
-위는 전체 원본과 학생 제공본, 아래는 각각 모델에 실제로 들어간 224 정사각형 입력이다.
-\sidebyside{figures/supplied_crop_IMG_0844_before_input.png}{원본의 실제 224 입력}{figures/supplied_crop_IMG_0844_after_input.png}{제공본의 실제 224 입력}
+\sidebyside{figures/supplied_crop_IMG_0844_original.jpg}{Original: Lynae 80.9\%}{figures/supplied_crop_IMG_0844_changed.png}{Provided crop: Lynae 68.5\%}
+Above are the full original and the student-provided crop; below are their actual 224-pixel square model inputs.
+\sidebyside{figures/supplied_crop_IMG_0844_before_input.png}{Actual 224 input, original}{figures/supplied_crop_IMG_0844_after_input.png}{Actual 224 input, provided crop}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Student interpretation after the crop comparisons}
 \label{p7:student_crop_reflection}
-학생은 두 오답의 지정 크롭과 네 제공본 비교 결과를 확인한 뒤 다음과 같이 설명했다.
+After seeing both selected-error crops and all four supplied files, I explained my interpretation in my own words:
 \begin{quote}
 ``줄어들 걸 예상하지 못 했고 올라갈 건 다 예상에 맞았다. 린네인데 에이메스로 헷갈렸던 게 린네 인형탈의 옷이 잘 보이지 않았기에 옷까지 있는 전체를 크롭하면 올라갈 줄 알았다. 근데 다시 생각해보니 세로로 크롭했기 때문에 모델이 그걸 다시 정사각형으로 읽으면서 옷이 안 들어갔을 수도 있겠다는 생각을 했다.''
 \end{quote}
 
-이 설명의 에이메스 오분류 사례와 이번 점수 하락 사례는 서로 다른 사진이다.
-앞서 \texttt{IMG\_0860.jpg}는 에이메스로 오분류되었고, 아래쪽을 포함한 지정 크롭 뒤 린네로 바뀌었다.
-해당 정답 점수는 17.2\%에서 67.5\%로 올랐다.
-반면 \texttt{IMG\_0844.jpg}는 원본과 제공본 모두 린네로 분류되었으며,
-정답 점수가 80.9\%에서 68.5\%로 낮아진 경우다.
+The misclassified Aemeath case and the unexpected score decrease concern different Lynae photos. \texttt{IMG\_0860.jpg} changed from an Aemeath prediction to Lynae after the lower crop, raising Lynae's score from 17.2\% to 67.5\%. \texttt{IMG\_0844.jpg} stayed Lynae before and after, but its true-class score fell from 80.9\% to 68.5\%.
 
-앞 페이지의 실제 224 입력을 보면 \texttt{IMG\_0844} 원본에는 아래쪽 흰 상의/소매와 팔이 비교적 넓게 보인다.
-제공본의 실제 입력에서는 얼굴과 머리가 더 크게 차지하며, 흰 소매는 아래 가장자리에 좁게 남는다.
-따라서 옷이 완전히 사라진 것은 아니지만 보이는 영역이 줄었다는 관찰은 학생의 잠정 추측과 관련된다.
-별도 \texttt{IMG\_0860}의 지정 크롭에서는 실제 입력에 상의와 몸통 일부가 더 많이 들어온다.
+In the actual 224-pixel inputs, the \texttt{IMG\_0844} original includes more white top, sleeve, and arm. The supplied crop makes face and hair larger while leaving only a narrow sleeve at the lower edge. Clothing is not absent, but less remains visible, consistent with my tentative idea. The separate specified crop of \texttt{IMG\_0860} includes more of the top and torso in its actual input.
 
-학생의 최신 추측은 전체 제공 파일에 옷이 있어도 중앙 정사각형 입력에서는 일부가 잘릴 수 있다는 것이다.
-머리와 옷이 단서일 것이라는 기존 예상에, 모델이 실제로 보는 영역을 확인할 필요가 있다는 해석을 더했다.
-학생은 ``안 들어갔을 수도''라고 표현했으며, 이는 원인을 확정한 결론이 아니다.
-의상, 얼굴/머리의 상대적 크기, 배경과 위치가 함께 바뀌었으므로 의상 포함량 하나의 효과를 입증하지 않는다.
-학생이 별도의 확신 수치를 제시하거나 새 변환 실행을 지정한 것은 아니므로 이를 임의로 추가하지 않았다.
-기존 요청 및 실제 파일 대응과 함께 이번 설명 원문은 \path{outputs/student_review_and_reflection.json}에도 보존했다.
+My later hypothesis is that clothing visible in a full portrait file may be partly removed by the central square crop. This adds attention to actual model input to my earlier hair/outfit guess. My phrase ``안 들어갔을 수도'' (might not have been included) did not claim a proven cause. Clothing coverage, relative face/head size, background, and position changed together. No extra certainty score or new transformation was requested. My original reflection and the exact files remain in \path{outputs/student_review_and_reflection.json}.
 
 \clearpage
 \subsection*{Measured output from all received follow-up files}
-다음은 네 제공본과 원본을 비교한 코드의 전체 출력이다. 대기 파일은 없다.
-재현 코드, 학생 요청과 파일 대응, 파일 보존 확인 및 모든 범주 점수는 ZIP의
-\path{outputs/supplied_crops_code.py}, \path{outputs/supplied_crops_request.json},
-\path{outputs/supplied_crops.json}에 보존했다.
+The following is the complete printed comparison of all four supplied crops with their originals; no files remain pending. Reproduction code, my request and file mapping, preservation checks, and all class scores are in \path{outputs/supplied_crops_code.py}, \path{outputs/supplied_crops_request.json}, and \path{outputs/supplied_crops.json}.
 \outputfile{outputs/supplied_crops_output.txt}
-같은 네 원본과 네 제공본을 실제 로컬 데모에 업로드해 입력 RGB와 답을 비교했다.
+All four originals and supplied versions were also uploaded to the local demo to compare RGB inputs and answers.
 \outputfile{outputs/supplied_crops_browser_summary.txt}
-전체 브라우저 측정 원문과 배열은 \path{outputs/supplied_crops_browser_output.txt}와
-\path{outputs/supplied_crops_browser_results.json}에 보존했다.
+Complete browser output and arrays are preserved in \path{outputs/supplied_crops_browser_output.txt} and \path{outputs/supplied_crops_browser_results.json}.
 
 \clearpage
 \subsection*{Actual demo uploads of supplied framings}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0845_browser_original.png}{\texttt{IMG\_0845} 원본 데모 업로드}{figures/supplied_crop_IMG_0845_browser_changed.png}{\texttt{IMG\_0845} 제공본 데모 업로드}
+\sidebyside{figures/supplied_crop_IMG_0845_browser_original.png}{\texttt{IMG\_0845} original demo upload}{figures/supplied_crop_IMG_0845_browser_changed.png}{\texttt{IMG\_0845} provided-crop demo upload}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0806_browser_original.png}{\texttt{IMG\_0806} 원본 데모 업로드}{figures/supplied_crop_IMG_0806_browser_changed.png}{\texttt{IMG\_0806} 제공본 데모 업로드}
+\sidebyside{figures/supplied_crop_IMG_0806_browser_original.png}{\texttt{IMG\_0806} original demo upload}{figures/supplied_crop_IMG_0806_browser_changed.png}{\texttt{IMG\_0806} provided-crop demo upload}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Actual demo uploads of supplied framings}
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0818_browser_original.png}{\texttt{IMG\_0818} 원본 데모 업로드}{figures/supplied_crop_IMG_0818_browser_changed.png}{\texttt{IMG\_0818} 제공본 데모 업로드}
+\sidebyside{figures/supplied_crop_IMG_0818_browser_original.png}{\texttt{IMG\_0818} original demo upload}{figures/supplied_crop_IMG_0818_browser_changed.png}{\texttt{IMG\_0818} provided-crop demo upload}
 \end{minipage}\par\medskip
 \par\noindent\begin{minipage}{\linewidth}
-\sidebyside{figures/supplied_crop_IMG_0844_browser_original.png}{\texttt{IMG\_0844} 원본 데모 업로드}{figures/supplied_crop_IMG_0844_browser_changed.png}{\texttt{IMG\_0844} 제공본 데모 업로드}
+\sidebyside{figures/supplied_crop_IMG_0844_browser_original.png}{\texttt{IMG\_0844} original demo upload}{figures/supplied_crop_IMG_0844_browser_changed.png}{\texttt{IMG\_0844} provided-crop demo upload}
 \end{minipage}\par\medskip
 
 \clearpage
 \subsection*{Student-selected hair masking on all personal images}
 \label{sec:student-hair}
-이 실험은 학생이 직접 고른 머리카락 가림을 개인 평가 사진 전체에 적용한 후속 탐구다.
-앞선 크롭은 구도와 대상의 크기, 배경을 함께 바꾸었으므로,
-이번에는 같은 모델 입력에서 지정한 머리카락 픽셀만 회색으로 바꾸었다.
-모델을 다시 학습하거나 바꾸지 않았고, 가림 이후 답을 보고 사진을 골라내거나 좌표를 수정하지 않았다.
+This follow-up was my own choice to mask hair on all personal evaluation photos. Earlier crops changed framing, subject size, and background together; here only annotated hair pixels in equivalent model inputs were replaced by grey. The existing model was neither retrained nor changed, and neither images nor coordinates were selected after viewing the masked predictions.
 
 \subsubsection*{Student hypothesis, scope and execution requests}
-학생이 선택한 가설과 변경, 대상 범위와 실행 방법을 다음 순서의 원문으로 보존한다.
+My hypothesis, requested scope, and pixel method are preserved verbatim in chronological order:
 
 \begin{quote}
 ``음 이미 말했지 않나 머리스타일을 보고 구별할 것 같고, 사진에서 머리카락만 제외해서 재확인하겠다''
@@ -978,138 +731,111 @@ README는 각 변경을 여러 이미지에서 비교하라고 하며, 캐릭터
 \end{quote}
 
 \subsubsection*{Controlled pixels and the actual model view}
-각 원본을 RGB로 읽고 짧은 변을 256으로 bilinear 리사이즈한 뒤 중앙 256 정사각형 사본을 만들었다.
-이 사본을 기존 \texttt{prepare\_image}로 처리한 배열은 전체 원본을 처리한 224 입력 배열과 정확히 같았다.
-이 전처리 동등성을 먼저 확인한 사본에서만 머리카락 영역을 표시했다.
-따라서 아래 ``원본 256''은 전체 촬영 파일이 아니라, 기존 원본의 모델 입력을 그대로 재현하는 표시용 사본이다.
-``실제 입력 224''는 그 사본의 중앙에서 모델이 보는 영역이며, 두 단계의 이미지를 함께 보여 준다.
+Each source was converted to RGB, bilinearly resized to a 256-pixel short side, then copied as a central 256-pixel square. Passing this canonical copy through \texttt{prepare\_image} produced exactly the same 224-pixel array as preparing the full original. Hair was annotated only after this equivalence check. Thus ``original 256'' below is a display copy that reproduces the original model input, not the full camera frame; ``actual input 224'' shows the central region the model sees.
 
-에이전트가 답을 계산하기 전에 보이는 대상 캐릭터의 머리카락을 수동 다각형으로 표시하고 시각 검수했다.
-눈, 얼굴, 손, 옷, 장식 및 다른 캐릭터는 제외 영역으로 보호했다.
-마스크 안은 RGB(128, 128, 128)로 채웠으며, 밖은 원래 픽셀과 정확히 같음을 검사했다.
-원본 개인 파일, 학습 자료, 기존 크롭 실험과 내보낸 모델은 바꾸지 않았다.
-재현 명령은 다음과 같다.
+Before inference, the agent marked visible target-character hair with manually inspected polygons. Eyes, face, hands, clothes, ornaments, and other characters were protected. Masked pixels became RGB(128, 128, 128); all pixels outside the mask were verified unchanged. Original personal photos, training data, earlier crop experiments, and exported model stayed fixed. The reproduction command is:
 \begin{verbatim}
 uv run --frozen python -B src/hair_mask_experiment.py
   --config config/student_hair_masks.json
 \end{verbatim}
-위 두 줄은 한 명령으로 이어서 실행한다.
-고정 좌표와 검수 기록은 \path{outputs/student_hair_masks_config.json},
-실행 코드는 \path{outputs/student_hair_masks_code.py}에 보존했다.
-모든 범주의 점수와 마스크 픽셀 수는 \path{outputs/student_hair_masks.json} 및 뒤의 전체 출력에 있다.
+The two displayed command lines form one shell command. Fixed coordinates and review notes are in \path{outputs/student_hair_masks_config.json}; the execution code is in \path{outputs/student_hair_masks_code.py}. All class scores and mask-pixel counts are in \path{outputs/student_hair_masks.json} and the complete output below.
 
-흐릿한 경계와 아주 작은 인쇄 그림은 완전하게 분할할 수 없었다.
-예를 들어 린네 \texttt{IMG\_0871}의 자동차 보닛 그림, 카멜리아 \texttt{IMG\_0583}의 장식 사진,
-다른 사진의 가는 머리카락 끝과 장식 사이 경계 일부는 남겼다.
-회색으로 채워도 바깥 윤곽, 위치와 머리의 크기는 남는다.
-이 조작을 ``머리스타일을 완전히 제거한 실험''으로 해석하지 않는다.
-회색 영역 자체도 평소 사진에 없는 자극이므로 결과에는 가림의 부작용이 함께 포함될 수 있다.
+Blurred boundaries and tiny printed artwork could not be segmented perfectly. Examples include the car-hood artwork in Lynae \texttt{IMG\_0871}, decorative imagery in Camellya \texttt{IMG\_0583}, and thin hair tips near ornaments. The mask leaves outer hair silhouette, position, and size visible. This is not complete removal of hairstyle; the unfamiliar grey region can itself affect predictions.
 
 \subsubsection*{Measured result}
 \begin{center}\small
 \begin{tabular}{lrrr}
 \toprule
-범주 & 원본 정답 & 머리 가림 후 정답 & 예측 범주 변경 \\
+Class & Original correct & Hair-masked correct & Label changes \\
 \midrule
 
-린네 & 5/6 (83.3\%) & 4/6 (66.7\%) & 1 \\
+Lynae & 5/6 (83.3\%) & 4/6 (66.7\%) & 1 \\
 
-양양 & 6/6 (100.0\%) & 5/6 (83.3\%) & 1 \\
+Yangyang & 6/6 (100.0\%) & 5/6 (83.3\%) & 1 \\
 
-에이메스 & 6/6 (100.0\%) & 6/6 (100.0\%) & 0 \\
+Aemeath & 6/6 (100.0\%) & 6/6 (100.0\%) & 0 \\
 
-카멜리아 & 5/6 (83.3\%) & 5/6 (83.3\%) & 0 \\
+Camellya & 5/6 (83.3\%) & 5/6 (83.3\%) & 0 \\
 
-전체 & 22/24 (91.7\%) & 20/24 (83.3\%) & 2 \\
+Total & 22/24 (91.7\%) & 20/24 (83.3\%) & 2 \\
 
 \bottomrule
 \end{tabular}
 \end{center}
-원본 개인 평가의 정답은 그대로 22/24장(91.7\%)이며, 가림 후에는 20/24장(83.3\%)이었다.
-양양 \texttt{IMG\_0810}은 린네로, 린네 \texttt{IMG\_0850}은 에이메스로 바뀌었다.
-기존 두 오답은 가림 후에도 오답이었고, 새로운 두 오답이 추가되었다.
-실제 캐릭터에 준 점수는 19장에서 하락하고 5장에서 상승했다.
-증감은 반올림 전 확률로 집계했으므로, 표에 같은 값으로 인쇄되어도 작은 증감이 있을 수 있다.
-정답 점수는 해당 사진 한 장에서 실제 범주에 준 확률이며, 여러 사진의 정답률과 구분한다.
+The original personal-image accuracy remains 22/24 (91.7\%); masked accuracy was 20/24 (83.3\%). Yangyang \texttt{IMG\_0810} changed to Lynae and Lynae \texttt{IMG\_0850} changed to Aemeath. The two earlier errors stayed wrong and two new errors appeared. The score assigned to the true class fell for 19 images and rose for five, counted before rounding; printed one-decimal values can therefore look identical despite a small change. A true-class score for one image is distinct from accuracy over many images.
 
 \subsubsection*{Student interpretation after seeing the result}
-학생은 출력 결과를 확인한 뒤 다음과 같이 설명했다. 실험 전 예상으로 소급하지 않는다.
+After viewing the output, I offered the following explanation. It is a later interpretation, not my pre-experiment prediction:
 
 \begin{quote}
 ``카멜리아 같은 경우 예시 사진의 옷이 다른 사진이 없다. 그래서 머리카락을 가려도 옷을 보고 카멜리아라고 유추할 수 있던 것 같다. 나머지는 예시 사진이 조금씩 다르게 생겼기 때문에 머리카락이 가려지면 큰 영향을 받은 것 같다.''
 \end{quote}
 
-카멜리아의 예측이 유지된 결과를, 학생은 옷이 남아 있다는 가능한 설명과 연결했다.
-양양과 린네의 일부 사진은 예측이 달라졌고 에이메스도 정답 점수가 낮아졌으므로,
-머리카락의 내부 색과 무늬가 일부 판단에 영향을 주었다는 해석과 부합한다.
-다만 옷만으로 구별했는지, 머리 윤곽이나 장식·얼굴·배경을 함께 사용했는지는 이번 가림 하나로 분리할 수 없다.
-카멜리아의 유지와 다른 범주의 변화가 의상 차이 때문에 발생했다는 설명도 학생의 잠정 해석이다.
-학생이 옷을 별도로 바꾸는 새 실험을 선택한 것은 아니므로 추가 조작을 임의로 수행하지 않았다.
-학생 원문과 수신 시점은 \path{outputs/student_hair_masks_reflection.json}에 보존했다.
+I suggested that Camellya could remain recognisable from an outfit consistently visible in my examples, even when hair is greyed out. Some Yangyang and Lynae predictions changed, and Aemeath true-class scores also fell, consistent with the model using some internal hair colour or texture cues. This one intervention cannot distinguish outfit use from remaining hair silhouette, ornaments, face, or background. My outfit explanation is tentative, not proven; I did not choose a separate outfit intervention at this stage. My exact statement and timing are preserved in \path{outputs/student_hair_masks_reflection.json}.
 
 \clearpage
 \subsubsection*{All cases: predicted labels and true-class scores}
-예측 답 열은 범주와 그 범주의 점수이며, 정답 점수 열은 실제 범주의 점수다.
+Predicted-label columns give the chosen class and its score; true-score columns give the actual class's score.
 \begin{center}\scriptsize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{llllrr}
 \toprule
-실제 범주 & 파일 & 원본 예측 답 & 가림 후 예측 답 & 원본 정답 점수 & 후 정답 점수 \\
+True class & File & Pred. original & Pred. masked & True score orig. & True score masked \\
 \midrule
 
-양양 & \texttt{IMG\_0804.jpg} & 양양 98.6\% & 양양 97.3\% & 98.6\% & 97.3\% \\
+Yangyang & \texttt{IMG\_0804.jpg} & Yangyang 98.6\% & Yangyang 97.3\% & 98.6\% & 97.3\% \\
 
-양양 & \texttt{IMG\_0809.jpg} & 양양 98.2\% & 양양 99.5\% & 98.2\% & 99.5\% \\
+Yangyang & \texttt{IMG\_0809.jpg} & Yangyang 98.2\% & Yangyang 99.5\% & 98.2\% & 99.5\% \\
 
-양양 & \texttt{IMG\_0810.jpg} & 양양 93.7\% & 린네 78.9\% & 93.7\% & 20.2\% \\
+Yangyang & \texttt{IMG\_0810.jpg} & Yangyang 93.7\% & Lynae 78.9\% & 93.7\% & 20.2\% \\
 
-양양 & \texttt{IMG\_0812.jpg} & 양양 96.6\% & 양양 89.3\% & 96.6\% & 89.3\% \\
+Yangyang & \texttt{IMG\_0812.jpg} & Yangyang 96.6\% & Yangyang 89.3\% & 96.6\% & 89.3\% \\
 
-양양 & \texttt{IMG\_1390.JPG} & 양양 99.5\% & 양양 88.2\% & 99.5\% & 88.2\% \\
+Yangyang & \texttt{IMG\_1390.JPG} & Yangyang 99.5\% & Yangyang 88.2\% & 99.5\% & 88.2\% \\
 
-양양 & \texttt{IMG\_1392.JPG} & 양양 99.8\% & 양양 83.0\% & 99.8\% & 83.0\% \\
-
-\midrule
-
-카멜리아 & \texttt{IMG\_0583.jpg} & 카멜리아 99.8\% & 카멜리아 99.6\% & 99.8\% & 99.6\% \\
-
-카멜리아 & \texttt{IMG\_0584.jpg} & 카멜리아 100.0\% & 카멜리아 100.0\% & 100.0\% & 100.0\% \\
-
-카멜리아 & \texttt{IMG\_0834.jpg} & 카멜리아 94.9\% & 카멜리아 97.4\% & 94.9\% & 97.4\% \\
-
-카멜리아 & \texttt{IMG\_0867.jpg} & 카멜리아 99.5\% & 카멜리아 99.5\% & 99.5\% & 99.5\% \\
-
-카멜리아 & \texttt{IMG\_2554.jpg} & 에이메스 80.8\% & 에이메스 85.2\% & 0.9\% & 0.7\% \\
-
-카멜리아 & \texttt{IMG\_2555.jpg} & 카멜리아 100.0\% & 카멜리아 100.0\% & 100.0\% & 100.0\% \\
+Yangyang & \texttt{IMG\_1392.JPG} & Yangyang 99.8\% & Yangyang 83.0\% & 99.8\% & 83.0\% \\
 
 \midrule
 
-린네 & \texttt{IMG\_0844.jpg} & 린네 80.9\% & 린네 53.5\% & 80.9\% & 53.5\% \\
+Camellya & \texttt{IMG\_0583.jpg} & Camellya 99.8\% & Camellya 99.6\% & 99.8\% & 99.6\% \\
 
-린네 & \texttt{IMG\_0845.jpg} & 린네 65.7\% & 린네 37.1\% & 65.7\% & 37.1\% \\
+Camellya & \texttt{IMG\_0584.jpg} & Camellya 100.0\% & Camellya 100.0\% & 100.0\% & 100.0\% \\
 
-린네 & \texttt{IMG\_0850.jpg} & 린네 87.5\% & 에이메스 85.9\% & 87.5\% & 10.8\% \\
+Camellya & \texttt{IMG\_0834.jpg} & Camellya 94.9\% & Camellya 97.4\% & 94.9\% & 97.4\% \\
 
-린네 & \texttt{IMG\_0860.jpg} & 에이메스 45.6\% & 에이메스 50.6\% & 17.2\% & 4.4\% \\
+Camellya & \texttt{IMG\_0867.jpg} & Camellya 99.5\% & Camellya 99.5\% & 99.5\% & 99.5\% \\
 
-린네 & \texttt{IMG\_0871.jpg} & 린네 89.2\% & 린네 78.5\% & 89.2\% & 78.5\% \\
+Camellya & \texttt{IMG\_2554.jpg} & Aemeath 80.8\% & Aemeath 85.2\% & 0.9\% & 0.7\% \\
 
-린네 & \texttt{IMG\_1417.JPG} & 린네 96.6\% & 린네 92.8\% & 96.6\% & 92.8\% \\
+Camellya & \texttt{IMG\_2555.jpg} & Camellya 100.0\% & Camellya 100.0\% & 100.0\% & 100.0\% \\
 
 \midrule
 
-에이메스 & \texttt{IMG\_0215.PNG} & 에이메스 100.0\% & 에이메스 50.6\% & 100.0\% & 50.6\% \\
+Lynae & \texttt{IMG\_0844.jpg} & Lynae 80.9\% & Lynae 53.5\% & 80.9\% & 53.5\% \\
 
-에이메스 & \texttt{IMG\_0553.jpg} & 에이메스 99.9\% & 에이메스 84.7\% & 99.9\% & 84.7\% \\
+Lynae & \texttt{IMG\_0845.jpg} & Lynae 65.7\% & Lynae 37.1\% & 65.7\% & 37.1\% \\
 
-에이메스 & \texttt{IMG\_0802.jpg} & 에이메스 98.8\% & 에이메스 98.7\% & 98.8\% & 98.7\% \\
+Lynae & \texttt{IMG\_0850.jpg} & Lynae 87.5\% & Aemeath 85.9\% & 87.5\% & 10.8\% \\
 
-에이메스 & \texttt{IMG\_0806.jpg} & 에이메스 69.6\% & 에이메스 54.2\% & 69.6\% & 54.2\% \\
+Lynae & \texttt{IMG\_0860.jpg} & Aemeath 45.6\% & Aemeath 50.6\% & 17.2\% & 4.4\% \\
 
-에이메스 & \texttt{IMG\_0818.jpg} & 에이메스 75.8\% & 에이메스 61.9\% & 75.8\% & 61.9\% \\
+Lynae & \texttt{IMG\_0871.jpg} & Lynae 89.2\% & Lynae 78.5\% & 89.2\% & 78.5\% \\
 
-에이메스 & \texttt{IMG\_0869.jpg} & 에이메스 81.1\% & 에이메스 71.1\% & 81.1\% & 71.1\% \\
+Lynae & \texttt{IMG\_1417.JPG} & Lynae 96.6\% & Lynae 92.8\% & 96.6\% & 92.8\% \\
+
+\midrule
+
+Aemeath & \texttt{IMG\_0215.PNG} & Aemeath 100.0\% & Aemeath 50.6\% & 100.0\% & 50.6\% \\
+
+Aemeath & \texttt{IMG\_0553.jpg} & Aemeath 99.9\% & Aemeath 84.7\% & 99.9\% & 84.7\% \\
+
+Aemeath & \texttt{IMG\_0802.jpg} & Aemeath 98.8\% & Aemeath 98.7\% & 98.8\% & 98.7\% \\
+
+Aemeath & \texttt{IMG\_0806.jpg} & Aemeath 69.6\% & Aemeath 54.2\% & 69.6\% & 54.2\% \\
+
+Aemeath & \texttt{IMG\_0818.jpg} & Aemeath 75.8\% & Aemeath 61.9\% & 75.8\% & 61.9\% \\
+
+Aemeath & \texttt{IMG\_0869.jpg} & Aemeath 81.1\% & Aemeath 71.1\% & 81.1\% & 71.1\% \\
 
 
 \bottomrule
@@ -1117,87 +843,82 @@ uv run --frozen python -B src/hair_mask_experiment.py
 \end{center}
 
 \clearpage
-\subsubsection*{양양 / 비교 1}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Yangyang / comparison 1}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_yangyang_1.png}\par
 
 \clearpage
-\subsubsection*{양양 / 비교 2}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Yangyang / comparison 2}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_yangyang_2.png}\par
 
 \clearpage
-\subsubsection*{카멜리아 / 비교 1}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Camellya / comparison 1}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_camellya_1.png}\par
 
 \clearpage
-\subsubsection*{카멜리아 / 비교 2}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Camellya / comparison 2}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_camellya_2.png}\par
 
 \clearpage
-\subsubsection*{린네 / 비교 1}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Lynae / comparison 1}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_lynae_1.png}\par
 
 \clearpage
-\subsubsection*{린네 / 비교 2}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Lynae / comparison 2}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_lynae_2.png}\par
 
 \clearpage
-\subsubsection*{에이메스 / 비교 1}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Aemeath / comparison 1}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_aemeath_1.png}\par
 
 \clearpage
-\subsubsection*{에이메스 / 비교 2}
-왼쪽 두 열은 모델 입력과 동등한 256 사본의 원본/가림본이고, 오른쪽 두 열은 각각의 실제 중앙 224 입력이다.
-각 사진 아래에 해당 입력에 대한 모델의 답과 실제 범주의 점수를 적었다.
+\subsubsection*{Aemeath / comparison 2}
+The left panels show original and masked canonical 256-pixel images; the right panels show the actual central 224-pixel model inputs.
+Each panel shows the predicted label and true-class score for that input.
 \par\noindent \picturefile{figures/hair_aemeath_2.png}\par
 
 \clearpage
 \subsubsection*{Complete printed hair-mask measurement and preservation checks}
-아래는 고정된 기존 ONNX 모델로 원본과 가림본을 한 번씩 평가한 전체 코드 출력이다.
-별도 학습, 새 모델 선택이나 점수가 좋은 가림본만 골라 보고하는 과정은 없다.
-이번 새 가림본은 Python에서 내보낸 ONNX 모델로 평가했다.
-브라우저 제어 연결이 제공되지 않아 새 원본/가림본의 실제 데모 업로드 비교는 이번 실행에서 확인하지 못했다.
-앞선 크롭의 브라우저 업로드 기록과 구분하며, README Problem 7의 데모 비교 단계는 이 새 변환에 대해서는 남아 있다.
+The complete printed output below evaluates each original and masked version once with the fixed existing ONNX model. There was no extra training, model switching, or cherry-picking of successful masks. These new masks were evaluated in Python using the exported ONNX model. Actual upload of the new original/masked pairs to the browser demo was not verified because browser control was unavailable in that run; this remains distinct from the completed local crop uploads and is still an outstanding README Problem 7 comparison step.
 \outputfile{outputs/student_hair_masks_output.txt}
-기존 개인 평가 기록과 모든 원본 답의 대조, 파일 보존 검사는 다음과 같다.
+The comparison against earlier personal-image results and original-file preservation checks follows.
 \outputfile{outputs/student_hair_masks_verification.txt}
 
 \section*{Appendix. Additional measured evidence}
-현재 \texttt{expanded}의 원본·변환 예측과 합계, 전처리/분할/기존 파일 보존 검사는 다음 출력과 같다.
+The following current-\texttt{expanded} output includes original/changed predictions, totals, preprocessing and split checks, and preservation checks.
 \outputfile{outputs/expanded_analysis_output.txt}
 \outputfile{outputs/expanded_dataset_audit.txt}
 
-아래는 과거 \texttt{final}의 분석과 분할 검사 및 기존 테스트 결과이며 그대로 보존했다.
+Historical \texttt{final} analysis, split checks, and earlier tests are retained below.
 \outputfile{outputs/analysis_output.txt}
 \outputfile{outputs/split_content_audit.txt}
 \outputfile{outputs/tests.txt}
 
 \section*{Appendix. Historical final demo}
-아래 출력과 그림은 이번 확장 전에 사용한 \texttt{final} 모델의 기록이다.
+The following output and figures document the historical \texttt{final} demo before the expansion.
 \outputfile{outputs/export.txt}
 \outputfile{outputs/browser_demo.txt}
 \outputfile{outputs/browser_ablations.txt}
 \par\noindent \picturefile{figures/browser_selftest.png}\par
 \par\noindent \picturefile{figures/browser_ood.png}\par
 \section*{Appendix. Complete output of check.py: current expanded}
-아래는 현재 내보낸 \texttt{expanded} 모델에 대한 공식 검사 전체 출력이다.
-학생이 커밋을 직접 하겠다고 요청했으므로 커밋 여부 경고를 성능 오류로 해석하지 않는다.
+The following is the full official \texttt{check.py} output for the exported \texttt{expanded} model. The saved warning about an uncommitted model reflects the time of capture. The model is now present in the \texttt{main} commit. A fresh run on this macOS path still warns because its absolute-path \texttt{git ls-files} check encounters different Unicode normalisation of the same folder name; the relative-path tracked-file check succeeds. This warning does not affect the measured classifications.
 \outputfile{outputs/expanded_check.txt}
 
 \section*{Appendix. Complete output of check.py: historical final}
-아래는 확장 전 \texttt{final} 모델의 공식 검사 전체 출력으로 보존한 과거 기록이다.
+The following is the full historical \texttt{check.py} output for \texttt{final}, before expansion.
 \outputfile{outputs/check.txt}
 \end{document}
